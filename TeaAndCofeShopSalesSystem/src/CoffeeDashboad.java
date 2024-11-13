@@ -9,9 +9,10 @@
  */
 public class CoffeeDashboad extends javax.swing.JFrame {
 
-    /**
-     * Creates new form CoffeeDashboad
-     */
+     private String coffeeSize; 
+    private int coffeeQuantity; 
+    private double coffeePrice; 
+
     public CoffeeDashboad() {
         initComponents();
     }
@@ -302,6 +303,18 @@ public class CoffeeDashboad extends javax.swing.JFrame {
             }
         });
 
+        MediumSize1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MediumSize1ActionPerformed(evt);
+            }
+        });
+
+        LargeSize1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LargeSize1ActionPerformed(evt);
+            }
+        });
+
         ExtraLarge1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ExtraLarge1ActionPerformed(evt);
@@ -490,7 +503,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
                                 .addComponent(coffeeName6)))))
                 .addGap(18, 18, 18))
             .addGroup(ConPannaLayout.createSequentialGroup()
-                .addComponent(CoffeeImage13, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                .addComponent(CoffeeImage13, javax.swing.GroupLayout.DEFAULT_SIZE, 0, Short.MAX_VALUE)
                 .addContainerGap())
         );
         ConPannaLayout.setVerticalGroup(
@@ -563,6 +576,18 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         SmallSize4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 SmallSize4ActionPerformed(evt);
+            }
+        });
+
+        MediumSize4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MediumSize4ActionPerformed(evt);
+            }
+        });
+
+        LargeSize4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LargeSize4ActionPerformed(evt);
             }
         });
 
@@ -701,6 +726,18 @@ public class CoffeeDashboad extends javax.swing.JFrame {
             }
         });
 
+        MediumSize5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MediumSize5ActionPerformed(evt);
+            }
+        });
+
+        LargeSize5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LargeSize5ActionPerformed(evt);
+            }
+        });
+
         ExtraLarge5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ExtraLarge5ActionPerformed(evt);
@@ -757,7 +794,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
                                 .addComponent(coffeeName9)))))
                 .addGap(18, 18, 18))
             .addGroup(HazelnutLayout.createSequentialGroup()
-                .addComponent(CoffeeImage16, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                .addComponent(CoffeeImage16, javax.swing.GroupLayout.DEFAULT_SIZE, 0, Short.MAX_VALUE)
                 .addContainerGap())
         );
         HazelnutLayout.setVerticalGroup(
@@ -833,6 +870,18 @@ public class CoffeeDashboad extends javax.swing.JFrame {
             }
         });
 
+        MediumSize6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MediumSize6ActionPerformed(evt);
+            }
+        });
+
+        LargeSize6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LargeSize6ActionPerformed(evt);
+            }
+        });
+
         ExtraLarge6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ExtraLarge6ActionPerformed(evt);
@@ -889,7 +938,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
                                 .addComponent(coffeeName10)))))
                 .addGap(18, 18, 18))
             .addGroup(LatteLayout.createSequentialGroup()
-                .addComponent(CoffeeImage17, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                .addComponent(CoffeeImage17, javax.swing.GroupLayout.DEFAULT_SIZE, 0, Short.MAX_VALUE)
                 .addContainerGap())
         );
         LatteLayout.setVerticalGroup(
@@ -962,6 +1011,18 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         SmallSize7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 SmallSize7ActionPerformed(evt);
+            }
+        });
+
+        MediumSize7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MediumSize7ActionPerformed(evt);
+            }
+        });
+
+        LargeSize7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LargeSize7ActionPerformed(evt);
             }
         });
 
@@ -1097,6 +1158,18 @@ public class CoffeeDashboad extends javax.swing.JFrame {
             }
         });
 
+        MediumSize8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MediumSize8ActionPerformed(evt);
+            }
+        });
+
+        LargeSize8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LargeSize8ActionPerformed(evt);
+            }
+        });
+
         ExtraLarge8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ExtraLarge8ActionPerformed(evt);
@@ -1229,6 +1302,18 @@ public class CoffeeDashboad extends javax.swing.JFrame {
             }
         });
 
+        MediumSize9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MediumSize9ActionPerformed(evt);
+            }
+        });
+
+        LargeSize9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LargeSize9ActionPerformed(evt);
+            }
+        });
+
         ExtraLarge9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ExtraLarge9ActionPerformed(evt);
@@ -1285,7 +1370,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
                                 .addComponent(coffeeName13)))))
                 .addGap(18, 18, 18))
             .addGroup(DarkChocolateLayout.createSequentialGroup()
-                .addComponent(CoffeeImage20, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                .addComponent(CoffeeImage20, javax.swing.GroupLayout.DEFAULT_SIZE, 0, Short.MAX_VALUE)
                 .addContainerGap())
         );
         DarkChocolateLayout.setVerticalGroup(
@@ -1358,6 +1443,18 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         SmallSize10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 SmallSize10ActionPerformed(evt);
+            }
+        });
+
+        MediumSize10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MediumSize10ActionPerformed(evt);
+            }
+        });
+
+        LargeSize10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LargeSize10ActionPerformed(evt);
             }
         });
 
@@ -1549,7 +1646,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
                                 .addComponent(coffeeName15)))))
                 .addGap(18, 18, 18))
             .addGroup(EspressoLayout.createSequentialGroup()
-                .addComponent(CoffeeImage22, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                .addComponent(CoffeeImage22, javax.swing.GroupLayout.DEFAULT_SIZE, 0, Short.MAX_VALUE)
                 .addContainerGap())
         );
         EspressoLayout.setVerticalGroup(
@@ -1681,7 +1778,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
                                 .addComponent(coffeeName16)))))
                 .addGap(18, 18, 18))
             .addGroup(CortadoLayout.createSequentialGroup()
-                .addComponent(CoffeeImage23, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                .addComponent(CoffeeImage23, javax.swing.GroupLayout.DEFAULT_SIZE, 0, Short.MAX_VALUE)
                 .addContainerGap())
         );
         CortadoLayout.setVerticalGroup(
@@ -1813,7 +1910,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
                                 .addComponent(coffeeName17)))))
                 .addGap(18, 18, 18))
             .addGroup(CacaoLayout.createSequentialGroup()
-                .addComponent(CoffeeImage24, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                .addComponent(CoffeeImage24, javax.swing.GroupLayout.DEFAULT_SIZE, 0, Short.MAX_VALUE)
                 .addContainerGap())
         );
         CacaoLayout.setVerticalGroup(
@@ -1986,8 +2083,8 @@ public class CoffeeDashboad extends javax.swing.JFrame {
                     .addComponent(LogoName, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(CoffeeMenu, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 546, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(18, Short.MAX_VALUE))
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 667, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(14, Short.MAX_VALUE))
         );
 
         pack();
@@ -1995,98 +2092,170 @@ public class CoffeeDashboad extends javax.swing.JFrame {
 
     private void SmallSize1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SmallSize1ActionPerformed
         // TODO add your handling code here:
+          coffeeSize = "Small";
+        coffeePrice = 39.00;
+        updateOrder();                   
     }//GEN-LAST:event_SmallSize1ActionPerformed
 
     private void ExtraLarge1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ExtraLarge1ActionPerformed
         // TODO add your handling code here:
+        coffeeSize = "Extra Large";
+        coffeePrice = 89.00;
+        updateOrder();
     }//GEN-LAST:event_ExtraLarge1ActionPerformed
 
     private void SmallSize2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SmallSize2ActionPerformed
         // TODO add your handling code here:
+          coffeeSize = "Small";
+        coffeePrice = 39.00;
+        updateOrder();
     }//GEN-LAST:event_SmallSize2ActionPerformed
 
     private void ExtraLarge2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ExtraLarge2ActionPerformed
         // TODO add your handling code here:
+        coffeeSize = "Extra Large";
+        coffeePrice = 89.00;
+        updateOrder();
     }//GEN-LAST:event_ExtraLarge2ActionPerformed
 
     private void SmallSize4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SmallSize4ActionPerformed
         // TODO add your handling code here:
+        coffeeSize = "Small";
+        coffeePrice = 39.00;
+        updateOrder();
     }//GEN-LAST:event_SmallSize4ActionPerformed
 
     private void ExtraLarge4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ExtraLarge4ActionPerformed
         // TODO add your handling code here:
+        coffeeSize = "Extra Large";
+        coffeePrice = 89.00;
+        updateOrder();
     }//GEN-LAST:event_ExtraLarge4ActionPerformed
 
     private void SmallSize5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SmallSize5ActionPerformed
         // TODO add your handling code here:
+        coffeeSize = "Small";
+        coffeePrice = 39.00;
+        updateOrder();
     }//GEN-LAST:event_SmallSize5ActionPerformed
 
     private void ExtraLarge5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ExtraLarge5ActionPerformed
         // TODO add your handling code here:
+        coffeeSize = "Extra Large";
+        coffeePrice = 89.00;
+        updateOrder();
     }//GEN-LAST:event_ExtraLarge5ActionPerformed
 
     private void SmallSize6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SmallSize6ActionPerformed
         // TODO add your handling code here:
+        coffeeSize = "Small";
+        coffeePrice = 39.00;
+        updateOrder();
     }//GEN-LAST:event_SmallSize6ActionPerformed
 
     private void ExtraLarge6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ExtraLarge6ActionPerformed
         // TODO add your handling code here:
+        coffeeSize = "Extra Large";
+        coffeePrice = 89.00;
+        updateOrder();
     }//GEN-LAST:event_ExtraLarge6ActionPerformed
 
     private void SmallSize7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SmallSize7ActionPerformed
         // TODO add your handling code here:
+        coffeeSize = "Small";
+        coffeePrice = 39.00;
+        updateOrder();
     }//GEN-LAST:event_SmallSize7ActionPerformed
 
     private void ExtraLarge7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ExtraLarge7ActionPerformed
         // TODO add your handling code here:
+       coffeeSize = "Extra Large";
+        coffeePrice = 89.00;
+        updateOrder();
     }//GEN-LAST:event_ExtraLarge7ActionPerformed
 
     private void SmallSize8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SmallSize8ActionPerformed
         // TODO add your handling code here:
+        coffeeSize = "Small";
+        coffeePrice = 39.00;
+        updateOrder();
     }//GEN-LAST:event_SmallSize8ActionPerformed
 
     private void ExtraLarge8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ExtraLarge8ActionPerformed
         // TODO add your handling code here:
+        coffeeSize = "Extra Large";
+        coffeePrice = 89.00;
+        updateOrder();
     }//GEN-LAST:event_ExtraLarge8ActionPerformed
 
     private void SmallSize9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SmallSize9ActionPerformed
         // TODO add your handling code here:
+        coffeeSize = "Small";
+        coffeePrice = 39.00;
+        updateOrder();
     }//GEN-LAST:event_SmallSize9ActionPerformed
 
     private void ExtraLarge9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ExtraLarge9ActionPerformed
         // TODO add your handling code here:
+        coffeeSize = "Extra Large";
+        coffeePrice = 89.00;
+        updateOrder();
     }//GEN-LAST:event_ExtraLarge9ActionPerformed
 
     private void SmallSize10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SmallSize10ActionPerformed
         // TODO add your handling code here:
+        coffeeSize = "Small";
+        coffeePrice = 39.00;
+        updateOrder();
     }//GEN-LAST:event_SmallSize10ActionPerformed
 
     private void ExtraLarge10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ExtraLarge10ActionPerformed
         // TODO add your handling code here:
+        coffeeSize = "Extra Large";
+        coffeePrice = 89.00;
+        updateOrder();
     }//GEN-LAST:event_ExtraLarge10ActionPerformed
 
     private void SmallSize11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SmallSize11ActionPerformed
         // TODO add your handling code here:
+        coffeeSize = "Small";
+        coffeePrice = 39.00;
+        updateOrder();
     }//GEN-LAST:event_SmallSize11ActionPerformed
 
     private void ExtraLarge11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ExtraLarge11ActionPerformed
         // TODO add your handling code here:
+        coffeeSize = "Extra Large";
+        coffeePrice = 89.00;
+        updateOrder();
     }//GEN-LAST:event_ExtraLarge11ActionPerformed
 
     private void SmallSize12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SmallSize12ActionPerformed
         // TODO add your handling code here:
+        coffeeSize = "Small";
+        coffeePrice = 39.00;
+        updateOrder();
     }//GEN-LAST:event_SmallSize12ActionPerformed
 
     private void ExtraLarge12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ExtraLarge12ActionPerformed
         // TODO add your handling code here:
+        coffeeSize = "Extra Large";
+        coffeePrice = 89.00;
+        updateOrder();
     }//GEN-LAST:event_ExtraLarge12ActionPerformed
 
     private void SmallSize13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SmallSize13ActionPerformed
         // TODO add your handling code here:
+        coffeeSize = "Small";
+        coffeePrice = 39.00;
+        updateOrder();
     }//GEN-LAST:event_SmallSize13ActionPerformed
 
     private void ExtraLarge13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ExtraLarge13ActionPerformed
         // TODO add your handling code here:
+        coffeeSize = "Extra Large";
+        coffeePrice = 89.00;
+        updateOrder();
     }//GEN-LAST:event_ExtraLarge13ActionPerformed
 
     private void ToReceiptButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ToReceiptButtonActionPerformed
@@ -2096,6 +2265,118 @@ public class CoffeeDashboad extends javax.swing.JFrame {
     private void ToFoodButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ToFoodButtonActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_ToFoodButtonActionPerformed
+
+    private void MediumSize8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MediumSize8ActionPerformed
+        // TODO add your handling code here:
+        coffeeSize = "Medium";
+        coffeePrice = 49.00;
+        updateOrder();
+    }//GEN-LAST:event_MediumSize8ActionPerformed
+
+    private void MediumSize7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MediumSize7ActionPerformed
+        // TODO add your handling code here:
+        coffeeSize = "Medium";
+        coffeePrice = 49.00;
+        updateOrder();
+    }//GEN-LAST:event_MediumSize7ActionPerformed
+
+    private void MediumSize1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MediumSize1ActionPerformed
+        // TODO add your handling code here:
+        coffeeSize = "Medium";
+        coffeePrice = 49.00;
+        updateOrder();
+    }//GEN-LAST:event_MediumSize1ActionPerformed
+
+    private void MediumSize10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MediumSize10ActionPerformed
+        // TODO add your handling code here:
+        coffeeSize = "Medium";
+        coffeePrice = 49.00;
+        updateOrder();
+    }//GEN-LAST:event_MediumSize10ActionPerformed
+
+    private void MediumSize4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MediumSize4ActionPerformed
+        // TODO add your handling code here:
+        coffeeSize = "Medium";
+        coffeePrice = 49.00;
+        updateOrder();
+    }//GEN-LAST:event_MediumSize4ActionPerformed
+
+    private void MediumSize9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MediumSize9ActionPerformed
+        // TODO add your handling code here:
+        coffeeSize = "Medium";
+        coffeePrice = 49.00;
+        updateOrder();
+    }//GEN-LAST:event_MediumSize9ActionPerformed
+
+    private void MediumSize5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MediumSize5ActionPerformed
+        // TODO add your handling code here:
+        coffeeSize = "Medium";
+        coffeePrice = 49.00;
+        updateOrder();
+    }//GEN-LAST:event_MediumSize5ActionPerformed
+
+    private void MediumSize6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MediumSize6ActionPerformed
+        // TODO add your handling code here:
+        coffeeSize = "Medium";
+        coffeePrice = 49.00;
+        updateOrder();
+    }//GEN-LAST:event_MediumSize6ActionPerformed
+
+    private void LargeSize8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LargeSize8ActionPerformed
+        // TODO add your handling code here:
+        coffeeSize = "Large";
+        coffeePrice = 69.00;
+        updateOrder();
+    }//GEN-LAST:event_LargeSize8ActionPerformed
+
+    private void LargeSize7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LargeSize7ActionPerformed
+        // TODO add your handling code here:
+        coffeeSize = "Large";
+        coffeePrice = 69.00;
+        updateOrder();
+    }//GEN-LAST:event_LargeSize7ActionPerformed
+
+    private void LargeSize1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LargeSize1ActionPerformed
+        // TODO add your handling code here:
+        coffeeSize = "Large";
+        coffeePrice = 69.00;
+        updateOrder();
+    }//GEN-LAST:event_LargeSize1ActionPerformed
+
+    private void LargeSize10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LargeSize10ActionPerformed
+        // TODO add your handling code here:
+        coffeeSize = "Large";
+        coffeePrice = 69.00;
+        updateOrder();
+    }//GEN-LAST:event_LargeSize10ActionPerformed
+
+    private void LargeSize4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LargeSize4ActionPerformed
+        // TODO add your handling code here:
+        coffeeSize = "Large";
+        coffeePrice = 69.00;
+        updateOrder();
+    }//GEN-LAST:event_LargeSize4ActionPerformed
+
+    private void LargeSize9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LargeSize9ActionPerformed
+        // TODO add your handling code here:
+        coffeeSize = "Large";
+        coffeePrice = 69.00;
+        updateOrder();
+    }//GEN-LAST:event_LargeSize9ActionPerformed
+
+    private void LargeSize5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LargeSize5ActionPerformed
+        // TODO add your handling code here:
+        coffeeSize = "Large";
+        coffeePrice = 69.00;
+        updateOrder();
+    }//GEN-LAST:event_LargeSize5ActionPerformed
+
+    private void LargeSize6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LargeSize6ActionPerformed
+        // TODO add your handling code here:
+        coffeeSize = "Large";
+        coffeePrice = 69.00;
+        updateOrder();
+    }//GEN-LAST:event_LargeSize6ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -2370,4 +2651,8 @@ public class CoffeeDashboad extends javax.swing.JFrame {
     private javax.swing.JSpinner jSpinner23;
     private javax.swing.JSpinner jSpinner24;
     // End of variables declaration//GEN-END:variables
+
+    private void updateOrder() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }
