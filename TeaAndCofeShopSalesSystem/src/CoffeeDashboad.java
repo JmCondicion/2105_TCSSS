@@ -248,7 +248,12 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         });
         jPanel1.add(ToFoodButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 1133, 69, 38));
 
-        ToDrinksbutton.setText("Drinks ");
+        ToDrinksbutton.setText("Tea's");
+        ToDrinksbutton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ToDrinksbuttonActionPerformed(evt);
+            }
+        });
         jPanel1.add(ToDrinksbutton, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 1133, 80, 38));
 
         ToPastriesButton.setText("Pastries");
@@ -1014,6 +1019,10 @@ public class CoffeeDashboad extends javax.swing.JFrame {
     private void jCheckBox58ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox58ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jCheckBox58ActionPerformed
+
+    private void ToDrinksbuttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ToDrinksbuttonActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ToDrinksbuttonActionPerformed
 
     /**
      * @param args the command line arguments
