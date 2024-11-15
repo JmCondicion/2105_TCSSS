@@ -28,7 +28,6 @@ public class CoffeeDashboad extends javax.swing.JFrame {
 
         AmericanoBTG = new javax.swing.ButtonGroup();
         BrewedBTG = new javax.swing.ButtonGroup();
-        buttonGroup2 = new javax.swing.ButtonGroup();
         CacaoBTG = new javax.swing.ButtonGroup();
         ConPannaBTG = new javax.swing.ButtonGroup();
         CortadoBTG = new javax.swing.ButtonGroup();
@@ -38,6 +37,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         CaramelBTG = new javax.swing.ButtonGroup();
         DarkChocolateBTG = new javax.swing.ButtonGroup();
         WhiteMochaBTG = new javax.swing.ButtonGroup();
+        FlatWhiteBTG = new javax.swing.ButtonGroup();
         jScrollPane1 = new javax.swing.JScrollPane();
         jPanel1 = new javax.swing.JPanel();
         ToFoodButton = new javax.swing.JButton();
@@ -59,7 +59,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         jCheckBox3 = new javax.swing.JCheckBox();
         jCheckBox4 = new javax.swing.JCheckBox();
         jCheckBox5 = new javax.swing.JCheckBox();
-        Americano1 = new javax.swing.JPanel();
+        Brewed = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
         CoffeeName14 = new javax.swing.JLabel();
         CoffeePrice14 = new javax.swing.JLabel();
@@ -74,7 +74,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         jCheckBox8 = new javax.swing.JCheckBox();
         jCheckBox9 = new javax.swing.JCheckBox();
         jCheckBox10 = new javax.swing.JCheckBox();
-        Americano2 = new javax.swing.JPanel();
+        Cacao = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
         CoffeeName15 = new javax.swing.JLabel();
         CoffeePrice15 = new javax.swing.JLabel();
@@ -89,7 +89,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         jCheckBox13 = new javax.swing.JCheckBox();
         jCheckBox14 = new javax.swing.JCheckBox();
         jCheckBox15 = new javax.swing.JCheckBox();
-        Americano3 = new javax.swing.JPanel();
+        ConPanna = new javax.swing.JPanel();
         jLabel10 = new javax.swing.JLabel();
         CoffeeName16 = new javax.swing.JLabel();
         CoffeePrice16 = new javax.swing.JLabel();
@@ -104,7 +104,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         jCheckBox18 = new javax.swing.JCheckBox();
         jCheckBox19 = new javax.swing.JCheckBox();
         jCheckBox20 = new javax.swing.JCheckBox();
-        Americano4 = new javax.swing.JPanel();
+        Cortado = new javax.swing.JPanel();
         jLabel13 = new javax.swing.JLabel();
         CoffeeName17 = new javax.swing.JLabel();
         CoffeePrice17 = new javax.swing.JLabel();
@@ -119,7 +119,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         jCheckBox23 = new javax.swing.JCheckBox();
         jCheckBox24 = new javax.swing.JCheckBox();
         jCheckBox25 = new javax.swing.JCheckBox();
-        Americano5 = new javax.swing.JPanel();
+        Espresso = new javax.swing.JPanel();
         jLabel16 = new javax.swing.JLabel();
         CoffeeName18 = new javax.swing.JLabel();
         CoffeePrice18 = new javax.swing.JLabel();
@@ -134,7 +134,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         jCheckBox28 = new javax.swing.JCheckBox();
         jCheckBox29 = new javax.swing.JCheckBox();
         jCheckBox30 = new javax.swing.JCheckBox();
-        Americano6 = new javax.swing.JPanel();
+        Hazelnut = new javax.swing.JPanel();
         jLabel19 = new javax.swing.JLabel();
         CoffeeName19 = new javax.swing.JLabel();
         CoffeePrice19 = new javax.swing.JLabel();
@@ -149,7 +149,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         jCheckBox33 = new javax.swing.JCheckBox();
         jCheckBox34 = new javax.swing.JCheckBox();
         jCheckBox35 = new javax.swing.JCheckBox();
-        Americano7 = new javax.swing.JPanel();
+        Latte = new javax.swing.JPanel();
         jLabel22 = new javax.swing.JLabel();
         CoffeeName20 = new javax.swing.JLabel();
         CoffeePrice20 = new javax.swing.JLabel();
@@ -164,7 +164,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         jCheckBox38 = new javax.swing.JCheckBox();
         jCheckBox39 = new javax.swing.JCheckBox();
         jCheckBox40 = new javax.swing.JCheckBox();
-        Americano8 = new javax.swing.JPanel();
+        Caramel = new javax.swing.JPanel();
         jLabel25 = new javax.swing.JLabel();
         CoffeeName21 = new javax.swing.JLabel();
         CoffeePrice21 = new javax.swing.JLabel();
@@ -179,7 +179,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         jCheckBox43 = new javax.swing.JCheckBox();
         jCheckBox44 = new javax.swing.JCheckBox();
         jCheckBox45 = new javax.swing.JCheckBox();
-        Americano9 = new javax.swing.JPanel();
+        DarkChocolate = new javax.swing.JPanel();
         jLabel28 = new javax.swing.JLabel();
         CoffeeName22 = new javax.swing.JLabel();
         CoffeePrice22 = new javax.swing.JLabel();
@@ -194,7 +194,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         jCheckBox48 = new javax.swing.JCheckBox();
         jCheckBox49 = new javax.swing.JCheckBox();
         jCheckBox50 = new javax.swing.JCheckBox();
-        Americano10 = new javax.swing.JPanel();
+        WhiteMocha = new javax.swing.JPanel();
         jLabel31 = new javax.swing.JLabel();
         CoffeeName23 = new javax.swing.JLabel();
         CoffeePrice23 = new javax.swing.JLabel();
@@ -209,30 +209,36 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         jCheckBox53 = new javax.swing.JCheckBox();
         jCheckBox54 = new javax.swing.JCheckBox();
         jCheckBox55 = new javax.swing.JCheckBox();
-        Americano11 = new javax.swing.JPanel();
+        CoffeSize26 = new javax.swing.JLabel();
+        FlatWhite = new javax.swing.JPanel();
+        CoffeeName25 = new javax.swing.JLabel();
+        CoffeePrice25 = new javax.swing.JLabel();
+        jLabel106 = new javax.swing.JLabel();
+        jLabel107 = new javax.swing.JLabel();
+        CoffeSize25 = new javax.swing.JLabel();
         jLabel34 = new javax.swing.JLabel();
-        CoffeeName24 = new javax.swing.JLabel();
-        CoffeePrice24 = new javax.swing.JLabel();
-        jLabel104 = new javax.swing.JLabel();
-        jLabel105 = new javax.swing.JLabel();
-        CoffeSize24 = new javax.swing.JLabel();
+        jLabel40 = new javax.swing.JLabel();
+        jComboBox13 = new javax.swing.JComboBox<>();
+        jCheckBox61 = new javax.swing.JCheckBox();
         jLabel35 = new javax.swing.JLabel();
-        jLabel36 = new javax.swing.JLabel();
-        jComboBox12 = new javax.swing.JComboBox<>();
         jCheckBox56 = new javax.swing.JCheckBox();
         jCheckBox57 = new javax.swing.JCheckBox();
         jCheckBox58 = new javax.swing.JCheckBox();
         jCheckBox59 = new javax.swing.JCheckBox();
-        jCheckBox60 = new javax.swing.JCheckBox();
+        jLabel38 = new javax.swing.JLabel();
         LogoName = new javax.swing.JLabel();
         CoffeeMenu = new javax.swing.JLabel();
+        jLabel37 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jScrollPane1.setBackground(new java.awt.Color(230, 183, 153));
         jScrollPane1.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         jScrollPane1.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
+
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         ToFoodButton.setText("Food");
         ToFoodButton.addActionListener(new java.awt.event.ActionListener() {
@@ -240,10 +246,13 @@ public class CoffeeDashboad extends javax.swing.JFrame {
                 ToFoodButtonActionPerformed(evt);
             }
         });
+        jPanel1.add(ToFoodButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 1133, 69, 38));
 
         ToDrinksbutton.setText("Drinks ");
+        jPanel1.add(ToDrinksbutton, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 1133, 80, 38));
 
         ToPastriesButton.setText("Pastries");
+        jPanel1.add(ToPastriesButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(741, 1133, -1, 38));
 
         ToReceiptButton.setText("Total");
         ToReceiptButton.addActionListener(new java.awt.event.ActionListener() {
@@ -251,6 +260,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
                 ToReceiptButtonActionPerformed(evt);
             }
         });
+        jPanel1.add(ToReceiptButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(835, 1133, -1, 38));
 
         Americano.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         Americano.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -305,696 +315,642 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         jCheckBox5.setText("Large");
         Americano.add(jCheckBox5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
 
-        Americano1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        Americano1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel1.add(Americano, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 13, 211, 320));
+
+        Brewed.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Brewed.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Brewed Coffee.jpg"))); // NOI18N
-        Americano1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+        Brewed.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         CoffeeName14.setText("Name:");
-        Americano1.add(CoffeeName14, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+        Brewed.add(CoffeeName14, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
 
         CoffeePrice14.setText("Price");
-        Americano1.add(CoffeePrice14, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+        Brewed.add(CoffeePrice14, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
 
         jLabel54.setText("Quantity");
-        Americano1.add(jLabel54, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
+        Brewed.add(jLabel54, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
         jLabel55.setText("Purchase");
-        Americano1.add(jLabel55, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+        Brewed.add(jLabel55, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
 
         CoffeSize14.setText("Size");
-        Americano1.add(CoffeSize14, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
+        Brewed.add(CoffeSize14, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
 
         jLabel5.setText("Brewed ");
-        Americano1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        Brewed.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
         jLabel6.setText("150");
-        Americano1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        Brewed.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Americano1.add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        Brewed.add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
         BrewedBTG.add(jCheckBox6);
         jCheckBox6.setText("Extra Large");
-        Americano1.add(jCheckBox6, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
+        Brewed.add(jCheckBox6, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
 
         jCheckBox7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jCheckBox7ActionPerformed(evt);
             }
         });
-        Americano1.add(jCheckBox7, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        Brewed.add(jCheckBox7, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
 
         BrewedBTG.add(jCheckBox8);
         jCheckBox8.setText("Small");
-        Americano1.add(jCheckBox8, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
+        Brewed.add(jCheckBox8, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
 
         BrewedBTG.add(jCheckBox9);
         jCheckBox9.setText("Medium");
-        Americano1.add(jCheckBox9, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        Brewed.add(jCheckBox9, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
 
         BrewedBTG.add(jCheckBox10);
         jCheckBox10.setText("Large");
-        Americano1.add(jCheckBox10, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+        Brewed.add(jCheckBox10, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
 
-        Americano2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        Americano2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel1.add(Brewed, new org.netbeans.lib.awtextra.AbsoluteConstraints(259, 13, 211, 320));
+
+        Cacao.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Cacao.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Cacao.jpg"))); // NOI18N
-        Americano2.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 210, 150));
+        Cacao.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 210, 150));
 
         CoffeeName15.setText("Name:");
-        Americano2.add(CoffeeName15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+        Cacao.add(CoffeeName15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
 
         CoffeePrice15.setText("Price");
-        Americano2.add(CoffeePrice15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+        Cacao.add(CoffeePrice15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
 
         jLabel56.setText("Quantity");
-        Americano2.add(jLabel56, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
+        Cacao.add(jLabel56, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
         jLabel57.setText("Purchase");
-        Americano2.add(jLabel57, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+        Cacao.add(jLabel57, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
 
         CoffeSize15.setText("Size");
-        Americano2.add(CoffeSize15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
+        Cacao.add(CoffeSize15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
 
         jLabel8.setText("Cacao");
-        Americano2.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        Cacao.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
         jLabel9.setText("150");
-        Americano2.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        Cacao.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
         jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Americano2.add(jComboBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        Cacao.add(jComboBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
         CacaoBTG.add(jCheckBox11);
         jCheckBox11.setText("Extra Large");
-        Americano2.add(jCheckBox11, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
+        Cacao.add(jCheckBox11, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
 
         jCheckBox12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jCheckBox12ActionPerformed(evt);
             }
         });
-        Americano2.add(jCheckBox12, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        Cacao.add(jCheckBox12, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
 
         CacaoBTG.add(jCheckBox13);
         jCheckBox13.setText("Small");
-        Americano2.add(jCheckBox13, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
+        Cacao.add(jCheckBox13, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
 
         CacaoBTG.add(jCheckBox14);
         jCheckBox14.setText("Medium");
-        Americano2.add(jCheckBox14, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        Cacao.add(jCheckBox14, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
 
         CacaoBTG.add(jCheckBox15);
         jCheckBox15.setText("Large");
-        Americano2.add(jCheckBox15, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+        Cacao.add(jCheckBox15, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
 
-        Americano3.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        Americano3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel1.add(Cacao, new org.netbeans.lib.awtextra.AbsoluteConstraints(509, 13, 211, 320));
+
+        ConPanna.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        ConPanna.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Con panna coffee.jpg"))); // NOI18N
-        Americano3.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+        ConPanna.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         CoffeeName16.setText("Name:");
-        Americano3.add(CoffeeName16, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+        ConPanna.add(CoffeeName16, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
 
         CoffeePrice16.setText("Price");
-        Americano3.add(CoffeePrice16, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+        ConPanna.add(CoffeePrice16, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
 
         jLabel88.setText("Quantity");
-        Americano3.add(jLabel88, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
+        ConPanna.add(jLabel88, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
         jLabel89.setText("Purchase");
-        Americano3.add(jLabel89, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+        ConPanna.add(jLabel89, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
 
         CoffeSize16.setText("Size");
-        Americano3.add(CoffeSize16, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
+        ConPanna.add(CoffeSize16, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
 
         jLabel11.setText("Con Panna");
-        Americano3.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        ConPanna.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
         jLabel12.setText("150");
-        Americano3.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        ConPanna.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
         jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Americano3.add(jComboBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        ConPanna.add(jComboBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
         ConPannaBTG.add(jCheckBox16);
         jCheckBox16.setText("Extra Large");
-        Americano3.add(jCheckBox16, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
+        ConPanna.add(jCheckBox16, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
 
         jCheckBox17.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jCheckBox17ActionPerformed(evt);
             }
         });
-        Americano3.add(jCheckBox17, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        ConPanna.add(jCheckBox17, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
 
         ConPannaBTG.add(jCheckBox18);
         jCheckBox18.setText("Small");
-        Americano3.add(jCheckBox18, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
+        ConPanna.add(jCheckBox18, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
 
         ConPannaBTG.add(jCheckBox19);
         jCheckBox19.setText("Medium");
-        Americano3.add(jCheckBox19, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        ConPanna.add(jCheckBox19, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
 
         ConPannaBTG.add(jCheckBox20);
         jCheckBox20.setText("Large");
-        Americano3.add(jCheckBox20, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+        ConPanna.add(jCheckBox20, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
 
-        Americano4.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        Americano4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel1.add(ConPanna, new org.netbeans.lib.awtextra.AbsoluteConstraints(753, 13, 211, 320));
+
+        Cortado.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Cortado.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Cortado coffee.jpg"))); // NOI18N
-        Americano4.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+        Cortado.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         CoffeeName17.setText("Name:");
-        Americano4.add(CoffeeName17, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+        Cortado.add(CoffeeName17, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
 
         CoffeePrice17.setText("Price");
-        Americano4.add(CoffeePrice17, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+        Cortado.add(CoffeePrice17, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
 
         jLabel90.setText("Quantity");
-        Americano4.add(jLabel90, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
+        Cortado.add(jLabel90, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
         jLabel91.setText("Purchase");
-        Americano4.add(jLabel91, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+        Cortado.add(jLabel91, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
 
         CoffeSize17.setText("Size");
-        Americano4.add(CoffeSize17, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
+        Cortado.add(CoffeSize17, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
 
         jLabel14.setText("Cortado");
-        Americano4.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        Cortado.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
         jLabel15.setText("150");
-        Americano4.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        Cortado.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
         jComboBox5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Americano4.add(jComboBox5, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        Cortado.add(jComboBox5, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
         CortadoBTG.add(jCheckBox21);
         jCheckBox21.setText("Extra Large");
-        Americano4.add(jCheckBox21, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
+        Cortado.add(jCheckBox21, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
 
         jCheckBox22.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jCheckBox22ActionPerformed(evt);
             }
         });
-        Americano4.add(jCheckBox22, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        Cortado.add(jCheckBox22, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
 
         CortadoBTG.add(jCheckBox23);
         jCheckBox23.setText("Small");
-        Americano4.add(jCheckBox23, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
+        Cortado.add(jCheckBox23, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
 
         CortadoBTG.add(jCheckBox24);
         jCheckBox24.setText("Medium");
-        Americano4.add(jCheckBox24, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        Cortado.add(jCheckBox24, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
 
         CortadoBTG.add(jCheckBox25);
         jCheckBox25.setText("Large");
-        Americano4.add(jCheckBox25, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+        Cortado.add(jCheckBox25, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
 
-        Americano5.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        Americano5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel1.add(Cortado, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 371, 211, 338));
+
+        Espresso.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Espresso.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Espresso coffee.jpg"))); // NOI18N
-        Americano5.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+        Espresso.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         CoffeeName18.setText("Name:");
-        Americano5.add(CoffeeName18, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+        Espresso.add(CoffeeName18, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
 
         CoffeePrice18.setText("Price");
-        Americano5.add(CoffeePrice18, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+        Espresso.add(CoffeePrice18, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
 
         jLabel92.setText("Quantity");
-        Americano5.add(jLabel92, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
+        Espresso.add(jLabel92, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
         jLabel93.setText("Purchase");
-        Americano5.add(jLabel93, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+        Espresso.add(jLabel93, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
 
         CoffeSize18.setText("Size");
-        Americano5.add(CoffeSize18, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
+        Espresso.add(CoffeSize18, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
 
         jLabel17.setText("Espresso");
-        Americano5.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        Espresso.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
         jLabel18.setText("150");
-        Americano5.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        Espresso.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
         jComboBox6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Americano5.add(jComboBox6, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        Espresso.add(jComboBox6, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
         EspressoBTG.add(jCheckBox26);
         jCheckBox26.setText("Extra Large");
-        Americano5.add(jCheckBox26, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
+        Espresso.add(jCheckBox26, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
 
         jCheckBox27.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jCheckBox27ActionPerformed(evt);
             }
         });
-        Americano5.add(jCheckBox27, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        Espresso.add(jCheckBox27, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
 
         EspressoBTG.add(jCheckBox28);
         jCheckBox28.setText("Small");
-        Americano5.add(jCheckBox28, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
+        Espresso.add(jCheckBox28, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
 
         EspressoBTG.add(jCheckBox29);
         jCheckBox29.setText("Medium");
-        Americano5.add(jCheckBox29, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        Espresso.add(jCheckBox29, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
 
         EspressoBTG.add(jCheckBox30);
         jCheckBox30.setText("Large");
-        Americano5.add(jCheckBox30, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+        Espresso.add(jCheckBox30, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
 
-        Americano6.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        Americano6.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel1.add(Espresso, new org.netbeans.lib.awtextra.AbsoluteConstraints(259, 371, 211, 338));
+
+        Hazelnut.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Hazelnut.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Hazelnut coffee.jpg"))); // NOI18N
-        Americano6.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+        Hazelnut.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         CoffeeName19.setText("Name:");
-        Americano6.add(CoffeeName19, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+        Hazelnut.add(CoffeeName19, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
 
         CoffeePrice19.setText("Price");
-        Americano6.add(CoffeePrice19, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+        Hazelnut.add(CoffeePrice19, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
 
         jLabel94.setText("Quantity");
-        Americano6.add(jLabel94, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
+        Hazelnut.add(jLabel94, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
         jLabel95.setText("Purchase");
-        Americano6.add(jLabel95, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+        Hazelnut.add(jLabel95, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
 
         CoffeSize19.setText("Size");
-        Americano6.add(CoffeSize19, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
+        Hazelnut.add(CoffeSize19, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
 
         jLabel20.setText("Hazelnut ");
-        Americano6.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        Hazelnut.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
         jLabel21.setText("150");
-        Americano6.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        Hazelnut.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
         jComboBox7.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Americano6.add(jComboBox7, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        Hazelnut.add(jComboBox7, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
         HazelNutBTG.add(jCheckBox31);
         jCheckBox31.setText("Extra Large");
-        Americano6.add(jCheckBox31, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
+        Hazelnut.add(jCheckBox31, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
 
         jCheckBox32.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jCheckBox32ActionPerformed(evt);
             }
         });
-        Americano6.add(jCheckBox32, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        Hazelnut.add(jCheckBox32, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
 
         HazelNutBTG.add(jCheckBox33);
         jCheckBox33.setText("Small");
-        Americano6.add(jCheckBox33, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
+        Hazelnut.add(jCheckBox33, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
 
         HazelNutBTG.add(jCheckBox34);
         jCheckBox34.setText("Medium");
-        Americano6.add(jCheckBox34, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        Hazelnut.add(jCheckBox34, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
 
         HazelNutBTG.add(jCheckBox35);
         jCheckBox35.setText("Large");
-        Americano6.add(jCheckBox35, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+        Hazelnut.add(jCheckBox35, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
 
-        Americano7.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        Americano7.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel1.add(Hazelnut, new org.netbeans.lib.awtextra.AbsoluteConstraints(509, 371, 211, 338));
+
+        Latte.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Latte.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Latte coffee.jpg"))); // NOI18N
-        Americano7.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+        Latte.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         CoffeeName20.setText("Name:");
-        Americano7.add(CoffeeName20, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+        Latte.add(CoffeeName20, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
 
         CoffeePrice20.setText("Price");
-        Americano7.add(CoffeePrice20, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+        Latte.add(CoffeePrice20, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
 
         jLabel96.setText("Quantity");
-        Americano7.add(jLabel96, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
+        Latte.add(jLabel96, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
         jLabel97.setText("Purchase");
-        Americano7.add(jLabel97, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+        Latte.add(jLabel97, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
 
         CoffeSize20.setText("Size");
-        Americano7.add(CoffeSize20, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
+        Latte.add(CoffeSize20, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
 
         jLabel23.setText("Latte");
-        Americano7.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        Latte.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
         jLabel24.setText("150");
-        Americano7.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        Latte.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
         jComboBox8.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Americano7.add(jComboBox8, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        Latte.add(jComboBox8, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
         LatteBTG.add(jCheckBox36);
         jCheckBox36.setText("Extra Large");
-        Americano7.add(jCheckBox36, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
+        Latte.add(jCheckBox36, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
 
         jCheckBox37.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jCheckBox37ActionPerformed(evt);
             }
         });
-        Americano7.add(jCheckBox37, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        Latte.add(jCheckBox37, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
 
         LatteBTG.add(jCheckBox38);
         jCheckBox38.setText("Small");
-        Americano7.add(jCheckBox38, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
+        Latte.add(jCheckBox38, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
 
         LatteBTG.add(jCheckBox39);
         jCheckBox39.setText("Medium");
-        Americano7.add(jCheckBox39, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        Latte.add(jCheckBox39, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
 
         LatteBTG.add(jCheckBox40);
         jCheckBox40.setText("Large");
-        Americano7.add(jCheckBox40, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+        Latte.add(jCheckBox40, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
 
-        Americano8.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        Americano8.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel1.add(Latte, new org.netbeans.lib.awtextra.AbsoluteConstraints(753, 371, 211, 338));
+
+        Caramel.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Caramel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/caramel.jpg"))); // NOI18N
-        Americano8.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+        Caramel.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         CoffeeName21.setText("Name:");
-        Americano8.add(CoffeeName21, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+        Caramel.add(CoffeeName21, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
 
         CoffeePrice21.setText("Price");
-        Americano8.add(CoffeePrice21, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+        Caramel.add(CoffeePrice21, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
 
         jLabel98.setText("Quantity");
-        Americano8.add(jLabel98, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
+        Caramel.add(jLabel98, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
         jLabel99.setText("Purchase");
-        Americano8.add(jLabel99, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+        Caramel.add(jLabel99, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
 
         CoffeSize21.setText("Size");
-        Americano8.add(CoffeSize21, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
+        Caramel.add(CoffeSize21, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
 
         jLabel26.setText("Caramel");
-        Americano8.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        Caramel.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
         jLabel27.setText("150");
-        Americano8.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        Caramel.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
         jComboBox9.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Americano8.add(jComboBox9, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        Caramel.add(jComboBox9, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
         CaramelBTG.add(jCheckBox41);
         jCheckBox41.setText("Extra Large");
-        Americano8.add(jCheckBox41, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
+        Caramel.add(jCheckBox41, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
 
         jCheckBox42.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jCheckBox42ActionPerformed(evt);
             }
         });
-        Americano8.add(jCheckBox42, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        Caramel.add(jCheckBox42, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
 
         CaramelBTG.add(jCheckBox43);
         jCheckBox43.setText("Small");
-        Americano8.add(jCheckBox43, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
+        Caramel.add(jCheckBox43, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
 
         CaramelBTG.add(jCheckBox44);
         jCheckBox44.setText("Medium");
-        Americano8.add(jCheckBox44, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        Caramel.add(jCheckBox44, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
 
         CaramelBTG.add(jCheckBox45);
         jCheckBox45.setText("Large");
-        Americano8.add(jCheckBox45, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+        Caramel.add(jCheckBox45, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
 
-        Americano9.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        Americano9.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel1.add(Caramel, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 743, 211, 338));
+
+        DarkChocolate.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        DarkChocolate.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/dark chocolate.jpg"))); // NOI18N
-        Americano9.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+        DarkChocolate.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         CoffeeName22.setText("Name:");
-        Americano9.add(CoffeeName22, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+        DarkChocolate.add(CoffeeName22, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
 
         CoffeePrice22.setText("Price");
-        Americano9.add(CoffeePrice22, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+        DarkChocolate.add(CoffeePrice22, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
 
         jLabel100.setText("Quantity");
-        Americano9.add(jLabel100, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
+        DarkChocolate.add(jLabel100, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
         jLabel101.setText("Purchase");
-        Americano9.add(jLabel101, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+        DarkChocolate.add(jLabel101, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
 
         CoffeSize22.setText("Size");
-        Americano9.add(CoffeSize22, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
+        DarkChocolate.add(CoffeSize22, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
 
         jLabel29.setText("Dark  Chocolate");
-        Americano9.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        DarkChocolate.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
         jLabel30.setText("150");
-        Americano9.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        DarkChocolate.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
         jComboBox10.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Americano9.add(jComboBox10, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        DarkChocolate.add(jComboBox10, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
         DarkChocolateBTG.add(jCheckBox46);
         jCheckBox46.setText("Extra Large");
-        Americano9.add(jCheckBox46, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
+        DarkChocolate.add(jCheckBox46, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
 
         jCheckBox47.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jCheckBox47ActionPerformed(evt);
             }
         });
-        Americano9.add(jCheckBox47, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        DarkChocolate.add(jCheckBox47, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
 
         DarkChocolateBTG.add(jCheckBox48);
         jCheckBox48.setText("Small");
-        Americano9.add(jCheckBox48, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
+        DarkChocolate.add(jCheckBox48, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
 
         DarkChocolateBTG.add(jCheckBox49);
         jCheckBox49.setText("Medium");
-        Americano9.add(jCheckBox49, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        DarkChocolate.add(jCheckBox49, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
 
         DarkChocolateBTG.add(jCheckBox50);
         jCheckBox50.setText("Large");
-        Americano9.add(jCheckBox50, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+        DarkChocolate.add(jCheckBox50, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
 
-        Americano10.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        Americano10.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel1.add(DarkChocolate, new org.netbeans.lib.awtextra.AbsoluteConstraints(259, 743, 211, 338));
+
+        WhiteMocha.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        WhiteMocha.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/white mocha.jpg"))); // NOI18N
-        Americano10.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+        WhiteMocha.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         CoffeeName23.setText("Name:");
-        Americano10.add(CoffeeName23, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+        WhiteMocha.add(CoffeeName23, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
 
         CoffeePrice23.setText("Price");
-        Americano10.add(CoffeePrice23, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+        WhiteMocha.add(CoffeePrice23, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
 
         jLabel102.setText("Quantity");
-        Americano10.add(jLabel102, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
+        WhiteMocha.add(jLabel102, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
         jLabel103.setText("Purchase");
-        Americano10.add(jLabel103, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+        WhiteMocha.add(jLabel103, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
 
         CoffeSize23.setText("Size");
-        Americano10.add(CoffeSize23, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
+        WhiteMocha.add(CoffeSize23, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
 
         jLabel32.setText("White Mocha");
-        Americano10.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        WhiteMocha.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
         jLabel33.setText("150");
-        Americano10.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        WhiteMocha.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
         jComboBox11.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Americano10.add(jComboBox11, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        WhiteMocha.add(jComboBox11, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
         WhiteMochaBTG.add(jCheckBox51);
         jCheckBox51.setText("Extra Large");
-        Americano10.add(jCheckBox51, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
+        WhiteMocha.add(jCheckBox51, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
 
         jCheckBox52.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jCheckBox52ActionPerformed(evt);
             }
         });
-        Americano10.add(jCheckBox52, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        WhiteMocha.add(jCheckBox52, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
 
         WhiteMochaBTG.add(jCheckBox53);
         jCheckBox53.setText("Small");
-        Americano10.add(jCheckBox53, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
+        WhiteMocha.add(jCheckBox53, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
 
         WhiteMochaBTG.add(jCheckBox54);
         jCheckBox54.setText("Medium");
-        Americano10.add(jCheckBox54, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        WhiteMocha.add(jCheckBox54, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
 
         WhiteMochaBTG.add(jCheckBox55);
         jCheckBox55.setText("Large");
-        Americano10.add(jCheckBox55, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+        WhiteMocha.add(jCheckBox55, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
 
-        Americano11.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        Americano11.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        CoffeSize26.setText("Size");
+        WhiteMocha.add(CoffeSize26, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
 
-        jLabel34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/white mocha.jpg"))); // NOI18N
-        Americano11.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+        jPanel1.add(WhiteMocha, new org.netbeans.lib.awtextra.AbsoluteConstraints(509, 743, 211, 338));
 
-        CoffeeName24.setText("Name:");
-        Americano11.add(CoffeeName24, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+        FlatWhite.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        CoffeePrice24.setText("Price");
-        Americano11.add(CoffeePrice24, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+        CoffeeName25.setText("Name:");
+        FlatWhite.add(CoffeeName25, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
 
-        jLabel104.setText("Quantity");
-        Americano11.add(jLabel104, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
+        CoffeePrice25.setText("Price");
+        FlatWhite.add(CoffeePrice25, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
 
-        jLabel105.setText("Purchase");
-        Americano11.add(jLabel105, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+        jLabel106.setText("Purchase");
+        FlatWhite.add(jLabel106, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
 
-        CoffeSize24.setText("Size");
-        Americano11.add(CoffeSize24, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
+        jLabel107.setText("Quantity");
+        FlatWhite.add(jLabel107, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
-        jLabel35.setText("Americano");
-        Americano11.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        CoffeSize25.setText("Size");
+        FlatWhite.add(CoffeSize25, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
 
-        jLabel36.setText("150");
-        Americano11.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        jLabel34.setText("Flat White");
+        FlatWhite.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 160, -1, -1));
 
-        jComboBox12.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Americano11.add(jComboBox12, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        jLabel40.setText("150");
+        FlatWhite.add(jLabel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 190, -1, -1));
 
-        AmericanoBTG.add(jCheckBox56);
-        jCheckBox56.setText("Extra Large");
-        Americano11.add(jCheckBox56, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
+        jComboBox13.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" }));
+        FlatWhite.add(jComboBox13, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 220, -1, -1));
 
-        jCheckBox57.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox61.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox57ActionPerformed(evt);
+                jCheckBox61ActionPerformed(evt);
             }
         });
-        Americano11.add(jCheckBox57, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        FlatWhite.add(jCheckBox61, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
 
-        AmericanoBTG.add(jCheckBox58);
-        jCheckBox58.setText("Small");
-        Americano11.add(jCheckBox58, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
+        jLabel35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Flat white coffee.jpg"))); // NOI18N
+        FlatWhite.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
-        AmericanoBTG.add(jCheckBox59);
-        jCheckBox59.setText("Medium");
-        Americano11.add(jCheckBox59, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        FlatWhiteBTG.add(jCheckBox56);
+        jCheckBox56.setText("Extra Large");
+        FlatWhite.add(jCheckBox56, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 300, -1, -1));
 
-        AmericanoBTG.add(jCheckBox60);
-        jCheckBox60.setText("Large");
-        Americano11.add(jCheckBox60, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+        FlatWhiteBTG.add(jCheckBox57);
+        jCheckBox57.setText("Small");
+        FlatWhite.add(jCheckBox57, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 280, -1, -1));
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(Americano, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Americano4, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Americano8, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(36, 36, 36)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(Americano9, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Americano1, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Americano5, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(39, 39, 39)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(Americano2, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Americano6, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Americano10, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(550, 550, 550)
-                        .addComponent(ToFoodButton, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(21, 21, 21)
-                        .addComponent(ToDrinksbutton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(33, 33, 33)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(Americano3, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Americano7, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Americano11, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
-                        .addGap(21, 21, 21)
-                        .addComponent(ToPastriesButton)
-                        .addGap(21, 21, 21)
-                        .addComponent(ToReceiptButton)))
-                .addContainerGap(348, Short.MAX_VALUE))
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(Americano, javax.swing.GroupLayout.DEFAULT_SIZE, 320, Short.MAX_VALUE)
-                    .addComponent(Americano1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Americano2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Americano3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 38, Short.MAX_VALUE)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(Americano4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 338, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Americano5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 338, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Americano6, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 338, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Americano7, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 338, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(34, 34, 34)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(Americano8, javax.swing.GroupLayout.PREFERRED_SIZE, 338, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Americano9, javax.swing.GroupLayout.PREFERRED_SIZE, 338, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Americano10, javax.swing.GroupLayout.PREFERRED_SIZE, 338, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Americano11, javax.swing.GroupLayout.PREFERRED_SIZE, 338, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(52, 52, 52)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(ToFoodButton, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ToDrinksbutton, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ToPastriesButton, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ToReceiptButton, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(53, Short.MAX_VALUE))
-        );
+        FlatWhiteBTG.add(jCheckBox58);
+        jCheckBox58.setText("Medium");
+        jCheckBox58.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox58ActionPerformed(evt);
+            }
+        });
+        FlatWhite.add(jCheckBox58, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 280, -1, -1));
+
+        FlatWhiteBTG.add(jCheckBox59);
+        jCheckBox59.setText("Large");
+        FlatWhite.add(jCheckBox59, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 300, -1, -1));
+
+        jPanel1.add(FlatWhite, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 740, 210, 340));
+
+        jLabel38.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
+        jLabel38.setText("jLabel38");
+        jPanel1.add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1010, 1200));
 
         jScrollPane1.setViewportView(jPanel1);
 
+        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 89, 1010, 570));
+
         LogoName.setBackground(new java.awt.Color(255, 255, 255));
         LogoName.setFont(new java.awt.Font("Vivaldi", 3, 36)); // NOI18N
+        LogoName.setForeground(new java.awt.Color(255, 255, 255));
         LogoName.setText("Elysian");
         LogoName.setToolTipText("");
+        getContentPane().add(LogoName, new org.netbeans.lib.awtextra.AbsoluteConstraints(5, 0, 229, 76));
 
         CoffeeMenu.setFont(new java.awt.Font("Segoe UI Historic", 3, 18)); // NOI18N
+        CoffeeMenu.setForeground(new java.awt.Color(255, 255, 255));
         CoffeeMenu.setText("Coffee Menu");
+        getContentPane().add(CoffeeMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(428, 14, 124, 55));
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(5, 5, 5)
-                        .addComponent(LogoName, javax.swing.GroupLayout.PREFERRED_SIZE, 229, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(194, 194, 194)
-                        .addComponent(CoffeeMenu, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 1017, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(13, Short.MAX_VALUE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(LogoName, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(CoffeeMenu, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 1222, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(164, Short.MAX_VALUE))
-        );
+        jLabel37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
+        getContentPane().add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1100, 760));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -1051,9 +1007,13 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jCheckBox52ActionPerformed
 
-    private void jCheckBox57ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox57ActionPerformed
+    private void jCheckBox61ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox61ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox57ActionPerformed
+    }//GEN-LAST:event_jCheckBox61ActionPerformed
+
+    private void jCheckBox58ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox58ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox58ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -1092,20 +1052,12 @@ public class CoffeeDashboad extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel Americano;
-    private javax.swing.JPanel Americano1;
-    private javax.swing.JPanel Americano10;
-    private javax.swing.JPanel Americano11;
-    private javax.swing.JPanel Americano2;
-    private javax.swing.JPanel Americano3;
-    private javax.swing.JPanel Americano4;
-    private javax.swing.JPanel Americano5;
-    private javax.swing.JPanel Americano6;
-    private javax.swing.JPanel Americano7;
-    private javax.swing.JPanel Americano8;
-    private javax.swing.JPanel Americano9;
     private javax.swing.ButtonGroup AmericanoBTG;
+    private javax.swing.JPanel Brewed;
     private javax.swing.ButtonGroup BrewedBTG;
+    private javax.swing.JPanel Cacao;
     private javax.swing.ButtonGroup CacaoBTG;
+    private javax.swing.JPanel Caramel;
     private javax.swing.ButtonGroup CaramelBTG;
     private javax.swing.JLabel CoffeSize14;
     private javax.swing.JLabel CoffeSize15;
@@ -1117,7 +1069,8 @@ public class CoffeeDashboad extends javax.swing.JFrame {
     private javax.swing.JLabel CoffeSize21;
     private javax.swing.JLabel CoffeSize22;
     private javax.swing.JLabel CoffeSize23;
-    private javax.swing.JLabel CoffeSize24;
+    private javax.swing.JLabel CoffeSize25;
+    private javax.swing.JLabel CoffeSize26;
     private javax.swing.JLabel CoffeSize8;
     private javax.swing.JLabel CoffeeMenu;
     private javax.swing.JLabel CoffeeName14;
@@ -1130,7 +1083,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
     private javax.swing.JLabel CoffeeName21;
     private javax.swing.JLabel CoffeeName22;
     private javax.swing.JLabel CoffeeName23;
-    private javax.swing.JLabel CoffeeName24;
+    private javax.swing.JLabel CoffeeName25;
     private javax.swing.JLabel CoffeeName8;
     private javax.swing.JLabel CoffeePrice14;
     private javax.swing.JLabel CoffeePrice15;
@@ -1142,21 +1095,29 @@ public class CoffeeDashboad extends javax.swing.JFrame {
     private javax.swing.JLabel CoffeePrice21;
     private javax.swing.JLabel CoffeePrice22;
     private javax.swing.JLabel CoffeePrice23;
-    private javax.swing.JLabel CoffeePrice24;
+    private javax.swing.JLabel CoffeePrice25;
     private javax.swing.JLabel CoffeePrice8;
+    private javax.swing.JPanel ConPanna;
     private javax.swing.ButtonGroup ConPannaBTG;
+    private javax.swing.JPanel Cortado;
     private javax.swing.ButtonGroup CortadoBTG;
+    private javax.swing.JPanel DarkChocolate;
     private javax.swing.ButtonGroup DarkChocolateBTG;
+    private javax.swing.JPanel Espresso;
     private javax.swing.ButtonGroup EspressoBTG;
+    private javax.swing.JPanel FlatWhite;
+    private javax.swing.ButtonGroup FlatWhiteBTG;
     private javax.swing.ButtonGroup HazelNutBTG;
+    private javax.swing.JPanel Hazelnut;
+    private javax.swing.JPanel Latte;
     private javax.swing.ButtonGroup LatteBTG;
     private javax.swing.JLabel LogoName;
     private javax.swing.JButton ToDrinksbutton;
     private javax.swing.JButton ToFoodButton;
     private javax.swing.JButton ToPastriesButton;
     private javax.swing.JButton ToReceiptButton;
+    private javax.swing.JPanel WhiteMocha;
     private javax.swing.ButtonGroup WhiteMochaBTG;
-    private javax.swing.ButtonGroup buttonGroup2;
     private javax.swing.JCheckBox jCheckBox1;
     private javax.swing.JCheckBox jCheckBox10;
     private javax.swing.JCheckBox jCheckBox11;
@@ -1213,14 +1174,14 @@ public class CoffeeDashboad extends javax.swing.JFrame {
     private javax.swing.JCheckBox jCheckBox58;
     private javax.swing.JCheckBox jCheckBox59;
     private javax.swing.JCheckBox jCheckBox6;
-    private javax.swing.JCheckBox jCheckBox60;
+    private javax.swing.JCheckBox jCheckBox61;
     private javax.swing.JCheckBox jCheckBox7;
     private javax.swing.JCheckBox jCheckBox8;
     private javax.swing.JCheckBox jCheckBox9;
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JComboBox<String> jComboBox10;
     private javax.swing.JComboBox<String> jComboBox11;
-    private javax.swing.JComboBox<String> jComboBox12;
+    private javax.swing.JComboBox<String> jComboBox13;
     private javax.swing.JComboBox<String> jComboBox2;
     private javax.swing.JComboBox<String> jComboBox3;
     private javax.swing.JComboBox<String> jComboBox4;
@@ -1235,8 +1196,8 @@ public class CoffeeDashboad extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel101;
     private javax.swing.JLabel jLabel102;
     private javax.swing.JLabel jLabel103;
-    private javax.swing.JLabel jLabel104;
-    private javax.swing.JLabel jLabel105;
+    private javax.swing.JLabel jLabel106;
+    private javax.swing.JLabel jLabel107;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
@@ -1264,8 +1225,10 @@ public class CoffeeDashboad extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel33;
     private javax.swing.JLabel jLabel34;
     private javax.swing.JLabel jLabel35;
-    private javax.swing.JLabel jLabel36;
+    private javax.swing.JLabel jLabel37;
+    private javax.swing.JLabel jLabel38;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel40;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel52;
     private javax.swing.JLabel jLabel53;
