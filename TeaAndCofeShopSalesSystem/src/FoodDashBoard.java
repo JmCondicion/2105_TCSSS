@@ -27,1300 +27,841 @@ public class FoodDashBoard extends javax.swing.JFrame {
 
         jScrollPane2 = new javax.swing.JScrollPane();
         jPanel1 = new javax.swing.JPanel();
-        AlfredoFettuccine = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
+        Brewed = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
+        CoffeeName14 = new javax.swing.JLabel();
+        CoffeePrice14 = new javax.swing.JLabel();
+        jLabel71 = new javax.swing.JLabel();
+        jLabel100 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
-        jSpinner1 = new javax.swing.JSpinner();
+        jComboBox2 = new javax.swing.JComboBox<>();
+        jCheckBox18 = new javax.swing.JCheckBox();
+        Brewed1 = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
-        jCheckBox1 = new javax.swing.JCheckBox();
-        Belognese = new javax.swing.JPanel();
+        CoffeeName15 = new javax.swing.JLabel();
+        CoffeePrice15 = new javax.swing.JLabel();
+        jLabel72 = new javax.swing.JLabel();
+        jLabel101 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
+        jComboBox3 = new javax.swing.JComboBox<>();
+        jCheckBox19 = new javax.swing.JCheckBox();
+        Brewed2 = new javax.swing.JPanel();
         jLabel10 = new javax.swing.JLabel();
+        CoffeeName16 = new javax.swing.JLabel();
+        CoffeePrice16 = new javax.swing.JLabel();
+        jLabel73 = new javax.swing.JLabel();
+        jLabel102 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
+        jComboBox4 = new javax.swing.JComboBox<>();
+        jCheckBox20 = new javax.swing.JCheckBox();
+        Brewed3 = new javax.swing.JPanel();
         jLabel13 = new javax.swing.JLabel();
-        jSpinner2 = new javax.swing.JSpinner();
+        CoffeeName17 = new javax.swing.JLabel();
+        CoffeePrice17 = new javax.swing.JLabel();
+        jLabel74 = new javax.swing.JLabel();
+        jLabel103 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
-        jCheckBox2 = new javax.swing.JCheckBox();
-        GarlicButterShrimpPasta = new javax.swing.JPanel();
-        jLabel22 = new javax.swing.JLabel();
-        jLabel23 = new javax.swing.JLabel();
-        jLabel24 = new javax.swing.JLabel();
-        jLabel25 = new javax.swing.JLabel();
-        jLabel26 = new javax.swing.JLabel();
-        jLabel27 = new javax.swing.JLabel();
-        jSpinner4 = new javax.swing.JSpinner();
-        jLabel28 = new javax.swing.JLabel();
-        jCheckBox4 = new javax.swing.JCheckBox();
-        Carbonara = new javax.swing.JPanel();
         jLabel15 = new javax.swing.JLabel();
+        jComboBox5 = new javax.swing.JComboBox<>();
+        jCheckBox21 = new javax.swing.JCheckBox();
+        Brewed4 = new javax.swing.JPanel();
         jLabel16 = new javax.swing.JLabel();
+        CoffeeName18 = new javax.swing.JLabel();
+        CoffeePrice18 = new javax.swing.JLabel();
+        jLabel75 = new javax.swing.JLabel();
+        jLabel104 = new javax.swing.JLabel();
         jLabel17 = new javax.swing.JLabel();
         jLabel18 = new javax.swing.JLabel();
+        jComboBox6 = new javax.swing.JComboBox<>();
+        jCheckBox22 = new javax.swing.JCheckBox();
+        Brewed5 = new javax.swing.JPanel();
         jLabel19 = new javax.swing.JLabel();
+        CoffeeName19 = new javax.swing.JLabel();
+        CoffeePrice19 = new javax.swing.JLabel();
+        jLabel76 = new javax.swing.JLabel();
+        jLabel105 = new javax.swing.JLabel();
         jLabel20 = new javax.swing.JLabel();
-        jSpinner3 = new javax.swing.JSpinner();
         jLabel21 = new javax.swing.JLabel();
-        jCheckBox3 = new javax.swing.JCheckBox();
-        GnocchiWithPesto = new javax.swing.JPanel();
+        jComboBox7 = new javax.swing.JComboBox<>();
+        jCheckBox23 = new javax.swing.JCheckBox();
+        Brewed6 = new javax.swing.JPanel();
+        jLabel22 = new javax.swing.JLabel();
+        CoffeeName20 = new javax.swing.JLabel();
+        CoffeePrice20 = new javax.swing.JLabel();
+        jLabel77 = new javax.swing.JLabel();
+        jLabel106 = new javax.swing.JLabel();
+        jLabel23 = new javax.swing.JLabel();
+        jLabel24 = new javax.swing.JLabel();
+        jComboBox8 = new javax.swing.JComboBox<>();
+        jCheckBox24 = new javax.swing.JCheckBox();
+        Brewed7 = new javax.swing.JPanel();
+        jLabel25 = new javax.swing.JLabel();
+        CoffeeName21 = new javax.swing.JLabel();
+        CoffeePrice21 = new javax.swing.JLabel();
+        jLabel78 = new javax.swing.JLabel();
+        jLabel107 = new javax.swing.JLabel();
+        jLabel26 = new javax.swing.JLabel();
+        jLabel27 = new javax.swing.JLabel();
+        jComboBox9 = new javax.swing.JComboBox<>();
+        jCheckBox25 = new javax.swing.JCheckBox();
+        Brewed8 = new javax.swing.JPanel();
+        jLabel28 = new javax.swing.JLabel();
+        CoffeeName22 = new javax.swing.JLabel();
+        CoffeePrice22 = new javax.swing.JLabel();
+        jLabel79 = new javax.swing.JLabel();
+        jLabel108 = new javax.swing.JLabel();
         jLabel29 = new javax.swing.JLabel();
         jLabel30 = new javax.swing.JLabel();
+        jComboBox10 = new javax.swing.JComboBox<>();
+        jCheckBox26 = new javax.swing.JCheckBox();
+        Brewed9 = new javax.swing.JPanel();
         jLabel31 = new javax.swing.JLabel();
+        CoffeeName23 = new javax.swing.JLabel();
+        CoffeePrice23 = new javax.swing.JLabel();
+        jLabel80 = new javax.swing.JLabel();
+        jLabel109 = new javax.swing.JLabel();
         jLabel32 = new javax.swing.JLabel();
         jLabel33 = new javax.swing.JLabel();
-        jLabel34 = new javax.swing.JLabel();
-        jSpinner5 = new javax.swing.JSpinner();
+        jComboBox11 = new javax.swing.JComboBox<>();
+        jCheckBox27 = new javax.swing.JCheckBox();
+        Brewed10 = new javax.swing.JPanel();
+        CoffeeName24 = new javax.swing.JLabel();
+        CoffeePrice24 = new javax.swing.JLabel();
+        jLabel81 = new javax.swing.JLabel();
+        jLabel110 = new javax.swing.JLabel();
         jLabel35 = new javax.swing.JLabel();
-        jCheckBox5 = new javax.swing.JCheckBox();
-        PastaPrimavera = new javax.swing.JPanel();
         jLabel36 = new javax.swing.JLabel();
+        jComboBox12 = new javax.swing.JComboBox<>();
+        jCheckBox28 = new javax.swing.JCheckBox();
+        jLabel1 = new javax.swing.JLabel();
+        Brewed11 = new javax.swing.JPanel();
         jLabel37 = new javax.swing.JLabel();
+        CoffeeName25 = new javax.swing.JLabel();
+        CoffeePrice25 = new javax.swing.JLabel();
+        jLabel82 = new javax.swing.JLabel();
+        jLabel111 = new javax.swing.JLabel();
         jLabel38 = new javax.swing.JLabel();
         jLabel39 = new javax.swing.JLabel();
+        jComboBox13 = new javax.swing.JComboBox<>();
+        jCheckBox29 = new javax.swing.JCheckBox();
+        Brewed12 = new javax.swing.JPanel();
         jLabel40 = new javax.swing.JLabel();
+        CoffeeName26 = new javax.swing.JLabel();
+        CoffeePrice26 = new javax.swing.JLabel();
+        jLabel83 = new javax.swing.JLabel();
+        jLabel112 = new javax.swing.JLabel();
         jLabel41 = new javax.swing.JLabel();
-        jSpinner6 = new javax.swing.JSpinner();
         jLabel42 = new javax.swing.JLabel();
-        jCheckBox6 = new javax.swing.JCheckBox();
-        MacAndCheese = new javax.swing.JPanel();
-        jLabel43 = new javax.swing.JLabel();
+        jComboBox14 = new javax.swing.JComboBox<>();
+        jCheckBox30 = new javax.swing.JCheckBox();
+        Brewed13 = new javax.swing.JPanel();
+        CoffeeName27 = new javax.swing.JLabel();
+        CoffeePrice27 = new javax.swing.JLabel();
+        jLabel84 = new javax.swing.JLabel();
+        jLabel113 = new javax.swing.JLabel();
         jLabel44 = new javax.swing.JLabel();
         jLabel45 = new javax.swing.JLabel();
+        jComboBox15 = new javax.swing.JComboBox<>();
+        jCheckBox31 = new javax.swing.JCheckBox();
+        jLabel3 = new javax.swing.JLabel();
+        Brewed14 = new javax.swing.JPanel();
         jLabel46 = new javax.swing.JLabel();
+        CoffeeName28 = new javax.swing.JLabel();
+        CoffeePrice28 = new javax.swing.JLabel();
+        jLabel85 = new javax.swing.JLabel();
+        jLabel114 = new javax.swing.JLabel();
         jLabel47 = new javax.swing.JLabel();
         jLabel48 = new javax.swing.JLabel();
-        jSpinner7 = new javax.swing.JSpinner();
-        jLabel49 = new javax.swing.JLabel();
-        jCheckBox7 = new javax.swing.JCheckBox();
-        PenneArrabiata = new javax.swing.JPanel();
+        jComboBox16 = new javax.swing.JComboBox<>();
+        jCheckBox32 = new javax.swing.JCheckBox();
+        Brewed15 = new javax.swing.JPanel();
+        CoffeeName29 = new javax.swing.JLabel();
+        CoffeePrice29 = new javax.swing.JLabel();
+        jLabel86 = new javax.swing.JLabel();
+        jLabel115 = new javax.swing.JLabel();
         jLabel50 = new javax.swing.JLabel();
         jLabel51 = new javax.swing.JLabel();
-        jLabel52 = new javax.swing.JLabel();
-        jLabel53 = new javax.swing.JLabel();
-        jLabel54 = new javax.swing.JLabel();
-        jLabel55 = new javax.swing.JLabel();
-        jSpinner8 = new javax.swing.JSpinner();
-        jLabel56 = new javax.swing.JLabel();
-        jCheckBox8 = new javax.swing.JCheckBox();
-        Spaghetti = new javax.swing.JPanel();
-        jLabel57 = new javax.swing.JLabel();
-        jLabel58 = new javax.swing.JLabel();
-        jLabel59 = new javax.swing.JLabel();
-        jLabel60 = new javax.swing.JLabel();
-        jLabel61 = new javax.swing.JLabel();
-        jLabel62 = new javax.swing.JLabel();
-        jSpinner9 = new javax.swing.JSpinner();
-        jLabel63 = new javax.swing.JLabel();
-        jCheckBox9 = new javax.swing.JCheckBox();
-        TunaPesto = new javax.swing.JPanel();
-        jLabel64 = new javax.swing.JLabel();
-        jLabel65 = new javax.swing.JLabel();
-        jLabel66 = new javax.swing.JLabel();
-        jLabel67 = new javax.swing.JLabel();
-        jLabel68 = new javax.swing.JLabel();
-        jLabel69 = new javax.swing.JLabel();
-        jSpinner10 = new javax.swing.JSpinner();
-        jLabel70 = new javax.swing.JLabel();
-        jCheckBox10 = new javax.swing.JCheckBox();
-        AlfredoFettuccine10 = new javax.swing.JPanel();
-        jLabel71 = new javax.swing.JLabel();
-        jLabel72 = new javax.swing.JLabel();
-        jLabel73 = new javax.swing.JLabel();
-        jLabel74 = new javax.swing.JLabel();
-        jLabel75 = new javax.swing.JLabel();
-        jLabel76 = new javax.swing.JLabel();
-        jSpinner11 = new javax.swing.JSpinner();
-        jLabel77 = new javax.swing.JLabel();
-        jCheckBox11 = new javax.swing.JCheckBox();
-        AlfredoFettuccine11 = new javax.swing.JPanel();
-        jLabel78 = new javax.swing.JLabel();
-        jLabel79 = new javax.swing.JLabel();
-        jLabel80 = new javax.swing.JLabel();
-        jLabel81 = new javax.swing.JLabel();
-        jLabel82 = new javax.swing.JLabel();
-        jLabel83 = new javax.swing.JLabel();
-        jSpinner12 = new javax.swing.JSpinner();
-        jLabel84 = new javax.swing.JLabel();
-        jCheckBox12 = new javax.swing.JCheckBox();
-        AlfredoFettuccine12 = new javax.swing.JPanel();
-        jLabel85 = new javax.swing.JLabel();
-        jLabel86 = new javax.swing.JLabel();
-        jLabel87 = new javax.swing.JLabel();
-        jLabel88 = new javax.swing.JLabel();
-        jLabel89 = new javax.swing.JLabel();
-        jLabel90 = new javax.swing.JLabel();
-        jSpinner13 = new javax.swing.JSpinner();
-        jLabel91 = new javax.swing.JLabel();
-        jCheckBox13 = new javax.swing.JCheckBox();
-        AlfredoFettuccine13 = new javax.swing.JPanel();
-        jLabel92 = new javax.swing.JLabel();
-        jLabel93 = new javax.swing.JLabel();
-        jLabel94 = new javax.swing.JLabel();
-        jLabel95 = new javax.swing.JLabel();
-        jLabel96 = new javax.swing.JLabel();
-        jLabel97 = new javax.swing.JLabel();
-        jSpinner14 = new javax.swing.JSpinner();
-        jLabel98 = new javax.swing.JLabel();
-        jCheckBox14 = new javax.swing.JCheckBox();
-        AlfredoFettuccine15 = new javax.swing.JPanel();
-        jLabel106 = new javax.swing.JLabel();
-        jLabel107 = new javax.swing.JLabel();
-        jLabel108 = new javax.swing.JLabel();
-        jLabel109 = new javax.swing.JLabel();
-        jLabel110 = new javax.swing.JLabel();
-        jLabel111 = new javax.swing.JLabel();
-        jSpinner16 = new javax.swing.JSpinner();
-        jLabel112 = new javax.swing.JLabel();
-        jCheckBox16 = new javax.swing.JCheckBox();
-        AlfredoFettuccine16 = new javax.swing.JPanel();
-        jLabel113 = new javax.swing.JLabel();
-        jLabel114 = new javax.swing.JLabel();
-        jLabel115 = new javax.swing.JLabel();
-        jLabel116 = new javax.swing.JLabel();
-        jLabel117 = new javax.swing.JLabel();
-        jLabel118 = new javax.swing.JLabel();
-        jSpinner17 = new javax.swing.JSpinner();
-        jLabel119 = new javax.swing.JLabel();
-        jCheckBox17 = new javax.swing.JCheckBox();
-        jPanel2 = new javax.swing.JPanel();
-        CoffeeMenu = new javax.swing.JLabel();
+        jComboBox17 = new javax.swing.JComboBox<>();
+        jCheckBox33 = new javax.swing.JCheckBox();
+        jLabel2 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        jLabel34 = new javax.swing.JLabel();
+        jLabel43 = new javax.swing.JLabel();
+        jLabel49 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jScrollPane2.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
         jScrollPane2.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/alfredo fettuccine.jpg"))); // NOI18N
-
-        jLabel2.setText("Name");
-
-        jLabel3.setText("Alfedo Fettuccine");
-
-        jLabel4.setText("Price");
-
-        jLabel5.setText("170");
-
-        jLabel6.setText("Quantity");
-
-        jLabel7.setText("Purchase");
-
-        javax.swing.GroupLayout AlfredoFettuccineLayout = new javax.swing.GroupLayout(AlfredoFettuccine);
-        AlfredoFettuccine.setLayout(AlfredoFettuccineLayout);
-        AlfredoFettuccineLayout.setHorizontalGroup(
-            AlfredoFettuccineLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(AlfredoFettuccineLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(AlfredoFettuccineLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(AlfredoFettuccineLayout.createSequentialGroup()
-                        .addComponent(jLabel7)
-                        .addGap(18, 18, 18)
-                        .addComponent(jCheckBox1))
-                    .addGroup(AlfredoFettuccineLayout.createSequentialGroup()
-                        .addGroup(AlfredoFettuccineLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(AlfredoFettuccineLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, 46, Short.MAX_VALUE))
-                            .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(AlfredoFettuccineLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jSpinner1, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        AlfredoFettuccineLayout.setVerticalGroup(
-            AlfredoFettuccineLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(AlfredoFettuccineLayout.createSequentialGroup()
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(AlfredoFettuccineLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(AlfredoFettuccineLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(AlfredoFettuccineLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel6)
-                    .addComponent(jSpinner1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(AlfredoFettuccineLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jCheckBox1))
-                .addContainerGap())
-        );
-
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/bolognese.jpg"))); // NOI18N
-
-        jLabel9.setText("Name");
-
-        jLabel10.setText("Bolognese");
-
-        jLabel11.setText("Price");
-
-        jLabel12.setText("170");
-
-        jLabel13.setText("Quantity");
-
-        jLabel14.setText("Purchase");
-
-        javax.swing.GroupLayout BelogneseLayout = new javax.swing.GroupLayout(Belognese);
-        Belognese.setLayout(BelogneseLayout);
-        BelogneseLayout.setHorizontalGroup(
-            BelogneseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel8, javax.swing.GroupLayout.DEFAULT_SIZE, 264, Short.MAX_VALUE)
-            .addGroup(BelogneseLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(BelogneseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(BelogneseLayout.createSequentialGroup()
-                        .addComponent(jLabel14)
-                        .addGap(18, 18, 18)
-                        .addComponent(jCheckBox2))
-                    .addGroup(BelogneseLayout.createSequentialGroup()
-                        .addGroup(BelogneseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(BelogneseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(jLabel11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jLabel9, javax.swing.GroupLayout.DEFAULT_SIZE, 46, Short.MAX_VALUE))
-                            .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(BelogneseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jSpinner2, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        BelogneseLayout.setVerticalGroup(
-            BelogneseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(BelogneseLayout.createSequentialGroup()
-                .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(BelogneseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(BelogneseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(BelogneseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel13)
-                    .addComponent(jSpinner2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(BelogneseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel14, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jCheckBox2))
-                .addContainerGap())
-        );
-
-        jLabel22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/garlic butter shrimp pasta.jpg"))); // NOI18N
-
-        jLabel23.setText("Name");
-
-        jLabel24.setText("Garlic Butter Shrimp Pasta");
-
-        jLabel25.setText("Price");
-
-        jLabel26.setText("170");
-
-        jLabel27.setText("Quantity");
-
-        jLabel28.setText("Purchase");
-
-        javax.swing.GroupLayout GarlicButterShrimpPastaLayout = new javax.swing.GroupLayout(GarlicButterShrimpPasta);
-        GarlicButterShrimpPasta.setLayout(GarlicButterShrimpPastaLayout);
-        GarlicButterShrimpPastaLayout.setHorizontalGroup(
-            GarlicButterShrimpPastaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel22, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(GarlicButterShrimpPastaLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(GarlicButterShrimpPastaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(GarlicButterShrimpPastaLayout.createSequentialGroup()
-                        .addComponent(jLabel28)
-                        .addGap(18, 18, 18)
-                        .addComponent(jCheckBox4))
-                    .addGroup(GarlicButterShrimpPastaLayout.createSequentialGroup()
-                        .addGroup(GarlicButterShrimpPastaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(GarlicButterShrimpPastaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(jLabel25, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jLabel23, javax.swing.GroupLayout.DEFAULT_SIZE, 46, Short.MAX_VALUE))
-                            .addComponent(jLabel27, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(GarlicButterShrimpPastaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel24, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel26, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jSpinner4, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(25, Short.MAX_VALUE))
-        );
-        GarlicButterShrimpPastaLayout.setVerticalGroup(
-            GarlicButterShrimpPastaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(GarlicButterShrimpPastaLayout.createSequentialGroup()
-                .addComponent(jLabel22, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(GarlicButterShrimpPastaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel23, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel24, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(GarlicButterShrimpPastaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel25, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel26, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(GarlicButterShrimpPastaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel27)
-                    .addComponent(jSpinner4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(GarlicButterShrimpPastaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel28, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jCheckBox4))
-                .addContainerGap())
-        );
-
-        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/carbonara.jpg"))); // NOI18N
-
-        jLabel16.setText("Name");
-
-        jLabel17.setText("Carbonara");
-
-        jLabel18.setText("Price");
-
-        jLabel19.setText("170");
-
-        jLabel20.setText("Quantity");
-
-        jLabel21.setText("Purchase");
-
-        javax.swing.GroupLayout CarbonaraLayout = new javax.swing.GroupLayout(Carbonara);
-        Carbonara.setLayout(CarbonaraLayout);
-        CarbonaraLayout.setHorizontalGroup(
-            CarbonaraLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel15, javax.swing.GroupLayout.DEFAULT_SIZE, 264, Short.MAX_VALUE)
-            .addGroup(CarbonaraLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(CarbonaraLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(CarbonaraLayout.createSequentialGroup()
-                        .addComponent(jLabel21)
-                        .addGap(18, 18, 18)
-                        .addComponent(jCheckBox3))
-                    .addGroup(CarbonaraLayout.createSequentialGroup()
-                        .addGroup(CarbonaraLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(CarbonaraLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(jLabel18, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jLabel16, javax.swing.GroupLayout.DEFAULT_SIZE, 46, Short.MAX_VALUE))
-                            .addComponent(jLabel20, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(CarbonaraLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jSpinner3, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        CarbonaraLayout.setVerticalGroup(
-            CarbonaraLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(CarbonaraLayout.createSequentialGroup()
-                .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(CarbonaraLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(CarbonaraLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel18, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(CarbonaraLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel20)
-                    .addComponent(jSpinner3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(CarbonaraLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel21, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jCheckBox3))
-                .addContainerGap())
-        );
-
-        jLabel29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/gnocchi with pesto.jpg"))); // NOI18N
-
-        jLabel30.setText("Name");
-
-        jLabel31.setText("Gnocchi With Pesto");
-
-        jLabel32.setText("Price");
-
-        jLabel33.setText("170");
-
-        jLabel34.setText("Quantity");
-
-        jLabel35.setText("Purchase");
-
-        javax.swing.GroupLayout GnocchiWithPestoLayout = new javax.swing.GroupLayout(GnocchiWithPesto);
-        GnocchiWithPesto.setLayout(GnocchiWithPestoLayout);
-        GnocchiWithPestoLayout.setHorizontalGroup(
-            GnocchiWithPestoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel29, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(GnocchiWithPestoLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(GnocchiWithPestoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(GnocchiWithPestoLayout.createSequentialGroup()
-                        .addComponent(jLabel35)
-                        .addGap(18, 18, 18)
-                        .addComponent(jCheckBox5))
-                    .addGroup(GnocchiWithPestoLayout.createSequentialGroup()
-                        .addGroup(GnocchiWithPestoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(GnocchiWithPestoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(jLabel32, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jLabel30, javax.swing.GroupLayout.DEFAULT_SIZE, 46, Short.MAX_VALUE))
-                            .addComponent(jLabel34, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(GnocchiWithPestoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel31, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel33, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jSpinner5, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        GnocchiWithPestoLayout.setVerticalGroup(
-            GnocchiWithPestoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(GnocchiWithPestoLayout.createSequentialGroup()
-                .addComponent(jLabel29, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(GnocchiWithPestoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel30, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel31, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(GnocchiWithPestoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel32, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel33, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(GnocchiWithPestoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel34)
-                    .addComponent(jSpinner5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(GnocchiWithPestoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel35, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jCheckBox5))
-                .addContainerGap())
-        );
-
-        jLabel36.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/pasta primavera.jpg"))); // NOI18N
-
-        jLabel37.setText("Name");
-
-        jLabel38.setText("Pasta Primavera");
-
-        jLabel39.setText("Price");
-
-        jLabel40.setText("170");
-
-        jLabel41.setText("Quantity");
-
-        jLabel42.setText("Purchase");
-
-        javax.swing.GroupLayout PastaPrimaveraLayout = new javax.swing.GroupLayout(PastaPrimavera);
-        PastaPrimavera.setLayout(PastaPrimaveraLayout);
-        PastaPrimaveraLayout.setHorizontalGroup(
-            PastaPrimaveraLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel36, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(PastaPrimaveraLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(PastaPrimaveraLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(PastaPrimaveraLayout.createSequentialGroup()
-                        .addComponent(jLabel42)
-                        .addGap(18, 18, 18)
-                        .addComponent(jCheckBox6))
-                    .addGroup(PastaPrimaveraLayout.createSequentialGroup()
-                        .addGroup(PastaPrimaveraLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(PastaPrimaveraLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(jLabel39, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jLabel37, javax.swing.GroupLayout.DEFAULT_SIZE, 46, Short.MAX_VALUE))
-                            .addComponent(jLabel41, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(PastaPrimaveraLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel38, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel40, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jSpinner6, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        PastaPrimaveraLayout.setVerticalGroup(
-            PastaPrimaveraLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PastaPrimaveraLayout.createSequentialGroup()
-                .addComponent(jLabel36, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(PastaPrimaveraLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel37, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel38, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(PastaPrimaveraLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel39, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel40, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(PastaPrimaveraLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel41)
-                    .addComponent(jSpinner6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(PastaPrimaveraLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel42, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jCheckBox6))
-                .addContainerGap())
-        );
-
-        jLabel43.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/mac and cheese.jpg"))); // NOI18N
-
-        jLabel44.setText("Name");
-
-        jLabel45.setText("Mac And Cheese");
-
-        jLabel46.setText("Price");
-
-        jLabel47.setText("170");
-
-        jLabel48.setText("Quantity");
-
-        jLabel49.setText("Purchase");
-
-        javax.swing.GroupLayout MacAndCheeseLayout = new javax.swing.GroupLayout(MacAndCheese);
-        MacAndCheese.setLayout(MacAndCheeseLayout);
-        MacAndCheeseLayout.setHorizontalGroup(
-            MacAndCheeseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(MacAndCheeseLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(MacAndCheeseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(MacAndCheeseLayout.createSequentialGroup()
-                        .addComponent(jLabel49)
-                        .addGap(18, 18, 18)
-                        .addComponent(jCheckBox7))
-                    .addGroup(MacAndCheeseLayout.createSequentialGroup()
-                        .addGroup(MacAndCheeseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(MacAndCheeseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(jLabel46, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jLabel44, javax.swing.GroupLayout.DEFAULT_SIZE, 46, Short.MAX_VALUE))
-                            .addComponent(jLabel48, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(MacAndCheeseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel45, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel47, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jSpinner7, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(25, Short.MAX_VALUE))
-            .addComponent(jLabel43, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-        );
-        MacAndCheeseLayout.setVerticalGroup(
-            MacAndCheeseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(MacAndCheeseLayout.createSequentialGroup()
-                .addComponent(jLabel43, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(MacAndCheeseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel44, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel45, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(MacAndCheeseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel46, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel47, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(MacAndCheeseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel48)
-                    .addComponent(jSpinner7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(MacAndCheeseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel49, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jCheckBox7))
-                .addContainerGap())
-        );
-
-        jLabel50.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/penne arrabbiata.jpg"))); // NOI18N
-
-        jLabel51.setText("Name");
-
-        jLabel52.setText("Penne Arrabiata");
-
-        jLabel53.setText("Price");
-
-        jLabel54.setText("170");
-
-        jLabel55.setText("Quantity");
-
-        jLabel56.setText("Purchase");
-
-        javax.swing.GroupLayout PenneArrabiataLayout = new javax.swing.GroupLayout(PenneArrabiata);
-        PenneArrabiata.setLayout(PenneArrabiataLayout);
-        PenneArrabiataLayout.setHorizontalGroup(
-            PenneArrabiataLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel50, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(PenneArrabiataLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(PenneArrabiataLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(PenneArrabiataLayout.createSequentialGroup()
-                        .addComponent(jLabel56)
-                        .addGap(18, 18, 18)
-                        .addComponent(jCheckBox8))
-                    .addGroup(PenneArrabiataLayout.createSequentialGroup()
-                        .addGroup(PenneArrabiataLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(PenneArrabiataLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(jLabel53, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jLabel51, javax.swing.GroupLayout.DEFAULT_SIZE, 46, Short.MAX_VALUE))
-                            .addComponent(jLabel55, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(PenneArrabiataLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel52, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel54, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jSpinner8, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(25, Short.MAX_VALUE))
-        );
-        PenneArrabiataLayout.setVerticalGroup(
-            PenneArrabiataLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PenneArrabiataLayout.createSequentialGroup()
-                .addComponent(jLabel50, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(PenneArrabiataLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel51, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel52, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(PenneArrabiataLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel53, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel54, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(PenneArrabiataLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel55)
-                    .addComponent(jSpinner8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(PenneArrabiataLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel56, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jCheckBox8))
-                .addContainerGap())
-        );
-
-        jLabel57.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/spaghetti.jpg"))); // NOI18N
-
-        jLabel58.setText("Name");
-
-        jLabel59.setText("Spaghetti");
-
-        jLabel60.setText("Price");
-
-        jLabel61.setText("170");
-
-        jLabel62.setText("Quantity");
-
-        jLabel63.setText("Purchase");
-
-        javax.swing.GroupLayout SpaghettiLayout = new javax.swing.GroupLayout(Spaghetti);
-        Spaghetti.setLayout(SpaghettiLayout);
-        SpaghettiLayout.setHorizontalGroup(
-            SpaghettiLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel57, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(SpaghettiLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(SpaghettiLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(SpaghettiLayout.createSequentialGroup()
-                        .addComponent(jLabel63)
-                        .addGap(18, 18, 18)
-                        .addComponent(jCheckBox9))
-                    .addGroup(SpaghettiLayout.createSequentialGroup()
-                        .addGroup(SpaghettiLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(SpaghettiLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(jLabel60, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jLabel58, javax.swing.GroupLayout.DEFAULT_SIZE, 46, Short.MAX_VALUE))
-                            .addComponent(jLabel62, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(SpaghettiLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel59, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel61, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jSpinner9, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        SpaghettiLayout.setVerticalGroup(
-            SpaghettiLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(SpaghettiLayout.createSequentialGroup()
-                .addComponent(jLabel57, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(SpaghettiLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel58, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel59, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(SpaghettiLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel60, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel61, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(SpaghettiLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel62)
-                    .addComponent(jSpinner9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(SpaghettiLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel63, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jCheckBox9))
-                .addContainerGap())
-        );
-
-        jLabel64.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/tuna pesto.jpg"))); // NOI18N
-
-        jLabel65.setText("Name");
-
-        jLabel66.setText("Tuna Pesto");
-
-        jLabel67.setText("Price");
-
-        jLabel68.setText("170");
-
-        jLabel69.setText("Quantity");
-
-        jLabel70.setText("Purchase");
-
-        javax.swing.GroupLayout TunaPestoLayout = new javax.swing.GroupLayout(TunaPesto);
-        TunaPesto.setLayout(TunaPestoLayout);
-        TunaPestoLayout.setHorizontalGroup(
-            TunaPestoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel64, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(TunaPestoLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(TunaPestoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(TunaPestoLayout.createSequentialGroup()
-                        .addComponent(jLabel70)
-                        .addGap(18, 18, 18)
-                        .addComponent(jCheckBox10))
-                    .addGroup(TunaPestoLayout.createSequentialGroup()
-                        .addGroup(TunaPestoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(TunaPestoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(jLabel67, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jLabel65, javax.swing.GroupLayout.DEFAULT_SIZE, 46, Short.MAX_VALUE))
-                            .addComponent(jLabel69, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(TunaPestoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel66, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel68, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jSpinner10, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        TunaPestoLayout.setVerticalGroup(
-            TunaPestoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(TunaPestoLayout.createSequentialGroup()
-                .addComponent(jLabel64, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(TunaPestoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel65, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel66, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(TunaPestoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel67, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel68, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(TunaPestoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel69)
-                    .addComponent(jSpinner10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(TunaPestoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel70, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jCheckBox10))
-                .addContainerGap())
-        );
-
-        jLabel71.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/alfredo fettuccine.jpg"))); // NOI18N
-
-        jLabel72.setText("Name");
-
-        jLabel73.setText("Alfedo Fettuccine");
-
-        jLabel74.setText("Price");
-
-        jLabel75.setText("170");
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        Brewed.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Brewed.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/alfredo fettuccine.jpg"))); // NOI18N
+        Brewed.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+
+        CoffeeName14.setText("Name:");
+        Brewed.add(CoffeeName14, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+
+        CoffeePrice14.setText("Price");
+        Brewed.add(CoffeePrice14, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+
+        jLabel71.setText("Quantity");
+        Brewed.add(jLabel71, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
+
+        jLabel100.setText("Purchase");
+        Brewed.add(jLabel100, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+
+        jLabel5.setText("Alfredo Fettuccine");
+        Brewed.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+
+        jLabel6.setText("150");
+        Brewed.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+
+        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Brewed.add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+
+        jCheckBox18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox18ActionPerformed(evt);
+            }
+        });
+        Brewed.add(jCheckBox18, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+
+        jPanel1.add(Brewed, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 1060, 211, 320));
+
+        Brewed1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Brewed1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/bolognese.jpg"))); // NOI18N
+        Brewed1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+
+        CoffeeName15.setText("Name:");
+        Brewed1.add(CoffeeName15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+
+        CoffeePrice15.setText("Price");
+        Brewed1.add(CoffeePrice15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+
+        jLabel72.setText("Quantity");
+        Brewed1.add(jLabel72, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
+
+        jLabel101.setText("Purchase");
+        Brewed1.add(jLabel101, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+
+        jLabel8.setText("Bolognese");
+        Brewed1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+
+        jLabel9.setText("150");
+        Brewed1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+
+        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Brewed1.add(jComboBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+
+        jCheckBox19.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox19ActionPerformed(evt);
+            }
+        });
+        Brewed1.add(jCheckBox19, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+
+        jPanel1.add(Brewed1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 1060, 211, 320));
+
+        Brewed2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Brewed2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/carbonara.jpg"))); // NOI18N
+        Brewed2.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+
+        CoffeeName16.setText("Name:");
+        Brewed2.add(CoffeeName16, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+
+        CoffeePrice16.setText("Price");
+        Brewed2.add(CoffeePrice16, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+
+        jLabel73.setText("Quantity");
+        Brewed2.add(jLabel73, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
+
+        jLabel102.setText("Purchase");
+        Brewed2.add(jLabel102, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+
+        jLabel11.setText("Carbonara");
+        Brewed2.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+
+        jLabel12.setText("150");
+        Brewed2.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+
+        jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Brewed2.add(jComboBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+
+        jCheckBox20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox20ActionPerformed(evt);
+            }
+        });
+        Brewed2.add(jCheckBox20, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+
+        jPanel1.add(Brewed2, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 1060, 211, 320));
+
+        Brewed3.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Brewed3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/garlic butter shrimp pasta.jpg"))); // NOI18N
+        Brewed3.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+
+        CoffeeName17.setText("Name:");
+        Brewed3.add(CoffeeName17, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+
+        CoffeePrice17.setText("Price");
+        Brewed3.add(CoffeePrice17, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+
+        jLabel74.setText("Quantity");
+        Brewed3.add(jLabel74, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
+
+        jLabel103.setText("Purchase");
+        Brewed3.add(jLabel103, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+
+        jLabel14.setText("Garlic Butter Shrimp Pasta");
+        Brewed3.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 160, -1, -1));
+
+        jLabel15.setText("150");
+        Brewed3.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+
+        jComboBox5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Brewed3.add(jComboBox5, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+
+        jCheckBox21.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox21ActionPerformed(evt);
+            }
+        });
+        Brewed3.add(jCheckBox21, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+
+        jPanel1.add(Brewed3, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 1060, 211, 320));
+
+        Brewed4.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Brewed4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/gnocchi with pesto.jpg"))); // NOI18N
+        Brewed4.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+
+        CoffeeName18.setText("Name:");
+        Brewed4.add(CoffeeName18, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+
+        CoffeePrice18.setText("Price");
+        Brewed4.add(CoffeePrice18, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+
+        jLabel75.setText("Quantity");
+        Brewed4.add(jLabel75, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
+
+        jLabel104.setText("Purchase");
+        Brewed4.add(jLabel104, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+
+        jLabel17.setText("Gnocchi with Pesto");
+        Brewed4.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+
+        jLabel18.setText("150");
+        Brewed4.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+
+        jComboBox6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Brewed4.add(jComboBox6, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+
+        jCheckBox22.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox22ActionPerformed(evt);
+            }
+        });
+        Brewed4.add(jCheckBox22, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+
+        jPanel1.add(Brewed4, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 710, 211, 320));
+
+        Brewed5.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Brewed5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/mac and cheese.jpg"))); // NOI18N
+        Brewed5.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+
+        CoffeeName19.setText("Name:");
+        Brewed5.add(CoffeeName19, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+
+        CoffeePrice19.setText("Price");
+        Brewed5.add(CoffeePrice19, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
 
         jLabel76.setText("Quantity");
+        Brewed5.add(jLabel76, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
-        jLabel77.setText("Purchase");
+        jLabel105.setText("Purchase");
+        Brewed5.add(jLabel105, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
 
-        javax.swing.GroupLayout AlfredoFettuccine10Layout = new javax.swing.GroupLayout(AlfredoFettuccine10);
-        AlfredoFettuccine10.setLayout(AlfredoFettuccine10Layout);
-        AlfredoFettuccine10Layout.setHorizontalGroup(
-            AlfredoFettuccine10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel71, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(AlfredoFettuccine10Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(AlfredoFettuccine10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(AlfredoFettuccine10Layout.createSequentialGroup()
-                        .addComponent(jLabel77)
-                        .addGap(18, 18, 18)
-                        .addComponent(jCheckBox11))
-                    .addGroup(AlfredoFettuccine10Layout.createSequentialGroup()
-                        .addGroup(AlfredoFettuccine10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(AlfredoFettuccine10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(jLabel74, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jLabel72, javax.swing.GroupLayout.DEFAULT_SIZE, 46, Short.MAX_VALUE))
-                            .addComponent(jLabel76, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(AlfredoFettuccine10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel73, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel75, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jSpinner11, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        AlfredoFettuccine10Layout.setVerticalGroup(
-            AlfredoFettuccine10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(AlfredoFettuccine10Layout.createSequentialGroup()
-                .addComponent(jLabel71, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(AlfredoFettuccine10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel72, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel73, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(AlfredoFettuccine10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel74, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel75, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(AlfredoFettuccine10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel76)
-                    .addComponent(jSpinner11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(AlfredoFettuccine10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel77, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jCheckBox11))
-                .addContainerGap())
-        );
+        jLabel20.setText("Mac and Cheese");
+        Brewed5.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
-        jLabel78.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/alfredo fettuccine.jpg"))); // NOI18N
+        jLabel21.setText("150");
+        Brewed5.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
-        jLabel79.setText("Name");
+        jComboBox7.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Brewed5.add(jComboBox7, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
-        jLabel80.setText("Alfedo Fettuccine");
+        jCheckBox23.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox23ActionPerformed(evt);
+            }
+        });
+        Brewed5.add(jCheckBox23, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
 
-        jLabel81.setText("Price");
+        jPanel1.add(Brewed5, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 710, 211, 320));
 
-        jLabel82.setText("170");
+        Brewed6.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Brewed6.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/pasta primavera.jpg"))); // NOI18N
+        Brewed6.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+
+        CoffeeName20.setText("Name:");
+        Brewed6.add(CoffeeName20, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+
+        CoffeePrice20.setText("Price");
+        Brewed6.add(CoffeePrice20, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+
+        jLabel77.setText("Quantity");
+        Brewed6.add(jLabel77, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
+
+        jLabel106.setText("Purchase");
+        Brewed6.add(jLabel106, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+
+        jLabel23.setText("Pasta Primavera");
+        Brewed6.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+
+        jLabel24.setText("150");
+        Brewed6.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+
+        jComboBox8.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Brewed6.add(jComboBox8, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+
+        jCheckBox24.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox24ActionPerformed(evt);
+            }
+        });
+        Brewed6.add(jCheckBox24, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+
+        jPanel1.add(Brewed6, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 710, 211, 320));
+
+        Brewed7.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Brewed7.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/penne arrabbiata.jpg"))); // NOI18N
+        Brewed7.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+
+        CoffeeName21.setText("Name:");
+        Brewed7.add(CoffeeName21, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+
+        CoffeePrice21.setText("Price");
+        Brewed7.add(CoffeePrice21, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+
+        jLabel78.setText("Quantity");
+        Brewed7.add(jLabel78, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
+
+        jLabel107.setText("Purchase");
+        Brewed7.add(jLabel107, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+
+        jLabel26.setText("Penne Arrabbiata");
+        Brewed7.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+
+        jLabel27.setText("150");
+        Brewed7.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+
+        jComboBox9.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Brewed7.add(jComboBox9, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+
+        jCheckBox25.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox25ActionPerformed(evt);
+            }
+        });
+        Brewed7.add(jCheckBox25, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+
+        jPanel1.add(Brewed7, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 710, 211, 320));
+
+        Brewed8.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Brewed8.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/spaghetti.jpg"))); // NOI18N
+        Brewed8.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+
+        CoffeeName22.setText("Name:");
+        Brewed8.add(CoffeeName22, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+
+        CoffeePrice22.setText("Price");
+        Brewed8.add(CoffeePrice22, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+
+        jLabel79.setText("Quantity");
+        Brewed8.add(jLabel79, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
+
+        jLabel108.setText("Purchase");
+        Brewed8.add(jLabel108, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+
+        jLabel29.setText("Spaghetti");
+        Brewed8.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+
+        jLabel30.setText("150");
+        Brewed8.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+
+        jComboBox10.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Brewed8.add(jComboBox10, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+
+        jCheckBox26.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox26ActionPerformed(evt);
+            }
+        });
+        Brewed8.add(jCheckBox26, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+
+        jPanel1.add(Brewed8, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 350, 211, 320));
+
+        Brewed9.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Brewed9.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/tuna pesto.jpg"))); // NOI18N
+        Brewed9.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 160));
+
+        CoffeeName23.setText("Name:");
+        Brewed9.add(CoffeeName23, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+
+        CoffeePrice23.setText("Price");
+        Brewed9.add(CoffeePrice23, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+
+        jLabel80.setText("Quantity");
+        Brewed9.add(jLabel80, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
+
+        jLabel109.setText("Purchase");
+        Brewed9.add(jLabel109, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+
+        jLabel32.setText("Tuna Pesto ");
+        Brewed9.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+
+        jLabel33.setText("150");
+        Brewed9.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+
+        jComboBox11.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Brewed9.add(jComboBox11, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+
+        jCheckBox27.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox27ActionPerformed(evt);
+            }
+        });
+        Brewed9.add(jCheckBox27, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+
+        jPanel1.add(Brewed9, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 350, 211, 320));
+
+        Brewed10.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Brewed10.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        CoffeeName24.setText("Name:");
+        Brewed10.add(CoffeeName24, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+
+        CoffeePrice24.setText("Price");
+        Brewed10.add(CoffeePrice24, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+
+        jLabel81.setText("Quantity");
+        Brewed10.add(jLabel81, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
+
+        jLabel110.setText("Purchase");
+        Brewed10.add(jLabel110, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+
+        jLabel35.setText("Rissotto alla Milanese");
+        Brewed10.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+
+        jLabel36.setText("150");
+        Brewed10.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+
+        jComboBox12.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Brewed10.add(jComboBox12, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+
+        jCheckBox28.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox28ActionPerformed(evt);
+            }
+        });
+        Brewed10.add(jCheckBox28, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/Risotto alla Milanese.jpg"))); // NOI18N
+        Brewed10.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+
+        jPanel1.add(Brewed10, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 350, 211, 320));
+
+        Brewed11.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Brewed11.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/Osso Buco.jpg"))); // NOI18N
+        Brewed11.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+
+        CoffeeName25.setText("Name:");
+        Brewed11.add(CoffeeName25, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+
+        CoffeePrice25.setText("Price");
+        Brewed11.add(CoffeePrice25, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+
+        jLabel82.setText("Quantity");
+        Brewed11.add(jLabel82, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
+
+        jLabel111.setText("Purchase");
+        Brewed11.add(jLabel111, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+
+        jLabel38.setText("Osso Buco");
+        Brewed11.add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+
+        jLabel39.setText("150");
+        Brewed11.add(jLabel39, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+
+        jComboBox13.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Brewed11.add(jComboBox13, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+
+        jCheckBox29.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox29ActionPerformed(evt);
+            }
+        });
+        Brewed11.add(jCheckBox29, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+
+        jPanel1.add(Brewed11, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 350, 211, 320));
+
+        Brewed12.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Brewed12.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel40.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/Cannoli.jpg"))); // NOI18N
+        Brewed12.add(jLabel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+
+        CoffeeName26.setText("Name:");
+        Brewed12.add(CoffeeName26, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+
+        CoffeePrice26.setText("Price");
+        Brewed12.add(CoffeePrice26, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
 
         jLabel83.setText("Quantity");
-
-        jLabel84.setText("Purchase");
-
-        javax.swing.GroupLayout AlfredoFettuccine11Layout = new javax.swing.GroupLayout(AlfredoFettuccine11);
-        AlfredoFettuccine11.setLayout(AlfredoFettuccine11Layout);
-        AlfredoFettuccine11Layout.setHorizontalGroup(
-            AlfredoFettuccine11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel78, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(AlfredoFettuccine11Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(AlfredoFettuccine11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(AlfredoFettuccine11Layout.createSequentialGroup()
-                        .addComponent(jLabel84)
-                        .addGap(18, 18, 18)
-                        .addComponent(jCheckBox12))
-                    .addGroup(AlfredoFettuccine11Layout.createSequentialGroup()
-                        .addGroup(AlfredoFettuccine11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(AlfredoFettuccine11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(jLabel81, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jLabel79, javax.swing.GroupLayout.DEFAULT_SIZE, 46, Short.MAX_VALUE))
-                            .addComponent(jLabel83, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(AlfredoFettuccine11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel80, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel82, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jSpinner12, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        AlfredoFettuccine11Layout.setVerticalGroup(
-            AlfredoFettuccine11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(AlfredoFettuccine11Layout.createSequentialGroup()
-                .addComponent(jLabel78, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(AlfredoFettuccine11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel79, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel80, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(AlfredoFettuccine11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel81, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel82, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(AlfredoFettuccine11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel83)
-                    .addComponent(jSpinner12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(AlfredoFettuccine11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel84, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jCheckBox12))
-                .addContainerGap())
-        );
-
-        jLabel85.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/alfredo fettuccine.jpg"))); // NOI18N
-
-        jLabel86.setText("Name");
-
-        jLabel87.setText("Alfedo Fettuccine");
-
-        jLabel88.setText("Price");
-
-        jLabel89.setText("170");
-
-        jLabel90.setText("Quantity");
-
-        jLabel91.setText("Purchase");
-
-        javax.swing.GroupLayout AlfredoFettuccine12Layout = new javax.swing.GroupLayout(AlfredoFettuccine12);
-        AlfredoFettuccine12.setLayout(AlfredoFettuccine12Layout);
-        AlfredoFettuccine12Layout.setHorizontalGroup(
-            AlfredoFettuccine12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel85, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(AlfredoFettuccine12Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(AlfredoFettuccine12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(AlfredoFettuccine12Layout.createSequentialGroup()
-                        .addComponent(jLabel91)
-                        .addGap(18, 18, 18)
-                        .addComponent(jCheckBox13))
-                    .addGroup(AlfredoFettuccine12Layout.createSequentialGroup()
-                        .addGroup(AlfredoFettuccine12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(AlfredoFettuccine12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(jLabel88, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jLabel86, javax.swing.GroupLayout.DEFAULT_SIZE, 46, Short.MAX_VALUE))
-                            .addComponent(jLabel90, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(AlfredoFettuccine12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel87, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel89, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jSpinner13, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        AlfredoFettuccine12Layout.setVerticalGroup(
-            AlfredoFettuccine12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(AlfredoFettuccine12Layout.createSequentialGroup()
-                .addComponent(jLabel85, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(AlfredoFettuccine12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel86, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel87, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(AlfredoFettuccine12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel88, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel89, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(AlfredoFettuccine12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel90)
-                    .addComponent(jSpinner13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(AlfredoFettuccine12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel91, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jCheckBox13))
-                .addContainerGap())
-        );
-
-        jLabel92.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/alfredo fettuccine.jpg"))); // NOI18N
-
-        jLabel93.setText("Name");
-
-        jLabel94.setText("Alfedo Fettuccine");
-
-        jLabel95.setText("Price");
-
-        jLabel96.setText("170");
-
-        jLabel97.setText("Quantity");
-
-        jLabel98.setText("Purchase");
-
-        javax.swing.GroupLayout AlfredoFettuccine13Layout = new javax.swing.GroupLayout(AlfredoFettuccine13);
-        AlfredoFettuccine13.setLayout(AlfredoFettuccine13Layout);
-        AlfredoFettuccine13Layout.setHorizontalGroup(
-            AlfredoFettuccine13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel92, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(AlfredoFettuccine13Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(AlfredoFettuccine13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(AlfredoFettuccine13Layout.createSequentialGroup()
-                        .addComponent(jLabel98)
-                        .addGap(18, 18, 18)
-                        .addComponent(jCheckBox14))
-                    .addGroup(AlfredoFettuccine13Layout.createSequentialGroup()
-                        .addGroup(AlfredoFettuccine13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(AlfredoFettuccine13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(jLabel95, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jLabel93, javax.swing.GroupLayout.DEFAULT_SIZE, 46, Short.MAX_VALUE))
-                            .addComponent(jLabel97, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(AlfredoFettuccine13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel94, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel96, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jSpinner14, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        AlfredoFettuccine13Layout.setVerticalGroup(
-            AlfredoFettuccine13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(AlfredoFettuccine13Layout.createSequentialGroup()
-                .addComponent(jLabel92, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(AlfredoFettuccine13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel93, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel94, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(AlfredoFettuccine13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel95, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel96, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(AlfredoFettuccine13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel97)
-                    .addComponent(jSpinner14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(AlfredoFettuccine13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel98, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jCheckBox14))
-                .addContainerGap())
-        );
-
-        jLabel106.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/alfredo fettuccine.jpg"))); // NOI18N
-
-        jLabel107.setText("Name");
-
-        jLabel108.setText("Alfedo Fettuccine");
-
-        jLabel109.setText("Price");
-
-        jLabel110.setText("170");
-
-        jLabel111.setText("Quantity");
+        Brewed12.add(jLabel83, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
         jLabel112.setText("Purchase");
+        Brewed12.add(jLabel112, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
 
-        javax.swing.GroupLayout AlfredoFettuccine15Layout = new javax.swing.GroupLayout(AlfredoFettuccine15);
-        AlfredoFettuccine15.setLayout(AlfredoFettuccine15Layout);
-        AlfredoFettuccine15Layout.setHorizontalGroup(
-            AlfredoFettuccine15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel106, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(AlfredoFettuccine15Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(AlfredoFettuccine15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(AlfredoFettuccine15Layout.createSequentialGroup()
-                        .addComponent(jLabel112)
-                        .addGap(18, 18, 18)
-                        .addComponent(jCheckBox16))
-                    .addGroup(AlfredoFettuccine15Layout.createSequentialGroup()
-                        .addGroup(AlfredoFettuccine15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(AlfredoFettuccine15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(jLabel109, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jLabel107, javax.swing.GroupLayout.DEFAULT_SIZE, 46, Short.MAX_VALUE))
-                            .addComponent(jLabel111, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(AlfredoFettuccine15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel108, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel110, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jSpinner16, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        AlfredoFettuccine15Layout.setVerticalGroup(
-            AlfredoFettuccine15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(AlfredoFettuccine15Layout.createSequentialGroup()
-                .addComponent(jLabel106, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(AlfredoFettuccine15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel107, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel108, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(AlfredoFettuccine15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel109, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel110, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(AlfredoFettuccine15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel111)
-                    .addComponent(jSpinner16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(AlfredoFettuccine15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel112, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jCheckBox16))
-                .addContainerGap())
-        );
+        jLabel41.setText("Cannoli");
+        Brewed12.add(jLabel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
-        jLabel113.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/alfredo fettuccine.jpg"))); // NOI18N
+        jLabel42.setText("150");
+        Brewed12.add(jLabel42, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
-        jLabel114.setText("Name");
+        jComboBox14.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Brewed12.add(jComboBox14, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
-        jLabel115.setText("Alfedo Fettuccine");
+        jCheckBox30.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox30ActionPerformed(evt);
+            }
+        });
+        Brewed12.add(jCheckBox30, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
 
-        jLabel116.setText("Price");
+        jPanel1.add(Brewed12, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 0, 211, 320));
 
-        jLabel117.setText("170");
+        Brewed13.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Brewed13.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel118.setText("Quantity");
+        CoffeeName27.setText("Name:");
+        Brewed13.add(CoffeeName27, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
 
-        jLabel119.setText("Purchase");
+        CoffeePrice27.setText("Price");
+        Brewed13.add(CoffeePrice27, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
 
-        javax.swing.GroupLayout AlfredoFettuccine16Layout = new javax.swing.GroupLayout(AlfredoFettuccine16);
-        AlfredoFettuccine16.setLayout(AlfredoFettuccine16Layout);
-        AlfredoFettuccine16Layout.setHorizontalGroup(
-            AlfredoFettuccine16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel113, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(AlfredoFettuccine16Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(AlfredoFettuccine16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(AlfredoFettuccine16Layout.createSequentialGroup()
-                        .addComponent(jLabel119)
-                        .addGap(18, 18, 18)
-                        .addComponent(jCheckBox17))
-                    .addGroup(AlfredoFettuccine16Layout.createSequentialGroup()
-                        .addGroup(AlfredoFettuccine16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(AlfredoFettuccine16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(jLabel116, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jLabel114, javax.swing.GroupLayout.DEFAULT_SIZE, 46, Short.MAX_VALUE))
-                            .addComponent(jLabel118, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(AlfredoFettuccine16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel115, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel117, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jSpinner17, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        AlfredoFettuccine16Layout.setVerticalGroup(
-            AlfredoFettuccine16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(AlfredoFettuccine16Layout.createSequentialGroup()
-                .addComponent(jLabel113, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(AlfredoFettuccine16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel114, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel115, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(AlfredoFettuccine16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel116, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel117, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(AlfredoFettuccine16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel118)
-                    .addComponent(jSpinner17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(AlfredoFettuccine16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel119, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jCheckBox17))
-                .addContainerGap())
-        );
+        jLabel84.setText("Quantity");
+        Brewed13.add(jLabel84, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(jPanel1Layout.createSequentialGroup()
-                            .addContainerGap()
-                            .addComponent(AlfredoFettuccine, javax.swing.GroupLayout.PREFERRED_SIZE, 264, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                            .addContainerGap()
-                            .addComponent(GnocchiWithPesto, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(AlfredoFettuccine12, javax.swing.GroupLayout.PREFERRED_SIZE, 264, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Spaghetti, javax.swing.GroupLayout.PREFERRED_SIZE, 264, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addGap(33, 33, 33)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(Belognese, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(324, 324, 324)
-                        .addComponent(GarlicButterShrimpPasta, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(MacAndCheese, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(30, 30, 30)
-                                .addComponent(PastaPrimavera, javax.swing.GroupLayout.PREFERRED_SIZE, 264, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(TunaPesto, javax.swing.GroupLayout.PREFERRED_SIZE, 264, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(AlfredoFettuccine16, javax.swing.GroupLayout.PREFERRED_SIZE, 264, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addGap(33, 33, 33)
-                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(Carbonara, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(AlfredoFettuccine10, javax.swing.GroupLayout.PREFERRED_SIZE, 264, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addGap(33, 33, 33)
-                                        .addComponent(AlfredoFettuccine13, javax.swing.GroupLayout.PREFERRED_SIZE, 264, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(PenneArrabiata, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(AlfredoFettuccine11, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 264, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(AlfredoFettuccine15, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 264, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(33, Short.MAX_VALUE))
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(GnocchiWithPesto, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(Carbonara, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                            .addComponent(GarlicButterShrimpPasta, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addGroup(jPanel1Layout.createSequentialGroup()
-                                            .addGap(0, 0, 0)
-                                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                                .addComponent(AlfredoFettuccine, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addComponent(Belognese, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                                .addGap(35, 35, 35)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(MacAndCheese, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(PastaPrimavera, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(PenneArrabiata, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                        .addGap(39, 39, 39)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(TunaPesto, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(AlfredoFettuccine10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(AlfredoFettuccine11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addComponent(Spaghetti, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 54, Short.MAX_VALUE)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(AlfredoFettuccine16, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(AlfredoFettuccine12, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(AlfredoFettuccine13, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(AlfredoFettuccine15, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(355, Short.MAX_VALUE))
-        );
+        jLabel113.setText("Purchase");
+        Brewed13.add(jLabel113, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+
+        jLabel44.setText("Lasagna");
+        Brewed13.add(jLabel44, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+
+        jLabel45.setText("150");
+        Brewed13.add(jLabel45, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+
+        jComboBox15.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Brewed13.add(jComboBox15, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+
+        jCheckBox31.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox31ActionPerformed(evt);
+            }
+        });
+        Brewed13.add(jCheckBox31, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/Lasagna.jpg"))); // NOI18N
+        Brewed13.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 160));
+
+        jPanel1.add(Brewed13, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 10, 211, 310));
+
+        Brewed14.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Brewed14.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel46.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/Margherita Pizza.jpg"))); // NOI18N
+        Brewed14.add(jLabel46, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+
+        CoffeeName28.setText("Name:");
+        Brewed14.add(CoffeeName28, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+
+        CoffeePrice28.setText("Price");
+        Brewed14.add(CoffeePrice28, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+
+        jLabel85.setText("Quantity");
+        Brewed14.add(jLabel85, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
+
+        jLabel114.setText("Purchase");
+        Brewed14.add(jLabel114, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+
+        jLabel47.setText("Magherita Pizza");
+        Brewed14.add(jLabel47, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+
+        jLabel48.setText("150");
+        Brewed14.add(jLabel48, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+
+        jComboBox16.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Brewed14.add(jComboBox16, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        Brewed14.add(jCheckBox32, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+
+        jPanel1.add(Brewed14, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 10, 211, 310));
+
+        Brewed15.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Brewed15.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        CoffeeName29.setText("Name:");
+        Brewed15.add(CoffeeName29, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+
+        CoffeePrice29.setText("Price");
+        Brewed15.add(CoffeePrice29, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+
+        jLabel86.setText("Quantity");
+        Brewed15.add(jLabel86, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
+
+        jLabel115.setText("Purchase");
+        Brewed15.add(jLabel115, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+
+        jLabel50.setText("Minestrone");
+        Brewed15.add(jLabel50, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+
+        jLabel51.setText("150");
+        Brewed15.add(jLabel51, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+
+        jComboBox17.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Brewed15.add(jComboBox17, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        Brewed15.add(jCheckBox33, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/Minestrone.jpg"))); // NOI18N
+        Brewed15.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 160));
+
+        jPanel1.add(Brewed15, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, 211, 310));
+
+        jButton1.setText("Coffee");
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(613, 1418, 80, 35));
+
+        jButton3.setText("Total");
+        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(903, 1418, 79, 35));
+
+        jButton4.setText("Pastries");
+        jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(802, 1418, 83, 35));
+
+        jButton2.setText("Tea's");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(705, 1418, 79, 35));
+
+        jLabel34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
+        jPanel1.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1090, 1470));
 
         jScrollPane2.setViewportView(jPanel1);
 
-        CoffeeMenu.setFont(new java.awt.Font("Segoe UI Historic", 3, 18)); // NOI18N
-        CoffeeMenu.setText("Food Menu");
+        getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 100, 1080, 590));
 
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(236, 236, 236)
-                .addComponent(CoffeeMenu, javax.swing.GroupLayout.PREFERRED_SIZE, 179, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(798, Short.MAX_VALUE))
-        );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(21, 21, 21)
-                .addComponent(CoffeeMenu, javax.swing.GroupLayout.DEFAULT_SIZE, 66, Short.MAX_VALUE)
-                .addContainerGap())
-        );
+        jLabel43.setFont(new java.awt.Font("Segoe UI Historic", 3, 18)); // NOI18N
+        jLabel43.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel43.setText("Food Menu ");
+        getContentPane().add(jLabel43, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 30, 160, 50));
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 1189, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(0, 12, Short.MAX_VALUE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 1367, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(71, 71, 71))
-        );
+        jLabel49.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
+        getContentPane().add(jLabel49, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1130, 740));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jCheckBox18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox18ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox18ActionPerformed
+
+    private void jCheckBox19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox19ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox19ActionPerformed
+
+    private void jCheckBox20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox20ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox20ActionPerformed
+
+    private void jCheckBox21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox21ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox21ActionPerformed
+
+    private void jCheckBox22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox22ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox22ActionPerformed
+
+    private void jCheckBox23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox23ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox23ActionPerformed
+
+    private void jCheckBox24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox24ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox24ActionPerformed
+
+    private void jCheckBox25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox25ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox25ActionPerformed
+
+    private void jCheckBox26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox26ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox26ActionPerformed
+
+    private void jCheckBox27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox27ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox27ActionPerformed
+
+    private void jCheckBox28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox28ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox28ActionPerformed
+
+    private void jCheckBox29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox29ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox29ActionPerformed
+
+    private void jCheckBox30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox30ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox30ActionPerformed
+
+    private void jCheckBox31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox31ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox31ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+         // TODO add your handling code here:
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -1356,41 +897,98 @@ public class FoodDashBoard extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JPanel AlfredoFettuccine;
-    private javax.swing.JPanel AlfredoFettuccine10;
-    private javax.swing.JPanel AlfredoFettuccine11;
-    private javax.swing.JPanel AlfredoFettuccine12;
-    private javax.swing.JPanel AlfredoFettuccine13;
-    private javax.swing.JPanel AlfredoFettuccine15;
-    private javax.swing.JPanel AlfredoFettuccine16;
-    private javax.swing.JPanel Belognese;
-    private javax.swing.JPanel Carbonara;
-    private javax.swing.JLabel CoffeeMenu;
-    private javax.swing.JPanel GarlicButterShrimpPasta;
-    private javax.swing.JPanel GnocchiWithPesto;
-    private javax.swing.JPanel MacAndCheese;
-    private javax.swing.JPanel PastaPrimavera;
-    private javax.swing.JPanel PenneArrabiata;
-    private javax.swing.JPanel Spaghetti;
-    private javax.swing.JPanel TunaPesto;
-    private javax.swing.JCheckBox jCheckBox1;
-    private javax.swing.JCheckBox jCheckBox10;
-    private javax.swing.JCheckBox jCheckBox11;
-    private javax.swing.JCheckBox jCheckBox12;
-    private javax.swing.JCheckBox jCheckBox13;
-    private javax.swing.JCheckBox jCheckBox14;
-    private javax.swing.JCheckBox jCheckBox16;
-    private javax.swing.JCheckBox jCheckBox17;
-    private javax.swing.JCheckBox jCheckBox2;
-    private javax.swing.JCheckBox jCheckBox3;
-    private javax.swing.JCheckBox jCheckBox4;
-    private javax.swing.JCheckBox jCheckBox5;
-    private javax.swing.JCheckBox jCheckBox6;
-    private javax.swing.JCheckBox jCheckBox7;
-    private javax.swing.JCheckBox jCheckBox8;
-    private javax.swing.JCheckBox jCheckBox9;
+    private javax.swing.JPanel Brewed;
+    private javax.swing.JPanel Brewed1;
+    private javax.swing.JPanel Brewed10;
+    private javax.swing.JPanel Brewed11;
+    private javax.swing.JPanel Brewed12;
+    private javax.swing.JPanel Brewed13;
+    private javax.swing.JPanel Brewed14;
+    private javax.swing.JPanel Brewed15;
+    private javax.swing.JPanel Brewed2;
+    private javax.swing.JPanel Brewed3;
+    private javax.swing.JPanel Brewed4;
+    private javax.swing.JPanel Brewed5;
+    private javax.swing.JPanel Brewed6;
+    private javax.swing.JPanel Brewed7;
+    private javax.swing.JPanel Brewed8;
+    private javax.swing.JPanel Brewed9;
+    private javax.swing.JLabel CoffeeName14;
+    private javax.swing.JLabel CoffeeName15;
+    private javax.swing.JLabel CoffeeName16;
+    private javax.swing.JLabel CoffeeName17;
+    private javax.swing.JLabel CoffeeName18;
+    private javax.swing.JLabel CoffeeName19;
+    private javax.swing.JLabel CoffeeName20;
+    private javax.swing.JLabel CoffeeName21;
+    private javax.swing.JLabel CoffeeName22;
+    private javax.swing.JLabel CoffeeName23;
+    private javax.swing.JLabel CoffeeName24;
+    private javax.swing.JLabel CoffeeName25;
+    private javax.swing.JLabel CoffeeName26;
+    private javax.swing.JLabel CoffeeName27;
+    private javax.swing.JLabel CoffeeName28;
+    private javax.swing.JLabel CoffeeName29;
+    private javax.swing.JLabel CoffeePrice14;
+    private javax.swing.JLabel CoffeePrice15;
+    private javax.swing.JLabel CoffeePrice16;
+    private javax.swing.JLabel CoffeePrice17;
+    private javax.swing.JLabel CoffeePrice18;
+    private javax.swing.JLabel CoffeePrice19;
+    private javax.swing.JLabel CoffeePrice20;
+    private javax.swing.JLabel CoffeePrice21;
+    private javax.swing.JLabel CoffeePrice22;
+    private javax.swing.JLabel CoffeePrice23;
+    private javax.swing.JLabel CoffeePrice24;
+    private javax.swing.JLabel CoffeePrice25;
+    private javax.swing.JLabel CoffeePrice26;
+    private javax.swing.JLabel CoffeePrice27;
+    private javax.swing.JLabel CoffeePrice28;
+    private javax.swing.JLabel CoffeePrice29;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JCheckBox jCheckBox18;
+    private javax.swing.JCheckBox jCheckBox19;
+    private javax.swing.JCheckBox jCheckBox20;
+    private javax.swing.JCheckBox jCheckBox21;
+    private javax.swing.JCheckBox jCheckBox22;
+    private javax.swing.JCheckBox jCheckBox23;
+    private javax.swing.JCheckBox jCheckBox24;
+    private javax.swing.JCheckBox jCheckBox25;
+    private javax.swing.JCheckBox jCheckBox26;
+    private javax.swing.JCheckBox jCheckBox27;
+    private javax.swing.JCheckBox jCheckBox28;
+    private javax.swing.JCheckBox jCheckBox29;
+    private javax.swing.JCheckBox jCheckBox30;
+    private javax.swing.JCheckBox jCheckBox31;
+    private javax.swing.JCheckBox jCheckBox32;
+    private javax.swing.JCheckBox jCheckBox33;
+    private javax.swing.JComboBox<String> jComboBox10;
+    private javax.swing.JComboBox<String> jComboBox11;
+    private javax.swing.JComboBox<String> jComboBox12;
+    private javax.swing.JComboBox<String> jComboBox13;
+    private javax.swing.JComboBox<String> jComboBox14;
+    private javax.swing.JComboBox<String> jComboBox15;
+    private javax.swing.JComboBox<String> jComboBox16;
+    private javax.swing.JComboBox<String> jComboBox17;
+    private javax.swing.JComboBox<String> jComboBox2;
+    private javax.swing.JComboBox<String> jComboBox3;
+    private javax.swing.JComboBox<String> jComboBox4;
+    private javax.swing.JComboBox<String> jComboBox5;
+    private javax.swing.JComboBox<String> jComboBox6;
+    private javax.swing.JComboBox<String> jComboBox7;
+    private javax.swing.JComboBox<String> jComboBox8;
+    private javax.swing.JComboBox<String> jComboBox9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel100;
+    private javax.swing.JLabel jLabel101;
+    private javax.swing.JLabel jLabel102;
+    private javax.swing.JLabel jLabel103;
+    private javax.swing.JLabel jLabel104;
+    private javax.swing.JLabel jLabel105;
     private javax.swing.JLabel jLabel106;
     private javax.swing.JLabel jLabel107;
     private javax.swing.JLabel jLabel108;
@@ -1402,10 +1000,6 @@ public class FoodDashBoard extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel113;
     private javax.swing.JLabel jLabel114;
     private javax.swing.JLabel jLabel115;
-    private javax.swing.JLabel jLabel116;
-    private javax.swing.JLabel jLabel117;
-    private javax.swing.JLabel jLabel118;
-    private javax.swing.JLabel jLabel119;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
@@ -1450,27 +1044,8 @@ public class FoodDashBoard extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel50;
     private javax.swing.JLabel jLabel51;
-    private javax.swing.JLabel jLabel52;
-    private javax.swing.JLabel jLabel53;
-    private javax.swing.JLabel jLabel54;
-    private javax.swing.JLabel jLabel55;
-    private javax.swing.JLabel jLabel56;
-    private javax.swing.JLabel jLabel57;
-    private javax.swing.JLabel jLabel58;
-    private javax.swing.JLabel jLabel59;
     private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel60;
-    private javax.swing.JLabel jLabel61;
-    private javax.swing.JLabel jLabel62;
-    private javax.swing.JLabel jLabel63;
-    private javax.swing.JLabel jLabel64;
-    private javax.swing.JLabel jLabel65;
-    private javax.swing.JLabel jLabel66;
-    private javax.swing.JLabel jLabel67;
-    private javax.swing.JLabel jLabel68;
-    private javax.swing.JLabel jLabel69;
     private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel70;
     private javax.swing.JLabel jLabel71;
     private javax.swing.JLabel jLabel72;
     private javax.swing.JLabel jLabel73;
@@ -1488,37 +1063,8 @@ public class FoodDashBoard extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel84;
     private javax.swing.JLabel jLabel85;
     private javax.swing.JLabel jLabel86;
-    private javax.swing.JLabel jLabel87;
-    private javax.swing.JLabel jLabel88;
-    private javax.swing.JLabel jLabel89;
     private javax.swing.JLabel jLabel9;
-    private javax.swing.JLabel jLabel90;
-    private javax.swing.JLabel jLabel91;
-    private javax.swing.JLabel jLabel92;
-    private javax.swing.JLabel jLabel93;
-    private javax.swing.JLabel jLabel94;
-    private javax.swing.JLabel jLabel95;
-    private javax.swing.JLabel jLabel96;
-    private javax.swing.JLabel jLabel97;
-    private javax.swing.JLabel jLabel98;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JSpinner jSpinner1;
-    private javax.swing.JSpinner jSpinner10;
-    private javax.swing.JSpinner jSpinner11;
-    private javax.swing.JSpinner jSpinner12;
-    private javax.swing.JSpinner jSpinner13;
-    private javax.swing.JSpinner jSpinner14;
-    private javax.swing.JSpinner jSpinner16;
-    private javax.swing.JSpinner jSpinner17;
-    private javax.swing.JSpinner jSpinner2;
-    private javax.swing.JSpinner jSpinner3;
-    private javax.swing.JSpinner jSpinner4;
-    private javax.swing.JSpinner jSpinner5;
-    private javax.swing.JSpinner jSpinner6;
-    private javax.swing.JSpinner jSpinner7;
-    private javax.swing.JSpinner jSpinner8;
-    private javax.swing.JSpinner jSpinner9;
     // End of variables declaration//GEN-END:variables
 }
