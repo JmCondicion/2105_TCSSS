@@ -225,10 +225,10 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         jCheckBox57 = new javax.swing.JCheckBox();
         jCheckBox58 = new javax.swing.JCheckBox();
         jCheckBox59 = new javax.swing.JCheckBox();
-        jLabel38 = new javax.swing.JLabel();
+        BackGroundImage2 = new javax.swing.JLabel();
         LogoName = new javax.swing.JLabel();
         CoffeeMenu = new javax.swing.JLabel();
-        jLabel37 = new javax.swing.JLabel();
+        BackGroundImage = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
@@ -934,9 +934,9 @@ public class CoffeeDashboad extends javax.swing.JFrame {
 
         jPanel1.add(FlatWhite, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 740, 210, 340));
 
-        jLabel38.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
-        jLabel38.setText("jLabel38");
-        jPanel1.add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1010, 1200));
+        BackGroundImage2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
+        BackGroundImage2.setText("jLabel38");
+        jPanel1.add(BackGroundImage2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1010, 1200));
 
         jScrollPane1.setViewportView(jPanel1);
 
@@ -954,8 +954,8 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         CoffeeMenu.setText("Coffee Menu");
         getContentPane().add(CoffeeMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(428, 14, 124, 55));
 
-        jLabel37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
-        getContentPane().add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1100, 760));
+        BackGroundImage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
+        getContentPane().add(BackGroundImage, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1100, 760));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -1062,6 +1062,8 @@ public class CoffeeDashboad extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel Americano;
     private javax.swing.ButtonGroup AmericanoBTG;
+    private javax.swing.JLabel BackGroundImage;
+    private javax.swing.JLabel BackGroundImage2;
     private javax.swing.JPanel Brewed;
     private javax.swing.ButtonGroup BrewedBTG;
     private javax.swing.JPanel Cacao;
@@ -1234,8 +1236,6 @@ public class CoffeeDashboad extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel33;
     private javax.swing.JLabel jLabel34;
     private javax.swing.JLabel jLabel35;
-    private javax.swing.JLabel jLabel37;
-    private javax.swing.JLabel jLabel38;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel40;
     private javax.swing.JLabel jLabel5;
