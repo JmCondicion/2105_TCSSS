@@ -27,42 +27,42 @@ public class TeaDashBoard extends javax.swing.JFrame {
 
         jScrollPane1 = new javax.swing.JScrollPane();
         TeaDashBoard = new javax.swing.JPanel();
-        jPanel2 = new javax.swing.JPanel();
+        ChaiTea = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jCheckBox1 = new javax.swing.JCheckBox();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
-        jPanel4 = new javax.swing.JPanel();
+        HerbalTea = new javax.swing.JPanel();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jCheckBox2 = new javax.swing.JCheckBox();
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
-        jPanel31 = new javax.swing.JPanel();
+        Pu_erh_Tea = new javax.swing.JPanel();
         jLabel131 = new javax.swing.JLabel();
         jLabel132 = new javax.swing.JLabel();
         jCheckBox27 = new javax.swing.JCheckBox();
         jLabel133 = new javax.swing.JLabel();
         jLabel134 = new javax.swing.JLabel();
         jLabel135 = new javax.swing.JLabel();
-        jPanel8 = new javax.swing.JPanel();
+        MintTea = new javax.swing.JPanel();
         jLabel26 = new javax.swing.JLabel();
         jLabel27 = new javax.swing.JLabel();
         jCheckBox6 = new javax.swing.JCheckBox();
         jLabel28 = new javax.swing.JLabel();
         jLabel29 = new javax.swing.JLabel();
         jLabel30 = new javax.swing.JLabel();
-        jPanel6 = new javax.swing.JPanel();
+        GenMaichaTea = new javax.swing.JPanel();
         jLabel16 = new javax.swing.JLabel();
         jLabel17 = new javax.swing.JLabel();
         jCheckBox4 = new javax.swing.JCheckBox();
         jLabel18 = new javax.swing.JLabel();
         jLabel19 = new javax.swing.JLabel();
         jLabel20 = new javax.swing.JLabel();
-        jPanel5 = new javax.swing.JPanel();
+        EarlyGreyTea = new javax.swing.JPanel();
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
         jCheckBox3 = new javax.swing.JCheckBox();
@@ -76,21 +76,21 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel23 = new javax.swing.JLabel();
         jLabel24 = new javax.swing.JLabel();
         jLabel25 = new javax.swing.JLabel();
-        jPanel11 = new javax.swing.JPanel();
+        HibiscusTea = new javax.swing.JPanel();
         jLabel41 = new javax.swing.JLabel();
         jLabel42 = new javax.swing.JLabel();
         jCheckBox9 = new javax.swing.JCheckBox();
         jLabel43 = new javax.swing.JLabel();
         jLabel44 = new javax.swing.JLabel();
         jLabel45 = new javax.swing.JLabel();
-        jPanel9 = new javax.swing.JPanel();
+        JasmineTea = new javax.swing.JPanel();
         jLabel31 = new javax.swing.JLabel();
         jLabel32 = new javax.swing.JLabel();
         jCheckBox7 = new javax.swing.JCheckBox();
         jLabel33 = new javax.swing.JLabel();
         jLabel34 = new javax.swing.JLabel();
         jLabel35 = new javax.swing.JLabel();
-        jPanel12 = new javax.swing.JPanel();
+        MatchaTea = new javax.swing.JPanel();
         jLabel46 = new javax.swing.JLabel();
         jLabel47 = new javax.swing.JLabel();
         jCheckBox10 = new javax.swing.JCheckBox();
@@ -104,35 +104,34 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel63 = new javax.swing.JLabel();
         jLabel64 = new javax.swing.JLabel();
         jLabel65 = new javax.swing.JLabel();
-        jPanel14 = new javax.swing.JPanel();
+        WhiteTea = new javax.swing.JPanel();
         jLabel56 = new javax.swing.JLabel();
         jLabel57 = new javax.swing.JLabel();
         jCheckBox12 = new javax.swing.JCheckBox();
         jLabel58 = new javax.swing.JLabel();
         jLabel59 = new javax.swing.JLabel();
         jLabel60 = new javax.swing.JLabel();
-        jPanel16 = new javax.swing.JPanel();
+        RooibosTea = new javax.swing.JPanel();
         jLabel66 = new javax.swing.JLabel();
         jLabel67 = new javax.swing.JLabel();
         jCheckBox14 = new javax.swing.JCheckBox();
         jLabel68 = new javax.swing.JLabel();
         jLabel69 = new javax.swing.JLabel();
         jLabel70 = new javax.swing.JLabel();
-        jPanel18 = new javax.swing.JPanel();
+        OolongTea = new javax.swing.JPanel();
         jLabel76 = new javax.swing.JLabel();
         jLabel77 = new javax.swing.JLabel();
         jCheckBox16 = new javax.swing.JCheckBox();
         jLabel78 = new javax.swing.JLabel();
         jLabel79 = new javax.swing.JLabel();
         jLabel80 = new javax.swing.JLabel();
-        jPanel17 = new javax.swing.JPanel();
+        DarjeelingTea = new javax.swing.JPanel();
         jLabel71 = new javax.swing.JLabel();
         jLabel72 = new javax.swing.JLabel();
         jCheckBox15 = new javax.swing.JCheckBox();
         jLabel73 = new javax.swing.JLabel();
         jLabel74 = new javax.swing.JLabel();
         jLabel75 = new javax.swing.JLabel();
-        jPanel19 = new javax.swing.JPanel();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
@@ -154,137 +153,137 @@ public class TeaDashBoard extends javax.swing.JFrame {
         TeaDashBoard.setBackground(new java.awt.Color(255, 255, 255));
         TeaDashBoard.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        ChaiTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\TeaSImage\\Green Tea.png")); // NOI18N
-        jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 280, 190));
+        ChaiTea.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 280, 190));
 
         jLabel2.setText("Name ");
-        jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
+        ChaiTea.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
 
         jCheckBox1.setText("Purchase");
-        jPanel2.add(jCheckBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        ChaiTea.add(jCheckBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         jLabel3.setText("Price");
-        jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
+        ChaiTea.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
         jLabel4.setText("Chai Tea");
-        jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
+        ChaiTea.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
 
         jLabel5.setText("130");
-        jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+        ChaiTea.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
-        TeaDashBoard.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 20, 280, 340));
+        TeaDashBoard.add(ChaiTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 20, 280, 340));
 
-        jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        HerbalTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\TeaSImage\\Herbal Tea.jpg")); // NOI18N
-        jPanel4.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 280, 190));
+        HerbalTea.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 190));
 
         jLabel7.setText("Name ");
-        jPanel4.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
+        HerbalTea.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
 
         jCheckBox2.setText("Purchase");
-        jPanel4.add(jCheckBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        HerbalTea.add(jCheckBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         jLabel8.setText("Price");
-        jPanel4.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
+        HerbalTea.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
         jLabel9.setText("Herbal Tea");
-        jPanel4.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
+        HerbalTea.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
 
         jLabel10.setText("130");
-        jPanel4.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+        HerbalTea.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
-        TeaDashBoard.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 380, 280, 340));
+        TeaDashBoard.add(HerbalTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 380, 280, 340));
 
-        jPanel31.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        Pu_erh_Tea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel131.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\TeaSImage\\pu-erh tea.jpg")); // NOI18N
-        jPanel31.add(jLabel131, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 280, 190));
+        Pu_erh_Tea.add(jLabel131, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 190));
 
         jLabel132.setText("Name ");
-        jPanel31.add(jLabel132, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
+        Pu_erh_Tea.add(jLabel132, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
 
         jCheckBox27.setText("Purchase");
-        jPanel31.add(jCheckBox27, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        Pu_erh_Tea.add(jCheckBox27, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         jLabel133.setText("Price");
-        jPanel31.add(jLabel133, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
+        Pu_erh_Tea.add(jLabel133, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
         jLabel134.setText("Pu - erh Tea");
-        jPanel31.add(jLabel134, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
+        Pu_erh_Tea.add(jLabel134, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
 
         jLabel135.setText("130");
-        jPanel31.add(jLabel135, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+        Pu_erh_Tea.add(jLabel135, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
-        TeaDashBoard.add(jPanel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 1120, 280, 340));
+        TeaDashBoard.add(Pu_erh_Tea, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 1120, 280, 340));
 
-        jPanel8.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        MintTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/TeaSImage/Mint tea_1.jpg"))); // NOI18N
-        jPanel8.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 280, 190));
+        MintTea.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 190));
 
         jLabel27.setText("Name ");
-        jPanel8.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
+        MintTea.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
 
         jCheckBox6.setText("Purchase");
-        jPanel8.add(jCheckBox6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        MintTea.add(jCheckBox6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         jLabel28.setText("Price");
-        jPanel8.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
+        MintTea.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
         jLabel29.setText("Mint Tea");
-        jPanel8.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
+        MintTea.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
 
         jLabel30.setText("130");
-        jPanel8.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+        MintTea.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
-        TeaDashBoard.add(jPanel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 750, 280, 340));
+        TeaDashBoard.add(MintTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 750, 280, 340));
 
-        jPanel6.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        GenMaichaTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel16.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\TeaSImage\\Genmaicha.jpg")); // NOI18N
-        jPanel6.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 270, 190));
+        GenMaichaTea.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 190));
 
         jLabel17.setText("Name ");
-        jPanel6.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
+        GenMaichaTea.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
 
         jCheckBox4.setText("Purchase");
-        jPanel6.add(jCheckBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        GenMaichaTea.add(jCheckBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         jLabel18.setText("Price");
-        jPanel6.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
+        GenMaichaTea.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
         jLabel19.setText("Genmaicha tea");
-        jPanel6.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
+        GenMaichaTea.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
 
         jLabel20.setText("130");
-        jPanel6.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+        GenMaichaTea.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
-        TeaDashBoard.add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 20, 280, 340));
+        TeaDashBoard.add(GenMaichaTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 20, 280, 340));
 
-        jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        EarlyGreyTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel11.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\TeaSImage\\Earl Grey.jpg")); // NOI18N
-        jPanel5.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 280, 190));
+        EarlyGreyTea.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 190));
 
         jLabel12.setText("Name ");
-        jPanel5.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
+        EarlyGreyTea.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
 
         jCheckBox3.setText("Purchase");
-        jPanel5.add(jCheckBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        EarlyGreyTea.add(jCheckBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         jLabel13.setText("Price");
-        jPanel5.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
+        EarlyGreyTea.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
         jLabel14.setText("Early Grey ");
-        jPanel5.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
+        EarlyGreyTea.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
 
         jLabel15.setText("130");
-        jPanel5.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+        EarlyGreyTea.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
-        TeaDashBoard.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 20, 280, 340));
+        TeaDashBoard.add(EarlyGreyTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 20, 280, 340));
 
         jPanel7.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -308,75 +307,75 @@ public class TeaDashBoard extends javax.swing.JFrame {
 
         TeaDashBoard.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, -1, 340));
 
-        jPanel11.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        HibiscusTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel41.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\TeaSImage\\Hibiscus Tea.jpg")); // NOI18N
-        jPanel11.add(jLabel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 280, 190));
+        HibiscusTea.add(jLabel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 190));
 
         jLabel42.setText("Name ");
-        jPanel11.add(jLabel42, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
+        HibiscusTea.add(jLabel42, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
 
         jCheckBox9.setText("Purchase");
-        jPanel11.add(jCheckBox9, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        HibiscusTea.add(jCheckBox9, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         jLabel43.setText("Price");
-        jPanel11.add(jLabel43, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
+        HibiscusTea.add(jLabel43, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
         jLabel44.setText("Hibiscus Tea");
-        jPanel11.add(jLabel44, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
+        HibiscusTea.add(jLabel44, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
 
         jLabel45.setText("130");
-        jPanel11.add(jLabel45, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+        HibiscusTea.add(jLabel45, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
-        TeaDashBoard.add(jPanel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 380, 280, 340));
+        TeaDashBoard.add(HibiscusTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 380, 280, 340));
 
-        jPanel9.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        JasmineTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel31.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\TeaSImage\\Jasmine Tea.jpg")); // NOI18N
-        jPanel9.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 280, 190));
+        JasmineTea.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 190));
 
         jLabel32.setText("Name ");
-        jPanel9.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
+        JasmineTea.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
 
         jCheckBox7.setText("Purchase");
-        jPanel9.add(jCheckBox7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        JasmineTea.add(jCheckBox7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         jLabel33.setText("Price");
-        jPanel9.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
+        JasmineTea.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
         jLabel34.setText("Jasmine Tea");
-        jPanel9.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
+        JasmineTea.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
 
         jLabel35.setText("130");
-        jPanel9.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+        JasmineTea.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
-        TeaDashBoard.add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 380, 280, 340));
+        TeaDashBoard.add(JasmineTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 380, 280, 340));
 
-        jPanel12.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        MatchaTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel46.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\TeaSImage\\Matcha.jpg")); // NOI18N
-        jPanel12.add(jLabel46, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 280, 190));
+        MatchaTea.add(jLabel46, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 190));
 
         jLabel47.setText("Name ");
-        jPanel12.add(jLabel47, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
+        MatchaTea.add(jLabel47, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
 
         jCheckBox10.setText("Purchase");
-        jPanel12.add(jCheckBox10, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        MatchaTea.add(jCheckBox10, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         jLabel48.setText("Price");
-        jPanel12.add(jLabel48, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
+        MatchaTea.add(jLabel48, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
         jLabel49.setText("Matcha Tea");
-        jPanel12.add(jLabel49, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
+        MatchaTea.add(jLabel49, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
 
         jLabel50.setText("130");
-        jPanel12.add(jLabel50, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+        MatchaTea.add(jLabel50, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
-        TeaDashBoard.add(jPanel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 380, 280, 340));
+        TeaDashBoard.add(MatchaTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 380, 280, 340));
 
         jPanel15.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel61.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\TeaSImage\\Chai tea.jpg")); // NOI18N
+        jLabel61.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\TeaSImage\\ChamomileTea.jpg")); // NOI18N
         jPanel15.add(jLabel61, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 280, 190));
 
         jLabel62.setText("Name ");
@@ -388,7 +387,7 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel63.setText("Price");
         jPanel15.add(jLabel63, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
-        jLabel64.setText("Chai Tea");
+        jLabel64.setText("Charmomile Tea ");
         jPanel15.add(jLabel64, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
 
         jLabel65.setText("130");
@@ -396,97 +395,93 @@ public class TeaDashBoard extends javax.swing.JFrame {
 
         TeaDashBoard.add(jPanel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 750, 280, 340));
 
-        jPanel14.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        WhiteTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel56.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\TeaSImage\\White Tea.jpg")); // NOI18N
-        jPanel14.add(jLabel56, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 280, 190));
+        WhiteTea.add(jLabel56, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 190));
 
         jLabel57.setText("Name ");
-        jPanel14.add(jLabel57, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
+        WhiteTea.add(jLabel57, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
 
         jCheckBox12.setText("Purchase");
-        jPanel14.add(jCheckBox12, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        WhiteTea.add(jCheckBox12, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         jLabel58.setText("Price");
-        jPanel14.add(jLabel58, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
+        WhiteTea.add(jLabel58, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
         jLabel59.setText("White Tea");
-        jPanel14.add(jLabel59, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
+        WhiteTea.add(jLabel59, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
 
         jLabel60.setText("130");
-        jPanel14.add(jLabel60, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+        WhiteTea.add(jLabel60, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
-        TeaDashBoard.add(jPanel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 750, 280, 340));
+        TeaDashBoard.add(WhiteTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 750, 280, 340));
 
-        jPanel16.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        RooibosTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel66.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\TeaSImage\\Rooibos Tea.jpeg")); // NOI18N
-        jPanel16.add(jLabel66, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 280, 190));
+        RooibosTea.add(jLabel66, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 190));
 
         jLabel67.setText("Name ");
-        jPanel16.add(jLabel67, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
+        RooibosTea.add(jLabel67, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
 
         jCheckBox14.setText("Purchase");
-        jPanel16.add(jCheckBox14, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        RooibosTea.add(jCheckBox14, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         jLabel68.setText("Price");
-        jPanel16.add(jLabel68, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
+        RooibosTea.add(jLabel68, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
         jLabel69.setText("Rooibos Tea");
-        jPanel16.add(jLabel69, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
+        RooibosTea.add(jLabel69, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
 
         jLabel70.setText("130");
-        jPanel16.add(jLabel70, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+        RooibosTea.add(jLabel70, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
-        TeaDashBoard.add(jPanel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 750, 280, 340));
+        TeaDashBoard.add(RooibosTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 750, 280, 340));
 
-        jPanel18.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        OolongTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel76.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\TeaSImage\\Oolong Tea.jpg")); // NOI18N
-        jPanel18.add(jLabel76, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 280, 190));
+        OolongTea.add(jLabel76, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 190));
 
         jLabel77.setText("Name ");
-        jPanel18.add(jLabel77, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
+        OolongTea.add(jLabel77, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
 
         jCheckBox16.setText("Purchase");
-        jPanel18.add(jCheckBox16, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        OolongTea.add(jCheckBox16, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         jLabel78.setText("Price");
-        jPanel18.add(jLabel78, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
+        OolongTea.add(jLabel78, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
         jLabel79.setText("Oolong Tea");
-        jPanel18.add(jLabel79, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
+        OolongTea.add(jLabel79, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
 
         jLabel80.setText("130");
-        jPanel18.add(jLabel80, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+        OolongTea.add(jLabel80, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
-        TeaDashBoard.add(jPanel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 1120, 280, 340));
+        TeaDashBoard.add(OolongTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 1120, 280, 340));
 
-        jPanel17.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        DarjeelingTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel71.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\TeaSImage\\Darjeeling Tea.jpg")); // NOI18N
-        jPanel17.add(jLabel71, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 280, 190));
+        DarjeelingTea.add(jLabel71, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 190));
 
         jLabel72.setText("Name ");
-        jPanel17.add(jLabel72, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
+        DarjeelingTea.add(jLabel72, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
 
         jCheckBox15.setText("Purchase");
-        jPanel17.add(jCheckBox15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        DarjeelingTea.add(jCheckBox15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         jLabel73.setText("Price");
-        jPanel17.add(jLabel73, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
+        DarjeelingTea.add(jLabel73, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
         jLabel74.setText("Darjeeling Tea");
-        jPanel17.add(jLabel74, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
+        DarjeelingTea.add(jLabel74, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
 
         jLabel75.setText("130");
-        jPanel17.add(jLabel75, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+        DarjeelingTea.add(jLabel75, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
-        TeaDashBoard.add(jPanel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 1120, 280, 340));
-
-        jPanel19.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel19.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        TeaDashBoard.add(jPanel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        TeaDashBoard.add(DarjeelingTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 1120, 280, 340));
 
         jButton1.setText("Coffee");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -494,10 +489,10 @@ public class TeaDashBoard extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        TeaDashBoard.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 1500, -1, -1));
+        TeaDashBoard.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 1490, 80, 35));
 
         jButton2.setText("Food");
-        TeaDashBoard.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(990, 1500, -1, -1));
+        TeaDashBoard.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 1490, 80, 35));
 
         jButton3.setText("Pastries");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -505,10 +500,10 @@ public class TeaDashBoard extends javax.swing.JFrame {
                 jButton3ActionPerformed(evt);
             }
         });
-        TeaDashBoard.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 1500, -1, -1));
+        TeaDashBoard.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(1080, 1490, 80, 35));
 
         jButton4.setText("Total");
-        TeaDashBoard.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(1160, 1500, -1, -1));
+        TeaDashBoard.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 1490, 80, 35));
 
         jPanel13.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -595,7 +590,20 @@ public class TeaDashBoard extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JPanel ChaiTea;
+    private javax.swing.JPanel DarjeelingTea;
+    private javax.swing.JPanel EarlyGreyTea;
+    private javax.swing.JPanel GenMaichaTea;
+    private javax.swing.JPanel HerbalTea;
+    private javax.swing.JPanel HibiscusTea;
+    private javax.swing.JPanel JasmineTea;
+    private javax.swing.JPanel MatchaTea;
+    private javax.swing.JPanel MintTea;
+    private javax.swing.JPanel OolongTea;
+    private javax.swing.JPanel Pu_erh_Tea;
+    private javax.swing.JPanel RooibosTea;
     private javax.swing.JPanel TeaDashBoard;
+    private javax.swing.JPanel WhiteTea;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
@@ -699,23 +707,9 @@ public class TeaDashBoard extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel80;
     private javax.swing.JLabel jLabel9;
-    private javax.swing.JPanel jPanel11;
-    private javax.swing.JPanel jPanel12;
     private javax.swing.JPanel jPanel13;
-    private javax.swing.JPanel jPanel14;
     private javax.swing.JPanel jPanel15;
-    private javax.swing.JPanel jPanel16;
-    private javax.swing.JPanel jPanel17;
-    private javax.swing.JPanel jPanel18;
-    private javax.swing.JPanel jPanel19;
-    private javax.swing.JPanel jPanel2;
-    private javax.swing.JPanel jPanel31;
-    private javax.swing.JPanel jPanel4;
-    private javax.swing.JPanel jPanel5;
-    private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
-    private javax.swing.JPanel jPanel8;
-    private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane1;
     // End of variables declaration//GEN-END:variables
 }
