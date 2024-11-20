@@ -28,10 +28,10 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
 
         jScrollPane1 = new javax.swing.JScrollPane();
         PastriesDashBoard = new javax.swing.JPanel();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
+        ToFoodButton = new javax.swing.JButton();
+        ToDrinksButton = new javax.swing.JButton();
+        TotalButton = new javax.swing.JButton();
+        ToCoffeeBUttn = new javax.swing.JButton();
         CoffeeCinamonRolls = new javax.swing.JPanel();
         jLabel13 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
@@ -176,6 +176,7 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jCheckBox20 = new javax.swing.JCheckBox();
         jLabel93 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
+        jButton5 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         jLabel81 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -186,27 +187,27 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         PastriesDashBoard.setBackground(new java.awt.Color(255, 255, 255));
         PastriesDashBoard.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton1.setText("Food ");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        ToFoodButton.setText("Food ");
+        ToFoodButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                ToFoodButtonActionPerformed(evt);
             }
         });
-        PastriesDashBoard.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1150, 1540, 80, 35));
+        PastriesDashBoard.add(ToFoodButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(1150, 1540, 80, 35));
 
-        jButton2.setText("Drinks ");
-        PastriesDashBoard.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1250, 1540, 80, 35));
+        ToDrinksButton.setText("Drinks ");
+        PastriesDashBoard.add(ToDrinksButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(1250, 1540, 80, 35));
 
-        jButton3.setText("Total");
-        PastriesDashBoard.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(1350, 1540, 80, 35));
+        TotalButton.setText("Total");
+        PastriesDashBoard.add(TotalButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(1350, 1540, 80, 35));
 
-        jButton4.setText("Coffee");
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
+        ToCoffeeBUttn.setText("Coffee");
+        ToCoffeeBUttn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
+                ToCoffeeBUttnActionPerformed(evt);
             }
         });
-        PastriesDashBoard.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 1540, 80, 35));
+        PastriesDashBoard.add(ToCoffeeBUttn, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 1540, 80, 35));
 
         CoffeeCinamonRolls.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         CoffeeCinamonRolls.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -752,6 +753,14 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
 
         PastriesDashBoard.add(jPanel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 1150, 340, 350));
 
+        jButton5.setText("Coffee");
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
+        PastriesDashBoard.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 1540, 80, 35));
+
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
         PastriesDashBoard.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-3, -4, 1480, 1610));
 
@@ -835,13 +844,17 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jCheckBox20ActionPerformed
 
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+    private void ToCoffeeBUttnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ToCoffeeBUttnActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton4ActionPerformed
+    }//GEN-LAST:event_ToCoffeeBUttnActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void ToFoodButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ToFoodButtonActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_ToFoodButtonActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton5ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -881,10 +894,11 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel CoffeeCinamonRolls;
     private javax.swing.JPanel PastriesDashBoard;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
+    private javax.swing.JButton ToCoffeeBUttn;
+    private javax.swing.JButton ToDrinksButton;
+    private javax.swing.JButton ToFoodButton;
+    private javax.swing.JButton TotalButton;
+    private javax.swing.JButton jButton5;
     private javax.swing.JCheckBox jCheckBox10;
     private javax.swing.JCheckBox jCheckBox11;
     private javax.swing.JCheckBox jCheckBox12;
