@@ -198,7 +198,7 @@ public class FoodDashBoard extends javax.swing.JFrame {
         jLabel43 = new javax.swing.JLabel();
         jLabel49 = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -772,12 +772,22 @@ public class FoodDashBoard extends javax.swing.JFrame {
         jPanel1.add(Brewed15, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, 211, 310));
 
         ToCoffeeButton.setText("Coffee");
+        ToCoffeeButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ToCoffeeButtonActionPerformed(evt);
+            }
+        });
         jPanel1.add(ToCoffeeButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(613, 1418, 80, 35));
 
         TotalButton.setText("Total");
         jPanel1.add(TotalButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(903, 1418, 79, 35));
 
         ToPastries.setText("Pastries");
+        ToPastries.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ToPastriesActionPerformed(evt);
+            }
+        });
         jPanel1.add(ToPastries, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 1420, 83, 35));
 
         ToTeaButton.setText("Tea's");
@@ -789,6 +799,11 @@ public class FoodDashBoard extends javax.swing.JFrame {
         jPanel1.add(ToTeaButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(705, 1418, 79, 35));
 
         ToDrinksButton.setText("Drinks");
+        ToDrinksButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ToDrinksButtonActionPerformed(evt);
+            }
+        });
         jPanel1.add(ToDrinksButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 1420, 80, 35));
 
         jLabel34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
@@ -866,8 +881,36 @@ public class FoodDashBoard extends javax.swing.JFrame {
     }//GEN-LAST:event_jCheckBox31ActionPerformed
 
     private void ToTeaButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ToTeaButtonActionPerformed
-         // TODO add your handling code here:
+         // TODO add your handling code here
+         TeaDashBoard tD = new TeaDashBoard();
+         tD.setVisible(true);
+         FoodDashBoard fd = new FoodDashBoard();
+         fd.setVisible(false);
     }//GEN-LAST:event_ToTeaButtonActionPerformed
+
+    private void ToDrinksButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ToDrinksButtonActionPerformed
+        // TODO add your handling code here:
+        DrinksDashBoard dD = new DrinksDashBoard();
+        dD.setVisible(true);
+        FoodDashBoard fD = new FoodDashBoard();
+        fD.setVisible(false);
+    }//GEN-LAST:event_ToDrinksButtonActionPerformed
+
+    private void ToCoffeeButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ToCoffeeButtonActionPerformed
+        // TODO add your handling code here:
+        FoodDashBoard fD = new FoodDashBoard();
+        fD.setVisible(false);
+        CoffeeDashboad cd = new CoffeeDashboad();
+        cd.setVisible(true);
+    }//GEN-LAST:event_ToCoffeeButtonActionPerformed
+
+    private void ToPastriesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ToPastriesActionPerformed
+        // TODO add your handling code here:
+        PastryDashBoard2 pd = new PastryDashBoard2();
+        pd.setVisible(true);
+        FoodDashBoard fd = new FoodDashBoard();
+        fd.setVisible(false);
+    }//GEN-LAST:event_ToPastriesActionPerformed
 
     /**
      * @param args the command line arguments
