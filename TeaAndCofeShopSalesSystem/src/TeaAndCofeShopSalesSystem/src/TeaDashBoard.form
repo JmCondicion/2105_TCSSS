@@ -2,7 +2,7 @@
 
 <Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <Properties>
-    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
@@ -57,11 +57,6 @@
               </Layout>
               <SubComponents>
                 <Component class="javax.swing.JLabel" name="jLabel1">
-                  <Properties>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\Marianne\Documents\OOP-project-sirYknows\2105_TCSSS\TeaAndCofeShopSalesSystem\src\TeaSImage\Green Tea.png"/>
-                    </Property>
-                  </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
                       <AbsoluteConstraints x="0" y="0" width="280" height="190"/>
@@ -134,7 +129,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel6">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\Marianne\Documents\OOP-project-sirYknows\2105_TCSSS\TeaAndCofeShopSalesSystem\src\TeaSImage\Herbal Tea.jpg"/>
+                      <Image iconType="3" name="/CoffeeImage/Herbal Tea.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -209,7 +204,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel131">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\Marianne\Documents\OOP-project-sirYknows\2105_TCSSS\TeaAndCofeShopSalesSystem\src\TeaSImage\pu-erh tea.jpg"/>
+                      <Image iconType="3" name="/CoffeeImage/pu-erh tea.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -359,7 +354,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel16">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\Marianne\Documents\OOP-project-sirYknows\2105_TCSSS\TeaAndCofeShopSalesSystem\src\TeaSImage\Genmaicha.jpg"/>
+                      <Image iconType="3" name="/CoffeeImage/Genmaicha.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -434,7 +429,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel11">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\Marianne\Documents\OOP-project-sirYknows\2105_TCSSS\TeaAndCofeShopSalesSystem\src\TeaSImage\Earl Grey.jpg"/>
+                      <Image iconType="3" name="/CoffeeImage/Earl Grey.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -584,7 +579,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel41">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\Marianne\Documents\OOP-project-sirYknows\2105_TCSSS\TeaAndCofeShopSalesSystem\src\TeaSImage\Hibiscus Tea.jpg"/>
+                      <Image iconType="3" name="/CoffeeImage/Hibiscus Tea.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -659,7 +654,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel31">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\Marianne\Documents\OOP-project-sirYknows\2105_TCSSS\TeaAndCofeShopSalesSystem\src\TeaSImage\Jasmine Tea.jpg"/>
+                      <Image iconType="3" name="/CoffeeImage/Jasmine Tea.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -734,7 +729,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel46">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\Marianne\Documents\OOP-project-sirYknows\2105_TCSSS\TeaAndCofeShopSalesSystem\src\TeaSImage\Matcha.jpg"/>
+                      <Image iconType="3" name="/CoffeeImage/Matcha.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -809,7 +804,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel61">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/TeaSImage/Charmomile Tea.jpg"/>
+                      <Image iconType="3" name="/CoffeeImage/Charmomile Tea.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -884,7 +879,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel56">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\Marianne\Documents\OOP-project-sirYknows\2105_TCSSS\TeaAndCofeShopSalesSystem\src\TeaSImage\White Tea.jpg"/>
+                      <Image iconType="3" name="/CoffeeImage/White Tea.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -959,7 +954,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel66">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\Marianne\Documents\OOP-project-sirYknows\2105_TCSSS\TeaAndCofeShopSalesSystem\src\TeaSImage\Rooibos Tea.jpeg"/>
+                      <Image iconType="3" name="/CoffeeImage/Rooibos Tea.jpeg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -1034,7 +1029,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel76">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\Marianne\Documents\OOP-project-sirYknows\2105_TCSSS\TeaAndCofeShopSalesSystem\src\TeaSImage\Oolong Tea.jpg"/>
+                      <Image iconType="3" name="/CoffeeImage/Oolong Tea.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -1109,7 +1104,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel71">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\Marianne\Documents\OOP-project-sirYknows\2105_TCSSS\TeaAndCofeShopSalesSystem\src\TeaSImage\Darjeeling Tea.jpg"/>
+                      <Image iconType="3" name="/CoffeeImage/Darjeeling Tea.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -1187,6 +1182,9 @@
               <Properties>
                 <Property name="text" type="java.lang.String" value="Food"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ToFoodButtonActionPerformed"/>
+              </Events>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
                   <AbsoluteConstraints x="970" y="1490" width="80" height="35"/>
@@ -1233,7 +1231,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel51">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\Marianne\Documents\OOP-project-sirYknows\2105_TCSSS\TeaAndCofeShopSalesSystem\src\TeaSImage\Assam Tea.jpg"/>
+                      <Image iconType="3" name="/CoffeeImage/Assam Tea.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -1294,12 +1292,12 @@
                 </Component>
               </SubComponents>
             </Container>
-            <Component class="javax.swing.JButton" name="jButton5">
+            <Component class="javax.swing.JButton" name="DrinksButton">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Drinks"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DrinksButtonActionPerformed"/>
               </Events>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
