@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package TeaAndCofeShopSalesSystem.src;
+
 
 
 
@@ -48,6 +48,7 @@ public class HomePage extends javax.swing.JFrame {
         jPanel9 = new javax.swing.JPanel();
         jPanel10 = new javax.swing.JPanel();
         jPanel11 = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
         jPanel12 = new javax.swing.JPanel();
         jPanel13 = new javax.swing.JPanel();
         jPanel14 = new javax.swing.JPanel();
@@ -124,6 +125,8 @@ public class HomePage extends javax.swing.JFrame {
 
         jPanel11.setBackground(new java.awt.Color(255, 255, 255));
         jPanel11.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel11.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 130));
+
         jPanel9.add(jPanel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 220, 170));
 
         jPanel12.setBackground(new java.awt.Color(255, 255, 255));
@@ -336,6 +339,7 @@ public class HomePage extends javax.swing.JFrame {
     private javax.swing.JPanel ScollContainer;
     private javax.swing.JButton TeaBtn;
     private javax.swing.JButton coffeeBtn;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;

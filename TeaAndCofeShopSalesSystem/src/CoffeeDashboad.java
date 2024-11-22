@@ -43,194 +43,182 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         ToFoodButton = new javax.swing.JButton();
         ToDrinksbutton = new javax.swing.JButton();
         ToPastriesButton = new javax.swing.JButton();
-        ToReceiptButton = new javax.swing.JButton();
+        TotalBUtton = new javax.swing.JButton();
+        ToDrinksButton = new javax.swing.JButton();
         Americano = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         CoffeeName8 = new javax.swing.JLabel();
         CoffeePrice8 = new javax.swing.JLabel();
         jLabel52 = new javax.swing.JLabel();
-        jLabel53 = new javax.swing.JLabel();
         CoffeSize8 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jComboBox1 = new javax.swing.JComboBox<>();
-        jCheckBox1 = new javax.swing.JCheckBox();
-        jCheckBox2 = new javax.swing.JCheckBox();
-        jCheckBox3 = new javax.swing.JCheckBox();
-        jCheckBox4 = new javax.swing.JCheckBox();
-        jCheckBox5 = new javax.swing.JCheckBox();
+        Q1 = new javax.swing.JComboBox<>();
+        EL1 = new javax.swing.JCheckBox();
+        s1 = new javax.swing.JCheckBox();
+        m1 = new javax.swing.JCheckBox();
+        L1 = new javax.swing.JCheckBox();
+        P1 = new javax.swing.JTextField();
+        AddBtn1 = new javax.swing.JButton();
         Brewed = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
         CoffeeName14 = new javax.swing.JLabel();
         CoffeePrice14 = new javax.swing.JLabel();
         jLabel54 = new javax.swing.JLabel();
-        jLabel55 = new javax.swing.JLabel();
         CoffeSize14 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jComboBox2 = new javax.swing.JComboBox<>();
-        jCheckBox6 = new javax.swing.JCheckBox();
-        jCheckBox7 = new javax.swing.JCheckBox();
-        jCheckBox8 = new javax.swing.JCheckBox();
-        jCheckBox9 = new javax.swing.JCheckBox();
-        jCheckBox10 = new javax.swing.JCheckBox();
+        Q2 = new javax.swing.JComboBox<>();
+        EL2 = new javax.swing.JCheckBox();
+        s2 = new javax.swing.JCheckBox();
+        m2 = new javax.swing.JCheckBox();
+        L2 = new javax.swing.JCheckBox();
+        P2 = new javax.swing.JTextField();
+        jButton11 = new javax.swing.JButton();
         Cacao = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
         CoffeeName15 = new javax.swing.JLabel();
         CoffeePrice15 = new javax.swing.JLabel();
         jLabel56 = new javax.swing.JLabel();
-        jLabel57 = new javax.swing.JLabel();
         CoffeSize15 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jComboBox3 = new javax.swing.JComboBox<>();
-        jCheckBox11 = new javax.swing.JCheckBox();
-        jCheckBox12 = new javax.swing.JCheckBox();
-        jCheckBox13 = new javax.swing.JCheckBox();
-        jCheckBox14 = new javax.swing.JCheckBox();
-        jCheckBox15 = new javax.swing.JCheckBox();
+        Q3 = new javax.swing.JComboBox<>();
+        EL3 = new javax.swing.JCheckBox();
+        s3 = new javax.swing.JCheckBox();
+        m3 = new javax.swing.JCheckBox();
+        L3 = new javax.swing.JCheckBox();
+        P3 = new javax.swing.JTextField();
+        jButton10 = new javax.swing.JButton();
         ConPanna = new javax.swing.JPanel();
         jLabel10 = new javax.swing.JLabel();
         CoffeeName16 = new javax.swing.JLabel();
         CoffeePrice16 = new javax.swing.JLabel();
         jLabel88 = new javax.swing.JLabel();
-        jLabel89 = new javax.swing.JLabel();
         CoffeSize16 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
-        jComboBox4 = new javax.swing.JComboBox<>();
-        jCheckBox16 = new javax.swing.JCheckBox();
-        jCheckBox17 = new javax.swing.JCheckBox();
-        jCheckBox18 = new javax.swing.JCheckBox();
-        jCheckBox19 = new javax.swing.JCheckBox();
-        jCheckBox20 = new javax.swing.JCheckBox();
+        Q4 = new javax.swing.JComboBox<>();
+        EL4 = new javax.swing.JCheckBox();
+        s4 = new javax.swing.JCheckBox();
+        m4 = new javax.swing.JCheckBox();
+        L4 = new javax.swing.JCheckBox();
+        P4 = new javax.swing.JTextField();
+        jButton9 = new javax.swing.JButton();
         Cortado = new javax.swing.JPanel();
         jLabel13 = new javax.swing.JLabel();
         CoffeeName17 = new javax.swing.JLabel();
         CoffeePrice17 = new javax.swing.JLabel();
         jLabel90 = new javax.swing.JLabel();
-        jLabel91 = new javax.swing.JLabel();
         CoffeSize17 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
-        jLabel15 = new javax.swing.JLabel();
-        jComboBox5 = new javax.swing.JComboBox<>();
-        jCheckBox21 = new javax.swing.JCheckBox();
-        jCheckBox22 = new javax.swing.JCheckBox();
-        jCheckBox23 = new javax.swing.JCheckBox();
-        jCheckBox24 = new javax.swing.JCheckBox();
-        jCheckBox25 = new javax.swing.JCheckBox();
+        Q8 = new javax.swing.JComboBox<>();
+        EL8 = new javax.swing.JCheckBox();
+        s8 = new javax.swing.JCheckBox();
+        m8 = new javax.swing.JCheckBox();
+        L8 = new javax.swing.JCheckBox();
+        jButton7 = new javax.swing.JButton();
+        P8 = new javax.swing.JTextField();
         Espresso = new javax.swing.JPanel();
         jLabel16 = new javax.swing.JLabel();
         CoffeeName18 = new javax.swing.JLabel();
         CoffeePrice18 = new javax.swing.JLabel();
         jLabel92 = new javax.swing.JLabel();
-        jLabel93 = new javax.swing.JLabel();
         CoffeSize18 = new javax.swing.JLabel();
         jLabel17 = new javax.swing.JLabel();
-        jLabel18 = new javax.swing.JLabel();
-        jComboBox6 = new javax.swing.JComboBox<>();
-        jCheckBox26 = new javax.swing.JCheckBox();
-        jCheckBox27 = new javax.swing.JCheckBox();
-        jCheckBox28 = new javax.swing.JCheckBox();
-        jCheckBox29 = new javax.swing.JCheckBox();
-        jCheckBox30 = new javax.swing.JCheckBox();
+        Q7 = new javax.swing.JComboBox<>();
+        EL7 = new javax.swing.JCheckBox();
+        s7 = new javax.swing.JCheckBox();
+        m7 = new javax.swing.JCheckBox();
+        L7 = new javax.swing.JCheckBox();
+        jButton5 = new javax.swing.JButton();
+        P7 = new javax.swing.JTextField();
         Hazelnut = new javax.swing.JPanel();
         jLabel19 = new javax.swing.JLabel();
         CoffeeName19 = new javax.swing.JLabel();
         CoffeePrice19 = new javax.swing.JLabel();
         jLabel94 = new javax.swing.JLabel();
-        jLabel95 = new javax.swing.JLabel();
         CoffeSize19 = new javax.swing.JLabel();
         jLabel20 = new javax.swing.JLabel();
-        jLabel21 = new javax.swing.JLabel();
-        jComboBox7 = new javax.swing.JComboBox<>();
-        jCheckBox31 = new javax.swing.JCheckBox();
-        jCheckBox32 = new javax.swing.JCheckBox();
-        jCheckBox33 = new javax.swing.JCheckBox();
-        jCheckBox34 = new javax.swing.JCheckBox();
-        jCheckBox35 = new javax.swing.JCheckBox();
+        Q6 = new javax.swing.JComboBox<>();
+        EL6 = new javax.swing.JCheckBox();
+        s6 = new javax.swing.JCheckBox();
+        m6 = new javax.swing.JCheckBox();
+        L6 = new javax.swing.JCheckBox();
+        jButton6 = new javax.swing.JButton();
+        P6 = new javax.swing.JTextField();
         Latte = new javax.swing.JPanel();
         jLabel22 = new javax.swing.JLabel();
         CoffeeName20 = new javax.swing.JLabel();
         CoffeePrice20 = new javax.swing.JLabel();
         jLabel96 = new javax.swing.JLabel();
-        jLabel97 = new javax.swing.JLabel();
         CoffeSize20 = new javax.swing.JLabel();
         jLabel23 = new javax.swing.JLabel();
-        jLabel24 = new javax.swing.JLabel();
-        jComboBox8 = new javax.swing.JComboBox<>();
-        jCheckBox36 = new javax.swing.JCheckBox();
-        jCheckBox37 = new javax.swing.JCheckBox();
-        jCheckBox38 = new javax.swing.JCheckBox();
-        jCheckBox39 = new javax.swing.JCheckBox();
-        jCheckBox40 = new javax.swing.JCheckBox();
+        Q5 = new javax.swing.JComboBox<>();
+        EL5 = new javax.swing.JCheckBox();
+        s5 = new javax.swing.JCheckBox();
+        m5 = new javax.swing.JCheckBox();
+        L5 = new javax.swing.JCheckBox();
+        jButton8 = new javax.swing.JButton();
+        P5 = new javax.swing.JTextField();
         Caramel = new javax.swing.JPanel();
         jLabel25 = new javax.swing.JLabel();
         CoffeeName21 = new javax.swing.JLabel();
         CoffeePrice21 = new javax.swing.JLabel();
         jLabel98 = new javax.swing.JLabel();
-        jLabel99 = new javax.swing.JLabel();
         CoffeSize21 = new javax.swing.JLabel();
         jLabel26 = new javax.swing.JLabel();
-        jLabel27 = new javax.swing.JLabel();
-        jComboBox9 = new javax.swing.JComboBox<>();
-        jCheckBox41 = new javax.swing.JCheckBox();
-        jCheckBox42 = new javax.swing.JCheckBox();
-        jCheckBox43 = new javax.swing.JCheckBox();
-        jCheckBox44 = new javax.swing.JCheckBox();
-        jCheckBox45 = new javax.swing.JCheckBox();
+        Q9 = new javax.swing.JComboBox<>();
+        EL9 = new javax.swing.JCheckBox();
+        s9 = new javax.swing.JCheckBox();
+        m9 = new javax.swing.JCheckBox();
+        L9 = new javax.swing.JCheckBox();
+        jButton4 = new javax.swing.JButton();
+        P9 = new javax.swing.JTextField();
         DarkChocolate = new javax.swing.JPanel();
         jLabel28 = new javax.swing.JLabel();
         CoffeeName22 = new javax.swing.JLabel();
         CoffeePrice22 = new javax.swing.JLabel();
         jLabel100 = new javax.swing.JLabel();
-        jLabel101 = new javax.swing.JLabel();
         CoffeSize22 = new javax.swing.JLabel();
         jLabel29 = new javax.swing.JLabel();
-        jLabel30 = new javax.swing.JLabel();
-        jComboBox10 = new javax.swing.JComboBox<>();
-        jCheckBox46 = new javax.swing.JCheckBox();
-        jCheckBox47 = new javax.swing.JCheckBox();
-        jCheckBox48 = new javax.swing.JCheckBox();
-        jCheckBox49 = new javax.swing.JCheckBox();
-        jCheckBox50 = new javax.swing.JCheckBox();
+        Q10 = new javax.swing.JComboBox<>();
+        EL10 = new javax.swing.JCheckBox();
+        s10 = new javax.swing.JCheckBox();
+        m10 = new javax.swing.JCheckBox();
+        L10 = new javax.swing.JCheckBox();
+        jButton3 = new javax.swing.JButton();
+        P10 = new javax.swing.JTextField();
         WhiteMocha = new javax.swing.JPanel();
         jLabel31 = new javax.swing.JLabel();
         CoffeeName23 = new javax.swing.JLabel();
         CoffeePrice23 = new javax.swing.JLabel();
         jLabel102 = new javax.swing.JLabel();
-        jLabel103 = new javax.swing.JLabel();
         CoffeSize23 = new javax.swing.JLabel();
         jLabel32 = new javax.swing.JLabel();
-        jLabel33 = new javax.swing.JLabel();
-        jComboBox11 = new javax.swing.JComboBox<>();
-        jCheckBox51 = new javax.swing.JCheckBox();
-        jCheckBox52 = new javax.swing.JCheckBox();
-        jCheckBox53 = new javax.swing.JCheckBox();
-        jCheckBox54 = new javax.swing.JCheckBox();
-        jCheckBox55 = new javax.swing.JCheckBox();
+        Q11 = new javax.swing.JComboBox<>();
+        EL11 = new javax.swing.JCheckBox();
+        s11 = new javax.swing.JCheckBox();
+        m11 = new javax.swing.JCheckBox();
+        L11 = new javax.swing.JCheckBox();
         CoffeSize26 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        P11 = new javax.swing.JTextField();
         FlatWhite = new javax.swing.JPanel();
         CoffeeName25 = new javax.swing.JLabel();
         CoffeePrice25 = new javax.swing.JLabel();
-        jLabel106 = new javax.swing.JLabel();
         jLabel107 = new javax.swing.JLabel();
         CoffeSize25 = new javax.swing.JLabel();
         jLabel34 = new javax.swing.JLabel();
-        jLabel40 = new javax.swing.JLabel();
-        jComboBox13 = new javax.swing.JComboBox<>();
-        jCheckBox61 = new javax.swing.JCheckBox();
+        Q12 = new javax.swing.JComboBox<>();
         jLabel35 = new javax.swing.JLabel();
-        jCheckBox56 = new javax.swing.JCheckBox();
-        jCheckBox57 = new javax.swing.JCheckBox();
-        jCheckBox58 = new javax.swing.JCheckBox();
-        jCheckBox59 = new javax.swing.JCheckBox();
+        EL12 = new javax.swing.JCheckBox();
+        s12 = new javax.swing.JCheckBox();
+        m12 = new javax.swing.JCheckBox();
+        L12 = new javax.swing.JCheckBox();
+        jButton2 = new javax.swing.JButton();
+        P12 = new javax.swing.JTextField();
         BackGroundImage2 = new javax.swing.JLabel();
-        LogoName = new javax.swing.JLabel();
         CoffeeMenu = new javax.swing.JLabel();
         BackGroundImage = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -246,7 +234,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
                 ToFoodButtonActionPerformed(evt);
             }
         });
-        jPanel1.add(ToFoodButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 1133, 69, 38));
+        jPanel1.add(ToFoodButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 1140, 69, 38));
 
         ToDrinksbutton.setText("Tea's");
         ToDrinksbutton.addActionListener(new java.awt.event.ActionListener() {
@@ -254,18 +242,31 @@ public class CoffeeDashboad extends javax.swing.JFrame {
                 ToDrinksbuttonActionPerformed(evt);
             }
         });
-        jPanel1.add(ToDrinksbutton, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 1133, 80, 38));
+        jPanel1.add(ToDrinksbutton, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 1140, 80, 38));
 
         ToPastriesButton.setText("Pastries");
-        jPanel1.add(ToPastriesButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(741, 1133, -1, 38));
-
-        ToReceiptButton.setText("Total");
-        ToReceiptButton.addActionListener(new java.awt.event.ActionListener() {
+        ToPastriesButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ToReceiptButtonActionPerformed(evt);
+                ToPastriesButtonActionPerformed(evt);
             }
         });
-        jPanel1.add(ToReceiptButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(835, 1133, -1, 38));
+        jPanel1.add(ToPastriesButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 1140, -1, 38));
+
+        TotalBUtton.setText("Total");
+        TotalBUtton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                TotalBUttonActionPerformed(evt);
+            }
+        });
+        jPanel1.add(TotalBUtton, new org.netbeans.lib.awtextra.AbsoluteConstraints(830, 1140, -1, 38));
+
+        ToDrinksButton.setText("Drinks");
+        ToDrinksButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ToDrinksButtonActionPerformed(evt);
+            }
+        });
+        jPanel1.add(ToDrinksButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 1140, 69, 38));
 
         Americano.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         Americano.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -282,43 +283,71 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         jLabel52.setText("Quantity");
         Americano.add(jLabel52, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
-        jLabel53.setText("Purchase");
-        Americano.add(jLabel53, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
-
         CoffeSize8.setText("Size");
         Americano.add(CoffeSize8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
 
         jLabel2.setText("Americano");
         Americano.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
-        jLabel3.setText("150");
-        Americano.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
-
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Americano.add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
-
-        AmericanoBTG.add(jCheckBox1);
-        jCheckBox1.setText("Extra Large");
-        Americano.add(jCheckBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
-
-        jCheckBox2.addActionListener(new java.awt.event.ActionListener() {
+        Q1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox2ActionPerformed(evt);
+                Q1ActionPerformed(evt);
             }
         });
-        Americano.add(jCheckBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        Americano.add(Q1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
-        AmericanoBTG.add(jCheckBox3);
-        jCheckBox3.setText("Small");
-        Americano.add(jCheckBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
+        AmericanoBTG.add(EL1);
+        EL1.setText("Extra Large");
+        EL1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                EL1ActionPerformed(evt);
+            }
+        });
+        Americano.add(EL1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
 
-        AmericanoBTG.add(jCheckBox4);
-        jCheckBox4.setText("Medium");
-        Americano.add(jCheckBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        AmericanoBTG.add(s1);
+        s1.setText("Small");
+        s1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s1ActionPerformed(evt);
+            }
+        });
+        Americano.add(s1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
 
-        AmericanoBTG.add(jCheckBox5);
-        jCheckBox5.setText("Large");
-        Americano.add(jCheckBox5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+        AmericanoBTG.add(m1);
+        m1.setText("Medium");
+        m1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                m1ActionPerformed(evt);
+            }
+        });
+        Americano.add(m1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+
+        AmericanoBTG.add(L1);
+        L1.setText("Large");
+        L1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                L1ActionPerformed(evt);
+            }
+        });
+        Americano.add(L1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+
+        P1.setText("150");
+        P1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                P1ActionPerformed(evt);
+            }
+        });
+        Americano.add(P1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+
+        AddBtn1.setText("Add");
+        AddBtn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AddBtn1ActionPerformed(evt);
+            }
+        });
+        Americano.add(AddBtn1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, 60, 20));
 
         jPanel1.add(Americano, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 13, 211, 320));
 
@@ -337,43 +366,71 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         jLabel54.setText("Quantity");
         Brewed.add(jLabel54, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
-        jLabel55.setText("Purchase");
-        Brewed.add(jLabel55, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
-
         CoffeSize14.setText("Size");
         Brewed.add(CoffeSize14, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
 
         jLabel5.setText("Brewed ");
         Brewed.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
-        jLabel6.setText("150");
-        Brewed.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
-
-        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Brewed.add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
-
-        BrewedBTG.add(jCheckBox6);
-        jCheckBox6.setText("Extra Large");
-        Brewed.add(jCheckBox6, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
-
-        jCheckBox7.addActionListener(new java.awt.event.ActionListener() {
+        Q2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox7ActionPerformed(evt);
+                Q2ActionPerformed(evt);
             }
         });
-        Brewed.add(jCheckBox7, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        Brewed.add(Q2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
-        BrewedBTG.add(jCheckBox8);
-        jCheckBox8.setText("Small");
-        Brewed.add(jCheckBox8, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
+        BrewedBTG.add(EL2);
+        EL2.setText("Extra Large");
+        EL2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                EL2ActionPerformed(evt);
+            }
+        });
+        Brewed.add(EL2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
 
-        BrewedBTG.add(jCheckBox9);
-        jCheckBox9.setText("Medium");
-        Brewed.add(jCheckBox9, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        BrewedBTG.add(s2);
+        s2.setText("Small");
+        s2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s2ActionPerformed(evt);
+            }
+        });
+        Brewed.add(s2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
 
-        BrewedBTG.add(jCheckBox10);
-        jCheckBox10.setText("Large");
-        Brewed.add(jCheckBox10, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+        BrewedBTG.add(m2);
+        m2.setText("Medium");
+        m2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                m2ActionPerformed(evt);
+            }
+        });
+        Brewed.add(m2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+
+        BrewedBTG.add(L2);
+        L2.setText("Large");
+        L2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                L2ActionPerformed(evt);
+            }
+        });
+        Brewed.add(L2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+
+        P2.setText("150");
+        P2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                P2ActionPerformed(evt);
+            }
+        });
+        Brewed.add(P2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+
+        jButton11.setText("Add");
+        jButton11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton11ActionPerformed(evt);
+            }
+        });
+        Brewed.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, 60, 20));
 
         jPanel1.add(Brewed, new org.netbeans.lib.awtextra.AbsoluteConstraints(259, 13, 211, 320));
 
@@ -392,43 +449,71 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         jLabel56.setText("Quantity");
         Cacao.add(jLabel56, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
-        jLabel57.setText("Purchase");
-        Cacao.add(jLabel57, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
-
         CoffeSize15.setText("Size");
         Cacao.add(CoffeSize15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
 
         jLabel8.setText("Cacao");
         Cacao.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
-        jLabel9.setText("150");
-        Cacao.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
-
-        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Cacao.add(jComboBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
-
-        CacaoBTG.add(jCheckBox11);
-        jCheckBox11.setText("Extra Large");
-        Cacao.add(jCheckBox11, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
-
-        jCheckBox12.addActionListener(new java.awt.event.ActionListener() {
+        Q3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox12ActionPerformed(evt);
+                Q3ActionPerformed(evt);
             }
         });
-        Cacao.add(jCheckBox12, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        Cacao.add(Q3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
-        CacaoBTG.add(jCheckBox13);
-        jCheckBox13.setText("Small");
-        Cacao.add(jCheckBox13, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
+        CacaoBTG.add(EL3);
+        EL3.setText("Extra Large");
+        EL3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                EL3ActionPerformed(evt);
+            }
+        });
+        Cacao.add(EL3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
 
-        CacaoBTG.add(jCheckBox14);
-        jCheckBox14.setText("Medium");
-        Cacao.add(jCheckBox14, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        CacaoBTG.add(s3);
+        s3.setText("Small");
+        s3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s3ActionPerformed(evt);
+            }
+        });
+        Cacao.add(s3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
 
-        CacaoBTG.add(jCheckBox15);
-        jCheckBox15.setText("Large");
-        Cacao.add(jCheckBox15, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+        CacaoBTG.add(m3);
+        m3.setText("Medium");
+        m3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                m3ActionPerformed(evt);
+            }
+        });
+        Cacao.add(m3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+
+        CacaoBTG.add(L3);
+        L3.setText("Large");
+        L3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                L3ActionPerformed(evt);
+            }
+        });
+        Cacao.add(L3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+
+        P3.setText("150");
+        P3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                P3ActionPerformed(evt);
+            }
+        });
+        Cacao.add(P3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+
+        jButton10.setText("Add");
+        jButton10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton10ActionPerformed(evt);
+            }
+        });
+        Cacao.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, 60, 20));
 
         jPanel1.add(Cacao, new org.netbeans.lib.awtextra.AbsoluteConstraints(509, 13, 211, 320));
 
@@ -447,43 +532,61 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         jLabel88.setText("Quantity");
         ConPanna.add(jLabel88, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
-        jLabel89.setText("Purchase");
-        ConPanna.add(jLabel89, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
-
         CoffeSize16.setText("Size");
         ConPanna.add(CoffeSize16, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
 
         jLabel11.setText("Con Panna");
         ConPanna.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
-        jLabel12.setText("150");
-        ConPanna.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
-
-        jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        ConPanna.add(jComboBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
-
-        ConPannaBTG.add(jCheckBox16);
-        jCheckBox16.setText("Extra Large");
-        ConPanna.add(jCheckBox16, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
-
-        jCheckBox17.addActionListener(new java.awt.event.ActionListener() {
+        Q4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox17ActionPerformed(evt);
+                Q4ActionPerformed(evt);
             }
         });
-        ConPanna.add(jCheckBox17, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        ConPanna.add(Q4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
-        ConPannaBTG.add(jCheckBox18);
-        jCheckBox18.setText("Small");
-        ConPanna.add(jCheckBox18, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
+        ConPannaBTG.add(EL4);
+        EL4.setText("Extra Large");
+        ConPanna.add(EL4, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
 
-        ConPannaBTG.add(jCheckBox19);
-        jCheckBox19.setText("Medium");
-        ConPanna.add(jCheckBox19, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        ConPannaBTG.add(s4);
+        s4.setText("Small");
+        s4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s4ActionPerformed(evt);
+            }
+        });
+        ConPanna.add(s4, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
 
-        ConPannaBTG.add(jCheckBox20);
-        jCheckBox20.setText("Large");
-        ConPanna.add(jCheckBox20, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+        ConPannaBTG.add(m4);
+        m4.setText("Medium");
+        m4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                m4ActionPerformed(evt);
+            }
+        });
+        ConPanna.add(m4, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+
+        ConPannaBTG.add(L4);
+        L4.setText("Large");
+        ConPanna.add(L4, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+
+        P4.setText("150");
+        P4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                P4ActionPerformed(evt);
+            }
+        });
+        ConPanna.add(P4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+
+        jButton9.setText("Add");
+        jButton9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton9ActionPerformed(evt);
+            }
+        });
+        ConPanna.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, 60, 20));
 
         jPanel1.add(ConPanna, new org.netbeans.lib.awtextra.AbsoluteConstraints(753, 13, 211, 320));
 
@@ -502,43 +605,71 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         jLabel90.setText("Quantity");
         Cortado.add(jLabel90, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
-        jLabel91.setText("Purchase");
-        Cortado.add(jLabel91, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
-
         CoffeSize17.setText("Size");
         Cortado.add(CoffeSize17, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
 
         jLabel14.setText("Cortado");
         Cortado.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
-        jLabel15.setText("150");
-        Cortado.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
-
-        jComboBox5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Cortado.add(jComboBox5, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
-
-        CortadoBTG.add(jCheckBox21);
-        jCheckBox21.setText("Extra Large");
-        Cortado.add(jCheckBox21, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
-
-        jCheckBox22.addActionListener(new java.awt.event.ActionListener() {
+        Q8.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox22ActionPerformed(evt);
+                Q8ActionPerformed(evt);
             }
         });
-        Cortado.add(jCheckBox22, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        Cortado.add(Q8, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
-        CortadoBTG.add(jCheckBox23);
-        jCheckBox23.setText("Small");
-        Cortado.add(jCheckBox23, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
+        CortadoBTG.add(EL8);
+        EL8.setText("Extra Large");
+        EL8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                EL8ActionPerformed(evt);
+            }
+        });
+        Cortado.add(EL8, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
 
-        CortadoBTG.add(jCheckBox24);
-        jCheckBox24.setText("Medium");
-        Cortado.add(jCheckBox24, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        CortadoBTG.add(s8);
+        s8.setText("Small");
+        s8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s8ActionPerformed(evt);
+            }
+        });
+        Cortado.add(s8, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
 
-        CortadoBTG.add(jCheckBox25);
-        jCheckBox25.setText("Large");
-        Cortado.add(jCheckBox25, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+        CortadoBTG.add(m8);
+        m8.setText("Medium");
+        m8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                m8ActionPerformed(evt);
+            }
+        });
+        Cortado.add(m8, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+
+        CortadoBTG.add(L8);
+        L8.setText("Large");
+        L8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                L8ActionPerformed(evt);
+            }
+        });
+        Cortado.add(L8, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+
+        jButton7.setText("Add");
+        jButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton7ActionPerformed(evt);
+            }
+        });
+        Cortado.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, 60, 20));
+
+        P8.setText("150");
+        P8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                P8ActionPerformed(evt);
+            }
+        });
+        Cortado.add(P8, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
         jPanel1.add(Cortado, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 371, 211, 338));
 
@@ -557,43 +688,71 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         jLabel92.setText("Quantity");
         Espresso.add(jLabel92, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
-        jLabel93.setText("Purchase");
-        Espresso.add(jLabel93, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
-
         CoffeSize18.setText("Size");
         Espresso.add(CoffeSize18, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
 
         jLabel17.setText("Espresso");
         Espresso.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
-        jLabel18.setText("150");
-        Espresso.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
-
-        jComboBox6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Espresso.add(jComboBox6, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
-
-        EspressoBTG.add(jCheckBox26);
-        jCheckBox26.setText("Extra Large");
-        Espresso.add(jCheckBox26, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
-
-        jCheckBox27.addActionListener(new java.awt.event.ActionListener() {
+        Q7.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox27ActionPerformed(evt);
+                Q7ActionPerformed(evt);
             }
         });
-        Espresso.add(jCheckBox27, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        Espresso.add(Q7, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
-        EspressoBTG.add(jCheckBox28);
-        jCheckBox28.setText("Small");
-        Espresso.add(jCheckBox28, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
+        EspressoBTG.add(EL7);
+        EL7.setText("Extra Large");
+        EL7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                EL7ActionPerformed(evt);
+            }
+        });
+        Espresso.add(EL7, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
 
-        EspressoBTG.add(jCheckBox29);
-        jCheckBox29.setText("Medium");
-        Espresso.add(jCheckBox29, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        EspressoBTG.add(s7);
+        s7.setText("Small");
+        s7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s7ActionPerformed(evt);
+            }
+        });
+        Espresso.add(s7, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
 
-        EspressoBTG.add(jCheckBox30);
-        jCheckBox30.setText("Large");
-        Espresso.add(jCheckBox30, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+        EspressoBTG.add(m7);
+        m7.setText("Medium");
+        m7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                m7ActionPerformed(evt);
+            }
+        });
+        Espresso.add(m7, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+
+        EspressoBTG.add(L7);
+        L7.setText("Large");
+        L7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                L7ActionPerformed(evt);
+            }
+        });
+        Espresso.add(L7, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+
+        jButton5.setText("Add");
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
+        Espresso.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, 60, 20));
+
+        P7.setText("150");
+        P7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                P7ActionPerformed(evt);
+            }
+        });
+        Espresso.add(P7, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
         jPanel1.add(Espresso, new org.netbeans.lib.awtextra.AbsoluteConstraints(259, 371, 211, 338));
 
@@ -612,43 +771,71 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         jLabel94.setText("Quantity");
         Hazelnut.add(jLabel94, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
-        jLabel95.setText("Purchase");
-        Hazelnut.add(jLabel95, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
-
         CoffeSize19.setText("Size");
         Hazelnut.add(CoffeSize19, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
 
         jLabel20.setText("Hazelnut ");
         Hazelnut.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
-        jLabel21.setText("150");
-        Hazelnut.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
-
-        jComboBox7.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Hazelnut.add(jComboBox7, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
-
-        HazelNutBTG.add(jCheckBox31);
-        jCheckBox31.setText("Extra Large");
-        Hazelnut.add(jCheckBox31, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
-
-        jCheckBox32.addActionListener(new java.awt.event.ActionListener() {
+        Q6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox32ActionPerformed(evt);
+                Q6ActionPerformed(evt);
             }
         });
-        Hazelnut.add(jCheckBox32, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        Hazelnut.add(Q6, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
-        HazelNutBTG.add(jCheckBox33);
-        jCheckBox33.setText("Small");
-        Hazelnut.add(jCheckBox33, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
+        HazelNutBTG.add(EL6);
+        EL6.setText("Extra Large");
+        EL6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                EL6ActionPerformed(evt);
+            }
+        });
+        Hazelnut.add(EL6, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
 
-        HazelNutBTG.add(jCheckBox34);
-        jCheckBox34.setText("Medium");
-        Hazelnut.add(jCheckBox34, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        HazelNutBTG.add(s6);
+        s6.setText("Small");
+        s6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s6ActionPerformed(evt);
+            }
+        });
+        Hazelnut.add(s6, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
 
-        HazelNutBTG.add(jCheckBox35);
-        jCheckBox35.setText("Large");
-        Hazelnut.add(jCheckBox35, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+        HazelNutBTG.add(m6);
+        m6.setText("Medium");
+        m6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                m6ActionPerformed(evt);
+            }
+        });
+        Hazelnut.add(m6, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+
+        HazelNutBTG.add(L6);
+        L6.setText("Large");
+        L6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                L6ActionPerformed(evt);
+            }
+        });
+        Hazelnut.add(L6, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+
+        jButton6.setText("Add");
+        jButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton6ActionPerformed(evt);
+            }
+        });
+        Hazelnut.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, 60, 20));
+
+        P6.setText("150");
+        P6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                P6ActionPerformed(evt);
+            }
+        });
+        Hazelnut.add(P6, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
         jPanel1.add(Hazelnut, new org.netbeans.lib.awtextra.AbsoluteConstraints(509, 371, 211, 338));
 
@@ -667,43 +854,71 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         jLabel96.setText("Quantity");
         Latte.add(jLabel96, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
-        jLabel97.setText("Purchase");
-        Latte.add(jLabel97, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
-
         CoffeSize20.setText("Size");
         Latte.add(CoffeSize20, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
 
         jLabel23.setText("Latte");
         Latte.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
-        jLabel24.setText("150");
-        Latte.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
-
-        jComboBox8.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Latte.add(jComboBox8, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
-
-        LatteBTG.add(jCheckBox36);
-        jCheckBox36.setText("Extra Large");
-        Latte.add(jCheckBox36, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
-
-        jCheckBox37.addActionListener(new java.awt.event.ActionListener() {
+        Q5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox37ActionPerformed(evt);
+                Q5ActionPerformed(evt);
             }
         });
-        Latte.add(jCheckBox37, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        Latte.add(Q5, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
-        LatteBTG.add(jCheckBox38);
-        jCheckBox38.setText("Small");
-        Latte.add(jCheckBox38, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
+        LatteBTG.add(EL5);
+        EL5.setText("Extra Large");
+        EL5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                EL5ActionPerformed(evt);
+            }
+        });
+        Latte.add(EL5, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
 
-        LatteBTG.add(jCheckBox39);
-        jCheckBox39.setText("Medium");
-        Latte.add(jCheckBox39, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        LatteBTG.add(s5);
+        s5.setText("Small");
+        s5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s5ActionPerformed(evt);
+            }
+        });
+        Latte.add(s5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
 
-        LatteBTG.add(jCheckBox40);
-        jCheckBox40.setText("Large");
-        Latte.add(jCheckBox40, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+        LatteBTG.add(m5);
+        m5.setText("Medium");
+        m5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                m5ActionPerformed(evt);
+            }
+        });
+        Latte.add(m5, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+
+        LatteBTG.add(L5);
+        L5.setText("Large");
+        L5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                L5ActionPerformed(evt);
+            }
+        });
+        Latte.add(L5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+
+        jButton8.setText("Add");
+        jButton8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton8ActionPerformed(evt);
+            }
+        });
+        Latte.add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, 60, 20));
+
+        P5.setText("150");
+        P5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                P5ActionPerformed(evt);
+            }
+        });
+        Latte.add(P5, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
         jPanel1.add(Latte, new org.netbeans.lib.awtextra.AbsoluteConstraints(753, 371, 211, 338));
 
@@ -722,43 +937,71 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         jLabel98.setText("Quantity");
         Caramel.add(jLabel98, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
-        jLabel99.setText("Purchase");
-        Caramel.add(jLabel99, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
-
         CoffeSize21.setText("Size");
         Caramel.add(CoffeSize21, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
 
         jLabel26.setText("Caramel");
         Caramel.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
-        jLabel27.setText("150");
-        Caramel.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
-
-        jComboBox9.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Caramel.add(jComboBox9, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
-
-        CaramelBTG.add(jCheckBox41);
-        jCheckBox41.setText("Extra Large");
-        Caramel.add(jCheckBox41, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
-
-        jCheckBox42.addActionListener(new java.awt.event.ActionListener() {
+        Q9.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox42ActionPerformed(evt);
+                Q9ActionPerformed(evt);
             }
         });
-        Caramel.add(jCheckBox42, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        Caramel.add(Q9, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
-        CaramelBTG.add(jCheckBox43);
-        jCheckBox43.setText("Small");
-        Caramel.add(jCheckBox43, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
+        CaramelBTG.add(EL9);
+        EL9.setText("Extra Large");
+        EL9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                EL9ActionPerformed(evt);
+            }
+        });
+        Caramel.add(EL9, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
 
-        CaramelBTG.add(jCheckBox44);
-        jCheckBox44.setText("Medium");
-        Caramel.add(jCheckBox44, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        CaramelBTG.add(s9);
+        s9.setText("Small");
+        s9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s9ActionPerformed(evt);
+            }
+        });
+        Caramel.add(s9, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
 
-        CaramelBTG.add(jCheckBox45);
-        jCheckBox45.setText("Large");
-        Caramel.add(jCheckBox45, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+        CaramelBTG.add(m9);
+        m9.setText("Medium");
+        m9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                m9ActionPerformed(evt);
+            }
+        });
+        Caramel.add(m9, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+
+        CaramelBTG.add(L9);
+        L9.setText("Large");
+        L9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                L9ActionPerformed(evt);
+            }
+        });
+        Caramel.add(L9, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+
+        jButton4.setText("Add");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
+        Caramel.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, 60, 20));
+
+        P9.setText("150");
+        P9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                P9ActionPerformed(evt);
+            }
+        });
+        Caramel.add(P9, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
         jPanel1.add(Caramel, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 743, 211, 338));
 
@@ -777,43 +1020,71 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         jLabel100.setText("Quantity");
         DarkChocolate.add(jLabel100, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
-        jLabel101.setText("Purchase");
-        DarkChocolate.add(jLabel101, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
-
         CoffeSize22.setText("Size");
         DarkChocolate.add(CoffeSize22, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
 
         jLabel29.setText("Dark  Chocolate");
         DarkChocolate.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
-        jLabel30.setText("150");
-        DarkChocolate.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
-
-        jComboBox10.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        DarkChocolate.add(jComboBox10, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
-
-        DarkChocolateBTG.add(jCheckBox46);
-        jCheckBox46.setText("Extra Large");
-        DarkChocolate.add(jCheckBox46, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
-
-        jCheckBox47.addActionListener(new java.awt.event.ActionListener() {
+        Q10.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox47ActionPerformed(evt);
+                Q10ActionPerformed(evt);
             }
         });
-        DarkChocolate.add(jCheckBox47, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        DarkChocolate.add(Q10, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
-        DarkChocolateBTG.add(jCheckBox48);
-        jCheckBox48.setText("Small");
-        DarkChocolate.add(jCheckBox48, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
+        DarkChocolateBTG.add(EL10);
+        EL10.setText("Extra Large");
+        EL10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                EL10ActionPerformed(evt);
+            }
+        });
+        DarkChocolate.add(EL10, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
 
-        DarkChocolateBTG.add(jCheckBox49);
-        jCheckBox49.setText("Medium");
-        DarkChocolate.add(jCheckBox49, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        DarkChocolateBTG.add(s10);
+        s10.setText("Small");
+        s10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s10ActionPerformed(evt);
+            }
+        });
+        DarkChocolate.add(s10, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
 
-        DarkChocolateBTG.add(jCheckBox50);
-        jCheckBox50.setText("Large");
-        DarkChocolate.add(jCheckBox50, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+        DarkChocolateBTG.add(m10);
+        m10.setText("Medium");
+        m10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                m10ActionPerformed(evt);
+            }
+        });
+        DarkChocolate.add(m10, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+
+        DarkChocolateBTG.add(L10);
+        L10.setText("Large");
+        L10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                L10ActionPerformed(evt);
+            }
+        });
+        DarkChocolate.add(L10, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+
+        jButton3.setText("Add");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+        DarkChocolate.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, 60, 20));
+
+        P10.setText("150");
+        P10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                P10ActionPerformed(evt);
+            }
+        });
+        DarkChocolate.add(P10, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
         jPanel1.add(DarkChocolate, new org.netbeans.lib.awtextra.AbsoluteConstraints(259, 743, 211, 338));
 
@@ -832,46 +1103,74 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         jLabel102.setText("Quantity");
         WhiteMocha.add(jLabel102, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
-        jLabel103.setText("Purchase");
-        WhiteMocha.add(jLabel103, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
-
         CoffeSize23.setText("Size");
         WhiteMocha.add(CoffeSize23, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
 
         jLabel32.setText("White Mocha");
         WhiteMocha.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
-        jLabel33.setText("150");
-        WhiteMocha.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
-
-        jComboBox11.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        WhiteMocha.add(jComboBox11, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
-
-        WhiteMochaBTG.add(jCheckBox51);
-        jCheckBox51.setText("Extra Large");
-        WhiteMocha.add(jCheckBox51, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
-
-        jCheckBox52.addActionListener(new java.awt.event.ActionListener() {
+        Q11.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox52ActionPerformed(evt);
+                Q11ActionPerformed(evt);
             }
         });
-        WhiteMocha.add(jCheckBox52, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        WhiteMocha.add(Q11, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
-        WhiteMochaBTG.add(jCheckBox53);
-        jCheckBox53.setText("Small");
-        WhiteMocha.add(jCheckBox53, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
+        WhiteMochaBTG.add(EL11);
+        EL11.setText("Extra Large");
+        EL11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                EL11ActionPerformed(evt);
+            }
+        });
+        WhiteMocha.add(EL11, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
 
-        WhiteMochaBTG.add(jCheckBox54);
-        jCheckBox54.setText("Medium");
-        WhiteMocha.add(jCheckBox54, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        WhiteMochaBTG.add(s11);
+        s11.setText("Small");
+        s11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s11ActionPerformed(evt);
+            }
+        });
+        WhiteMocha.add(s11, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
 
-        WhiteMochaBTG.add(jCheckBox55);
-        jCheckBox55.setText("Large");
-        WhiteMocha.add(jCheckBox55, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+        WhiteMochaBTG.add(m11);
+        m11.setText("Medium");
+        m11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                m11ActionPerformed(evt);
+            }
+        });
+        WhiteMocha.add(m11, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+
+        WhiteMochaBTG.add(L11);
+        L11.setText("Large");
+        L11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                L11ActionPerformed(evt);
+            }
+        });
+        WhiteMocha.add(L11, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
 
         CoffeSize26.setText("Size");
         WhiteMocha.add(CoffeSize26, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
+
+        jButton1.setText("Add");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        WhiteMocha.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, 60, 20));
+
+        P11.setText("150");
+        P11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                P11ActionPerformed(evt);
+            }
+        });
+        WhiteMocha.add(P11, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
         jPanel1.add(WhiteMocha, new org.netbeans.lib.awtextra.AbsoluteConstraints(509, 743, 211, 338));
 
@@ -883,9 +1182,6 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         CoffeePrice25.setText("Price");
         FlatWhite.add(CoffeePrice25, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
 
-        jLabel106.setText("Purchase");
-        FlatWhite.add(jLabel106, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
-
         jLabel107.setText("Quantity");
         FlatWhite.add(jLabel107, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
@@ -895,42 +1191,68 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         jLabel34.setText("Flat White");
         FlatWhite.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 160, -1, -1));
 
-        jLabel40.setText("150");
-        FlatWhite.add(jLabel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 190, -1, -1));
-
-        jComboBox13.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" }));
-        FlatWhite.add(jComboBox13, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 220, -1, -1));
-
-        jCheckBox61.addActionListener(new java.awt.event.ActionListener() {
+        Q12.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" }));
+        Q12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox61ActionPerformed(evt);
+                Q12ActionPerformed(evt);
             }
         });
-        FlatWhite.add(jCheckBox61, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        FlatWhite.add(Q12, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 220, -1, -1));
 
         jLabel35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Flat white coffee.jpg"))); // NOI18N
         FlatWhite.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
-        FlatWhiteBTG.add(jCheckBox56);
-        jCheckBox56.setText("Extra Large");
-        FlatWhite.add(jCheckBox56, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 300, -1, -1));
-
-        FlatWhiteBTG.add(jCheckBox57);
-        jCheckBox57.setText("Small");
-        FlatWhite.add(jCheckBox57, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 280, -1, -1));
-
-        FlatWhiteBTG.add(jCheckBox58);
-        jCheckBox58.setText("Medium");
-        jCheckBox58.addActionListener(new java.awt.event.ActionListener() {
+        FlatWhiteBTG.add(EL12);
+        EL12.setText("Extra Large");
+        EL12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox58ActionPerformed(evt);
+                EL12ActionPerformed(evt);
             }
         });
-        FlatWhite.add(jCheckBox58, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 280, -1, -1));
+        FlatWhite.add(EL12, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 300, -1, -1));
 
-        FlatWhiteBTG.add(jCheckBox59);
-        jCheckBox59.setText("Large");
-        FlatWhite.add(jCheckBox59, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 300, -1, -1));
+        FlatWhiteBTG.add(s12);
+        s12.setText("Small");
+        s12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s12ActionPerformed(evt);
+            }
+        });
+        FlatWhite.add(s12, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 280, -1, -1));
+
+        FlatWhiteBTG.add(m12);
+        m12.setText("Medium");
+        m12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                m12ActionPerformed(evt);
+            }
+        });
+        FlatWhite.add(m12, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 280, -1, -1));
+
+        FlatWhiteBTG.add(L12);
+        L12.setText("Large");
+        L12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                L12ActionPerformed(evt);
+            }
+        });
+        FlatWhite.add(L12, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 300, -1, -1));
+
+        jButton2.setText("Add");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+        FlatWhite.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, 60, 20));
+
+        P12.setText("150");
+        P12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                P12ActionPerformed(evt);
+            }
+        });
+        FlatWhite.add(P12, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
         jPanel1.add(FlatWhite, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 740, 210, 340));
 
@@ -941,13 +1263,6 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         jScrollPane1.setViewportView(jPanel1);
 
         getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 89, 1010, 570));
-
-        LogoName.setBackground(new java.awt.Color(255, 255, 255));
-        LogoName.setFont(new java.awt.Font("Vivaldi", 3, 36)); // NOI18N
-        LogoName.setForeground(new java.awt.Color(255, 255, 255));
-        LogoName.setText("Elysian");
-        LogoName.setToolTipText("");
-        getContentPane().add(LogoName, new org.netbeans.lib.awtextra.AbsoluteConstraints(5, 0, 229, 76));
 
         CoffeeMenu.setFont(new java.awt.Font("Segoe UI Historic", 3, 18)); // NOI18N
         CoffeeMenu.setForeground(new java.awt.Color(255, 255, 255));
@@ -960,69 +1275,487 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void ToReceiptButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ToReceiptButtonActionPerformed
+    private void TotalBUttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TotalBUttonActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_ToReceiptButtonActionPerformed
+    }//GEN-LAST:event_TotalBUttonActionPerformed
 
     private void ToFoodButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ToFoodButtonActionPerformed
         // TODO add your handling code here:
+        CoffeeDashboad cd = new CoffeeDashboad();
+        FoodDashBoard fd = new FoodDashBoard();
+        fd.setVisible(true);
+        cd.setVisible(false);
+        
     }//GEN-LAST:event_ToFoodButtonActionPerformed
 
-    private void jCheckBox2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox2ActionPerformed
+    private void m12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_m12ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox2ActionPerformed
-
-    private void jCheckBox7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox7ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox7ActionPerformed
-
-    private void jCheckBox12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox12ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox12ActionPerformed
-
-    private void jCheckBox17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox17ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox17ActionPerformed
-
-    private void jCheckBox22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox22ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox22ActionPerformed
-
-    private void jCheckBox27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox27ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox27ActionPerformed
-
-    private void jCheckBox32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox32ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox32ActionPerformed
-
-    private void jCheckBox37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox37ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox37ActionPerformed
-
-    private void jCheckBox42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox42ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox42ActionPerformed
-
-    private void jCheckBox47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox47ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox47ActionPerformed
-
-    private void jCheckBox52ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox52ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox52ActionPerformed
-
-    private void jCheckBox61ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox61ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox61ActionPerformed
-
-    private void jCheckBox58ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox58ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox58ActionPerformed
+        P12.setText("160");
+    }//GEN-LAST:event_m12ActionPerformed
 
     private void ToDrinksbuttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ToDrinksbuttonActionPerformed
         // TODO add your handling code here:
+        CoffeeDashboad cd = new CoffeeDashboad();
+        cd.setVisible(false);
+        TeaDashBoard Td = new TeaDashBoard();
+        Td.setVisible(true);
+        
     }//GEN-LAST:event_ToDrinksbuttonActionPerformed
+
+    private void ToDrinksButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ToDrinksButtonActionPerformed
+        // TODO add your handling code here:
+        CoffeeDashboad cd = new CoffeeDashboad();
+        cd.setVisible(false);
+        
+        DrinksDashBoard dD = new DrinksDashBoard();
+        dD.setVisible(true);
+    }//GEN-LAST:event_ToDrinksButtonActionPerformed
+
+    private void ToPastriesButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ToPastriesButtonActionPerformed
+        // TODO add your handling code here:
+        CoffeeDashboad cd = new CoffeeDashboad();
+        cd.setVisible(false);
+        PastryDashBoard2 Pd = new PastryDashBoard2();
+        Pd.setVisible(true);
+        
+                
+    }//GEN-LAST:event_ToPastriesButtonActionPerformed
+
+    private void s1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s1ActionPerformed
+        // TODO add your handling code here:
+        P1.setText("150");
+    }//GEN-LAST:event_s1ActionPerformed
+
+    private void m1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_m1ActionPerformed
+        // TODO add your handling code here:
+        P1.setText("160");
+        
+    }//GEN-LAST:event_m1ActionPerformed
+
+    private void s11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s11ActionPerformed
+        // TODO add your handling code here:
+        P11.setText("150");
+    }//GEN-LAST:event_s11ActionPerformed
+
+    private void m11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_m11ActionPerformed
+        // TODO add your handling code here:
+        P11.setText("160");
+    }//GEN-LAST:event_m11ActionPerformed
+
+    private void P1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_P1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_P1ActionPerformed
+
+    private void EL1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EL1ActionPerformed
+        // TODO add your handling code here:
+        P1.setText("180");
+    }//GEN-LAST:event_EL1ActionPerformed
+
+    private void L1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_L1ActionPerformed
+        // TODO add your handling code here:
+        P1.setText("170");
+    }//GEN-LAST:event_L1ActionPerformed
+
+    private void Q1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q1ActionPerformed
+        // TODO add your handling code here:
+        int p = Integer.parseInt(P1.getText());
+        int q = Integer.parseInt((String) Q1.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P1.setText(t);
+    }//GEN-LAST:event_Q1ActionPerformed
+
+    private void s2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s2ActionPerformed
+        // TODO add your handling code here:
+        P2.setText("150");
+    }//GEN-LAST:event_s2ActionPerformed
+
+    private void EL2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EL2ActionPerformed
+        // TODO add your handling code here:
+        P2.setText("180");
+    }//GEN-LAST:event_EL2ActionPerformed
+
+    private void m2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_m2ActionPerformed
+        // TODO add your handling code here:
+           P2.setText("160");
+    }//GEN-LAST:event_m2ActionPerformed
+
+    private void Q2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q2ActionPerformed
+        // TODO add your handling code here:
+        int p = Integer.parseInt(P2.getText());
+        int q = Integer.parseInt((String) Q2.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P2.setText(t);
+    }//GEN-LAST:event_Q2ActionPerformed
+
+    private void L2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_L2ActionPerformed
+        // TODO add your handling code here:
+           P2.setText("170");
+    }//GEN-LAST:event_L2ActionPerformed
+
+    private void P2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_P2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_P2ActionPerformed
+
+    private void s3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s3ActionPerformed
+        // TODO add your handling code here:..
+        P3.setText("150");
+    }//GEN-LAST:event_s3ActionPerformed
+
+    private void m3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_m3ActionPerformed
+        // TODO add your handling code here:
+        P3.setText("160");
+    }//GEN-LAST:event_m3ActionPerformed
+
+    private void L3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_L3ActionPerformed
+        // TODO add your handling code here:
+        P3.setText("170");
+    }//GEN-LAST:event_L3ActionPerformed
+
+    private void EL3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EL3ActionPerformed
+        // TODO add your handling code here:
+        P3.setText("180");
+    }//GEN-LAST:event_EL3ActionPerformed
+
+    private void Q3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q3ActionPerformed
+        // TODO add your handling code here:
+        int p = Integer.parseInt(P3.getText());
+        int q = Integer.parseInt((String) Q3.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P3.setText(t);
+    }//GEN-LAST:event_Q3ActionPerformed
+
+    private void Q4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q4ActionPerformed
+        // TODO add your handling code here:
+        int p = Integer.parseInt(P4.getText());
+        int q = Integer.parseInt((String) Q4.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P4.setText(t);
+    }//GEN-LAST:event_Q4ActionPerformed
+
+    private void P3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_P3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_P3ActionPerformed
+
+    private void P4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_P4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_P4ActionPerformed
+
+    private void s4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s4ActionPerformed
+        // TODO add your handling code here:
+        P4.setText("150");
+    }//GEN-LAST:event_s4ActionPerformed
+
+    private void m4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_m4ActionPerformed
+        // TODO add your handling code here:
+        P4.setText("160");
+    }//GEN-LAST:event_m4ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton6ActionPerformed
+
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton7ActionPerformed
+
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton8ActionPerformed
+
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton9ActionPerformed
+
+    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton10ActionPerformed
+
+    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton11ActionPerformed
+
+    private void AddBtn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AddBtn1ActionPerformed
+        // TODO add your handling code here:
+        CoffeeDashboad cd = new CoffeeDashboad();
+        cd.setVisible(false);
+        /*ReceiptDashBoard rd = new ReceiptDashBoard();
+        rd.setVisible(true);*/
+    }//GEN-LAST:event_AddBtn1ActionPerformed
+
+    private void P5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_P5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_P5ActionPerformed
+
+    private void s5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s5ActionPerformed
+        // TODO add your handling code here:
+        P5.setText("150");
+    }//GEN-LAST:event_s5ActionPerformed
+
+    private void m5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_m5ActionPerformed
+        // TODO add your handling code here:
+        P5.setText("160");
+    }//GEN-LAST:event_m5ActionPerformed
+
+    private void L5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_L5ActionPerformed
+        // TODO add your handling code here:
+        P5.setText("170");
+    }//GEN-LAST:event_L5ActionPerformed
+
+    private void EL5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EL5ActionPerformed
+        // TODO add your handling code here:
+        P5.setText("180");
+    }//GEN-LAST:event_EL5ActionPerformed
+
+    private void Q5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q5ActionPerformed
+        // TODO add your handling code here:
+        int p = Integer.parseInt(P5.getText());
+        int q = Integer.parseInt((String) Q5.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P5.setText(t);
+    }//GEN-LAST:event_Q5ActionPerformed
+
+    private void P6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_P6ActionPerformed
+        // TODO add your handling code here:
+       
+    }//GEN-LAST:event_P6ActionPerformed
+
+    private void s6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s6ActionPerformed
+        // TODO add your handling code here:
+         P6.setText("150");
+    }//GEN-LAST:event_s6ActionPerformed
+
+    private void m6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_m6ActionPerformed
+        // TODO add your handling code here:
+        P6.setText("160");
+    }//GEN-LAST:event_m6ActionPerformed
+
+    private void L6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_L6ActionPerformed
+        // TODO add your handling code here:
+        P6.setText("170");
+    }//GEN-LAST:event_L6ActionPerformed
+
+    private void EL6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EL6ActionPerformed
+        // TODO add your handling code here:
+        P6.setText("180");
+    }//GEN-LAST:event_EL6ActionPerformed
+
+    private void Q6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q6ActionPerformed
+        // TODO add your handling code here:
+        int p = Integer.parseInt(P6.getText());
+        int q = Integer.parseInt((String) Q6.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P6.setText(t);
+    }//GEN-LAST:event_Q6ActionPerformed
+
+    private void P7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_P7ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_P7ActionPerformed
+
+    private void s7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s7ActionPerformed
+        // TODO add your handling code here:
+        P7.setText("150");
+    }//GEN-LAST:event_s7ActionPerformed
+
+    private void m7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_m7ActionPerformed
+        // TODO add your handling code here:
+        P7.setText("160");
+    }//GEN-LAST:event_m7ActionPerformed
+
+    private void L7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_L7ActionPerformed
+        // TODO add your handling code here:
+        P7.setText("170");
+    }//GEN-LAST:event_L7ActionPerformed
+
+    private void EL7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EL7ActionPerformed
+        // TODO add your handling code here:
+        P7.setText("180");
+    }//GEN-LAST:event_EL7ActionPerformed
+
+    private void Q7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q7ActionPerformed
+        // TODO add your handling code here:
+        int p = Integer.parseInt(P7.getText());
+        int q = Integer.parseInt((String) Q7.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P7.setText(t);
+    }//GEN-LAST:event_Q7ActionPerformed
+
+    private void P8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_P8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_P8ActionPerformed
+
+    private void s8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s8ActionPerformed
+        // TODO add your handling code here:
+        P8.setText("150");
+    }//GEN-LAST:event_s8ActionPerformed
+
+    private void m8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_m8ActionPerformed
+        // TODO add your handling code here:
+        P8.setText("160");
+    }//GEN-LAST:event_m8ActionPerformed
+
+    private void L8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_L8ActionPerformed
+        // TODO add your handling code here:
+        P8.setText("170");
+    }//GEN-LAST:event_L8ActionPerformed
+
+    private void EL8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EL8ActionPerformed
+        // TODO add your handling code here:
+        P8.setText("180");
+    }//GEN-LAST:event_EL8ActionPerformed
+
+    private void Q8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q8ActionPerformed
+        // TODO add your handling code here:
+        int p = Integer.parseInt(P8.getText());
+        int q = Integer.parseInt((String) Q8.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P8.setText(t);
+        
+    }//GEN-LAST:event_Q8ActionPerformed
+
+    private void P9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_P9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_P9ActionPerformed
+
+    private void m9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_m9ActionPerformed
+        // TODO add your handling code here:
+        P9.setText("160");
+    }//GEN-LAST:event_m9ActionPerformed
+
+    private void L9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_L9ActionPerformed
+        // TODO add your handling code here:
+        P9.setText("170");
+    }//GEN-LAST:event_L9ActionPerformed
+
+    private void EL9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EL9ActionPerformed
+        // TODO add your handling code here:
+        P9.setText("180");
+    }//GEN-LAST:event_EL9ActionPerformed
+
+    private void s9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s9ActionPerformed
+        // TODO add your handling code here:
+        P9.setText("150");
+    }//GEN-LAST:event_s9ActionPerformed
+
+    private void Q9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q9ActionPerformed
+        // TODO add your handling code here:
+        int p = Integer.parseInt(P9.getText());
+        int q = Integer.parseInt((String) Q9.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P9.setText(t);
+    }//GEN-LAST:event_Q9ActionPerformed
+
+    private void P10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_P10ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_P10ActionPerformed
+
+    private void s10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s10ActionPerformed
+        // TODO add your handling code here:
+        P10.setText("150");
+    }//GEN-LAST:event_s10ActionPerformed
+
+    private void m10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_m10ActionPerformed
+        // TODO add your handling code here:
+        P10.setText("160");
+    }//GEN-LAST:event_m10ActionPerformed
+
+    private void L10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_L10ActionPerformed
+        // TODO add your handling code here:
+        P10.setText("170");
+    }//GEN-LAST:event_L10ActionPerformed
+
+    private void EL10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EL10ActionPerformed
+        // TODO add your handling code here:
+        P10.setText("180");
+    }//GEN-LAST:event_EL10ActionPerformed
+
+    private void Q10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q10ActionPerformed
+        // TODO add your handling code here:
+        int p = Integer.parseInt(P10.getText());
+        int q = Integer.parseInt((String) Q10.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P10.setText(t);
+    }//GEN-LAST:event_Q10ActionPerformed
+
+    private void P11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_P11ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_P11ActionPerformed
+
+    private void L11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_L11ActionPerformed
+        // TODO add your handling code here:
+        P11.setText("170");
+    }//GEN-LAST:event_L11ActionPerformed
+
+    private void EL11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EL11ActionPerformed
+        // TODO add your handling code here:
+        P11.setText("180");
+    }//GEN-LAST:event_EL11ActionPerformed
+
+    private void Q11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q11ActionPerformed
+        // TODO add your handling code here:
+        int p = Integer.parseInt(P11.getText());
+        int q = Integer.parseInt((String) Q11.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P11.setText(t);
+    }//GEN-LAST:event_Q11ActionPerformed
+
+    private void P12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_P12ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_P12ActionPerformed
+
+    private void s12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s12ActionPerformed
+        // TODO add your handling code here:
+        P12.setText("150");
+    }//GEN-LAST:event_s12ActionPerformed
+
+    private void L12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_L12ActionPerformed
+        // TODO add your handling code here:
+        P12.setText("170");
+    }//GEN-LAST:event_L12ActionPerformed
+
+    private void EL12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EL12ActionPerformed
+        // TODO add your handling code here:
+        P12.setText("180");
+    }//GEN-LAST:event_EL12ActionPerformed
+
+    private void Q12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q12ActionPerformed
+        // TODO add your handling code here:
+        int p = Integer.parseInt(P12.getText());
+        int q = Integer.parseInt((String)Q12.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P12.setText(t);
+    }//GEN-LAST:event_Q12ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -1060,6 +1793,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton AddBtn1;
     private javax.swing.JPanel Americano;
     private javax.swing.ButtonGroup AmericanoBTG;
     private javax.swing.JLabel BackGroundImage;
@@ -1114,158 +1848,143 @@ public class CoffeeDashboad extends javax.swing.JFrame {
     private javax.swing.ButtonGroup CortadoBTG;
     private javax.swing.JPanel DarkChocolate;
     private javax.swing.ButtonGroup DarkChocolateBTG;
+    private javax.swing.JCheckBox EL1;
+    private javax.swing.JCheckBox EL10;
+    private javax.swing.JCheckBox EL11;
+    private javax.swing.JCheckBox EL12;
+    private javax.swing.JCheckBox EL2;
+    private javax.swing.JCheckBox EL3;
+    private javax.swing.JCheckBox EL4;
+    private javax.swing.JCheckBox EL5;
+    private javax.swing.JCheckBox EL6;
+    private javax.swing.JCheckBox EL7;
+    private javax.swing.JCheckBox EL8;
+    private javax.swing.JCheckBox EL9;
     private javax.swing.JPanel Espresso;
     private javax.swing.ButtonGroup EspressoBTG;
     private javax.swing.JPanel FlatWhite;
     private javax.swing.ButtonGroup FlatWhiteBTG;
     private javax.swing.ButtonGroup HazelNutBTG;
     private javax.swing.JPanel Hazelnut;
+    private javax.swing.JCheckBox L1;
+    private javax.swing.JCheckBox L10;
+    private javax.swing.JCheckBox L11;
+    private javax.swing.JCheckBox L12;
+    private javax.swing.JCheckBox L2;
+    private javax.swing.JCheckBox L3;
+    private javax.swing.JCheckBox L4;
+    private javax.swing.JCheckBox L5;
+    private javax.swing.JCheckBox L6;
+    private javax.swing.JCheckBox L7;
+    private javax.swing.JCheckBox L8;
+    private javax.swing.JCheckBox L9;
     private javax.swing.JPanel Latte;
     private javax.swing.ButtonGroup LatteBTG;
-    private javax.swing.JLabel LogoName;
+    private javax.swing.JTextField P1;
+    private javax.swing.JTextField P10;
+    private javax.swing.JTextField P11;
+    private javax.swing.JTextField P12;
+    private javax.swing.JTextField P2;
+    private javax.swing.JTextField P3;
+    private javax.swing.JTextField P4;
+    private javax.swing.JTextField P5;
+    private javax.swing.JTextField P6;
+    private javax.swing.JTextField P7;
+    private javax.swing.JTextField P8;
+    private javax.swing.JTextField P9;
+    private javax.swing.JComboBox<String> Q1;
+    private javax.swing.JComboBox<String> Q10;
+    private javax.swing.JComboBox<String> Q11;
+    private javax.swing.JComboBox<String> Q12;
+    private javax.swing.JComboBox<String> Q2;
+    private javax.swing.JComboBox<String> Q3;
+    private javax.swing.JComboBox<String> Q4;
+    private javax.swing.JComboBox<String> Q5;
+    private javax.swing.JComboBox<String> Q6;
+    private javax.swing.JComboBox<String> Q7;
+    private javax.swing.JComboBox<String> Q8;
+    private javax.swing.JComboBox<String> Q9;
+    private javax.swing.JButton ToDrinksButton;
     private javax.swing.JButton ToDrinksbutton;
     private javax.swing.JButton ToFoodButton;
     private javax.swing.JButton ToPastriesButton;
-    private javax.swing.JButton ToReceiptButton;
+    private javax.swing.JButton TotalBUtton;
     private javax.swing.JPanel WhiteMocha;
     private javax.swing.ButtonGroup WhiteMochaBTG;
-    private javax.swing.JCheckBox jCheckBox1;
-    private javax.swing.JCheckBox jCheckBox10;
-    private javax.swing.JCheckBox jCheckBox11;
-    private javax.swing.JCheckBox jCheckBox12;
-    private javax.swing.JCheckBox jCheckBox13;
-    private javax.swing.JCheckBox jCheckBox14;
-    private javax.swing.JCheckBox jCheckBox15;
-    private javax.swing.JCheckBox jCheckBox16;
-    private javax.swing.JCheckBox jCheckBox17;
-    private javax.swing.JCheckBox jCheckBox18;
-    private javax.swing.JCheckBox jCheckBox19;
-    private javax.swing.JCheckBox jCheckBox2;
-    private javax.swing.JCheckBox jCheckBox20;
-    private javax.swing.JCheckBox jCheckBox21;
-    private javax.swing.JCheckBox jCheckBox22;
-    private javax.swing.JCheckBox jCheckBox23;
-    private javax.swing.JCheckBox jCheckBox24;
-    private javax.swing.JCheckBox jCheckBox25;
-    private javax.swing.JCheckBox jCheckBox26;
-    private javax.swing.JCheckBox jCheckBox27;
-    private javax.swing.JCheckBox jCheckBox28;
-    private javax.swing.JCheckBox jCheckBox29;
-    private javax.swing.JCheckBox jCheckBox3;
-    private javax.swing.JCheckBox jCheckBox30;
-    private javax.swing.JCheckBox jCheckBox31;
-    private javax.swing.JCheckBox jCheckBox32;
-    private javax.swing.JCheckBox jCheckBox33;
-    private javax.swing.JCheckBox jCheckBox34;
-    private javax.swing.JCheckBox jCheckBox35;
-    private javax.swing.JCheckBox jCheckBox36;
-    private javax.swing.JCheckBox jCheckBox37;
-    private javax.swing.JCheckBox jCheckBox38;
-    private javax.swing.JCheckBox jCheckBox39;
-    private javax.swing.JCheckBox jCheckBox4;
-    private javax.swing.JCheckBox jCheckBox40;
-    private javax.swing.JCheckBox jCheckBox41;
-    private javax.swing.JCheckBox jCheckBox42;
-    private javax.swing.JCheckBox jCheckBox43;
-    private javax.swing.JCheckBox jCheckBox44;
-    private javax.swing.JCheckBox jCheckBox45;
-    private javax.swing.JCheckBox jCheckBox46;
-    private javax.swing.JCheckBox jCheckBox47;
-    private javax.swing.JCheckBox jCheckBox48;
-    private javax.swing.JCheckBox jCheckBox49;
-    private javax.swing.JCheckBox jCheckBox5;
-    private javax.swing.JCheckBox jCheckBox50;
-    private javax.swing.JCheckBox jCheckBox51;
-    private javax.swing.JCheckBox jCheckBox52;
-    private javax.swing.JCheckBox jCheckBox53;
-    private javax.swing.JCheckBox jCheckBox54;
-    private javax.swing.JCheckBox jCheckBox55;
-    private javax.swing.JCheckBox jCheckBox56;
-    private javax.swing.JCheckBox jCheckBox57;
-    private javax.swing.JCheckBox jCheckBox58;
-    private javax.swing.JCheckBox jCheckBox59;
-    private javax.swing.JCheckBox jCheckBox6;
-    private javax.swing.JCheckBox jCheckBox61;
-    private javax.swing.JCheckBox jCheckBox7;
-    private javax.swing.JCheckBox jCheckBox8;
-    private javax.swing.JCheckBox jCheckBox9;
-    private javax.swing.JComboBox<String> jComboBox1;
-    private javax.swing.JComboBox<String> jComboBox10;
-    private javax.swing.JComboBox<String> jComboBox11;
-    private javax.swing.JComboBox<String> jComboBox13;
-    private javax.swing.JComboBox<String> jComboBox2;
-    private javax.swing.JComboBox<String> jComboBox3;
-    private javax.swing.JComboBox<String> jComboBox4;
-    private javax.swing.JComboBox<String> jComboBox5;
-    private javax.swing.JComboBox<String> jComboBox6;
-    private javax.swing.JComboBox<String> jComboBox7;
-    private javax.swing.JComboBox<String> jComboBox8;
-    private javax.swing.JComboBox<String> jComboBox9;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton10;
+    private javax.swing.JButton jButton11;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton6;
+    private javax.swing.JButton jButton7;
+    private javax.swing.JButton jButton8;
+    private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel100;
-    private javax.swing.JLabel jLabel101;
     private javax.swing.JLabel jLabel102;
-    private javax.swing.JLabel jLabel103;
-    private javax.swing.JLabel jLabel106;
     private javax.swing.JLabel jLabel107;
     private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
-    private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
-    private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel23;
-    private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel25;
     private javax.swing.JLabel jLabel26;
-    private javax.swing.JLabel jLabel27;
     private javax.swing.JLabel jLabel28;
     private javax.swing.JLabel jLabel29;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel30;
     private javax.swing.JLabel jLabel31;
     private javax.swing.JLabel jLabel32;
-    private javax.swing.JLabel jLabel33;
     private javax.swing.JLabel jLabel34;
     private javax.swing.JLabel jLabel35;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel40;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel52;
-    private javax.swing.JLabel jLabel53;
     private javax.swing.JLabel jLabel54;
-    private javax.swing.JLabel jLabel55;
     private javax.swing.JLabel jLabel56;
-    private javax.swing.JLabel jLabel57;
-    private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel88;
-    private javax.swing.JLabel jLabel89;
-    private javax.swing.JLabel jLabel9;
     private javax.swing.JLabel jLabel90;
-    private javax.swing.JLabel jLabel91;
     private javax.swing.JLabel jLabel92;
-    private javax.swing.JLabel jLabel93;
     private javax.swing.JLabel jLabel94;
-    private javax.swing.JLabel jLabel95;
     private javax.swing.JLabel jLabel96;
-    private javax.swing.JLabel jLabel97;
     private javax.swing.JLabel jLabel98;
-    private javax.swing.JLabel jLabel99;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JCheckBox m1;
+    private javax.swing.JCheckBox m10;
+    private javax.swing.JCheckBox m11;
+    private javax.swing.JCheckBox m12;
+    private javax.swing.JCheckBox m2;
+    private javax.swing.JCheckBox m3;
+    private javax.swing.JCheckBox m4;
+    private javax.swing.JCheckBox m5;
+    private javax.swing.JCheckBox m6;
+    private javax.swing.JCheckBox m7;
+    private javax.swing.JCheckBox m8;
+    private javax.swing.JCheckBox m9;
+    private javax.swing.JCheckBox s1;
+    private javax.swing.JCheckBox s10;
+    private javax.swing.JCheckBox s11;
+    private javax.swing.JCheckBox s12;
+    private javax.swing.JCheckBox s2;
+    private javax.swing.JCheckBox s3;
+    private javax.swing.JCheckBox s4;
+    private javax.swing.JCheckBox s5;
+    private javax.swing.JCheckBox s6;
+    private javax.swing.JCheckBox s7;
+    private javax.swing.JCheckBox s8;
+    private javax.swing.JCheckBox s9;
     // End of variables declaration//GEN-END:variables
 
-    private void updateOrder() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
+  
 }
