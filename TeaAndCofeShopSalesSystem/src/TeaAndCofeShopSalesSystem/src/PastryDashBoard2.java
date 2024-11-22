@@ -181,7 +181,7 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jLabel81 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         PastriesDashBoard.setBackground(new java.awt.Color(255, 255, 255));
@@ -212,7 +212,7 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         CoffeeCinamonRolls.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         CoffeeCinamonRolls.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel13.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\Pastries\\Coffee-Cinnamon-Rolls.jpg")); // NOI18N
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Coffee-Cinnamon-Rolls.jpg"))); // NOI18N
         CoffeeCinamonRolls.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
 
         jLabel14.setText("Name");
@@ -246,7 +246,7 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jPanel7.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel7.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel21.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\Pastries\\Danish Pastries.jpg")); // NOI18N
+        jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Danish Pastries.jpg"))); // NOI18N
         jPanel7.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
 
         jLabel22.setText("Name");
@@ -280,7 +280,7 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jPanel8.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel8.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel25.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\Pastries\\Baklava.jpg")); // NOI18N
+        jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Baklava.jpg"))); // NOI18N
         jPanel8.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
 
         jLabel26.setText("Name");
@@ -314,7 +314,7 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jPanel9.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel9.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel29.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\Pastries\\Berry Cream Puff.jpg")); // NOI18N
+        jLabel29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Berry Cream Puff.jpg"))); // NOI18N
         jPanel9.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
 
         jLabel30.setText("Name");
@@ -348,7 +348,7 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jPanel10.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel10.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel33.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\Pastries\\Macarons.jpg")); // NOI18N
+        jLabel33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Macarons.jpg"))); // NOI18N
         jPanel10.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
 
         jLabel34.setText("Name");
@@ -382,8 +382,8 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jPanel11.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel11.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel37.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\Pastries\\Kouign-Amann.jpg")); // NOI18N
-        jPanel11.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, 0, 340, 220));
+        jLabel37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Kouign-Amann.jpg"))); // NOI18N
+        jPanel11.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
 
         jLabel38.setText("Name");
         jPanel11.add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
@@ -416,7 +416,7 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jPanel12.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel12.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel41.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\Pastries\\churros.jpg")); // NOI18N
+        jLabel41.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/churros.jpg"))); // NOI18N
         jPanel12.add(jLabel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
 
         jLabel42.setText("Name");
@@ -450,7 +450,7 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jPanel13.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel13.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel45.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\Pastries\\caramel-eclair.jpg")); // NOI18N
+        jLabel45.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/caramel-eclair.jpg"))); // NOI18N
         jPanel13.add(jLabel45, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
 
         jLabel46.setText("Name");
@@ -484,7 +484,7 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jPanel14.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel14.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel49.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\Pastries\\croisant.png")); // NOI18N
+        jLabel49.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/croisant.png"))); // NOI18N
         jPanel14.add(jLabel49, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
 
         jLabel50.setText("Name");
@@ -518,7 +518,7 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jPanel15.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel15.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel53.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\Pastries\\Scone-Buttery.jpg")); // NOI18N
+        jLabel53.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Scone-Buttery.jpg"))); // NOI18N
         jPanel15.add(jLabel53, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
 
         jLabel54.setText("Name");
@@ -552,7 +552,7 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jPanel16.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel16.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel57.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\Pastries\\Palmiers.jpg")); // NOI18N
+        jLabel57.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Palmiers.jpg"))); // NOI18N
         jPanel16.add(jLabel57, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
 
         jLabel58.setText("Name");
@@ -586,7 +586,7 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jPanel17.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel17.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel61.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\Pastries\\Madeleine.jpg")); // NOI18N
+        jLabel61.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Madeleine.jpg"))); // NOI18N
         jPanel17.add(jLabel61, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
 
         jLabel62.setText("Name");
@@ -620,7 +620,7 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jPanel18.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel18.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel65.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\Pastries\\Mille-Feuille.jpg")); // NOI18N
+        jLabel65.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Mille-Feuille.jpg"))); // NOI18N
         jPanel18.add(jLabel65, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
 
         jLabel66.setText("Name");
@@ -654,7 +654,7 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jPanel19.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel19.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel69.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\Pastries\\Pastelito.jpg")); // NOI18N
+        jLabel69.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Pastelito.jpg"))); // NOI18N
         jPanel19.add(jLabel69, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
 
         jLabel70.setText("Name");
@@ -708,7 +708,7 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         });
         jPanel20.add(jCheckBox19, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 310, -1, -1));
 
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\Pastries\\Tart.jpg")); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Tart.jpg"))); // NOI18N
         jPanel20.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
 
         jLabel94.setText("Price");
@@ -722,7 +722,7 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jPanel21.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel21.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel77.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\Pastries\\Toaster-Strudel.jpg")); // NOI18N
+        jLabel77.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Toaster-Strudel.jpg"))); // NOI18N
         jPanel21.add(jLabel77, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
 
         jLabel78.setText("Name");
@@ -842,10 +842,13 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
 
     private void jCheckBox20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox20ActionPerformed
         // TODO add your handling code here:
+        
     }//GEN-LAST:event_jCheckBox20ActionPerformed
 
     private void ToCoffeeBUttnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ToCoffeeBUttnActionPerformed
         // TODO add your handling code here:
+        CoffeeDashboad cd = new CoffeeDashboad();
+        
     }//GEN-LAST:event_ToCoffeeBUttnActionPerformed
 
     private void ToFoodButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ToFoodButtonActionPerformed

@@ -2,7 +2,7 @@
 
 <Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <Properties>
-    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
@@ -115,7 +115,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel13">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\Marianne\Documents\OOP-project-sirYknows\2105_TCSSS\TeaAndCofeShopSalesSystem\src\Pastries\Coffee-Cinnamon-Rolls.jpg"/>
+                      <Image iconType="3" name="/CoffeeImage/Coffee-Cinnamon-Rolls.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -238,7 +238,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel21">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\Marianne\Documents\OOP-project-sirYknows\2105_TCSSS\TeaAndCofeShopSalesSystem\src\Pastries\Danish Pastries.jpg"/>
+                      <Image iconType="3" name="/CoffeeImage/Danish Pastries.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -361,7 +361,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel25">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\Marianne\Documents\OOP-project-sirYknows\2105_TCSSS\TeaAndCofeShopSalesSystem\src\Pastries\Baklava.jpg"/>
+                      <Image iconType="3" name="/CoffeeImage/Baklava.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -484,7 +484,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel29">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\Marianne\Documents\OOP-project-sirYknows\2105_TCSSS\TeaAndCofeShopSalesSystem\src\Pastries\Berry Cream Puff.jpg"/>
+                      <Image iconType="3" name="/CoffeeImage/Berry Cream Puff.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -607,7 +607,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel33">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\Marianne\Documents\OOP-project-sirYknows\2105_TCSSS\TeaAndCofeShopSalesSystem\src\Pastries\Macarons.jpg"/>
+                      <Image iconType="3" name="/CoffeeImage/Macarons.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -730,12 +730,12 @@
                 <Component class="javax.swing.JLabel" name="jLabel37">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\Marianne\Documents\OOP-project-sirYknows\2105_TCSSS\TeaAndCofeShopSalesSystem\src\Pastries\Kouign-Amann.jpg"/>
+                      <Image iconType="3" name="/CoffeeImage/Kouign-Amann.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                      <AbsoluteConstraints x="-10" y="0" width="340" height="220"/>
+                      <AbsoluteConstraints x="0" y="0" width="340" height="220"/>
                     </Constraint>
                   </Constraints>
                 </Component>
@@ -853,7 +853,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel41">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\Marianne\Documents\OOP-project-sirYknows\2105_TCSSS\TeaAndCofeShopSalesSystem\src\Pastries\churros.jpg"/>
+                      <Image iconType="3" name="/CoffeeImage/churros.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -976,7 +976,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel45">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\Marianne\Documents\OOP-project-sirYknows\2105_TCSSS\TeaAndCofeShopSalesSystem\src\Pastries\caramel-eclair.jpg"/>
+                      <Image iconType="3" name="/CoffeeImage/caramel-eclair.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -1099,7 +1099,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel49">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\Marianne\Documents\OOP-project-sirYknows\2105_TCSSS\TeaAndCofeShopSalesSystem\src\Pastries\croisant.png"/>
+                      <Image iconType="3" name="/CoffeeImage/croisant.png"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -1222,7 +1222,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel53">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\Marianne\Documents\OOP-project-sirYknows\2105_TCSSS\TeaAndCofeShopSalesSystem\src\Pastries\Scone-Buttery.jpg"/>
+                      <Image iconType="3" name="/CoffeeImage/Scone-Buttery.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -1345,7 +1345,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel57">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\Marianne\Documents\OOP-project-sirYknows\2105_TCSSS\TeaAndCofeShopSalesSystem\src\Pastries\Palmiers.jpg"/>
+                      <Image iconType="3" name="/CoffeeImage/Palmiers.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -1468,7 +1468,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel61">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\Marianne\Documents\OOP-project-sirYknows\2105_TCSSS\TeaAndCofeShopSalesSystem\src\Pastries\Madeleine.jpg"/>
+                      <Image iconType="3" name="/CoffeeImage/Madeleine.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -1591,7 +1591,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel65">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\Marianne\Documents\OOP-project-sirYknows\2105_TCSSS\TeaAndCofeShopSalesSystem\src\Pastries\Mille-Feuille.jpg"/>
+                      <Image iconType="3" name="/CoffeeImage/Mille-Feuille.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -1714,7 +1714,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel69">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\Marianne\Documents\OOP-project-sirYknows\2105_TCSSS\TeaAndCofeShopSalesSystem\src\Pastries\Pastelito.jpg"/>
+                      <Image iconType="3" name="/CoffeeImage/Pastelito.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -1908,7 +1908,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel5">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\Marianne\Documents\OOP-project-sirYknows\2105_TCSSS\TeaAndCofeShopSalesSystem\src\Pastries\Tart.jpg"/>
+                      <Image iconType="3" name="/CoffeeImage/Tart.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -1960,7 +1960,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel77">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\Marianne\Documents\OOP-project-sirYknows\2105_TCSSS\TeaAndCofeShopSalesSystem\src\Pastries\Toaster-Strudel.jpg"/>
+                      <Image iconType="3" name="/CoffeeImage/Toaster-Strudel.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
