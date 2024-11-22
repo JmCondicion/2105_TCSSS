@@ -154,7 +154,7 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jCheckBox23 = new javax.swing.JCheckBox();
         jComboBox23 = new javax.swing.JComboBox<>();
         jLabel83 = new javax.swing.JLabel();
-        jLabel84 = new javax.swing.JLabel();
+        jLabel100 = new javax.swing.JLabel();
         PinaColada1 = new javax.swing.JPanel();
         jLabel85 = new javax.swing.JLabel();
         jLabel86 = new javax.swing.JLabel();
@@ -182,7 +182,7 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel97 = new javax.swing.JLabel();
         jLabel98 = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jScrollPane1.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
@@ -220,7 +220,7 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         });
         BloodyMaryCoctail.add(jCheckBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 370, -1, -1));
 
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\DrinksImages\\Bloody_Mary_Coctail.jpg")); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Bloody_Mary_Coctail.jpg"))); // NOI18N
         BloodyMaryCoctail.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 240, 300));
 
         jLabel1.setText("Quantity");
@@ -261,7 +261,7 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel2.setText("Quantity");
         MintJulep.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 380, -1, -1));
 
-        jLabel26.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\DrinksImages\\Scratch-made-Arnold-Palmer.jpg")); // NOI18N
+        jLabel26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Scratch-made-Arnold-Palmer.jpg"))); // NOI18N
         MintJulep.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 240, 300));
 
         jPanel1.add(MintJulep, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 1370, 240, 420));
@@ -299,8 +299,7 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel3.setText("Quantity");
         BlueBerrySmoothie.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, -1, -1));
 
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\DrinksImages\\Blueberry-smoothie.jpg")); // NOI18N
-        jLabel5.setText("jLabel4");
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Blueberry-smoothie.jpg"))); // NOI18N
         BlueBerrySmoothie.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 240, 300));
 
         jPanel1.add(BlueBerrySmoothie, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 20, 240, 420));
@@ -338,8 +337,7 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel11.setText("Quantity");
         BubbleTea.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, -1, -1));
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\DrinksImages\\Bubble-Tea.png")); // NOI18N
-        jLabel4.setText("jLabel4");
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Bubble-Tea.png"))); // NOI18N
         BubbleTea.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 240, 300));
 
         jPanel1.add(BubbleTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 20, 240, 420));
@@ -377,7 +375,6 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel25.setText("Quantity");
         BukoJuice1.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, -1, -1));
 
-        jLabel55.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\DrinksImages\\Buko juice.JPG")); // NOI18N
         jLabel55.setText("jLabel4");
         BukoJuice1.add(jLabel55, new org.netbeans.lib.awtextra.AbsoluteConstraints(-180, 0, 480, 300));
 
@@ -416,7 +413,7 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel30.setText("Quantity");
         Sangrai.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, -1, -1));
 
-        jLabel91.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\DrinksImages\\Sangria.jpg")); // NOI18N
+        jLabel91.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Sangria.jpg"))); // NOI18N
         Sangrai.add(jLabel91, new org.netbeans.lib.awtextra.AbsoluteConstraints(-100, -170, 600, 470));
 
         jPanel1.add(Sangrai, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 1370, 240, 420));
@@ -454,7 +451,7 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel36.setText("Quantity");
         Lemonade.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 380, -1, -1));
 
-        jLabel37.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\DrinksImages\\Lemonade.jpg")); // NOI18N
+        jLabel37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Lemonade.jpg"))); // NOI18N
         jLabel37.setText("jLabel26");
         Lemonade.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(-80, 0, 390, 300));
 
@@ -493,7 +490,7 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel42.setText("Quantity");
         MangoLassi.add(jLabel42, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 380, -1, -1));
 
-        jLabel67.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\DrinksImages\\Mango-Lassi.jpg")); // NOI18N
+        jLabel67.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Mango-Lassi.jpg"))); // NOI18N
         MangoLassi.add(jLabel67, new org.netbeans.lib.awtextra.AbsoluteConstraints(-80, 0, 370, 300));
 
         jPanel1.add(MangoLassi, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 920, 240, 420));
@@ -531,8 +528,7 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel48.setText("Quantity");
         CreamEspressoMartini1.add(jLabel48, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, -1, -1));
 
-        jLabel49.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\DrinksImages\\creamy-espresso-martini.jpg")); // NOI18N
-        jLabel49.setText("jLabel26");
+        jLabel49.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/creamy-espresso-martini.jpg"))); // NOI18N
         CreamEspressoMartini1.add(jLabel49, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 240, 300));
 
         jPanel1.add(CreamEspressoMartini1, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 470, 240, 420));
@@ -570,8 +566,7 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel59.setText("Quantity");
         ChaiTeaLatte1.add(jLabel59, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, -1, -1));
 
-        jLabel60.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\DrinksImages\\chai-tea-latte.jpg")); // NOI18N
-        jLabel60.setText("jLabel26");
+        jLabel60.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/chai-tea-latte.jpg"))); // NOI18N
         ChaiTeaLatte1.add(jLabel60, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 240, 300));
 
         jPanel1.add(ChaiTeaLatte1, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 470, 240, 420));
@@ -609,8 +604,7 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel65.setText("Quantity");
         HotChocolate2.add(jLabel65, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, -1, -1));
 
-        jLabel66.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\DrinksImages\\Hot Chocolate.jpg")); // NOI18N
-        jLabel66.setText("jLabel26");
+        jLabel66.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Hot Chocolate.jpg"))); // NOI18N
         HotChocolate2.add(jLabel66, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 240, 300));
 
         jPanel1.add(HotChocolate2, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 470, 240, 420));
@@ -648,7 +642,7 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel71.setText("Quantity");
         IceCoffee1.add(jLabel71, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, -1, -1));
 
-        jLabel72.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\DrinksImages\\iced-coffee.jpg")); // NOI18N
+        jLabel72.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/iced-coffee.jpg"))); // NOI18N
         jLabel72.setText("jLabel26");
         IceCoffee1.add(jLabel72, new org.netbeans.lib.awtextra.AbsoluteConstraints(-140, 0, 380, 300));
 
@@ -687,7 +681,7 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel77.setText("Quantity");
         IcedMatchaLatte1.add(jLabel77, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 380, -1, -1));
 
-        jLabel78.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\DrinksImages\\Iced-Matcha-Latte.jpg")); // NOI18N
+        jLabel78.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Iced-Matcha-Latte.jpg"))); // NOI18N
         jLabel78.setText("jLabel26");
         IcedMatchaLatte1.add(jLabel78, new org.netbeans.lib.awtextra.AbsoluteConstraints(-120, 0, 390, 300));
 
@@ -726,9 +720,8 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel83.setText("Quantity");
         Mojito1.add(jLabel83, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, -1, -1));
 
-        jLabel84.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\DrinksImages\\mojito.jpg")); // NOI18N
-        jLabel84.setText("jLabel26");
-        Mojito1.add(jLabel84, new org.netbeans.lib.awtextra.AbsoluteConstraints(-90, 0, 360, 300));
+        jLabel100.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/mojito.jpg"))); // NOI18N
+        Mojito1.add(jLabel100, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 240, 290));
 
         jPanel1.add(Mojito1, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 1370, 240, 420));
 
@@ -765,7 +758,7 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel89.setText("Quantity");
         PinaColada1.add(jLabel89, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, -1, -1));
 
-        jLabel90.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\DrinksImages\\Pina-colada.jpg")); // NOI18N
+        jLabel90.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Pina-colada.jpg"))); // NOI18N
         jLabel90.setText("jLabel26");
         PinaColada1.add(jLabel90, new org.netbeans.lib.awtextra.AbsoluteConstraints(-130, 0, 460, 300));
 
@@ -804,7 +797,7 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel95.setText("Quantity");
         MintJulep1.add(jLabel95, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 380, -1, -1));
 
-        jLabel96.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Documents\\OOP-project-sirYknows\\2105_TCSSS\\TeaAndCofeShopSalesSystem\\src\\DrinksImages\\Mint Julep.jpg")); // NOI18N
+        jLabel96.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Mint Julep.jpg"))); // NOI18N
         MintJulep1.add(jLabel96, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 240, 300));
 
         jPanel1.add(MintJulep1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 920, 240, 420));
@@ -1079,6 +1072,7 @@ public class DrinksDashBoard extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> jComboBox25;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel100;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
@@ -1159,7 +1153,6 @@ public class DrinksDashBoard extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel81;
     private javax.swing.JLabel jLabel82;
     private javax.swing.JLabel jLabel83;
-    private javax.swing.JLabel jLabel84;
     private javax.swing.JLabel jLabel85;
     private javax.swing.JLabel jLabel86;
     private javax.swing.JLabel jLabel87;
