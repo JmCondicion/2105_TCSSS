@@ -37,45 +37,87 @@ public class HomePage extends javax.swing.JFrame {
         Container = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         ScollContainer = new javax.swing.JPanel();
-        jScrollPane2 = new javax.swing.JScrollPane();
+        FeaturedFood = new javax.swing.JScrollPane();
         jPanel3 = new javax.swing.JPanel();
-        jPanel4 = new javax.swing.JPanel();
-        jPanel5 = new javax.swing.JPanel();
-        jPanel6 = new javax.swing.JPanel();
-        jPanel7 = new javax.swing.JPanel();
-        jPanel8 = new javax.swing.JPanel();
-        jScrollPane3 = new javax.swing.JScrollPane();
+        GarlicButterShrimpPasta = new javax.swing.JPanel();
+        jLabel41 = new javax.swing.JLabel();
+        jLabel42 = new javax.swing.JLabel();
+        Lasagna = new javax.swing.JPanel();
+        jLabel33 = new javax.swing.JLabel();
+        jLabel34 = new javax.swing.JLabel();
+        OssoBuco = new javax.swing.JPanel();
+        jLabel35 = new javax.swing.JLabel();
+        jLabel36 = new javax.swing.JLabel();
+        AlfredoFettuchini = new javax.swing.JPanel();
+        jLabel37 = new javax.swing.JLabel();
+        jLabel38 = new javax.swing.JLabel();
+        Cannoli = new javax.swing.JPanel();
+        jLabel39 = new javax.swing.JLabel();
+        jLabel40 = new javax.swing.JLabel();
+        FeaturedCoffee = new javax.swing.JScrollPane();
         jPanel9 = new javax.swing.JPanel();
-        jPanel10 = new javax.swing.JPanel();
-        jPanel11 = new javax.swing.JPanel();
+        Cappucino = new javax.swing.JPanel();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        FlatWhite = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
-        jPanel12 = new javax.swing.JPanel();
-        jPanel13 = new javax.swing.JPanel();
-        jPanel14 = new javax.swing.JPanel();
-        jScrollPane4 = new javax.swing.JScrollPane();
+        jLabel6 = new javax.swing.JLabel();
+        Cacao = new javax.swing.JPanel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        ConPanna = new javax.swing.JPanel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        Latte = new javax.swing.JPanel();
+        jLabel11 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
+        FeaturedTea = new javax.swing.JScrollPane();
         jPanel15 = new javax.swing.JPanel();
-        jPanel16 = new javax.swing.JPanel();
-        jPanel17 = new javax.swing.JPanel();
-        jPanel18 = new javax.swing.JPanel();
-        jPanel19 = new javax.swing.JPanel();
-        jPanel20 = new javax.swing.JPanel();
-        jScrollPane5 = new javax.swing.JScrollPane();
+        OolongTea = new javax.swing.JPanel();
+        jLabel43 = new javax.swing.JLabel();
+        jLabel44 = new javax.swing.JLabel();
+        EarlyGreyTea = new javax.swing.JPanel();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
+        HibiscusTea = new javax.swing.JPanel();
+        jLabel17 = new javax.swing.JLabel();
+        jLabel18 = new javax.swing.JLabel();
+        WhiteTea = new javax.swing.JPanel();
+        jLabel19 = new javax.swing.JLabel();
+        jLabel20 = new javax.swing.JLabel();
+        JasmineTea = new javax.swing.JPanel();
+        jLabel21 = new javax.swing.JLabel();
+        jLabel22 = new javax.swing.JLabel();
+        FeaturedDrinks = new javax.swing.JScrollPane();
         jPanel21 = new javax.swing.JPanel();
-        jPanel22 = new javax.swing.JPanel();
-        jPanel23 = new javax.swing.JPanel();
-        jPanel24 = new javax.swing.JPanel();
-        jPanel25 = new javax.swing.JPanel();
-        jPanel26 = new javax.swing.JPanel();
+        BloodyMaryCoctail = new javax.swing.JPanel();
+        jLabel31 = new javax.swing.JLabel();
+        jLabel32 = new javax.swing.JLabel();
+        MintJulep = new javax.swing.JPanel();
+        jLabel23 = new javax.swing.JLabel();
+        jLabel24 = new javax.swing.JLabel();
+        HotChocolate = new javax.swing.JPanel();
+        jLabel25 = new javax.swing.JLabel();
+        jLabel26 = new javax.swing.JLabel();
+        BubleTea = new javax.swing.JPanel();
+        jLabel27 = new javax.swing.JLabel();
+        jLabel28 = new javax.swing.JLabel();
+        MangoLassi = new javax.swing.JPanel();
+        jLabel30 = new javax.swing.JLabel();
+        jLabel29 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
+        ScollContainerBRG = new javax.swing.JLabel();
         LogoName = new javax.swing.JLabel();
         coffeeBtn = new javax.swing.JButton();
         TeaBtn = new javax.swing.JButton();
         DrinksBtn = new javax.swing.JButton();
         FoodBtn = new javax.swing.JButton();
         AdminBtn = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
+        jLabel45 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setResizable(false);
@@ -93,125 +135,290 @@ public class HomePage extends javax.swing.JFrame {
         jPanel3.setFocusable(false);
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel4.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        jPanel3.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 20, 220, 170));
+        GarlicButterShrimpPasta.setBackground(new java.awt.Color(255, 255, 255));
+        GarlicButterShrimpPasta.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel5.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        jPanel3.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 220, 170));
+        jLabel41.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/garlic butter shrimp pasta.jpg"))); // NOI18N
+        GarlicButterShrimpPasta.add(jLabel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 250, 140));
 
-        jPanel6.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel6.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        jPanel3.add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 20, 220, 170));
+        jLabel42.setFont(new java.awt.Font("Arial", 3, 18)); // NOI18N
+        jLabel42.setText("Garlic Butter Shrimp Pasta");
+        GarlicButterShrimpPasta.add(jLabel42, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 140, 240, 30));
 
-        jPanel7.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel7.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        jPanel3.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 20, 220, 170));
+        jPanel3.add(GarlicButterShrimpPasta, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 20, 240, 170));
 
-        jPanel8.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel8.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        jPanel3.add(jPanel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 20, 220, 170));
+        Lasagna.setBackground(new java.awt.Color(255, 255, 255));
+        Lasagna.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jScrollPane2.setViewportView(jPanel3);
+        jLabel33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/Lasagna.jpg"))); // NOI18N
+        Lasagna.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 140));
 
-        ScollContainer.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 1010, 930, 240));
+        jLabel34.setFont(new java.awt.Font("Arial", 3, 18)); // NOI18N
+        jLabel34.setText("Lasagna");
+        Lasagna.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 140, 220, 30));
+
+        jPanel3.add(Lasagna, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 220, 170));
+
+        OssoBuco.setBackground(new java.awt.Color(255, 255, 255));
+        OssoBuco.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/Osso Buco.jpg"))); // NOI18N
+        OssoBuco.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 140));
+
+        jLabel36.setFont(new java.awt.Font("Arial", 3, 18)); // NOI18N
+        jLabel36.setText("Osso Buco");
+        OssoBuco.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 140, 220, 30));
+
+        jPanel3.add(OssoBuco, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 20, 220, 170));
+
+        AlfredoFettuchini.setBackground(new java.awt.Color(255, 255, 255));
+        AlfredoFettuchini.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/alfredo fettuccine.jpg"))); // NOI18N
+        AlfredoFettuchini.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 140));
+
+        jLabel38.setFont(new java.awt.Font("Arial", 3, 18)); // NOI18N
+        jLabel38.setText("Alfredo Fettuchini");
+        AlfredoFettuchini.add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 140, 220, 30));
+
+        jPanel3.add(AlfredoFettuchini, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 20, 220, 170));
+
+        Cannoli.setBackground(new java.awt.Color(255, 255, 255));
+        Cannoli.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel39.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/Cannoli.jpg"))); // NOI18N
+        Cannoli.add(jLabel39, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 140));
+
+        jLabel40.setFont(new java.awt.Font("Arial", 3, 18)); // NOI18N
+        jLabel40.setText("Cannoli");
+        Cannoli.add(jLabel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 140, 220, 30));
+
+        jPanel3.add(Cannoli, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 20, 220, 170));
+
+        FeaturedFood.setViewportView(jPanel3);
+
+        ScollContainer.add(FeaturedFood, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 1010, 930, 240));
 
         jPanel9.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel10.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel10.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        jPanel9.add(jPanel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 20, 220, 170));
+        Cappucino.setBackground(new java.awt.Color(255, 255, 255));
+        Cappucino.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel11.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel11.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        jPanel11.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 130));
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/cappuccino coffee.jpg"))); // NOI18N
+        Cappucino.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 130));
 
-        jPanel9.add(jPanel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 220, 170));
+        jLabel14.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
+        jLabel14.setText("Cappuccino");
+        Cappucino.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 130, 220, 40));
 
-        jPanel12.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel12.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        jPanel9.add(jPanel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 20, 220, 170));
+        jPanel9.add(Cappucino, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 20, 220, 170));
 
-        jPanel13.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel13.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        jPanel9.add(jPanel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 20, 220, 170));
+        FlatWhite.setBackground(new java.awt.Color(255, 255, 255));
+        FlatWhite.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel14.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel14.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        jPanel9.add(jPanel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 20, 220, 170));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Flat white coffee.jpg"))); // NOI18N
+        FlatWhite.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 130));
 
-        jScrollPane3.setViewportView(jPanel9);
+        jLabel6.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
+        jLabel6.setText("Flat White");
+        FlatWhite.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 130, 220, 40));
 
-        ScollContainer.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 80, 930, 240));
+        jPanel9.add(FlatWhite, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 220, 170));
+
+        Cacao.setBackground(new java.awt.Color(255, 255, 255));
+        Cacao.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Cacao.jpg"))); // NOI18N
+        Cacao.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 130));
+
+        jLabel8.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
+        jLabel8.setText("Cacao");
+        Cacao.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 130, 220, 40));
+
+        jPanel9.add(Cacao, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 20, 220, 170));
+
+        ConPanna.setBackground(new java.awt.Color(255, 255, 255));
+        ConPanna.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Con panna coffee.jpg"))); // NOI18N
+        ConPanna.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 130));
+
+        jLabel10.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
+        jLabel10.setText("Con Panna ");
+        ConPanna.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 130, 220, 40));
+
+        jPanel9.add(ConPanna, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 20, 220, 170));
+
+        Latte.setBackground(new java.awt.Color(255, 255, 255));
+        Latte.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Latte coffee.jpg"))); // NOI18N
+        Latte.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 130));
+
+        jLabel12.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
+        jLabel12.setText("Latte");
+        Latte.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 130, 220, 40));
+
+        jPanel9.add(Latte, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 20, 220, 170));
+
+        FeaturedCoffee.setViewportView(jPanel9);
+
+        ScollContainer.add(FeaturedCoffee, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 80, 930, 240));
 
         jPanel15.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel16.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel16.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        jPanel15.add(jPanel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 20, 220, 170));
+        OolongTea.setBackground(new java.awt.Color(255, 255, 255));
+        OolongTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel17.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel17.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        jPanel15.add(jPanel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 220, 170));
+        jLabel43.setIcon(new javax.swing.ImageIcon(getClass().getResource("/TeaSImage/Oolong Tea.jpg"))); // NOI18N
+        OolongTea.add(jLabel43, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 130));
 
-        jPanel18.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel18.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        jPanel15.add(jPanel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 20, 220, 170));
+        jLabel44.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
+        jLabel44.setText("Oolong Tea");
+        OolongTea.add(jLabel44, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 130, 220, 40));
 
-        jPanel19.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel19.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        jPanel15.add(jPanel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 20, 220, 170));
+        jPanel15.add(OolongTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 20, 220, 170));
 
-        jPanel20.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel20.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        jPanel15.add(jPanel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 20, 220, 170));
+        EarlyGreyTea.setBackground(new java.awt.Color(255, 255, 255));
+        EarlyGreyTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jScrollPane4.setViewportView(jPanel15);
+        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/TeaSImage/Earl Grey.jpg"))); // NOI18N
+        EarlyGreyTea.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 130));
 
-        ScollContainer.add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 400, 930, 230));
+        jLabel16.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
+        jLabel16.setText("Early Grey Tea");
+        EarlyGreyTea.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 130, 220, 40));
+
+        jPanel15.add(EarlyGreyTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 220, 170));
+
+        HibiscusTea.setBackground(new java.awt.Color(255, 255, 255));
+        HibiscusTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/TeaSImage/Hibiscus Tea.jpg"))); // NOI18N
+        HibiscusTea.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 130));
+
+        jLabel18.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
+        jLabel18.setText("Hibiscus Tea");
+        HibiscusTea.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 130, 220, 40));
+
+        jPanel15.add(HibiscusTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 20, 220, 170));
+
+        WhiteTea.setBackground(new java.awt.Color(255, 255, 255));
+        WhiteTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/TeaSImage/White Tea.jpg"))); // NOI18N
+        WhiteTea.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 130));
+
+        jLabel20.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
+        jLabel20.setText("White Tea");
+        WhiteTea.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 130, 220, 40));
+
+        jPanel15.add(WhiteTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 20, 220, 170));
+
+        JasmineTea.setBackground(new java.awt.Color(255, 255, 255));
+        JasmineTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/TeaSImage/Jasmine Tea.jpg"))); // NOI18N
+        JasmineTea.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 130));
+
+        jLabel22.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
+        jLabel22.setText("Jasmine Tea");
+        JasmineTea.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 130, 220, 40));
+
+        jPanel15.add(JasmineTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 20, 220, 170));
+
+        FeaturedTea.setViewportView(jPanel15);
+
+        ScollContainer.add(FeaturedTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 400, 930, 230));
 
         jPanel21.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel22.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel22.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        jPanel21.add(jPanel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 20, 220, 170));
+        BloodyMaryCoctail.setBackground(new java.awt.Color(255, 255, 255));
+        BloodyMaryCoctail.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel23.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel23.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        jPanel21.add(jPanel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 220, 170));
+        jLabel31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/DrinksImages/Bloody_Mary_Coctail.jpg"))); // NOI18N
+        BloodyMaryCoctail.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 130));
 
-        jPanel24.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel24.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        jPanel21.add(jPanel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 20, 220, 170));
+        jLabel32.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
+        jLabel32.setText("Bloody Mary Coctail");
+        BloodyMaryCoctail.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 130, 220, 40));
 
-        jPanel25.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel25.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        jPanel21.add(jPanel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 20, 220, 170));
+        jPanel21.add(BloodyMaryCoctail, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 20, 220, 170));
 
-        jPanel26.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel26.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        jPanel21.add(jPanel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 20, 220, 170));
+        MintJulep.setBackground(new java.awt.Color(255, 255, 255));
+        MintJulep.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jScrollPane5.setViewportView(jPanel21);
+        jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/DrinksImages/Mint Julep.jpg"))); // NOI18N
+        MintJulep.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 130));
 
-        ScollContainer.add(jScrollPane5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 700, 930, 230));
+        jLabel24.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
+        jLabel24.setText("Mint Julep");
+        MintJulep.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 130, 220, 40));
+
+        jPanel21.add(MintJulep, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 220, 170));
+
+        HotChocolate.setBackground(new java.awt.Color(255, 255, 255));
+        HotChocolate.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/DrinksImages/Hot Chocolate.jpg"))); // NOI18N
+        HotChocolate.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 130));
+
+        jLabel26.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
+        jLabel26.setText("Hot Chocolate");
+        HotChocolate.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 130, 220, 40));
+
+        jPanel21.add(HotChocolate, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 20, 220, 170));
+
+        BubleTea.setBackground(new java.awt.Color(255, 255, 255));
+        BubleTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/DrinksImages/Bubble-Tea.png"))); // NOI18N
+        BubleTea.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 130));
+
+        jLabel28.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
+        jLabel28.setText("Buble Tea");
+        BubleTea.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 130, 220, 40));
+
+        jPanel21.add(BubleTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 20, 220, 170));
+
+        MangoLassi.setBackground(new java.awt.Color(255, 255, 255));
+        MangoLassi.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/DrinksImages/Mango-Lassi.jpg"))); // NOI18N
+        MangoLassi.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(-100, 0, 370, 130));
+
+        jLabel29.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
+        jLabel29.setText("Mango Lassi");
+        MangoLassi.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 130, 220, 40));
+
+        jPanel21.add(MangoLassi, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 20, 220, 170));
+
+        FeaturedDrinks.setViewportView(jPanel21);
+
+        ScollContainer.add(FeaturedDrinks, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 700, 930, 230));
 
         jLabel2.setFont(new java.awt.Font("Segoe UI Historic", 3, 24)); // NOI18N
-        jLabel2.setText("Featured Coffe");
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setText("Featured Coffee");
         ScollContainer.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, 292, 40));
 
         jLabel3.setFont(new java.awt.Font("Segoe UI Historic", 3, 24)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Featured Food");
         ScollContainer.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 960, 292, 40));
 
         jLabel4.setFont(new java.awt.Font("Segoe UI Historic", 3, 24)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Featured Drinks");
         ScollContainer.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 650, 292, 40));
 
         jLabel5.setFont(new java.awt.Font("Segoe UI Historic", 3, 24)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Featured Tea");
         ScollContainer.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 350, 292, 40));
+
+        ScollContainerBRG.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
+        ScollContainer.add(ScollContainerBRG, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1030, 1270));
 
         jScrollPane1.setViewportView(ScollContainer);
 
@@ -219,6 +426,7 @@ public class HomePage extends javax.swing.JFrame {
 
         LogoName.setBackground(new java.awt.Color(255, 255, 255));
         LogoName.setFont(new java.awt.Font("Vivaldi", 3, 36)); // NOI18N
+        LogoName.setForeground(new java.awt.Color(255, 255, 255));
         LogoName.setText("Elysian");
         LogoName.setToolTipText("");
         Container.add(LogoName, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 229, 76));
@@ -256,9 +464,25 @@ public class HomePage extends javax.swing.JFrame {
         Container.add(FoodBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
 
         AdminBtn.setText("Admin");
+        AdminBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AdminBtnActionPerformed(evt);
+            }
+        });
         Container.add(AdminBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 610, -1, -1));
 
-        getContentPane().add(Container, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1260, 670));
+        jButton1.setText("Pastries");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        Container.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 340, -1, -1));
+
+        jLabel45.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
+        Container.add(jLabel45, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1280, 690));
+
+        getContentPane().add(Container, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1280, 690));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -267,33 +491,56 @@ public class HomePage extends javax.swing.JFrame {
         // TODO add your handling code here:
         FoodDashBoard fd = new FoodDashBoard();
         fd.setVisible(true);
-        HomePage hp = new HomePage();
-        hp.setVisible(false);
+        //HomePage hp = new HomePage();
+        //hp.setVisible(false);
+        this.dispose();
+      
     }//GEN-LAST:event_FoodBtnActionPerformed
 
     private void coffeeBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_coffeeBtnActionPerformed
-        // TODO add your handling code here:
-        HomePage hp = new HomePage();
-        hp.setVisible(false);
+       // TODO add your handling code here:
+        this.dispose();
+        //HomePage hp = new HomePage();
+        //hp.setVisible(false);
+        //hp.dispose();
         CoffeeDashboad cd = new CoffeeDashboad();
         cd.setVisible(true);
+        
     }//GEN-LAST:event_coffeeBtnActionPerformed
 
     private void TeaBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TeaBtnActionPerformed
         // TODO add your handling code here:
+        this.dispose();
         TeaDashBoard td = new TeaDashBoard();
         td.setVisible(true);
-        HomePage hp = new HomePage();
-        hp.setVisible(false);
+        //HomePage hp = new HomePage();
+        //hp.setVisible(false);
     }//GEN-LAST:event_TeaBtnActionPerformed
 
     private void DrinksBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DrinksBtnActionPerformed
         // TODO add your handling code here:
+        this.dispose();
         DrinksDashBoard dD = new DrinksDashBoard();
         dD.setVisible(true);
-        HomePage hp = new HomePage();
-        hp.setVisible(false);
+       // HomePage hp = new HomePage();
+        //hp.setVisible(false);
+        //hp.dispose();
     }//GEN-LAST:event_DrinksBtnActionPerformed
+
+    private void AdminBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AdminBtnActionPerformed
+        // TODO add your handling code here:
+        LogIn login = new LogIn();
+        login.setVisible(true);
+        //HomePage hp = new HomePage();
+        this.dispose();
+    }//GEN-LAST:event_AdminBtnActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+        PastryDashBoard2 pd = new PastryDashBoard2();
+        pd.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -332,47 +579,89 @@ public class HomePage extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton AdminBtn;
+    private javax.swing.JPanel AlfredoFettuchini;
+    private javax.swing.JPanel BloodyMaryCoctail;
+    private javax.swing.JPanel BubleTea;
+    private javax.swing.JPanel Cacao;
+    private javax.swing.JPanel Cannoli;
+    private javax.swing.JPanel Cappucino;
+    private javax.swing.JPanel ConPanna;
     private javax.swing.JPanel Container;
     private javax.swing.JButton DrinksBtn;
+    private javax.swing.JPanel EarlyGreyTea;
+    private javax.swing.JScrollPane FeaturedCoffee;
+    private javax.swing.JScrollPane FeaturedDrinks;
+    private javax.swing.JScrollPane FeaturedFood;
+    private javax.swing.JScrollPane FeaturedTea;
+    private javax.swing.JPanel FlatWhite;
     private javax.swing.JButton FoodBtn;
+    private javax.swing.JPanel GarlicButterShrimpPasta;
+    private javax.swing.JPanel HibiscusTea;
+    private javax.swing.JPanel HotChocolate;
+    private javax.swing.JPanel JasmineTea;
+    private javax.swing.JPanel Lasagna;
+    private javax.swing.JPanel Latte;
     private javax.swing.JLabel LogoName;
+    private javax.swing.JPanel MangoLassi;
+    private javax.swing.JPanel MintJulep;
+    private javax.swing.JPanel OolongTea;
+    private javax.swing.JPanel OssoBuco;
     private javax.swing.JPanel ScollContainer;
+    private javax.swing.JLabel ScollContainerBRG;
     private javax.swing.JButton TeaBtn;
+    private javax.swing.JPanel WhiteTea;
     private javax.swing.JButton coffeeBtn;
+    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel28;
+    private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel30;
+    private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel33;
+    private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel35;
+    private javax.swing.JLabel jLabel36;
+    private javax.swing.JLabel jLabel37;
+    private javax.swing.JLabel jLabel38;
+    private javax.swing.JLabel jLabel39;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel40;
+    private javax.swing.JLabel jLabel41;
+    private javax.swing.JLabel jLabel42;
+    private javax.swing.JLabel jLabel43;
+    private javax.swing.JLabel jLabel44;
+    private javax.swing.JLabel jLabel45;
     private javax.swing.JLabel jLabel5;
-    private javax.swing.JPanel jPanel10;
-    private javax.swing.JPanel jPanel11;
-    private javax.swing.JPanel jPanel12;
-    private javax.swing.JPanel jPanel13;
-    private javax.swing.JPanel jPanel14;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel15;
-    private javax.swing.JPanel jPanel16;
-    private javax.swing.JPanel jPanel17;
-    private javax.swing.JPanel jPanel18;
-    private javax.swing.JPanel jPanel19;
-    private javax.swing.JPanel jPanel20;
     private javax.swing.JPanel jPanel21;
-    private javax.swing.JPanel jPanel22;
-    private javax.swing.JPanel jPanel23;
-    private javax.swing.JPanel jPanel24;
-    private javax.swing.JPanel jPanel25;
-    private javax.swing.JPanel jPanel26;
     private javax.swing.JPanel jPanel3;
-    private javax.swing.JPanel jPanel4;
-    private javax.swing.JPanel jPanel5;
-    private javax.swing.JPanel jPanel6;
-    private javax.swing.JPanel jPanel7;
-    private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JScrollPane jScrollPane3;
-    private javax.swing.JScrollPane jScrollPane4;
-    private javax.swing.JScrollPane jScrollPane5;
     // End of variables declaration//GEN-END:variables
 
 

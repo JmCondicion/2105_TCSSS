@@ -1165,12 +1165,12 @@
                 </Component>
               </SubComponents>
             </Container>
-            <Component class="javax.swing.JButton" name="ToCoffeeButton">
+            <Component class="javax.swing.JButton" name="PreviousBtn">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Coffee"/>
+                <Property name="text" type="java.lang.String" value="Previous"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ToCoffeeButtonActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PreviousBtnActionPerformed"/>
               </Events>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -1178,29 +1178,16 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JButton" name="ToFoodButton">
+            <Component class="javax.swing.JButton" name="NextButton">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Food"/>
+                <Property name="text" type="java.lang.String" value="Next"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ToFoodButtonActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="NextButtonActionPerformed"/>
               </Events>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
                   <AbsoluteConstraints x="970" y="1490" width="80" height="35"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JButton" name="ToPastriesButton">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="Pastries"/>
-              </Properties>
-              <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ToPastriesButtonActionPerformed"/>
-              </Events>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="1080" y="1490" width="80" height="35"/>
                 </Constraint>
               </Constraints>
             </Component>
@@ -1292,12 +1279,12 @@
                 </Component>
               </SubComponents>
             </Container>
-            <Component class="javax.swing.JButton" name="DrinksButton">
+            <Component class="javax.swing.JButton" name="HomeButton">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Drinks"/>
+                <Property name="text" type="java.lang.String" value="Home"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DrinksButtonActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="HomeButtonActionPerformed"/>
               </Events>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">

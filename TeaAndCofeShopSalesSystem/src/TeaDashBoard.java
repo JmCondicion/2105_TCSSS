@@ -134,9 +134,8 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel73 = new javax.swing.JLabel();
         jLabel74 = new javax.swing.JLabel();
         jLabel75 = new javax.swing.JLabel();
-        ToCoffeeButton = new javax.swing.JButton();
-        ToFoodButton = new javax.swing.JButton();
-        ToPastriesButton = new javax.swing.JButton();
+        PreviousBtn = new javax.swing.JButton();
+        NextButton = new javax.swing.JButton();
         TotalButton = new javax.swing.JButton();
         jPanel13 = new javax.swing.JPanel();
         jLabel51 = new javax.swing.JLabel();
@@ -145,7 +144,7 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel53 = new javax.swing.JLabel();
         jLabel54 = new javax.swing.JLabel();
         jLabel55 = new javax.swing.JLabel();
-        DrinksButton = new javax.swing.JButton();
+        HomeButton = new javax.swing.JButton();
         ToDrinksButton = new javax.swing.JLabel();
         jLabel37 = new javax.swing.JLabel();
         jLabel38 = new javax.swing.JLabel();
@@ -484,29 +483,21 @@ public class TeaDashBoard extends javax.swing.JFrame {
 
         TeaDashBoard.add(DarjeelingTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 1120, 280, 340));
 
-        ToCoffeeButton.setText("Coffee");
-        ToCoffeeButton.addActionListener(new java.awt.event.ActionListener() {
+        PreviousBtn.setText("Previous");
+        PreviousBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ToCoffeeButtonActionPerformed(evt);
+                PreviousBtnActionPerformed(evt);
             }
         });
-        TeaDashBoard.add(ToCoffeeButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 1490, 80, 35));
+        TeaDashBoard.add(PreviousBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 1490, 80, 35));
 
-        ToFoodButton.setText("Food");
-        ToFoodButton.addActionListener(new java.awt.event.ActionListener() {
+        NextButton.setText("Next");
+        NextButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ToFoodButtonActionPerformed(evt);
+                NextButtonActionPerformed(evt);
             }
         });
-        TeaDashBoard.add(ToFoodButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 1490, 80, 35));
-
-        ToPastriesButton.setText("Pastries");
-        ToPastriesButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ToPastriesButtonActionPerformed(evt);
-            }
-        });
-        TeaDashBoard.add(ToPastriesButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(1080, 1490, 80, 35));
+        TeaDashBoard.add(NextButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 1490, 80, 35));
 
         TotalButton.setText("Total");
         TotalButton.addActionListener(new java.awt.event.ActionListener() {
@@ -538,13 +529,13 @@ public class TeaDashBoard extends javax.swing.JFrame {
 
         TeaDashBoard.add(jPanel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 1120, 280, 340));
 
-        DrinksButton.setText("Drinks");
-        DrinksButton.addActionListener(new java.awt.event.ActionListener() {
+        HomeButton.setText("Home");
+        HomeButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                DrinksButtonActionPerformed(evt);
+                HomeButtonActionPerformed(evt);
             }
         });
-        TeaDashBoard.add(DrinksButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 1490, 80, 35));
+        TeaDashBoard.add(HomeButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 1490, 80, 35));
 
         ToDrinksButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
         ToDrinksButton.setText("jLabel36");
@@ -565,43 +556,32 @@ public class TeaDashBoard extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void ToCoffeeButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ToCoffeeButtonActionPerformed
+        
+    private void PreviousBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PreviousBtnActionPerformed
         // TODO add your handling code here:
-        CoffeeDashboad cd =  new CoffeeDashboad();
+        CoffeeDashboad cd = new CoffeeDashboad();
         cd.setVisible(true);
-        TeaDashBoard td = new TeaDashBoard();
-        td.setVisible(false);
-    }//GEN-LAST:event_ToCoffeeButtonActionPerformed
+        this.dispose();
+    }//GEN-LAST:event_PreviousBtnActionPerformed
 
-    private void ToPastriesButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ToPastriesButtonActionPerformed
+    private void HomeButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_HomeButtonActionPerformed
         // TODO add your handling code here:
-        PastryDashBoard2 pd = new PastryDashBoard2();
-        pd.setVisible(true);
-        TeaDashBoard td = new TeaDashBoard();
-        td.setVisible(false);
-    }//GEN-LAST:event_ToPastriesButtonActionPerformed
-
-    private void DrinksButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DrinksButtonActionPerformed
-        // TODO add your handling code here:
-
-        DrinksDashBoard db = new DrinksDashBoard();
-        db.setVisible(true);
-        TeaDashBoard td = new TeaDashBoard();
-        td.setVisible(false);
-    }//GEN-LAST:event_DrinksButtonActionPerformed
+        HomePage hp = new HomePage();
+        hp.setVisible(true);
+        this.dispose();
+      
+    }//GEN-LAST:event_HomeButtonActionPerformed
 
     private void TotalButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TotalButtonActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_TotalButtonActionPerformed
 
-    private void ToFoodButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ToFoodButtonActionPerformed
+    private void NextButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NextButtonActionPerformed
         // TODO add your handling code here:
-        FoodDashBoard fd = new FoodDashBoard();
-        fd.setVisible(true);
-        TeaDashBoard td = new TeaDashBoard();
-        td.setVisible(false);
-                
-    }//GEN-LAST:event_ToFoodButtonActionPerformed
+        DrinksDashBoard dD = new DrinksDashBoard();
+        dD.setVisible(true);
+        this.dispose();          
+    }//GEN-LAST:event_NextButtonActionPerformed
 
     /**
      * @param args the command line arguments
@@ -642,22 +622,21 @@ public class TeaDashBoard extends javax.swing.JFrame {
     private javax.swing.JPanel ChaiTea;
     private javax.swing.JPanel CharmomoleTea;
     private javax.swing.JPanel DarjeelingTea;
-    private javax.swing.JButton DrinksButton;
     private javax.swing.JPanel EarlyGreyTea;
     private javax.swing.JPanel GenMaichaTea;
     private javax.swing.JPanel HerbalTea;
     private javax.swing.JPanel HibiscusTea;
+    private javax.swing.JButton HomeButton;
     private javax.swing.JPanel JasmineTea;
     private javax.swing.JPanel MatchaTea;
     private javax.swing.JPanel MintTea;
+    private javax.swing.JButton NextButton;
     private javax.swing.JPanel OolongTea;
+    private javax.swing.JButton PreviousBtn;
     private javax.swing.JPanel Pu_erh_Tea;
     private javax.swing.JPanel RooibosTea;
     private javax.swing.JPanel TeaDashBoard;
-    private javax.swing.JButton ToCoffeeButton;
     private javax.swing.JLabel ToDrinksButton;
-    private javax.swing.JButton ToFoodButton;
-    private javax.swing.JButton ToPastriesButton;
     private javax.swing.JButton TotalButton;
     private javax.swing.JPanel WhiteTea;
     private javax.swing.JCheckBox jCheckBox1;

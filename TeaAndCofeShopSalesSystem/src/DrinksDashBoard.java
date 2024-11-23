@@ -33,11 +33,11 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
         jComboBox2 = new javax.swing.JComboBox<>();
-        jCheckBox2 = new javax.swing.JCheckBox();
         jLabel6 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
+        jButton2 = new javax.swing.JButton();
+        P1 = new javax.swing.JTextField();
         MintJulep = new javax.swing.JPanel();
         jLabel12 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
@@ -173,12 +173,11 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jComboBox25 = new javax.swing.JComboBox<>();
         jLabel95 = new javax.swing.JLabel();
         jLabel96 = new javax.swing.JLabel();
-        ToFoodButton = new javax.swing.JButton();
-        ToTeaButton = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
-        ToCoffeeButton = new javax.swing.JButton();
-        ToCoffeeButton1 = new javax.swing.JButton();
-        jLabel99 = new javax.swing.JLabel();
+        NextBtn = new javax.swing.JButton();
+        PreviousBtn = new javax.swing.JButton();
+        ToCoffeeButton3 = new javax.swing.JButton();
+        jLabel10 = new javax.swing.JLabel();
         jLabel97 = new javax.swing.JLabel();
         jLabel98 = new javax.swing.JLabel();
 
@@ -201,9 +200,6 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel9.setText("Price");
         BloodyMaryCoctail.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 340, -1, -1));
 
-        jLabel10.setText("200");
-        BloodyMaryCoctail.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 340, -1, -1));
-
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
         jComboBox2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -212,19 +208,27 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         });
         BloodyMaryCoctail.add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 370, -1, -1));
 
-        jCheckBox2.setText("Purchase");
-        jCheckBox2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox2ActionPerformed(evt);
-            }
-        });
-        BloodyMaryCoctail.add(jCheckBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 370, -1, -1));
-
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Bloody_Mary_Coctail.jpg"))); // NOI18N
         BloodyMaryCoctail.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 240, 300));
 
         jLabel1.setText("Quantity");
         BloodyMaryCoctail.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 370, -1, -1));
+
+        jButton2.setText("Add");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+        BloodyMaryCoctail.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
+
+        P1.setText("150");
+        P1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                P1ActionPerformed(evt);
+            }
+        });
+        BloodyMaryCoctail.add(P1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 340, -1, -1));
 
         jPanel1.add(BloodyMaryCoctail, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 240, 420));
 
@@ -347,7 +351,7 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel21.setText("Name");
         BukoJuice1.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 310, -1, -1));
 
-        jLabel22.setText("Bubble Tea");
+        jLabel22.setText("Tepache");
         BukoJuice1.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
 
         jLabel23.setText("Price");
@@ -375,8 +379,8 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel25.setText("Quantity");
         BukoJuice1.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, -1, -1));
 
-        jLabel55.setText("jLabel4");
-        BukoJuice1.add(jLabel55, new org.netbeans.lib.awtextra.AbsoluteConstraints(-180, 0, 480, 300));
+        jLabel55.setIcon(new javax.swing.ImageIcon(getClass().getResource("/DrinksImages/Buko juice.JPG"))); // NOI18N
+        BukoJuice1.add(jLabel55, new org.netbeans.lib.awtextra.AbsoluteConstraints(-170, 0, 490, 290));
 
         jPanel1.add(BukoJuice1, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 20, 240, 420));
 
@@ -802,33 +806,30 @@ public class DrinksDashBoard extends javax.swing.JFrame {
 
         jPanel1.add(MintJulep1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 920, 240, 420));
 
-        ToFoodButton.setText("Food");
-        ToFoodButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ToFoodButtonActionPerformed(evt);
-            }
-        });
-        jPanel1.add(ToFoodButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 1820, 80, 35));
-
-        ToTeaButton.setText("Tea");
-        jPanel1.add(ToTeaButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(830, 1820, 80, 35));
-
         jButton3.setText("Total");
         jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 1820, 80, 35));
 
-        ToCoffeeButton.setText("Coffee");
-        jPanel1.add(ToCoffeeButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 1820, 80, 35));
-
-        ToCoffeeButton1.setText("Pastries");
-        ToCoffeeButton1.addActionListener(new java.awt.event.ActionListener() {
+        NextBtn.setText("Next");
+        NextBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ToCoffeeButton1ActionPerformed(evt);
+                NextBtnActionPerformed(evt);
             }
         });
-        jPanel1.add(ToCoffeeButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 1820, 80, 35));
+        jPanel1.add(NextBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 1820, 80, 35));
 
-        jLabel99.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
-        jPanel1.add(jLabel99, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1120, 1890));
+        PreviousBtn.setText("Previous");
+        PreviousBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                PreviousBtnActionPerformed(evt);
+            }
+        });
+        jPanel1.add(PreviousBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 1820, 80, 35));
+
+        ToCoffeeButton3.setText("Coffee");
+        jPanel1.add(ToCoffeeButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 1820, 80, 35));
+
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
+        jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1120, 1870));
 
         jScrollPane1.setViewportView(jPanel1);
 
@@ -847,11 +848,13 @@ public class DrinksDashBoard extends javax.swing.JFrame {
 
     private void jComboBox2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox2ActionPerformed
         // TODO add your handling code here:
+          // TODO add your handling code here:
+        int p = Integer.parseInt(P1.getText());
+        int q = Integer.parseInt((String) jComboBox2.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P1.setText(t);
     }//GEN-LAST:event_jComboBox2ActionPerformed
-
-    private void jCheckBox2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox2ActionPerformed
 
     private void jCheckBox11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox11ActionPerformed
         // TODO add your handling code here:
@@ -861,17 +864,9 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jComboBox11ActionPerformed
 
-    private void jCheckBox19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox19ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox19ActionPerformed
-
     private void jComboBox19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox19ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jComboBox19ActionPerformed
-
-    private void jCheckBox20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox20ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox20ActionPerformed
 
     private void jComboBox20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox20ActionPerformed
         // TODO add your handling code here:
@@ -973,13 +968,36 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jComboBox25ActionPerformed
 
-    private void ToFoodButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ToFoodButtonActionPerformed
+    private void jCheckBox19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox19ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_ToFoodButtonActionPerformed
+    }//GEN-LAST:event_jCheckBox19ActionPerformed
 
-    private void ToCoffeeButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ToCoffeeButton1ActionPerformed
+    private void jCheckBox20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox20ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_ToCoffeeButton1ActionPerformed
+    }//GEN-LAST:event_jCheckBox20ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void P1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_P1ActionPerformed
+        P1.setText("150");
+       
+    }//GEN-LAST:event_P1ActionPerformed
+
+    private void PreviousBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PreviousBtnActionPerformed
+        // TODO add your handling code here:
+        TeaDashBoard td = new TeaDashBoard();
+        td.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_PreviousBtnActionPerformed
+
+    private void NextBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NextBtnActionPerformed
+        // TODO add your handling code here:
+        FoodDashBoard fd = new FoodDashBoard();
+        fd.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_NextBtnActionPerformed
 
     /**
      * @param args the command line arguments
@@ -1031,12 +1049,13 @@ public class DrinksDashBoard extends javax.swing.JFrame {
     private javax.swing.JPanel MintJulep;
     private javax.swing.JPanel MintJulep1;
     private javax.swing.JPanel Mojito1;
+    private javax.swing.JButton NextBtn;
+    private javax.swing.JTextField P1;
     private javax.swing.JPanel PinaColada1;
+    private javax.swing.JButton PreviousBtn;
     private javax.swing.JPanel Sangrai;
-    private javax.swing.JButton ToCoffeeButton;
-    private javax.swing.JButton ToCoffeeButton1;
-    private javax.swing.JButton ToFoodButton;
-    private javax.swing.JButton ToTeaButton;
+    private javax.swing.JButton ToCoffeeButton3;
+    private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JCheckBox jCheckBox11;
     private javax.swing.JCheckBox jCheckBox12;
@@ -1047,7 +1066,6 @@ public class DrinksDashBoard extends javax.swing.JFrame {
     private javax.swing.JCheckBox jCheckBox17;
     private javax.swing.JCheckBox jCheckBox18;
     private javax.swing.JCheckBox jCheckBox19;
-    private javax.swing.JCheckBox jCheckBox2;
     private javax.swing.JCheckBox jCheckBox20;
     private javax.swing.JCheckBox jCheckBox21;
     private javax.swing.JCheckBox jCheckBox22;
@@ -1168,7 +1186,6 @@ public class DrinksDashBoard extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel96;
     private javax.swing.JLabel jLabel97;
     private javax.swing.JLabel jLabel98;
-    private javax.swing.JLabel jLabel99;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     // End of variables declaration//GEN-END:variables
