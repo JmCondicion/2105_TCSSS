@@ -129,7 +129,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel6">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/CoffeeImage/Herbal Tea.jpg"/>
+                      <Image iconType="3" name="/Images/Herbal Tea.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -204,7 +204,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel131">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/CoffeeImage/pu-erh tea.jpg"/>
+                      <Image iconType="3" name="/Images/pu-erh tea.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -279,7 +279,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel26">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/TeaSImage/Mint tea_1.jpg"/>
+                      <Image iconType="3" name="/Images/Mint tea_1.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -354,7 +354,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel16">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/CoffeeImage/Genmaicha.jpg"/>
+                      <Image iconType="3" name="/Images/Genmaicha.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -429,7 +429,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel11">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/CoffeeImage/Earl Grey.jpg"/>
+                      <Image iconType="3" name="/Images/Earl Grey.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -504,7 +504,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel21">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/TeaSImage/Chai tea.jpg"/>
+                      <Image iconType="3" name="/Images/Chai tea.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -579,7 +579,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel41">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/CoffeeImage/Hibiscus Tea.jpg"/>
+                      <Image iconType="3" name="/Images/Hibiscus Tea.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -654,7 +654,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel31">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/CoffeeImage/Jasmine Tea.jpg"/>
+                      <Image iconType="3" name="/Images/Jasmine Tea.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -729,7 +729,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel46">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/CoffeeImage/Matcha.jpg"/>
+                      <Image iconType="3" name="/Images/Matcha.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -804,7 +804,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel61">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/CoffeeImage/Charmomile Tea.jpg"/>
+                      <Image iconType="3" name="/Images/Charmomile Tea.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -879,7 +879,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel56">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/CoffeeImage/White Tea.jpg"/>
+                      <Image iconType="3" name="/Images/White Tea.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -954,7 +954,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel66">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/CoffeeImage/Rooibos Tea.jpeg"/>
+                      <Image iconType="3" name="/Images/Rooibos Tea.jpeg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -1029,7 +1029,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel76">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/CoffeeImage/Oolong Tea.jpg"/>
+                      <Image iconType="3" name="/Images/Oolong Tea.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -1104,7 +1104,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel71">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/CoffeeImage/Darjeeling Tea.jpg"/>
+                      <Image iconType="3" name="/Images/Darjeeling Tea.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -1218,7 +1218,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel51">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/CoffeeImage/Assam Tea.jpg"/>
+                      <Image iconType="3" name="/Images/Assam Tea.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
