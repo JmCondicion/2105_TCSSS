@@ -213,7 +213,6 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         P12 = new javax.swing.JTextField();
         PreviousBTn = new javax.swing.JButton();
         NextBtn = new javax.swing.JButton();
-        jButton14 = new javax.swing.JButton();
         BackGroundImage2 = new javax.swing.JLabel();
         CoffeeMenu = new javax.swing.JLabel();
         BackGroundImage = new javax.swing.JLabel();
@@ -234,7 +233,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
                 ToHomePageActionPerformed(evt);
             }
         });
-        jPanel1.add(ToHomePage, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 1140, 130, 38));
+        jPanel1.add(ToHomePage, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 1140, 80, 35));
 
         TotalBUtton.setText("Total");
         TotalBUtton.addActionListener(new java.awt.event.ActionListener() {
@@ -1238,7 +1237,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
                 PreviousBTnActionPerformed(evt);
             }
         });
-        jPanel1.add(PreviousBTn, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 1140, -1, -1));
+        jPanel1.add(PreviousBTn, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 1140, 80, 35));
 
         NextBtn.setText("Next");
         NextBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -1246,10 +1245,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
                 NextBtnActionPerformed(evt);
             }
         });
-        jPanel1.add(NextBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 1140, -1, -1));
-
-        jButton14.setText("Home");
-        jPanel1.add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 1140, -1, -1));
+        jPanel1.add(NextBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 1140, 80, 35));
 
         BackGroundImage2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
         BackGroundImage2.setText("jLabel38");
@@ -1895,7 +1891,6 @@ public class CoffeeDashboad extends javax.swing.JFrame {
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
-    private javax.swing.JButton jButton14;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;

@@ -43,136 +43,136 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel13 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
-        jCheckBox11 = new javax.swing.JCheckBox();
         jComboBox11 = new javax.swing.JComboBox<>();
         jLabel2 = new javax.swing.JLabel();
         jLabel26 = new javax.swing.JLabel();
+        jButton15 = new javax.swing.JButton();
         BlueBerrySmoothie = new javax.swing.JPanel();
         jLabel51 = new javax.swing.JLabel();
         jLabel52 = new javax.swing.JLabel();
         jLabel53 = new javax.swing.JLabel();
         jLabel54 = new javax.swing.JLabel();
-        jCheckBox19 = new javax.swing.JCheckBox();
         jComboBox19 = new javax.swing.JComboBox<>();
         jLabel3 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
+        jButton4 = new javax.swing.JButton();
         BubbleTea = new javax.swing.JPanel();
         jLabel16 = new javax.swing.JLabel();
         jLabel17 = new javax.swing.JLabel();
         jLabel18 = new javax.swing.JLabel();
         jLabel19 = new javax.swing.JLabel();
-        jCheckBox20 = new javax.swing.JCheckBox();
         jComboBox20 = new javax.swing.JComboBox<>();
         jLabel11 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
+        jButton5 = new javax.swing.JButton();
         BukoJuice1 = new javax.swing.JPanel();
         jLabel21 = new javax.swing.JLabel();
         jLabel22 = new javax.swing.JLabel();
         jLabel23 = new javax.swing.JLabel();
         jLabel24 = new javax.swing.JLabel();
-        jCheckBox21 = new javax.swing.JCheckBox();
         jComboBox21 = new javax.swing.JComboBox<>();
         jLabel25 = new javax.swing.JLabel();
         jLabel55 = new javax.swing.JLabel();
+        jButton6 = new javax.swing.JButton();
         Sangrai = new javax.swing.JPanel();
         jLabel20 = new javax.swing.JLabel();
         jLabel27 = new javax.swing.JLabel();
         jLabel28 = new javax.swing.JLabel();
         jLabel29 = new javax.swing.JLabel();
-        jCheckBox12 = new javax.swing.JCheckBox();
         jComboBox12 = new javax.swing.JComboBox<>();
         jLabel30 = new javax.swing.JLabel();
         jLabel91 = new javax.swing.JLabel();
+        jButton16 = new javax.swing.JButton();
         Lemonade = new javax.swing.JPanel();
         jLabel32 = new javax.swing.JLabel();
         jLabel33 = new javax.swing.JLabel();
         jLabel34 = new javax.swing.JLabel();
         jLabel35 = new javax.swing.JLabel();
-        jCheckBox13 = new javax.swing.JCheckBox();
         jComboBox13 = new javax.swing.JComboBox<>();
         jLabel36 = new javax.swing.JLabel();
         jLabel37 = new javax.swing.JLabel();
+        jButton13 = new javax.swing.JButton();
         MangoLassi = new javax.swing.JPanel();
         jLabel38 = new javax.swing.JLabel();
         jLabel39 = new javax.swing.JLabel();
         jLabel40 = new javax.swing.JLabel();
         jLabel41 = new javax.swing.JLabel();
-        jCheckBox14 = new javax.swing.JCheckBox();
         jComboBox14 = new javax.swing.JComboBox<>();
         jLabel42 = new javax.swing.JLabel();
         jLabel67 = new javax.swing.JLabel();
+        jButton12 = new javax.swing.JButton();
         CreamEspressoMartini1 = new javax.swing.JPanel();
         jLabel44 = new javax.swing.JLabel();
         jLabel45 = new javax.swing.JLabel();
         jLabel46 = new javax.swing.JLabel();
         jLabel47 = new javax.swing.JLabel();
-        jCheckBox15 = new javax.swing.JCheckBox();
         jComboBox15 = new javax.swing.JComboBox<>();
         jLabel48 = new javax.swing.JLabel();
         jLabel49 = new javax.swing.JLabel();
+        jButton10 = new javax.swing.JButton();
         ChaiTeaLatte1 = new javax.swing.JPanel();
         jLabel50 = new javax.swing.JLabel();
         jLabel56 = new javax.swing.JLabel();
         jLabel57 = new javax.swing.JLabel();
         jLabel58 = new javax.swing.JLabel();
-        jCheckBox16 = new javax.swing.JCheckBox();
         jComboBox16 = new javax.swing.JComboBox<>();
         jLabel59 = new javax.swing.JLabel();
         jLabel60 = new javax.swing.JLabel();
+        jButton9 = new javax.swing.JButton();
         HotChocolate2 = new javax.swing.JPanel();
         jLabel61 = new javax.swing.JLabel();
         jLabel62 = new javax.swing.JLabel();
         jLabel63 = new javax.swing.JLabel();
         jLabel64 = new javax.swing.JLabel();
-        jCheckBox17 = new javax.swing.JCheckBox();
         jComboBox17 = new javax.swing.JComboBox<>();
         jLabel65 = new javax.swing.JLabel();
         jLabel66 = new javax.swing.JLabel();
+        jButton8 = new javax.swing.JButton();
         IceCoffee1 = new javax.swing.JPanel();
         jLabel43 = new javax.swing.JLabel();
         jLabel68 = new javax.swing.JLabel();
         jLabel69 = new javax.swing.JLabel();
         jLabel70 = new javax.swing.JLabel();
-        jCheckBox18 = new javax.swing.JCheckBox();
         jComboBox18 = new javax.swing.JComboBox<>();
         jLabel71 = new javax.swing.JLabel();
         jLabel72 = new javax.swing.JLabel();
+        jButton7 = new javax.swing.JButton();
         IcedMatchaLatte1 = new javax.swing.JPanel();
         jLabel73 = new javax.swing.JLabel();
         jLabel74 = new javax.swing.JLabel();
         jLabel75 = new javax.swing.JLabel();
         jLabel76 = new javax.swing.JLabel();
-        jCheckBox22 = new javax.swing.JCheckBox();
         jComboBox22 = new javax.swing.JComboBox<>();
         jLabel77 = new javax.swing.JLabel();
         jLabel78 = new javax.swing.JLabel();
+        jButton14 = new javax.swing.JButton();
         Mojito1 = new javax.swing.JPanel();
         jLabel79 = new javax.swing.JLabel();
         jLabel80 = new javax.swing.JLabel();
         jLabel81 = new javax.swing.JLabel();
         jLabel82 = new javax.swing.JLabel();
-        jCheckBox23 = new javax.swing.JCheckBox();
         jComboBox23 = new javax.swing.JComboBox<>();
         jLabel83 = new javax.swing.JLabel();
         jLabel100 = new javax.swing.JLabel();
+        jButton18 = new javax.swing.JButton();
         PinaColada1 = new javax.swing.JPanel();
         jLabel85 = new javax.swing.JLabel();
         jLabel86 = new javax.swing.JLabel();
         jLabel87 = new javax.swing.JLabel();
         jLabel88 = new javax.swing.JLabel();
-        jCheckBox24 = new javax.swing.JCheckBox();
         jComboBox24 = new javax.swing.JComboBox<>();
         jLabel89 = new javax.swing.JLabel();
         jLabel90 = new javax.swing.JLabel();
+        jButton17 = new javax.swing.JButton();
         MintJulep1 = new javax.swing.JPanel();
         jLabel31 = new javax.swing.JLabel();
         jLabel92 = new javax.swing.JLabel();
         jLabel93 = new javax.swing.JLabel();
         jLabel94 = new javax.swing.JLabel();
-        jCheckBox25 = new javax.swing.JCheckBox();
         jComboBox25 = new javax.swing.JComboBox<>();
         jLabel95 = new javax.swing.JLabel();
         jLabel96 = new javax.swing.JLabel();
+        jButton11 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         NextBtn = new javax.swing.JButton();
         PreviousBtn = new javax.swing.JButton();
@@ -208,7 +208,7 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         });
         BloodyMaryCoctail.add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 370, -1, -1));
 
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Bloody_Mary_Coctail.jpg"))); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Bloody_Mary_Coctail.jpg"))); // NOI18N
         BloodyMaryCoctail.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 240, 300));
 
         jLabel1.setText("Quantity");
@@ -246,14 +246,6 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel15.setText("100");
         MintJulep.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 340, -1, -1));
 
-        jCheckBox11.setText("Purchase");
-        jCheckBox11.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox11ActionPerformed(evt);
-            }
-        });
-        MintJulep.add(jCheckBox11, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 380, -1, -1));
-
         jComboBox11.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
         jComboBox11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -265,8 +257,16 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel2.setText("Quantity");
         MintJulep.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 380, -1, -1));
 
-        jLabel26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Scratch-made-Arnold-Palmer.jpg"))); // NOI18N
-        MintJulep.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 240, 300));
+        jLabel26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Scratch-made-Arnold-Palmer.jpg"))); // NOI18N
+        MintJulep.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(-60, 0, 300, 300));
+
+        jButton15.setText("Add");
+        jButton15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton15ActionPerformed(evt);
+            }
+        });
+        MintJulep.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
 
         jPanel1.add(MintJulep, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 1370, 240, 420));
 
@@ -284,14 +284,6 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel54.setText("100");
         BlueBerrySmoothie.add(jLabel54, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 340, -1, -1));
 
-        jCheckBox19.setText("Purchase");
-        jCheckBox19.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox19ActionPerformed(evt);
-            }
-        });
-        BlueBerrySmoothie.add(jCheckBox19, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
-
         jComboBox19.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
         jComboBox19.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -303,8 +295,16 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel3.setText("Quantity");
         BlueBerrySmoothie.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, -1, -1));
 
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Blueberry-smoothie.jpg"))); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Blueberry-smoothie.jpg"))); // NOI18N
         BlueBerrySmoothie.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 240, 300));
+
+        jButton4.setText("Add");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
+        BlueBerrySmoothie.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
 
         jPanel1.add(BlueBerrySmoothie, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 20, 240, 420));
 
@@ -322,14 +322,6 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel19.setText("150");
         BubbleTea.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 340, -1, -1));
 
-        jCheckBox20.setText("Purchase");
-        jCheckBox20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox20ActionPerformed(evt);
-            }
-        });
-        BubbleTea.add(jCheckBox20, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
-
         jComboBox20.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
         jComboBox20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -341,8 +333,16 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel11.setText("Quantity");
         BubbleTea.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, -1, -1));
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Bubble-Tea.png"))); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Bubble-Tea.png"))); // NOI18N
         BubbleTea.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 240, 300));
+
+        jButton5.setText("Add");
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
+        BubbleTea.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
 
         jPanel1.add(BubbleTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 20, 240, 420));
 
@@ -351,7 +351,7 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel21.setText("Name");
         BukoJuice1.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 310, -1, -1));
 
-        jLabel22.setText("Tepache");
+        jLabel22.setText("Buko Juice");
         BukoJuice1.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
 
         jLabel23.setText("Price");
@@ -359,14 +359,6 @@ public class DrinksDashBoard extends javax.swing.JFrame {
 
         jLabel24.setText("50");
         BukoJuice1.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 340, -1, -1));
-
-        jCheckBox21.setText("Purchase");
-        jCheckBox21.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox21ActionPerformed(evt);
-            }
-        });
-        BukoJuice1.add(jCheckBox21, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
 
         jComboBox21.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
         jComboBox21.addActionListener(new java.awt.event.ActionListener() {
@@ -379,8 +371,16 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel25.setText("Quantity");
         BukoJuice1.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, -1, -1));
 
-        jLabel55.setIcon(new javax.swing.ImageIcon(getClass().getResource("/DrinksImages/Buko juice.JPG"))); // NOI18N
+        jLabel55.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Buko juice.JPG"))); // NOI18N
         BukoJuice1.add(jLabel55, new org.netbeans.lib.awtextra.AbsoluteConstraints(-170, 0, 490, 290));
+
+        jButton6.setText("Add");
+        jButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton6ActionPerformed(evt);
+            }
+        });
+        BukoJuice1.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
 
         jPanel1.add(BukoJuice1, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 20, 240, 420));
 
@@ -398,14 +398,6 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel29.setText("200");
         Sangrai.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 340, -1, -1));
 
-        jCheckBox12.setText("Purchase");
-        jCheckBox12.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox12ActionPerformed(evt);
-            }
-        });
-        Sangrai.add(jCheckBox12, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
-
         jComboBox12.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
         jComboBox12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -417,8 +409,16 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel30.setText("Quantity");
         Sangrai.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, -1, -1));
 
-        jLabel91.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Sangria.jpg"))); // NOI18N
+        jLabel91.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Sangria.jpg"))); // NOI18N
         Sangrai.add(jLabel91, new org.netbeans.lib.awtextra.AbsoluteConstraints(-100, -170, 600, 470));
+
+        jButton16.setText("Add");
+        jButton16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton16ActionPerformed(evt);
+            }
+        });
+        Sangrai.add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
 
         jPanel1.add(Sangrai, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 1370, 240, 420));
 
@@ -436,14 +436,6 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel35.setText("50");
         Lemonade.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 350, -1, -1));
 
-        jCheckBox13.setText("Purchase");
-        jCheckBox13.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox13ActionPerformed(evt);
-            }
-        });
-        Lemonade.add(jCheckBox13, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 380, -1, -1));
-
         jComboBox13.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
         jComboBox13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -455,9 +447,17 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel36.setText("Quantity");
         Lemonade.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 380, -1, -1));
 
-        jLabel37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Lemonade.jpg"))); // NOI18N
+        jLabel37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Lemonade.jpg"))); // NOI18N
         jLabel37.setText("jLabel26");
         Lemonade.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(-80, 0, 390, 300));
+
+        jButton13.setText("Add");
+        jButton13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton13ActionPerformed(evt);
+            }
+        });
+        Lemonade.add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
 
         jPanel1.add(Lemonade, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 920, 240, 420));
 
@@ -475,14 +475,6 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel41.setText("100");
         MangoLassi.add(jLabel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 350, -1, -1));
 
-        jCheckBox14.setText("Purchase");
-        jCheckBox14.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox14ActionPerformed(evt);
-            }
-        });
-        MangoLassi.add(jCheckBox14, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 380, -1, -1));
-
         jComboBox14.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
         jComboBox14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -494,8 +486,16 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel42.setText("Quantity");
         MangoLassi.add(jLabel42, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 380, -1, -1));
 
-        jLabel67.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Mango-Lassi.jpg"))); // NOI18N
+        jLabel67.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Mango-Lassi.jpg"))); // NOI18N
         MangoLassi.add(jLabel67, new org.netbeans.lib.awtextra.AbsoluteConstraints(-80, 0, 370, 300));
+
+        jButton12.setText("Add");
+        jButton12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton12ActionPerformed(evt);
+            }
+        });
+        MangoLassi.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
 
         jPanel1.add(MangoLassi, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 920, 240, 420));
 
@@ -513,14 +513,6 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel47.setText("250");
         CreamEspressoMartini1.add(jLabel47, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 340, -1, -1));
 
-        jCheckBox15.setText("Purchase");
-        jCheckBox15.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox15ActionPerformed(evt);
-            }
-        });
-        CreamEspressoMartini1.add(jCheckBox15, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
-
         jComboBox15.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
         jComboBox15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -532,8 +524,16 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel48.setText("Quantity");
         CreamEspressoMartini1.add(jLabel48, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, -1, -1));
 
-        jLabel49.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/creamy-espresso-martini.jpg"))); // NOI18N
+        jLabel49.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/creamy-espresso-martini.jpg"))); // NOI18N
         CreamEspressoMartini1.add(jLabel49, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 240, 300));
+
+        jButton10.setText("Add");
+        jButton10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton10ActionPerformed(evt);
+            }
+        });
+        CreamEspressoMartini1.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
 
         jPanel1.add(CreamEspressoMartini1, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 470, 240, 420));
 
@@ -551,14 +551,6 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel58.setText("150");
         ChaiTeaLatte1.add(jLabel58, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 340, -1, -1));
 
-        jCheckBox16.setText("Purchase");
-        jCheckBox16.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox16ActionPerformed(evt);
-            }
-        });
-        ChaiTeaLatte1.add(jCheckBox16, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
-
         jComboBox16.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
         jComboBox16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -570,8 +562,16 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel59.setText("Quantity");
         ChaiTeaLatte1.add(jLabel59, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, -1, -1));
 
-        jLabel60.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/chai-tea-latte.jpg"))); // NOI18N
+        jLabel60.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/chai-tea-latte.jpg"))); // NOI18N
         ChaiTeaLatte1.add(jLabel60, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 240, 300));
+
+        jButton9.setText("Add");
+        jButton9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton9ActionPerformed(evt);
+            }
+        });
+        ChaiTeaLatte1.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
 
         jPanel1.add(ChaiTeaLatte1, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 470, 240, 420));
 
@@ -589,14 +589,6 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel64.setText("100");
         HotChocolate2.add(jLabel64, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 340, -1, -1));
 
-        jCheckBox17.setText("Purchase");
-        jCheckBox17.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox17ActionPerformed(evt);
-            }
-        });
-        HotChocolate2.add(jCheckBox17, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
-
         jComboBox17.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
         jComboBox17.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -608,8 +600,16 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel65.setText("Quantity");
         HotChocolate2.add(jLabel65, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, -1, -1));
 
-        jLabel66.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Hot Chocolate.jpg"))); // NOI18N
+        jLabel66.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Hot Chocolate.jpg"))); // NOI18N
         HotChocolate2.add(jLabel66, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 240, 300));
+
+        jButton8.setText("Add");
+        jButton8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton8ActionPerformed(evt);
+            }
+        });
+        HotChocolate2.add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
 
         jPanel1.add(HotChocolate2, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 470, 240, 420));
 
@@ -627,14 +627,6 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel70.setText("150");
         IceCoffee1.add(jLabel70, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 340, -1, -1));
 
-        jCheckBox18.setText("Purchase");
-        jCheckBox18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox18ActionPerformed(evt);
-            }
-        });
-        IceCoffee1.add(jCheckBox18, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
-
         jComboBox18.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
         jComboBox18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -646,9 +638,17 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel71.setText("Quantity");
         IceCoffee1.add(jLabel71, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, -1, -1));
 
-        jLabel72.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/iced-coffee.jpg"))); // NOI18N
+        jLabel72.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/iced-coffee.jpg"))); // NOI18N
         jLabel72.setText("jLabel26");
         IceCoffee1.add(jLabel72, new org.netbeans.lib.awtextra.AbsoluteConstraints(-140, 0, 380, 300));
+
+        jButton7.setText("Add");
+        jButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton7ActionPerformed(evt);
+            }
+        });
+        IceCoffee1.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
 
         jPanel1.add(IceCoffee1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 470, 240, 420));
 
@@ -666,14 +666,6 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel76.setText("150");
         IcedMatchaLatte1.add(jLabel76, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 340, -1, -1));
 
-        jCheckBox22.setText("Purchase");
-        jCheckBox22.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox22ActionPerformed(evt);
-            }
-        });
-        IcedMatchaLatte1.add(jCheckBox22, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
-
         jComboBox22.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
         jComboBox22.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -685,9 +677,17 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel77.setText("Quantity");
         IcedMatchaLatte1.add(jLabel77, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 380, -1, -1));
 
-        jLabel78.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Iced-Matcha-Latte.jpg"))); // NOI18N
+        jLabel78.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Iced-Matcha-Latte.jpg"))); // NOI18N
         jLabel78.setText("jLabel26");
         IcedMatchaLatte1.add(jLabel78, new org.netbeans.lib.awtextra.AbsoluteConstraints(-120, 0, 390, 300));
+
+        jButton14.setText("Add");
+        jButton14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton14ActionPerformed(evt);
+            }
+        });
+        IcedMatchaLatte1.add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
 
         jPanel1.add(IcedMatchaLatte1, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 920, 240, 420));
 
@@ -705,14 +705,6 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel82.setText("150");
         Mojito1.add(jLabel82, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 340, -1, -1));
 
-        jCheckBox23.setText("Purchase");
-        jCheckBox23.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox23ActionPerformed(evt);
-            }
-        });
-        Mojito1.add(jCheckBox23, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
-
         jComboBox23.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
         jComboBox23.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -724,8 +716,16 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel83.setText("Quantity");
         Mojito1.add(jLabel83, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, -1, -1));
 
-        jLabel100.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/mojito.jpg"))); // NOI18N
-        Mojito1.add(jLabel100, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 240, 290));
+        jLabel100.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/mojito.jpg"))); // NOI18N
+        Mojito1.add(jLabel100, new org.netbeans.lib.awtextra.AbsoluteConstraints(-80, 0, 320, 290));
+
+        jButton18.setText("Add");
+        jButton18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton18ActionPerformed(evt);
+            }
+        });
+        Mojito1.add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
 
         jPanel1.add(Mojito1, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 1370, 240, 420));
 
@@ -743,14 +743,6 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel88.setText("200");
         PinaColada1.add(jLabel88, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 340, -1, -1));
 
-        jCheckBox24.setText("Purchase");
-        jCheckBox24.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox24ActionPerformed(evt);
-            }
-        });
-        PinaColada1.add(jCheckBox24, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
-
         jComboBox24.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
         jComboBox24.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -762,9 +754,17 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel89.setText("Quantity");
         PinaColada1.add(jLabel89, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, -1, -1));
 
-        jLabel90.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Pina-colada.jpg"))); // NOI18N
+        jLabel90.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Pina-colada.jpg"))); // NOI18N
         jLabel90.setText("jLabel26");
         PinaColada1.add(jLabel90, new org.netbeans.lib.awtextra.AbsoluteConstraints(-130, 0, 460, 300));
+
+        jButton17.setText("Add");
+        jButton17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton17ActionPerformed(evt);
+            }
+        });
+        PinaColada1.add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
 
         jPanel1.add(PinaColada1, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 1370, 240, 420));
 
@@ -782,14 +782,6 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel94.setText("200");
         MintJulep1.add(jLabel94, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 350, -1, -1));
 
-        jCheckBox25.setText("Purchase");
-        jCheckBox25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox25ActionPerformed(evt);
-            }
-        });
-        MintJulep1.add(jCheckBox25, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 380, -1, -1));
-
         jComboBox25.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
         jComboBox25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -801,8 +793,16 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel95.setText("Quantity");
         MintJulep1.add(jLabel95, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 380, -1, -1));
 
-        jLabel96.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Mint Julep.jpg"))); // NOI18N
+        jLabel96.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Mint Julep.jpg"))); // NOI18N
         MintJulep1.add(jLabel96, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 240, 300));
+
+        jButton11.setText("Add");
+        jButton11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton11ActionPerformed(evt);
+            }
+        });
+        MintJulep1.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
 
         jPanel1.add(MintJulep1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 920, 240, 420));
 
@@ -856,10 +856,6 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         P1.setText(t);
     }//GEN-LAST:event_jComboBox2ActionPerformed
 
-    private void jCheckBox11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox11ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox11ActionPerformed
-
     private void jComboBox11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox11ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jComboBox11ActionPerformed
@@ -872,109 +868,53 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jComboBox20ActionPerformed
 
-    private void jCheckBox21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox21ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox21ActionPerformed
-
     private void jComboBox21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox21ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jComboBox21ActionPerformed
-
-    private void jCheckBox12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox12ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox12ActionPerformed
 
     private void jComboBox12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox12ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jComboBox12ActionPerformed
 
-    private void jCheckBox13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox13ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox13ActionPerformed
-
     private void jComboBox13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox13ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jComboBox13ActionPerformed
-
-    private void jCheckBox14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox14ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox14ActionPerformed
 
     private void jComboBox14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox14ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jComboBox14ActionPerformed
 
-    private void jCheckBox15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox15ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox15ActionPerformed
-
     private void jComboBox15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox15ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jComboBox15ActionPerformed
-
-    private void jCheckBox16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox16ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox16ActionPerformed
 
     private void jComboBox16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox16ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jComboBox16ActionPerformed
 
-    private void jCheckBox17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox17ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox17ActionPerformed
-
     private void jComboBox17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox17ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jComboBox17ActionPerformed
-
-    private void jCheckBox18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox18ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox18ActionPerformed
 
     private void jComboBox18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox18ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jComboBox18ActionPerformed
 
-    private void jCheckBox22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox22ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox22ActionPerformed
-
     private void jComboBox22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox22ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jComboBox22ActionPerformed
-
-    private void jCheckBox23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox23ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox23ActionPerformed
 
     private void jComboBox23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox23ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jComboBox23ActionPerformed
 
-    private void jCheckBox24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox24ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox24ActionPerformed
-
     private void jComboBox24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox24ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jComboBox24ActionPerformed
 
-    private void jCheckBox25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox25ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox25ActionPerformed
-
     private void jComboBox25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox25ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jComboBox25ActionPerformed
-
-    private void jCheckBox19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox19ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox19ActionPerformed
-
-    private void jCheckBox20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox20ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox20ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
@@ -998,6 +938,66 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         fd.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_NextBtnActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton6ActionPerformed
+
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton7ActionPerformed
+
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton8ActionPerformed
+
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton9ActionPerformed
+
+    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton10ActionPerformed
+
+    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton11ActionPerformed
+
+    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton12ActionPerformed
+
+    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton13ActionPerformed
+
+    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton14ActionPerformed
+
+    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton15ActionPerformed
+
+    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton16ActionPerformed
+
+    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton17ActionPerformed
+
+    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton18ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -1055,23 +1055,23 @@ public class DrinksDashBoard extends javax.swing.JFrame {
     private javax.swing.JButton PreviousBtn;
     private javax.swing.JPanel Sangrai;
     private javax.swing.JButton ToCoffeeButton3;
+    private javax.swing.JButton jButton10;
+    private javax.swing.JButton jButton11;
+    private javax.swing.JButton jButton12;
+    private javax.swing.JButton jButton13;
+    private javax.swing.JButton jButton14;
+    private javax.swing.JButton jButton15;
+    private javax.swing.JButton jButton16;
+    private javax.swing.JButton jButton17;
+    private javax.swing.JButton jButton18;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
-    private javax.swing.JCheckBox jCheckBox11;
-    private javax.swing.JCheckBox jCheckBox12;
-    private javax.swing.JCheckBox jCheckBox13;
-    private javax.swing.JCheckBox jCheckBox14;
-    private javax.swing.JCheckBox jCheckBox15;
-    private javax.swing.JCheckBox jCheckBox16;
-    private javax.swing.JCheckBox jCheckBox17;
-    private javax.swing.JCheckBox jCheckBox18;
-    private javax.swing.JCheckBox jCheckBox19;
-    private javax.swing.JCheckBox jCheckBox20;
-    private javax.swing.JCheckBox jCheckBox21;
-    private javax.swing.JCheckBox jCheckBox22;
-    private javax.swing.JCheckBox jCheckBox23;
-    private javax.swing.JCheckBox jCheckBox24;
-    private javax.swing.JCheckBox jCheckBox25;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton6;
+    private javax.swing.JButton jButton7;
+    private javax.swing.JButton jButton8;
+    private javax.swing.JButton jButton9;
     private javax.swing.JComboBox<String> jComboBox11;
     private javax.swing.JComboBox<String> jComboBox12;
     private javax.swing.JComboBox<String> jComboBox13;

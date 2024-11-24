@@ -29,166 +29,150 @@ public class FoodDashBoard extends javax.swing.JFrame {
 
         jScrollPane2 = new javax.swing.JScrollPane();
         jPanel1 = new javax.swing.JPanel();
-        Brewed = new javax.swing.JPanel();
+        AlfredoFettuccine = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
         CoffeeName14 = new javax.swing.JLabel();
         CoffeePrice14 = new javax.swing.JLabel();
         jLabel71 = new javax.swing.JLabel();
-        jLabel100 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jComboBox2 = new javax.swing.JComboBox<>();
-        jCheckBox18 = new javax.swing.JCheckBox();
-        Brewed1 = new javax.swing.JPanel();
+        Add14 = new javax.swing.JButton();
+        Bolognese = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
         CoffeeName15 = new javax.swing.JLabel();
         CoffeePrice15 = new javax.swing.JLabel();
         jLabel72 = new javax.swing.JLabel();
-        jLabel101 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
         jComboBox3 = new javax.swing.JComboBox<>();
-        jCheckBox19 = new javax.swing.JCheckBox();
-        Brewed2 = new javax.swing.JPanel();
+        Add13 = new javax.swing.JButton();
+        Carbonara = new javax.swing.JPanel();
         jLabel10 = new javax.swing.JLabel();
         CoffeeName16 = new javax.swing.JLabel();
         CoffeePrice16 = new javax.swing.JLabel();
         jLabel73 = new javax.swing.JLabel();
-        jLabel102 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
         jComboBox4 = new javax.swing.JComboBox<>();
-        jCheckBox20 = new javax.swing.JCheckBox();
-        Brewed3 = new javax.swing.JPanel();
+        Add15 = new javax.swing.JButton();
+        GarlicButterShrimpPasta = new javax.swing.JPanel();
         jLabel13 = new javax.swing.JLabel();
         CoffeeName17 = new javax.swing.JLabel();
         CoffeePrice17 = new javax.swing.JLabel();
         jLabel74 = new javax.swing.JLabel();
-        jLabel103 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
         jComboBox5 = new javax.swing.JComboBox<>();
-        jCheckBox21 = new javax.swing.JCheckBox();
-        Brewed4 = new javax.swing.JPanel();
+        Add16 = new javax.swing.JButton();
+        GnocchiWithPesto = new javax.swing.JPanel();
         jLabel16 = new javax.swing.JLabel();
         CoffeeName18 = new javax.swing.JLabel();
         CoffeePrice18 = new javax.swing.JLabel();
         jLabel75 = new javax.swing.JLabel();
-        jLabel104 = new javax.swing.JLabel();
         jLabel17 = new javax.swing.JLabel();
         jLabel18 = new javax.swing.JLabel();
         jComboBox6 = new javax.swing.JComboBox<>();
-        jCheckBox22 = new javax.swing.JCheckBox();
-        Brewed5 = new javax.swing.JPanel();
+        Add12 = new javax.swing.JButton();
+        MacAndCheese = new javax.swing.JPanel();
         jLabel19 = new javax.swing.JLabel();
         CoffeeName19 = new javax.swing.JLabel();
         CoffeePrice19 = new javax.swing.JLabel();
         jLabel76 = new javax.swing.JLabel();
-        jLabel105 = new javax.swing.JLabel();
         jLabel20 = new javax.swing.JLabel();
         jLabel21 = new javax.swing.JLabel();
         jComboBox7 = new javax.swing.JComboBox<>();
-        jCheckBox23 = new javax.swing.JCheckBox();
-        Brewed6 = new javax.swing.JPanel();
+        Add11 = new javax.swing.JButton();
+        PastaPrimavera = new javax.swing.JPanel();
         jLabel22 = new javax.swing.JLabel();
         CoffeeName20 = new javax.swing.JLabel();
         CoffeePrice20 = new javax.swing.JLabel();
         jLabel77 = new javax.swing.JLabel();
-        jLabel106 = new javax.swing.JLabel();
         jLabel23 = new javax.swing.JLabel();
         jLabel24 = new javax.swing.JLabel();
         jComboBox8 = new javax.swing.JComboBox<>();
-        jCheckBox24 = new javax.swing.JCheckBox();
-        Brewed7 = new javax.swing.JPanel();
+        Add10 = new javax.swing.JButton();
+        PenneArrabbiata = new javax.swing.JPanel();
         jLabel25 = new javax.swing.JLabel();
         CoffeeName21 = new javax.swing.JLabel();
         CoffeePrice21 = new javax.swing.JLabel();
         jLabel78 = new javax.swing.JLabel();
-        jLabel107 = new javax.swing.JLabel();
         jLabel26 = new javax.swing.JLabel();
         jLabel27 = new javax.swing.JLabel();
         jComboBox9 = new javax.swing.JComboBox<>();
-        jCheckBox25 = new javax.swing.JCheckBox();
-        Brewed8 = new javax.swing.JPanel();
+        Add9 = new javax.swing.JButton();
+        Spagheti = new javax.swing.JPanel();
         jLabel28 = new javax.swing.JLabel();
         CoffeeName22 = new javax.swing.JLabel();
         CoffeePrice22 = new javax.swing.JLabel();
         jLabel79 = new javax.swing.JLabel();
-        jLabel108 = new javax.swing.JLabel();
         jLabel29 = new javax.swing.JLabel();
         jLabel30 = new javax.swing.JLabel();
         jComboBox10 = new javax.swing.JComboBox<>();
-        jCheckBox26 = new javax.swing.JCheckBox();
-        Brewed9 = new javax.swing.JPanel();
+        Add8 = new javax.swing.JButton();
+        TunaPesto = new javax.swing.JPanel();
         jLabel31 = new javax.swing.JLabel();
         CoffeeName23 = new javax.swing.JLabel();
         CoffeePrice23 = new javax.swing.JLabel();
         jLabel80 = new javax.swing.JLabel();
-        jLabel109 = new javax.swing.JLabel();
         jLabel32 = new javax.swing.JLabel();
         jLabel33 = new javax.swing.JLabel();
         jComboBox11 = new javax.swing.JComboBox<>();
-        jCheckBox27 = new javax.swing.JCheckBox();
-        Brewed10 = new javax.swing.JPanel();
+        Add7 = new javax.swing.JButton();
+        RissottoAllaMilanese = new javax.swing.JPanel();
         CoffeeName24 = new javax.swing.JLabel();
         CoffeePrice24 = new javax.swing.JLabel();
         jLabel81 = new javax.swing.JLabel();
-        jLabel110 = new javax.swing.JLabel();
         jLabel35 = new javax.swing.JLabel();
         jLabel36 = new javax.swing.JLabel();
         jComboBox12 = new javax.swing.JComboBox<>();
-        jCheckBox28 = new javax.swing.JCheckBox();
         jLabel1 = new javax.swing.JLabel();
-        Brewed11 = new javax.swing.JPanel();
+        Add6 = new javax.swing.JButton();
+        OssoBuco = new javax.swing.JPanel();
         jLabel37 = new javax.swing.JLabel();
         CoffeeName25 = new javax.swing.JLabel();
         CoffeePrice25 = new javax.swing.JLabel();
         jLabel82 = new javax.swing.JLabel();
-        jLabel111 = new javax.swing.JLabel();
         jLabel38 = new javax.swing.JLabel();
         jLabel39 = new javax.swing.JLabel();
         jComboBox13 = new javax.swing.JComboBox<>();
-        jCheckBox29 = new javax.swing.JCheckBox();
-        Brewed12 = new javax.swing.JPanel();
+        Add5 = new javax.swing.JButton();
+        Cannoli = new javax.swing.JPanel();
         jLabel40 = new javax.swing.JLabel();
         CoffeeName26 = new javax.swing.JLabel();
         CoffeePrice26 = new javax.swing.JLabel();
         jLabel83 = new javax.swing.JLabel();
-        jLabel112 = new javax.swing.JLabel();
         jLabel41 = new javax.swing.JLabel();
         jLabel42 = new javax.swing.JLabel();
         jComboBox14 = new javax.swing.JComboBox<>();
-        jCheckBox30 = new javax.swing.JCheckBox();
-        Brewed13 = new javax.swing.JPanel();
+        Add4 = new javax.swing.JButton();
+        Lasagna = new javax.swing.JPanel();
         CoffeeName27 = new javax.swing.JLabel();
         CoffeePrice27 = new javax.swing.JLabel();
         jLabel84 = new javax.swing.JLabel();
-        jLabel113 = new javax.swing.JLabel();
         jLabel44 = new javax.swing.JLabel();
         jLabel45 = new javax.swing.JLabel();
         jComboBox15 = new javax.swing.JComboBox<>();
-        jCheckBox31 = new javax.swing.JCheckBox();
         jLabel3 = new javax.swing.JLabel();
-        Brewed14 = new javax.swing.JPanel();
+        Add3 = new javax.swing.JButton();
+        MagheritaPizza = new javax.swing.JPanel();
         jLabel46 = new javax.swing.JLabel();
         CoffeeName28 = new javax.swing.JLabel();
         CoffeePrice28 = new javax.swing.JLabel();
         jLabel85 = new javax.swing.JLabel();
-        jLabel114 = new javax.swing.JLabel();
         jLabel47 = new javax.swing.JLabel();
         jLabel48 = new javax.swing.JLabel();
         jComboBox16 = new javax.swing.JComboBox<>();
-        jCheckBox32 = new javax.swing.JCheckBox();
-        Brewed15 = new javax.swing.JPanel();
+        Add2 = new javax.swing.JButton();
+        Minestrone = new javax.swing.JPanel();
         CoffeeName29 = new javax.swing.JLabel();
         CoffeePrice29 = new javax.swing.JLabel();
         jLabel86 = new javax.swing.JLabel();
-        jLabel115 = new javax.swing.JLabel();
         jLabel50 = new javax.swing.JLabel();
         jLabel51 = new javax.swing.JLabel();
         jComboBox17 = new javax.swing.JComboBox<>();
-        jCheckBox33 = new javax.swing.JCheckBox();
         jLabel2 = new javax.swing.JLabel();
+        Add1 = new javax.swing.JButton();
         HomepageBTn = new javax.swing.JButton();
         TotalButton = new javax.swing.JButton();
         ToPastries = new javax.swing.JButton();
@@ -207,569 +191,469 @@ public class FoodDashBoard extends javax.swing.JFrame {
 
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        Brewed.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        Brewed.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        AlfredoFettuccine.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        AlfredoFettuccine.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/alfredo fettuccine.jpg"))); // NOI18N
-        Brewed.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+        AlfredoFettuccine.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         CoffeeName14.setText("Name:");
-        Brewed.add(CoffeeName14, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+        AlfredoFettuccine.add(CoffeeName14, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
 
         CoffeePrice14.setText("Price");
-        Brewed.add(CoffeePrice14, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+        AlfredoFettuccine.add(CoffeePrice14, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
 
         jLabel71.setText("Quantity");
-        Brewed.add(jLabel71, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
-
-        jLabel100.setText("Purchase");
-        Brewed.add(jLabel100, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+        AlfredoFettuccine.add(jLabel71, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
         jLabel5.setText("Alfredo Fettuccine");
-        Brewed.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        AlfredoFettuccine.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
         jLabel6.setText("150");
-        Brewed.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        AlfredoFettuccine.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Brewed.add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        AlfredoFettuccine.add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
-        jCheckBox18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox18ActionPerformed(evt);
-            }
-        });
-        Brewed.add(jCheckBox18, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        Add14.setText("Add");
+        AlfredoFettuccine.add(Add14, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
 
-        jPanel1.add(Brewed, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 1060, 211, 320));
+        jPanel1.add(AlfredoFettuccine, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 1060, 211, 320));
 
-        Brewed1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        Brewed1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        Bolognese.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Bolognese.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/bolognese.jpg"))); // NOI18N
-        Brewed1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+        Bolognese.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         CoffeeName15.setText("Name:");
-        Brewed1.add(CoffeeName15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+        Bolognese.add(CoffeeName15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
 
         CoffeePrice15.setText("Price");
-        Brewed1.add(CoffeePrice15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+        Bolognese.add(CoffeePrice15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
 
         jLabel72.setText("Quantity");
-        Brewed1.add(jLabel72, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
-
-        jLabel101.setText("Purchase");
-        Brewed1.add(jLabel101, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+        Bolognese.add(jLabel72, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
         jLabel8.setText("Bolognese");
-        Brewed1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        Bolognese.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
         jLabel9.setText("150");
-        Brewed1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        Bolognese.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
         jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Brewed1.add(jComboBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        Bolognese.add(jComboBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
-        jCheckBox19.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox19ActionPerformed(evt);
-            }
-        });
-        Brewed1.add(jCheckBox19, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        Add13.setText("Add");
+        Bolognese.add(Add13, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
 
-        jPanel1.add(Brewed1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 1060, 211, 320));
+        jPanel1.add(Bolognese, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 1060, 211, 320));
 
-        Brewed2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        Brewed2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        Carbonara.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Carbonara.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/carbonara.jpg"))); // NOI18N
-        Brewed2.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+        Carbonara.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         CoffeeName16.setText("Name:");
-        Brewed2.add(CoffeeName16, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+        Carbonara.add(CoffeeName16, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
 
         CoffeePrice16.setText("Price");
-        Brewed2.add(CoffeePrice16, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+        Carbonara.add(CoffeePrice16, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
 
         jLabel73.setText("Quantity");
-        Brewed2.add(jLabel73, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
-
-        jLabel102.setText("Purchase");
-        Brewed2.add(jLabel102, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+        Carbonara.add(jLabel73, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
         jLabel11.setText("Carbonara");
-        Brewed2.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        Carbonara.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
         jLabel12.setText("150");
-        Brewed2.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        Carbonara.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
         jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Brewed2.add(jComboBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        Carbonara.add(jComboBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
-        jCheckBox20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox20ActionPerformed(evt);
-            }
-        });
-        Brewed2.add(jCheckBox20, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        Add15.setText("Add");
+        Carbonara.add(Add15, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
 
-        jPanel1.add(Brewed2, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 1060, 211, 320));
+        jPanel1.add(Carbonara, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 1060, 211, 320));
 
-        Brewed3.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        Brewed3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        GarlicButterShrimpPasta.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        GarlicButterShrimpPasta.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/garlic butter shrimp pasta.jpg"))); // NOI18N
-        Brewed3.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+        GarlicButterShrimpPasta.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         CoffeeName17.setText("Name:");
-        Brewed3.add(CoffeeName17, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+        GarlicButterShrimpPasta.add(CoffeeName17, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
 
         CoffeePrice17.setText("Price");
-        Brewed3.add(CoffeePrice17, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+        GarlicButterShrimpPasta.add(CoffeePrice17, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
 
         jLabel74.setText("Quantity");
-        Brewed3.add(jLabel74, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
-
-        jLabel103.setText("Purchase");
-        Brewed3.add(jLabel103, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+        GarlicButterShrimpPasta.add(jLabel74, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
         jLabel14.setText("Garlic Butter Shrimp Pasta");
-        Brewed3.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 160, -1, -1));
+        GarlicButterShrimpPasta.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 160, -1, -1));
 
         jLabel15.setText("150");
-        Brewed3.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        GarlicButterShrimpPasta.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
         jComboBox5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Brewed3.add(jComboBox5, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        GarlicButterShrimpPasta.add(jComboBox5, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
-        jCheckBox21.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox21ActionPerformed(evt);
-            }
-        });
-        Brewed3.add(jCheckBox21, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        Add16.setText("Add");
+        GarlicButterShrimpPasta.add(Add16, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
 
-        jPanel1.add(Brewed3, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 1060, 211, 320));
+        jPanel1.add(GarlicButterShrimpPasta, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 1060, 211, 320));
 
-        Brewed4.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        Brewed4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        GnocchiWithPesto.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        GnocchiWithPesto.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/gnocchi with pesto.jpg"))); // NOI18N
-        Brewed4.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+        GnocchiWithPesto.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         CoffeeName18.setText("Name:");
-        Brewed4.add(CoffeeName18, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+        GnocchiWithPesto.add(CoffeeName18, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
 
         CoffeePrice18.setText("Price");
-        Brewed4.add(CoffeePrice18, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+        GnocchiWithPesto.add(CoffeePrice18, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
 
         jLabel75.setText("Quantity");
-        Brewed4.add(jLabel75, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
-
-        jLabel104.setText("Purchase");
-        Brewed4.add(jLabel104, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+        GnocchiWithPesto.add(jLabel75, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
         jLabel17.setText("Gnocchi with Pesto");
-        Brewed4.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        GnocchiWithPesto.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
         jLabel18.setText("150");
-        Brewed4.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        GnocchiWithPesto.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
         jComboBox6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Brewed4.add(jComboBox6, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        GnocchiWithPesto.add(jComboBox6, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
-        jCheckBox22.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox22ActionPerformed(evt);
-            }
-        });
-        Brewed4.add(jCheckBox22, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        Add12.setText("Add");
+        GnocchiWithPesto.add(Add12, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
 
-        jPanel1.add(Brewed4, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 710, 211, 320));
+        jPanel1.add(GnocchiWithPesto, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 710, 211, 320));
 
-        Brewed5.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        Brewed5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        MacAndCheese.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        MacAndCheese.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/mac and cheese.jpg"))); // NOI18N
-        Brewed5.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+        MacAndCheese.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         CoffeeName19.setText("Name:");
-        Brewed5.add(CoffeeName19, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+        MacAndCheese.add(CoffeeName19, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
 
         CoffeePrice19.setText("Price");
-        Brewed5.add(CoffeePrice19, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+        MacAndCheese.add(CoffeePrice19, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
 
         jLabel76.setText("Quantity");
-        Brewed5.add(jLabel76, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
-
-        jLabel105.setText("Purchase");
-        Brewed5.add(jLabel105, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+        MacAndCheese.add(jLabel76, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
         jLabel20.setText("Mac and Cheese");
-        Brewed5.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        MacAndCheese.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
         jLabel21.setText("150");
-        Brewed5.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        MacAndCheese.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
         jComboBox7.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Brewed5.add(jComboBox7, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        MacAndCheese.add(jComboBox7, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
-        jCheckBox23.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox23ActionPerformed(evt);
-            }
-        });
-        Brewed5.add(jCheckBox23, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        Add11.setText("Add");
+        MacAndCheese.add(Add11, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
 
-        jPanel1.add(Brewed5, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 710, 211, 320));
+        jPanel1.add(MacAndCheese, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 710, 211, 320));
 
-        Brewed6.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        Brewed6.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        PastaPrimavera.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        PastaPrimavera.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/pasta primavera.jpg"))); // NOI18N
-        Brewed6.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+        PastaPrimavera.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         CoffeeName20.setText("Name:");
-        Brewed6.add(CoffeeName20, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+        PastaPrimavera.add(CoffeeName20, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
 
         CoffeePrice20.setText("Price");
-        Brewed6.add(CoffeePrice20, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+        PastaPrimavera.add(CoffeePrice20, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
 
         jLabel77.setText("Quantity");
-        Brewed6.add(jLabel77, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
-
-        jLabel106.setText("Purchase");
-        Brewed6.add(jLabel106, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+        PastaPrimavera.add(jLabel77, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
         jLabel23.setText("Pasta Primavera");
-        Brewed6.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        PastaPrimavera.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
         jLabel24.setText("150");
-        Brewed6.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        PastaPrimavera.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
         jComboBox8.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Brewed6.add(jComboBox8, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        PastaPrimavera.add(jComboBox8, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
-        jCheckBox24.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox24ActionPerformed(evt);
-            }
-        });
-        Brewed6.add(jCheckBox24, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        Add10.setText("Add");
+        PastaPrimavera.add(Add10, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
 
-        jPanel1.add(Brewed6, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 710, 211, 320));
+        jPanel1.add(PastaPrimavera, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 710, 211, 320));
 
-        Brewed7.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        Brewed7.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        PenneArrabbiata.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        PenneArrabbiata.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/penne arrabbiata.jpg"))); // NOI18N
-        Brewed7.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+        PenneArrabbiata.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         CoffeeName21.setText("Name:");
-        Brewed7.add(CoffeeName21, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+        PenneArrabbiata.add(CoffeeName21, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
 
         CoffeePrice21.setText("Price");
-        Brewed7.add(CoffeePrice21, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+        PenneArrabbiata.add(CoffeePrice21, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
 
         jLabel78.setText("Quantity");
-        Brewed7.add(jLabel78, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
-
-        jLabel107.setText("Purchase");
-        Brewed7.add(jLabel107, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+        PenneArrabbiata.add(jLabel78, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
         jLabel26.setText("Penne Arrabbiata");
-        Brewed7.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        PenneArrabbiata.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
         jLabel27.setText("150");
-        Brewed7.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        PenneArrabbiata.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
         jComboBox9.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Brewed7.add(jComboBox9, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        PenneArrabbiata.add(jComboBox9, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
-        jCheckBox25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox25ActionPerformed(evt);
-            }
-        });
-        Brewed7.add(jCheckBox25, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        Add9.setText("Add");
+        PenneArrabbiata.add(Add9, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
 
-        jPanel1.add(Brewed7, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 710, 211, 320));
+        jPanel1.add(PenneArrabbiata, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 710, 211, 320));
 
-        Brewed8.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        Brewed8.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        Spagheti.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Spagheti.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/spaghetti.jpg"))); // NOI18N
-        Brewed8.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+        Spagheti.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         CoffeeName22.setText("Name:");
-        Brewed8.add(CoffeeName22, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+        Spagheti.add(CoffeeName22, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
 
         CoffeePrice22.setText("Price");
-        Brewed8.add(CoffeePrice22, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+        Spagheti.add(CoffeePrice22, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
 
         jLabel79.setText("Quantity");
-        Brewed8.add(jLabel79, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
-
-        jLabel108.setText("Purchase");
-        Brewed8.add(jLabel108, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+        Spagheti.add(jLabel79, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
         jLabel29.setText("Spaghetti");
-        Brewed8.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        Spagheti.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
         jLabel30.setText("150");
-        Brewed8.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        Spagheti.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
         jComboBox10.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Brewed8.add(jComboBox10, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        Spagheti.add(jComboBox10, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
-        jCheckBox26.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox26ActionPerformed(evt);
-            }
-        });
-        Brewed8.add(jCheckBox26, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        Add8.setText("Add");
+        Spagheti.add(Add8, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
 
-        jPanel1.add(Brewed8, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 350, 211, 320));
+        jPanel1.add(Spagheti, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 350, 211, 320));
 
-        Brewed9.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        Brewed9.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        TunaPesto.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        TunaPesto.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/tuna pesto.jpg"))); // NOI18N
-        Brewed9.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 160));
+        TunaPesto.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 160));
 
         CoffeeName23.setText("Name:");
-        Brewed9.add(CoffeeName23, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+        TunaPesto.add(CoffeeName23, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
 
         CoffeePrice23.setText("Price");
-        Brewed9.add(CoffeePrice23, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+        TunaPesto.add(CoffeePrice23, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
 
         jLabel80.setText("Quantity");
-        Brewed9.add(jLabel80, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
-
-        jLabel109.setText("Purchase");
-        Brewed9.add(jLabel109, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+        TunaPesto.add(jLabel80, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
         jLabel32.setText("Tuna Pesto ");
-        Brewed9.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        TunaPesto.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
         jLabel33.setText("150");
-        Brewed9.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        TunaPesto.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
         jComboBox11.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Brewed9.add(jComboBox11, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        TunaPesto.add(jComboBox11, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
-        jCheckBox27.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox27ActionPerformed(evt);
-            }
-        });
-        Brewed9.add(jCheckBox27, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        Add7.setText("Add");
+        TunaPesto.add(Add7, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
 
-        jPanel1.add(Brewed9, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 350, 211, 320));
+        jPanel1.add(TunaPesto, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 350, 211, 320));
 
-        Brewed10.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        Brewed10.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        RissottoAllaMilanese.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        RissottoAllaMilanese.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         CoffeeName24.setText("Name:");
-        Brewed10.add(CoffeeName24, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+        RissottoAllaMilanese.add(CoffeeName24, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
 
         CoffeePrice24.setText("Price");
-        Brewed10.add(CoffeePrice24, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+        RissottoAllaMilanese.add(CoffeePrice24, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
 
         jLabel81.setText("Quantity");
-        Brewed10.add(jLabel81, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
-
-        jLabel110.setText("Purchase");
-        Brewed10.add(jLabel110, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+        RissottoAllaMilanese.add(jLabel81, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
         jLabel35.setText("Rissotto alla Milanese");
-        Brewed10.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        RissottoAllaMilanese.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
         jLabel36.setText("150");
-        Brewed10.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        RissottoAllaMilanese.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
         jComboBox12.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Brewed10.add(jComboBox12, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
-
-        jCheckBox28.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox28ActionPerformed(evt);
-            }
-        });
-        Brewed10.add(jCheckBox28, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        RissottoAllaMilanese.add(jComboBox12, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/Risotto alla Milanese.jpg"))); // NOI18N
-        Brewed10.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+        RissottoAllaMilanese.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
-        jPanel1.add(Brewed10, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 350, 211, 320));
+        Add6.setText("Add");
+        RissottoAllaMilanese.add(Add6, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
 
-        Brewed11.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        Brewed11.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel1.add(RissottoAllaMilanese, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 350, 211, 320));
+
+        OssoBuco.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        OssoBuco.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/Osso Buco.jpg"))); // NOI18N
-        Brewed11.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+        OssoBuco.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         CoffeeName25.setText("Name:");
-        Brewed11.add(CoffeeName25, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+        OssoBuco.add(CoffeeName25, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
 
         CoffeePrice25.setText("Price");
-        Brewed11.add(CoffeePrice25, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+        OssoBuco.add(CoffeePrice25, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
 
         jLabel82.setText("Quantity");
-        Brewed11.add(jLabel82, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
-
-        jLabel111.setText("Purchase");
-        Brewed11.add(jLabel111, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+        OssoBuco.add(jLabel82, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
         jLabel38.setText("Osso Buco");
-        Brewed11.add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        OssoBuco.add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
         jLabel39.setText("150");
-        Brewed11.add(jLabel39, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        OssoBuco.add(jLabel39, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
         jComboBox13.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Brewed11.add(jComboBox13, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        OssoBuco.add(jComboBox13, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
-        jCheckBox29.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox29ActionPerformed(evt);
-            }
-        });
-        Brewed11.add(jCheckBox29, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        Add5.setText("Add");
+        OssoBuco.add(Add5, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
 
-        jPanel1.add(Brewed11, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 350, 211, 320));
+        jPanel1.add(OssoBuco, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 350, 211, 320));
 
-        Brewed12.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        Brewed12.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        Cannoli.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Cannoli.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel40.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/Cannoli.jpg"))); // NOI18N
-        Brewed12.add(jLabel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+        Cannoli.add(jLabel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         CoffeeName26.setText("Name:");
-        Brewed12.add(CoffeeName26, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+        Cannoli.add(CoffeeName26, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
 
         CoffeePrice26.setText("Price");
-        Brewed12.add(CoffeePrice26, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+        Cannoli.add(CoffeePrice26, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
 
         jLabel83.setText("Quantity");
-        Brewed12.add(jLabel83, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
-
-        jLabel112.setText("Purchase");
-        Brewed12.add(jLabel112, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+        Cannoli.add(jLabel83, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
         jLabel41.setText("Cannoli");
-        Brewed12.add(jLabel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        Cannoli.add(jLabel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
         jLabel42.setText("150");
-        Brewed12.add(jLabel42, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        Cannoli.add(jLabel42, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
         jComboBox14.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Brewed12.add(jComboBox14, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        Cannoli.add(jComboBox14, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
-        jCheckBox30.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox30ActionPerformed(evt);
-            }
-        });
-        Brewed12.add(jCheckBox30, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        Add4.setText("Add");
+        Cannoli.add(Add4, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
 
-        jPanel1.add(Brewed12, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 0, 211, 320));
+        jPanel1.add(Cannoli, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 0, 211, 320));
 
-        Brewed13.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        Brewed13.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        Lasagna.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Lasagna.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         CoffeeName27.setText("Name:");
-        Brewed13.add(CoffeeName27, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+        Lasagna.add(CoffeeName27, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
 
         CoffeePrice27.setText("Price");
-        Brewed13.add(CoffeePrice27, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+        Lasagna.add(CoffeePrice27, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
 
         jLabel84.setText("Quantity");
-        Brewed13.add(jLabel84, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
-
-        jLabel113.setText("Purchase");
-        Brewed13.add(jLabel113, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+        Lasagna.add(jLabel84, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
         jLabel44.setText("Lasagna");
-        Brewed13.add(jLabel44, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        Lasagna.add(jLabel44, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
         jLabel45.setText("150");
-        Brewed13.add(jLabel45, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        Lasagna.add(jLabel45, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
         jComboBox15.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Brewed13.add(jComboBox15, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
-
-        jCheckBox31.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox31ActionPerformed(evt);
-            }
-        });
-        Brewed13.add(jCheckBox31, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        Lasagna.add(jComboBox15, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/Lasagna.jpg"))); // NOI18N
-        Brewed13.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 160));
+        Lasagna.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 160));
 
-        jPanel1.add(Brewed13, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 10, 211, 310));
+        Add3.setText("Add");
+        Lasagna.add(Add3, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
 
-        Brewed14.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        Brewed14.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel1.add(Lasagna, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 10, 211, 310));
+
+        MagheritaPizza.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        MagheritaPizza.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel46.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/Margherita Pizza.jpg"))); // NOI18N
-        Brewed14.add(jLabel46, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
+        MagheritaPizza.add(jLabel46, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         CoffeeName28.setText("Name:");
-        Brewed14.add(CoffeeName28, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+        MagheritaPizza.add(CoffeeName28, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
 
         CoffeePrice28.setText("Price");
-        Brewed14.add(CoffeePrice28, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+        MagheritaPizza.add(CoffeePrice28, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
 
         jLabel85.setText("Quantity");
-        Brewed14.add(jLabel85, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
-
-        jLabel114.setText("Purchase");
-        Brewed14.add(jLabel114, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+        MagheritaPizza.add(jLabel85, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
         jLabel47.setText("Magherita Pizza");
-        Brewed14.add(jLabel47, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        MagheritaPizza.add(jLabel47, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
         jLabel48.setText("150");
-        Brewed14.add(jLabel48, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        MagheritaPizza.add(jLabel48, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
         jComboBox16.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Brewed14.add(jComboBox16, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
-        Brewed14.add(jCheckBox32, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        MagheritaPizza.add(jComboBox16, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
-        jPanel1.add(Brewed14, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 10, 211, 310));
+        Add2.setText("Add");
+        MagheritaPizza.add(Add2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
 
-        Brewed15.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        Brewed15.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel1.add(MagheritaPizza, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 10, 211, 310));
+
+        Minestrone.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Minestrone.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         CoffeeName29.setText("Name:");
-        Brewed15.add(CoffeeName29, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+        Minestrone.add(CoffeeName29, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
 
         CoffeePrice29.setText("Price");
-        Brewed15.add(CoffeePrice29, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+        Minestrone.add(CoffeePrice29, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
 
         jLabel86.setText("Quantity");
-        Brewed15.add(jLabel86, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
-
-        jLabel115.setText("Purchase");
-        Brewed15.add(jLabel115, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
+        Minestrone.add(jLabel86, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
         jLabel50.setText("Minestrone");
-        Brewed15.add(jLabel50, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        Minestrone.add(jLabel50, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
         jLabel51.setText("150");
-        Brewed15.add(jLabel51, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        Minestrone.add(jLabel51, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
         jComboBox17.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Brewed15.add(jComboBox17, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
-        Brewed15.add(jCheckBox33, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, -1));
+        Minestrone.add(jComboBox17, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/Minestrone.jpg"))); // NOI18N
-        Brewed15.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 160));
+        Minestrone.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 160));
 
-        jPanel1.add(Brewed15, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, 211, 310));
+        Add1.setText("Add");
+        Minestrone.add(Add1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
+
+        jPanel1.add(Minestrone, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, 211, 310));
 
         HomepageBTn.setText("Home Page");
         HomepageBTn.addActionListener(new java.awt.event.ActionListener() {
@@ -823,62 +707,6 @@ public class FoodDashBoard extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void jCheckBox18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox18ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox18ActionPerformed
-
-    private void jCheckBox19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox19ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox19ActionPerformed
-
-    private void jCheckBox20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox20ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox20ActionPerformed
-
-    private void jCheckBox21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox21ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox21ActionPerformed
-
-    private void jCheckBox22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox22ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox22ActionPerformed
-
-    private void jCheckBox23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox23ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox23ActionPerformed
-
-    private void jCheckBox24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox24ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox24ActionPerformed
-
-    private void jCheckBox25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox25ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox25ActionPerformed
-
-    private void jCheckBox26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox26ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox26ActionPerformed
-
-    private void jCheckBox27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox27ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox27ActionPerformed
-
-    private void jCheckBox28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox28ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox28ActionPerformed
-
-    private void jCheckBox29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox29ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox29ActionPerformed
-
-    private void jCheckBox30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox30ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox30ActionPerformed
-
-    private void jCheckBox31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox31ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox31ActionPerformed
 
     private void NextBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NextBtnActionPerformed
          // TODO add your handling code here
@@ -944,22 +772,26 @@ public class FoodDashBoard extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JPanel Brewed;
-    private javax.swing.JPanel Brewed1;
-    private javax.swing.JPanel Brewed10;
-    private javax.swing.JPanel Brewed11;
-    private javax.swing.JPanel Brewed12;
-    private javax.swing.JPanel Brewed13;
-    private javax.swing.JPanel Brewed14;
-    private javax.swing.JPanel Brewed15;
-    private javax.swing.JPanel Brewed2;
-    private javax.swing.JPanel Brewed3;
-    private javax.swing.JPanel Brewed4;
-    private javax.swing.JPanel Brewed5;
-    private javax.swing.JPanel Brewed6;
-    private javax.swing.JPanel Brewed7;
-    private javax.swing.JPanel Brewed8;
-    private javax.swing.JPanel Brewed9;
+    private javax.swing.JButton Add1;
+    private javax.swing.JButton Add10;
+    private javax.swing.JButton Add11;
+    private javax.swing.JButton Add12;
+    private javax.swing.JButton Add13;
+    private javax.swing.JButton Add14;
+    private javax.swing.JButton Add15;
+    private javax.swing.JButton Add16;
+    private javax.swing.JButton Add2;
+    private javax.swing.JButton Add3;
+    private javax.swing.JButton Add4;
+    private javax.swing.JButton Add5;
+    private javax.swing.JButton Add6;
+    private javax.swing.JButton Add7;
+    private javax.swing.JButton Add8;
+    private javax.swing.JButton Add9;
+    private javax.swing.JPanel AlfredoFettuccine;
+    private javax.swing.JPanel Bolognese;
+    private javax.swing.JPanel Cannoli;
+    private javax.swing.JPanel Carbonara;
     private javax.swing.JLabel CoffeeName14;
     private javax.swing.JLabel CoffeeName15;
     private javax.swing.JLabel CoffeeName16;
@@ -992,27 +824,23 @@ public class FoodDashBoard extends javax.swing.JFrame {
     private javax.swing.JLabel CoffeePrice27;
     private javax.swing.JLabel CoffeePrice28;
     private javax.swing.JLabel CoffeePrice29;
+    private javax.swing.JPanel GarlicButterShrimpPasta;
+    private javax.swing.JPanel GnocchiWithPesto;
     private javax.swing.JButton HomepageBTn;
+    private javax.swing.JPanel Lasagna;
+    private javax.swing.JPanel MacAndCheese;
+    private javax.swing.JPanel MagheritaPizza;
+    private javax.swing.JPanel Minestrone;
     private javax.swing.JButton NextBtn;
+    private javax.swing.JPanel OssoBuco;
+    private javax.swing.JPanel PastaPrimavera;
+    private javax.swing.JPanel PenneArrabbiata;
     private javax.swing.JButton PreviousBtn;
+    private javax.swing.JPanel RissottoAllaMilanese;
+    private javax.swing.JPanel Spagheti;
     private javax.swing.JButton ToPastries;
     private javax.swing.JButton TotalButton;
-    private javax.swing.JCheckBox jCheckBox18;
-    private javax.swing.JCheckBox jCheckBox19;
-    private javax.swing.JCheckBox jCheckBox20;
-    private javax.swing.JCheckBox jCheckBox21;
-    private javax.swing.JCheckBox jCheckBox22;
-    private javax.swing.JCheckBox jCheckBox23;
-    private javax.swing.JCheckBox jCheckBox24;
-    private javax.swing.JCheckBox jCheckBox25;
-    private javax.swing.JCheckBox jCheckBox26;
-    private javax.swing.JCheckBox jCheckBox27;
-    private javax.swing.JCheckBox jCheckBox28;
-    private javax.swing.JCheckBox jCheckBox29;
-    private javax.swing.JCheckBox jCheckBox30;
-    private javax.swing.JCheckBox jCheckBox31;
-    private javax.swing.JCheckBox jCheckBox32;
-    private javax.swing.JCheckBox jCheckBox33;
+    private javax.swing.JPanel TunaPesto;
     private javax.swing.JComboBox<String> jComboBox10;
     private javax.swing.JComboBox<String> jComboBox11;
     private javax.swing.JComboBox<String> jComboBox12;
@@ -1031,23 +859,7 @@ public class FoodDashBoard extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> jComboBox9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel100;
-    private javax.swing.JLabel jLabel101;
-    private javax.swing.JLabel jLabel102;
-    private javax.swing.JLabel jLabel103;
-    private javax.swing.JLabel jLabel104;
-    private javax.swing.JLabel jLabel105;
-    private javax.swing.JLabel jLabel106;
-    private javax.swing.JLabel jLabel107;
-    private javax.swing.JLabel jLabel108;
-    private javax.swing.JLabel jLabel109;
     private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel110;
-    private javax.swing.JLabel jLabel111;
-    private javax.swing.JLabel jLabel112;
-    private javax.swing.JLabel jLabel113;
-    private javax.swing.JLabel jLabel114;
-    private javax.swing.JLabel jLabel115;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;

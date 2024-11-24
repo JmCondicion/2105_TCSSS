@@ -32,118 +32,118 @@ public class TeaDashBoard extends javax.swing.JFrame {
         ChaiTea = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        jCheckBox1 = new javax.swing.JCheckBox();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
+        Add4 = new javax.swing.JButton();
         HerbalTea = new javax.swing.JPanel();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
-        jCheckBox2 = new javax.swing.JCheckBox();
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
+        Add8 = new javax.swing.JButton();
         Pu_erh_Tea = new javax.swing.JPanel();
         jLabel131 = new javax.swing.JLabel();
         jLabel132 = new javax.swing.JLabel();
-        jCheckBox27 = new javax.swing.JCheckBox();
         jLabel133 = new javax.swing.JLabel();
         jLabel134 = new javax.swing.JLabel();
         jLabel135 = new javax.swing.JLabel();
+        Add15 = new javax.swing.JButton();
         MintTea = new javax.swing.JPanel();
         jLabel26 = new javax.swing.JLabel();
         jLabel27 = new javax.swing.JLabel();
-        jCheckBox6 = new javax.swing.JCheckBox();
         jLabel28 = new javax.swing.JLabel();
         jLabel29 = new javax.swing.JLabel();
         jLabel30 = new javax.swing.JLabel();
+        Add12 = new javax.swing.JButton();
         GenMaichaTea = new javax.swing.JPanel();
         jLabel16 = new javax.swing.JLabel();
         jLabel17 = new javax.swing.JLabel();
-        jCheckBox4 = new javax.swing.JCheckBox();
         jLabel18 = new javax.swing.JLabel();
         jLabel19 = new javax.swing.JLabel();
         jLabel20 = new javax.swing.JLabel();
+        Add3 = new javax.swing.JButton();
         EarlyGreyTea = new javax.swing.JPanel();
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
-        jCheckBox3 = new javax.swing.JCheckBox();
         jLabel13 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
+        Add2 = new javax.swing.JButton();
         jPanel7 = new javax.swing.JPanel();
         jLabel21 = new javax.swing.JLabel();
         jLabel22 = new javax.swing.JLabel();
-        jCheckBox5 = new javax.swing.JCheckBox();
         jLabel23 = new javax.swing.JLabel();
         jLabel24 = new javax.swing.JLabel();
         jLabel25 = new javax.swing.JLabel();
+        Add1 = new javax.swing.JButton();
         HibiscusTea = new javax.swing.JPanel();
         jLabel41 = new javax.swing.JLabel();
         jLabel42 = new javax.swing.JLabel();
-        jCheckBox9 = new javax.swing.JCheckBox();
         jLabel43 = new javax.swing.JLabel();
         jLabel44 = new javax.swing.JLabel();
         jLabel45 = new javax.swing.JLabel();
+        Add7 = new javax.swing.JButton();
         JasmineTea = new javax.swing.JPanel();
         jLabel31 = new javax.swing.JLabel();
         jLabel32 = new javax.swing.JLabel();
-        jCheckBox7 = new javax.swing.JCheckBox();
         jLabel33 = new javax.swing.JLabel();
         jLabel34 = new javax.swing.JLabel();
         jLabel35 = new javax.swing.JLabel();
+        Add6 = new javax.swing.JButton();
         MatchaTea = new javax.swing.JPanel();
         jLabel46 = new javax.swing.JLabel();
         jLabel47 = new javax.swing.JLabel();
-        jCheckBox10 = new javax.swing.JCheckBox();
         jLabel48 = new javax.swing.JLabel();
         jLabel49 = new javax.swing.JLabel();
         jLabel50 = new javax.swing.JLabel();
+        Add5 = new javax.swing.JButton();
         CharmomoleTea = new javax.swing.JPanel();
         jLabel61 = new javax.swing.JLabel();
         jLabel62 = new javax.swing.JLabel();
-        jCheckBox13 = new javax.swing.JCheckBox();
         jLabel63 = new javax.swing.JLabel();
         jLabel64 = new javax.swing.JLabel();
         jLabel65 = new javax.swing.JLabel();
+        Add11 = new javax.swing.JButton();
         WhiteTea = new javax.swing.JPanel();
         jLabel56 = new javax.swing.JLabel();
         jLabel57 = new javax.swing.JLabel();
-        jCheckBox12 = new javax.swing.JCheckBox();
         jLabel58 = new javax.swing.JLabel();
         jLabel59 = new javax.swing.JLabel();
         jLabel60 = new javax.swing.JLabel();
+        Add10 = new javax.swing.JButton();
         RooibosTea = new javax.swing.JPanel();
         jLabel66 = new javax.swing.JLabel();
         jLabel67 = new javax.swing.JLabel();
-        jCheckBox14 = new javax.swing.JCheckBox();
         jLabel68 = new javax.swing.JLabel();
         jLabel69 = new javax.swing.JLabel();
         jLabel70 = new javax.swing.JLabel();
+        Add9 = new javax.swing.JButton();
         OolongTea = new javax.swing.JPanel();
         jLabel76 = new javax.swing.JLabel();
         jLabel77 = new javax.swing.JLabel();
-        jCheckBox16 = new javax.swing.JCheckBox();
         jLabel78 = new javax.swing.JLabel();
         jLabel79 = new javax.swing.JLabel();
         jLabel80 = new javax.swing.JLabel();
+        Add14 = new javax.swing.JButton();
         DarjeelingTea = new javax.swing.JPanel();
         jLabel71 = new javax.swing.JLabel();
         jLabel72 = new javax.swing.JLabel();
-        jCheckBox15 = new javax.swing.JCheckBox();
         jLabel73 = new javax.swing.JLabel();
         jLabel74 = new javax.swing.JLabel();
         jLabel75 = new javax.swing.JLabel();
+        Add13 = new javax.swing.JButton();
         PreviousBtn = new javax.swing.JButton();
         NextButton = new javax.swing.JButton();
         TotalButton = new javax.swing.JButton();
         jPanel13 = new javax.swing.JPanel();
         jLabel51 = new javax.swing.JLabel();
         jLabel52 = new javax.swing.JLabel();
-        jCheckBox11 = new javax.swing.JCheckBox();
         jLabel53 = new javax.swing.JLabel();
         jLabel54 = new javax.swing.JLabel();
         jLabel55 = new javax.swing.JLabel();
+        Add16 = new javax.swing.JButton();
         HomeButton = new javax.swing.JButton();
         ToDrinksButton = new javax.swing.JLabel();
         jLabel37 = new javax.swing.JLabel();
@@ -161,9 +161,6 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel2.setText("Name ");
         ChaiTea.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
 
-        jCheckBox1.setText("Purchase");
-        ChaiTea.add(jCheckBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
-
         jLabel3.setText("Price");
         ChaiTea.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
@@ -172,6 +169,9 @@ public class TeaDashBoard extends javax.swing.JFrame {
 
         jLabel5.setText("130");
         ChaiTea.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+
+        Add4.setText("Add");
+        ChaiTea.add(Add4, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
 
         TeaDashBoard.add(ChaiTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 20, 280, 340));
 
@@ -183,9 +183,6 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel7.setText("Name ");
         HerbalTea.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
 
-        jCheckBox2.setText("Purchase");
-        HerbalTea.add(jCheckBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
-
         jLabel8.setText("Price");
         HerbalTea.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
@@ -194,6 +191,9 @@ public class TeaDashBoard extends javax.swing.JFrame {
 
         jLabel10.setText("130");
         HerbalTea.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+
+        Add8.setText("Add");
+        HerbalTea.add(Add8, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
 
         TeaDashBoard.add(HerbalTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 380, 280, 340));
 
@@ -205,9 +205,6 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel132.setText("Name ");
         Pu_erh_Tea.add(jLabel132, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
 
-        jCheckBox27.setText("Purchase");
-        Pu_erh_Tea.add(jCheckBox27, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
-
         jLabel133.setText("Price");
         Pu_erh_Tea.add(jLabel133, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
@@ -216,6 +213,9 @@ public class TeaDashBoard extends javax.swing.JFrame {
 
         jLabel135.setText("130");
         Pu_erh_Tea.add(jLabel135, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+
+        Add15.setText("Add");
+        Pu_erh_Tea.add(Add15, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
 
         TeaDashBoard.add(Pu_erh_Tea, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 1120, 280, 340));
 
@@ -227,9 +227,6 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel27.setText("Name ");
         MintTea.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
 
-        jCheckBox6.setText("Purchase");
-        MintTea.add(jCheckBox6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
-
         jLabel28.setText("Price");
         MintTea.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
@@ -238,6 +235,9 @@ public class TeaDashBoard extends javax.swing.JFrame {
 
         jLabel30.setText("130");
         MintTea.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+
+        Add12.setText("Add");
+        MintTea.add(Add12, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
 
         TeaDashBoard.add(MintTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 750, 280, 340));
 
@@ -249,9 +249,6 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel17.setText("Name ");
         GenMaichaTea.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
 
-        jCheckBox4.setText("Purchase");
-        GenMaichaTea.add(jCheckBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
-
         jLabel18.setText("Price");
         GenMaichaTea.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
@@ -260,6 +257,9 @@ public class TeaDashBoard extends javax.swing.JFrame {
 
         jLabel20.setText("130");
         GenMaichaTea.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+
+        Add3.setText("Add");
+        GenMaichaTea.add(Add3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
 
         TeaDashBoard.add(GenMaichaTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 20, 280, 340));
 
@@ -271,9 +271,6 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel12.setText("Name ");
         EarlyGreyTea.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
 
-        jCheckBox3.setText("Purchase");
-        EarlyGreyTea.add(jCheckBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
-
         jLabel13.setText("Price");
         EarlyGreyTea.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
@@ -282,6 +279,9 @@ public class TeaDashBoard extends javax.swing.JFrame {
 
         jLabel15.setText("130");
         EarlyGreyTea.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+
+        Add2.setText("Add");
+        EarlyGreyTea.add(Add2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
 
         TeaDashBoard.add(EarlyGreyTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 20, 280, 340));
 
@@ -293,9 +293,6 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel22.setText("Name ");
         jPanel7.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
 
-        jCheckBox5.setText("Purchase");
-        jPanel7.add(jCheckBox5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
-
         jLabel23.setText("Price");
         jPanel7.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
@@ -304,6 +301,9 @@ public class TeaDashBoard extends javax.swing.JFrame {
 
         jLabel25.setText("130");
         jPanel7.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+
+        Add1.setText("Add");
+        jPanel7.add(Add1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
 
         TeaDashBoard.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, -1, 340));
 
@@ -315,9 +315,6 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel42.setText("Name ");
         HibiscusTea.add(jLabel42, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
 
-        jCheckBox9.setText("Purchase");
-        HibiscusTea.add(jCheckBox9, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
-
         jLabel43.setText("Price");
         HibiscusTea.add(jLabel43, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
@@ -326,6 +323,9 @@ public class TeaDashBoard extends javax.swing.JFrame {
 
         jLabel45.setText("130");
         HibiscusTea.add(jLabel45, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+
+        Add7.setText("Add");
+        HibiscusTea.add(Add7, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
 
         TeaDashBoard.add(HibiscusTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 380, 280, 340));
 
@@ -337,9 +337,6 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel32.setText("Name ");
         JasmineTea.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
 
-        jCheckBox7.setText("Purchase");
-        JasmineTea.add(jCheckBox7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
-
         jLabel33.setText("Price");
         JasmineTea.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
@@ -348,6 +345,9 @@ public class TeaDashBoard extends javax.swing.JFrame {
 
         jLabel35.setText("130");
         JasmineTea.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+
+        Add6.setText("Add");
+        JasmineTea.add(Add6, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
 
         TeaDashBoard.add(JasmineTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 380, 280, 340));
 
@@ -359,9 +359,6 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel47.setText("Name ");
         MatchaTea.add(jLabel47, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
 
-        jCheckBox10.setText("Purchase");
-        MatchaTea.add(jCheckBox10, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
-
         jLabel48.setText("Price");
         MatchaTea.add(jLabel48, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
@@ -370,6 +367,9 @@ public class TeaDashBoard extends javax.swing.JFrame {
 
         jLabel50.setText("130");
         MatchaTea.add(jLabel50, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+
+        Add5.setText("Add");
+        MatchaTea.add(Add5, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
 
         TeaDashBoard.add(MatchaTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 380, 280, 340));
 
@@ -381,9 +381,6 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel62.setText("Name ");
         CharmomoleTea.add(jLabel62, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
 
-        jCheckBox13.setText("Purchase");
-        CharmomoleTea.add(jCheckBox13, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
-
         jLabel63.setText("Price");
         CharmomoleTea.add(jLabel63, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
@@ -392,6 +389,9 @@ public class TeaDashBoard extends javax.swing.JFrame {
 
         jLabel65.setText("130");
         CharmomoleTea.add(jLabel65, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+
+        Add11.setText("Add");
+        CharmomoleTea.add(Add11, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
 
         TeaDashBoard.add(CharmomoleTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 750, 280, 340));
 
@@ -403,9 +403,6 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel57.setText("Name ");
         WhiteTea.add(jLabel57, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
 
-        jCheckBox12.setText("Purchase");
-        WhiteTea.add(jCheckBox12, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
-
         jLabel58.setText("Price");
         WhiteTea.add(jLabel58, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
@@ -414,6 +411,9 @@ public class TeaDashBoard extends javax.swing.JFrame {
 
         jLabel60.setText("130");
         WhiteTea.add(jLabel60, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+
+        Add10.setText("Add");
+        WhiteTea.add(Add10, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
 
         TeaDashBoard.add(WhiteTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 750, 280, 340));
 
@@ -425,9 +425,6 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel67.setText("Name ");
         RooibosTea.add(jLabel67, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
 
-        jCheckBox14.setText("Purchase");
-        RooibosTea.add(jCheckBox14, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
-
         jLabel68.setText("Price");
         RooibosTea.add(jLabel68, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
@@ -436,6 +433,9 @@ public class TeaDashBoard extends javax.swing.JFrame {
 
         jLabel70.setText("130");
         RooibosTea.add(jLabel70, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+
+        Add9.setText("Add");
+        RooibosTea.add(Add9, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
 
         TeaDashBoard.add(RooibosTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 750, 280, 340));
 
@@ -447,9 +447,6 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel77.setText("Name ");
         OolongTea.add(jLabel77, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
 
-        jCheckBox16.setText("Purchase");
-        OolongTea.add(jCheckBox16, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
-
         jLabel78.setText("Price");
         OolongTea.add(jLabel78, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
@@ -458,6 +455,9 @@ public class TeaDashBoard extends javax.swing.JFrame {
 
         jLabel80.setText("130");
         OolongTea.add(jLabel80, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+
+        Add14.setText("Add");
+        OolongTea.add(Add14, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
 
         TeaDashBoard.add(OolongTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 1120, 280, 340));
 
@@ -469,9 +469,6 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel72.setText("Name ");
         DarjeelingTea.add(jLabel72, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
 
-        jCheckBox15.setText("Purchase");
-        DarjeelingTea.add(jCheckBox15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
-
         jLabel73.setText("Price");
         DarjeelingTea.add(jLabel73, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
@@ -480,6 +477,9 @@ public class TeaDashBoard extends javax.swing.JFrame {
 
         jLabel75.setText("130");
         DarjeelingTea.add(jLabel75, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+
+        Add13.setText("Add");
+        DarjeelingTea.add(Add13, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
 
         TeaDashBoard.add(DarjeelingTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 1120, 280, 340));
 
@@ -515,9 +515,6 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel52.setText("Name ");
         jPanel13.add(jLabel52, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 50, 30));
 
-        jCheckBox11.setText("Purchase");
-        jPanel13.add(jCheckBox11, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
-
         jLabel53.setText("Price");
         jPanel13.add(jLabel53, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
@@ -526,6 +523,9 @@ public class TeaDashBoard extends javax.swing.JFrame {
 
         jLabel55.setText("130");
         jPanel13.add(jLabel55, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+
+        Add16.setText("Add");
+        jPanel13.add(Add16, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
 
         TeaDashBoard.add(jPanel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 1120, 280, 340));
 
@@ -619,6 +619,22 @@ public class TeaDashBoard extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton Add1;
+    private javax.swing.JButton Add10;
+    private javax.swing.JButton Add11;
+    private javax.swing.JButton Add12;
+    private javax.swing.JButton Add13;
+    private javax.swing.JButton Add14;
+    private javax.swing.JButton Add15;
+    private javax.swing.JButton Add16;
+    private javax.swing.JButton Add2;
+    private javax.swing.JButton Add3;
+    private javax.swing.JButton Add4;
+    private javax.swing.JButton Add5;
+    private javax.swing.JButton Add6;
+    private javax.swing.JButton Add7;
+    private javax.swing.JButton Add8;
+    private javax.swing.JButton Add9;
     private javax.swing.JPanel ChaiTea;
     private javax.swing.JPanel CharmomoleTea;
     private javax.swing.JPanel DarjeelingTea;
@@ -639,22 +655,6 @@ public class TeaDashBoard extends javax.swing.JFrame {
     private javax.swing.JLabel ToDrinksButton;
     private javax.swing.JButton TotalButton;
     private javax.swing.JPanel WhiteTea;
-    private javax.swing.JCheckBox jCheckBox1;
-    private javax.swing.JCheckBox jCheckBox10;
-    private javax.swing.JCheckBox jCheckBox11;
-    private javax.swing.JCheckBox jCheckBox12;
-    private javax.swing.JCheckBox jCheckBox13;
-    private javax.swing.JCheckBox jCheckBox14;
-    private javax.swing.JCheckBox jCheckBox15;
-    private javax.swing.JCheckBox jCheckBox16;
-    private javax.swing.JCheckBox jCheckBox2;
-    private javax.swing.JCheckBox jCheckBox27;
-    private javax.swing.JCheckBox jCheckBox3;
-    private javax.swing.JCheckBox jCheckBox4;
-    private javax.swing.JCheckBox jCheckBox5;
-    private javax.swing.JCheckBox jCheckBox6;
-    private javax.swing.JCheckBox jCheckBox7;
-    private javax.swing.JCheckBox jCheckBox9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;

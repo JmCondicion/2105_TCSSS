@@ -4,6 +4,7 @@
  */
 
 
+import java.util.Random;
 
 
 /**
@@ -12,14 +13,17 @@
  */
 public class HomePage extends javax.swing.JFrame {       
         
-
+       Random random = new Random();
+       int randomInt = random.nextInt(10000);
+       
+        
     /**
      * Creates new form HomePage
      */
     public HomePage() {
-        initComponents();
-         
-        
+        initComponents();          
+        OrderID.setText("Order ID " + randomInt);
+        OrderID.setVisible(true);
          if(coffeeBtn.isEnabled()){
              
          }
@@ -110,14 +114,15 @@ public class HomePage extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         ScollContainerBRG = new javax.swing.JLabel();
-        LogoName = new javax.swing.JLabel();
+        OrderID = new javax.swing.JLabel();
+        LogoName1 = new javax.swing.JLabel();
         coffeeBtn = new javax.swing.JButton();
         TeaBtn = new javax.swing.JButton();
         DrinksBtn = new javax.swing.JButton();
         FoodBtn = new javax.swing.JButton();
         AdminBtn = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
-        jLabel45 = new javax.swing.JLabel();
+        PastriesBtn = new javax.swing.JButton();
+        HomepageBG = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setResizable(false);
@@ -424,12 +429,18 @@ public class HomePage extends javax.swing.JFrame {
 
         Container.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 20, 1050, 600));
 
-        LogoName.setBackground(new java.awt.Color(255, 255, 255));
-        LogoName.setFont(new java.awt.Font("Vivaldi", 3, 36)); // NOI18N
-        LogoName.setForeground(new java.awt.Color(255, 255, 255));
-        LogoName.setText("Elysian");
-        LogoName.setToolTipText("");
-        Container.add(LogoName, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 229, 76));
+        OrderID.setBackground(new java.awt.Color(255, 255, 255));
+        OrderID.setFont(new java.awt.Font("Arial", 3, 18)); // NOI18N
+        OrderID.setForeground(new java.awt.Color(255, 255, 255));
+        OrderID.setToolTipText("");
+        Container.add(OrderID, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, 170, 30));
+
+        LogoName1.setBackground(new java.awt.Color(255, 255, 255));
+        LogoName1.setFont(new java.awt.Font("Vivaldi", 3, 36)); // NOI18N
+        LogoName1.setForeground(new java.awt.Color(255, 255, 255));
+        LogoName1.setText("Elysian");
+        LogoName1.setToolTipText("");
+        Container.add(LogoName1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 229, 76));
 
         coffeeBtn.setText("Coffee");
         coffeeBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -471,16 +482,16 @@ public class HomePage extends javax.swing.JFrame {
         });
         Container.add(AdminBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 610, -1, -1));
 
-        jButton1.setText("Pastries");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        PastriesBtn.setText("Pastries");
+        PastriesBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                PastriesBtnActionPerformed(evt);
             }
         });
-        Container.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 340, -1, -1));
+        Container.add(PastriesBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 340, -1, -1));
 
-        jLabel45.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
-        Container.add(jLabel45, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1280, 690));
+        HomepageBG.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
+        Container.add(HomepageBG, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1280, 690));
 
         getContentPane().add(Container, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1280, 690));
 
@@ -529,18 +540,15 @@ public class HomePage extends javax.swing.JFrame {
 
     private void AdminBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AdminBtnActionPerformed
         // TODO add your handling code here:
-        LogIn login = new LogIn();
-        login.setVisible(true);
-        //HomePage hp = new HomePage();
-        this.dispose();
+       
     }//GEN-LAST:event_AdminBtnActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void PastriesBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PastriesBtnActionPerformed
         // TODO add your handling code here:
         PastryDashBoard2 pd = new PastryDashBoard2();
         pd.setVisible(true);
         this.dispose();
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_PastriesBtnActionPerformed
 
     /**
      * @param args the command line arguments
@@ -571,6 +579,7 @@ public class HomePage extends javax.swing.JFrame {
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
+            @Override
             public void run() {
                 new HomePage().setVisible(true);
             }
@@ -597,21 +606,23 @@ public class HomePage extends javax.swing.JFrame {
     private javax.swing.JButton FoodBtn;
     private javax.swing.JPanel GarlicButterShrimpPasta;
     private javax.swing.JPanel HibiscusTea;
+    private javax.swing.JLabel HomepageBG;
     private javax.swing.JPanel HotChocolate;
     private javax.swing.JPanel JasmineTea;
     private javax.swing.JPanel Lasagna;
     private javax.swing.JPanel Latte;
-    private javax.swing.JLabel LogoName;
+    private javax.swing.JLabel LogoName1;
     private javax.swing.JPanel MangoLassi;
     private javax.swing.JPanel MintJulep;
     private javax.swing.JPanel OolongTea;
+    private javax.swing.JLabel OrderID;
     private javax.swing.JPanel OssoBuco;
+    private javax.swing.JButton PastriesBtn;
     private javax.swing.JPanel ScollContainer;
     private javax.swing.JLabel ScollContainerBRG;
     private javax.swing.JButton TeaBtn;
     private javax.swing.JPanel WhiteTea;
     private javax.swing.JButton coffeeBtn;
-    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -651,7 +662,6 @@ public class HomePage extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel42;
     private javax.swing.JLabel jLabel43;
     private javax.swing.JLabel jLabel44;
-    private javax.swing.JLabel jLabel45;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
@@ -663,6 +673,8 @@ public class HomePage extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane1;
     // End of variables declaration//GEN-END:variables
+
+
 
 
 }
