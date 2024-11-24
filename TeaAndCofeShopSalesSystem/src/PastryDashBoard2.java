@@ -37,144 +37,144 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jLabel15 = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
         jComboBox4 = new javax.swing.JComboBox<>();
-        jCheckBox4 = new javax.swing.JCheckBox();
         jLabel111 = new javax.swing.JLabel();
         jLabel112 = new javax.swing.JLabel();
-        jPanel7 = new javax.swing.JPanel();
+        jButton1 = new javax.swing.JButton();
+        Danish = new javax.swing.JPanel();
         jLabel21 = new javax.swing.JLabel();
         jLabel22 = new javax.swing.JLabel();
         jLabel23 = new javax.swing.JLabel();
         jLabel24 = new javax.swing.JLabel();
         jComboBox6 = new javax.swing.JComboBox<>();
-        jCheckBox6 = new javax.swing.JCheckBox();
         jLabel107 = new javax.swing.JLabel();
         jLabel108 = new javax.swing.JLabel();
-        jPanel8 = new javax.swing.JPanel();
+        jButton2 = new javax.swing.JButton();
+        Baklava = new javax.swing.JPanel();
         jLabel25 = new javax.swing.JLabel();
         jLabel26 = new javax.swing.JLabel();
         jLabel27 = new javax.swing.JLabel();
         jLabel28 = new javax.swing.JLabel();
         jComboBox7 = new javax.swing.JComboBox<>();
-        jCheckBox7 = new javax.swing.JCheckBox();
         jLabel103 = new javax.swing.JLabel();
         jLabel20 = new javax.swing.JLabel();
-        jPanel9 = new javax.swing.JPanel();
+        jButton3 = new javax.swing.JButton();
+        BerryCreamPuff = new javax.swing.JPanel();
         jLabel29 = new javax.swing.JLabel();
         jLabel30 = new javax.swing.JLabel();
         jLabel31 = new javax.swing.JLabel();
         jLabel32 = new javax.swing.JLabel();
         jComboBox8 = new javax.swing.JComboBox<>();
-        jCheckBox8 = new javax.swing.JCheckBox();
         jLabel102 = new javax.swing.JLabel();
         jLabel19 = new javax.swing.JLabel();
-        jPanel10 = new javax.swing.JPanel();
+        jButton4 = new javax.swing.JButton();
+        Macarons = new javax.swing.JPanel();
         jLabel33 = new javax.swing.JLabel();
         jLabel34 = new javax.swing.JLabel();
         jLabel35 = new javax.swing.JLabel();
         jLabel36 = new javax.swing.JLabel();
         jComboBox9 = new javax.swing.JComboBox<>();
-        jCheckBox9 = new javax.swing.JCheckBox();
         jLabel101 = new javax.swing.JLabel();
         jLabel18 = new javax.swing.JLabel();
-        jPanel11 = new javax.swing.JPanel();
+        jButton8 = new javax.swing.JButton();
+        KouignAmann = new javax.swing.JPanel();
         jLabel37 = new javax.swing.JLabel();
         jLabel38 = new javax.swing.JLabel();
         jLabel39 = new javax.swing.JLabel();
         jLabel40 = new javax.swing.JLabel();
         jComboBox10 = new javax.swing.JComboBox<>();
-        jCheckBox10 = new javax.swing.JCheckBox();
         jLabel104 = new javax.swing.JLabel();
         jLabel73 = new javax.swing.JLabel();
-        jPanel12 = new javax.swing.JPanel();
+        jButton7 = new javax.swing.JButton();
+        Churros = new javax.swing.JPanel();
         jLabel41 = new javax.swing.JLabel();
         jLabel42 = new javax.swing.JLabel();
         jLabel43 = new javax.swing.JLabel();
         jLabel44 = new javax.swing.JLabel();
         jComboBox11 = new javax.swing.JComboBox<>();
-        jCheckBox11 = new javax.swing.JCheckBox();
         jLabel105 = new javax.swing.JLabel();
         jLabel106 = new javax.swing.JLabel();
-        jPanel13 = new javax.swing.JPanel();
+        jButton6 = new javax.swing.JButton();
+        CaramelEcliar = new javax.swing.JPanel();
         jLabel45 = new javax.swing.JLabel();
         jLabel46 = new javax.swing.JLabel();
         jLabel47 = new javax.swing.JLabel();
         jLabel48 = new javax.swing.JLabel();
         jComboBox12 = new javax.swing.JComboBox<>();
-        jCheckBox12 = new javax.swing.JCheckBox();
         jLabel109 = new javax.swing.JLabel();
         jLabel110 = new javax.swing.JLabel();
-        jPanel14 = new javax.swing.JPanel();
+        jButton5 = new javax.swing.JButton();
+        Croisant = new javax.swing.JPanel();
         jLabel49 = new javax.swing.JLabel();
         jLabel50 = new javax.swing.JLabel();
         jLabel51 = new javax.swing.JLabel();
         jLabel52 = new javax.swing.JLabel();
         jComboBox13 = new javax.swing.JComboBox<>();
-        jCheckBox13 = new javax.swing.JCheckBox();
         jLabel96 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
-        jPanel15 = new javax.swing.JPanel();
+        jButton9 = new javax.swing.JButton();
+        SconeButtery = new javax.swing.JPanel();
         jLabel53 = new javax.swing.JLabel();
         jLabel54 = new javax.swing.JLabel();
         jLabel55 = new javax.swing.JLabel();
         jLabel56 = new javax.swing.JLabel();
         jComboBox14 = new javax.swing.JComboBox<>();
-        jCheckBox14 = new javax.swing.JCheckBox();
         jLabel95 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
-        jPanel16 = new javax.swing.JPanel();
+        jButton10 = new javax.swing.JButton();
+        Palmiers = new javax.swing.JPanel();
         jLabel57 = new javax.swing.JLabel();
         jLabel58 = new javax.swing.JLabel();
         jLabel59 = new javax.swing.JLabel();
         jLabel60 = new javax.swing.JLabel();
         jComboBox15 = new javax.swing.JComboBox<>();
-        jCheckBox15 = new javax.swing.JCheckBox();
         jLabel98 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
-        jPanel17 = new javax.swing.JPanel();
+        jButton11 = new javax.swing.JButton();
+        Madeleine = new javax.swing.JPanel();
         jLabel61 = new javax.swing.JLabel();
         jLabel62 = new javax.swing.JLabel();
         jLabel63 = new javax.swing.JLabel();
         jLabel64 = new javax.swing.JLabel();
         jComboBox16 = new javax.swing.JComboBox<>();
-        jCheckBox16 = new javax.swing.JCheckBox();
         jLabel99 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
-        jPanel18 = new javax.swing.JPanel();
+        jButton12 = new javax.swing.JButton();
+        MilleFeuille = new javax.swing.JPanel();
         jLabel65 = new javax.swing.JLabel();
         jLabel66 = new javax.swing.JLabel();
         jLabel67 = new javax.swing.JLabel();
         jLabel68 = new javax.swing.JLabel();
         jComboBox17 = new javax.swing.JComboBox<>();
-        jCheckBox17 = new javax.swing.JCheckBox();
         jLabel100 = new javax.swing.JLabel();
         jLabel17 = new javax.swing.JLabel();
-        jPanel19 = new javax.swing.JPanel();
+        jButton16 = new javax.swing.JButton();
+        Pestelito = new javax.swing.JPanel();
         jLabel69 = new javax.swing.JLabel();
         jLabel70 = new javax.swing.JLabel();
         jLabel71 = new javax.swing.JLabel();
         jLabel72 = new javax.swing.JLabel();
         jComboBox18 = new javax.swing.JComboBox<>();
-        jCheckBox18 = new javax.swing.JCheckBox();
         jLabel97 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
-        jPanel20 = new javax.swing.JPanel();
+        jButton15 = new javax.swing.JButton();
+        Tart = new javax.swing.JPanel();
         jLabel74 = new javax.swing.JLabel();
         jLabel75 = new javax.swing.JLabel();
         jLabel76 = new javax.swing.JLabel();
         jComboBox19 = new javax.swing.JComboBox<>();
-        jCheckBox19 = new javax.swing.JCheckBox();
         jLabel5 = new javax.swing.JLabel();
         jLabel94 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
-        jPanel21 = new javax.swing.JPanel();
+        jButton14 = new javax.swing.JButton();
+        ToasterStrudel = new javax.swing.JPanel();
         jLabel77 = new javax.swing.JLabel();
         jLabel78 = new javax.swing.JLabel();
         jLabel79 = new javax.swing.JLabel();
         jLabel80 = new javax.swing.JLabel();
         jComboBox20 = new javax.swing.JComboBox<>();
-        jCheckBox20 = new javax.swing.JCheckBox();
         jLabel93 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
+        jButton13 = new javax.swing.JButton();
         HomePageBtn = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         jLabel81 = new javax.swing.JLabel();
@@ -208,7 +208,7 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         CoffeeCinamonRolls.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         CoffeeCinamonRolls.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Coffee-Cinnamon-Rolls.jpg"))); // NOI18N
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Coffee-Cinnamon-Rolls.jpg"))); // NOI18N
         CoffeeCinamonRolls.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
 
         jLabel14.setText("Name");
@@ -223,531 +223,451 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
         CoffeeCinamonRolls.add(jComboBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, -1, -1));
 
-        jCheckBox4.setText("Purchase");
-        jCheckBox4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox4ActionPerformed(evt);
-            }
-        });
-        CoffeeCinamonRolls.add(jCheckBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 310, -1, -1));
-
         jLabel111.setText("Price");
         CoffeeCinamonRolls.add(jLabel111, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, -1, 20));
 
         jLabel112.setText("70");
         CoffeeCinamonRolls.add(jLabel112, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 290, -1, -1));
 
+        jButton1.setText("Add");
+        CoffeeCinamonRolls.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, -1, -1));
+
         PastriesDashBoard.add(CoffeeCinamonRolls, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 340, 350));
 
-        jPanel7.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel7.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        Danish.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Danish.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Danish Pastries.jpg"))); // NOI18N
-        jPanel7.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
+        jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Danish Pastries.jpg"))); // NOI18N
+        Danish.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
 
         jLabel22.setText("Name");
-        jPanel7.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
+        Danish.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
         jLabel23.setText("Danish ");
-        jPanel7.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, -1, -1));
+        Danish.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, -1, -1));
 
         jLabel24.setText("Quantity");
-        jPanel7.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        Danish.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         jComboBox6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        jPanel7.add(jComboBox6, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, -1, -1));
-
-        jCheckBox6.setText("Purchase");
-        jCheckBox6.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox6ActionPerformed(evt);
-            }
-        });
-        jPanel7.add(jCheckBox6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 310, -1, -1));
+        Danish.add(jComboBox6, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, -1, -1));
 
         jLabel107.setText("Price");
-        jPanel7.add(jLabel107, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, -1, 20));
+        Danish.add(jLabel107, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, -1, 20));
 
         jLabel108.setText("60");
-        jPanel7.add(jLabel108, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 290, -1, -1));
+        Danish.add(jLabel108, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 290, -1, -1));
 
-        PastriesDashBoard.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 30, 340, 350));
+        jButton2.setText("Add");
+        Danish.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, -1, -1));
 
-        jPanel8.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel8.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        PastriesDashBoard.add(Danish, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 30, 340, 350));
 
-        jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Baklava.jpg"))); // NOI18N
-        jPanel8.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
+        Baklava.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Baklava.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Baklava.jpg"))); // NOI18N
+        Baklava.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
 
         jLabel26.setText("Name");
-        jPanel8.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
+        Baklava.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
         jLabel27.setText("Baklava");
-        jPanel8.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, -1, -1));
+        Baklava.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, -1, -1));
 
         jLabel28.setText("Quantity");
-        jPanel8.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        Baklava.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         jComboBox7.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        jPanel8.add(jComboBox7, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, -1, -1));
-
-        jCheckBox7.setText("Purchase");
-        jCheckBox7.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox7ActionPerformed(evt);
-            }
-        });
-        jPanel8.add(jCheckBox7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 310, -1, -1));
+        Baklava.add(jComboBox7, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, -1, -1));
 
         jLabel103.setText("Price");
-        jPanel8.add(jLabel103, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, -1, 20));
+        Baklava.add(jLabel103, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, -1, 20));
 
         jLabel20.setText("100");
-        jPanel8.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 290, -1, -1));
+        Baklava.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 290, -1, -1));
 
-        PastriesDashBoard.add(jPanel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 30, 340, 350));
+        jButton3.setText("Add");
+        Baklava.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, -1, -1));
 
-        jPanel9.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel9.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        PastriesDashBoard.add(Baklava, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 30, 340, 350));
 
-        jLabel29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Berry Cream Puff.jpg"))); // NOI18N
-        jPanel9.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
+        BerryCreamPuff.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        BerryCreamPuff.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Berry Cream Puff.jpg"))); // NOI18N
+        BerryCreamPuff.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
 
         jLabel30.setText("Name");
-        jPanel9.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
+        BerryCreamPuff.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
         jLabel31.setText("Berry Cream Puff");
-        jPanel9.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, -1, -1));
+        BerryCreamPuff.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, -1, -1));
 
         jLabel32.setText("Quantity");
-        jPanel9.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        BerryCreamPuff.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         jComboBox8.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        jPanel9.add(jComboBox8, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, -1, -1));
-
-        jCheckBox8.setText("Purchase");
-        jCheckBox8.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox8ActionPerformed(evt);
-            }
-        });
-        jPanel9.add(jCheckBox8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 310, -1, -1));
+        BerryCreamPuff.add(jComboBox8, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, -1, -1));
 
         jLabel102.setText("Price");
-        jPanel9.add(jLabel102, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, -1, 20));
+        BerryCreamPuff.add(jLabel102, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, -1, 20));
 
         jLabel19.setText("90");
-        jPanel9.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 290, -1, -1));
+        BerryCreamPuff.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 290, -1, -1));
 
-        PastriesDashBoard.add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(1120, 30, 340, 350));
+        jButton4.setText("Add");
+        BerryCreamPuff.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, -1, -1));
 
-        jPanel10.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel10.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        PastriesDashBoard.add(BerryCreamPuff, new org.netbeans.lib.awtextra.AbsoluteConstraints(1120, 30, 340, 350));
 
-        jLabel33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Macarons.jpg"))); // NOI18N
-        jPanel10.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
+        Macarons.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Macarons.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Macarons.jpg"))); // NOI18N
+        Macarons.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
 
         jLabel34.setText("Name");
-        jPanel10.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
+        Macarons.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
         jLabel35.setText("Macarons");
-        jPanel10.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, -1, -1));
+        Macarons.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, -1, -1));
 
         jLabel36.setText("Quantity");
-        jPanel10.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        Macarons.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         jComboBox9.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        jPanel10.add(jComboBox9, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, -1, -1));
-
-        jCheckBox9.setText("Purchase");
-        jCheckBox9.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox9ActionPerformed(evt);
-            }
-        });
-        jPanel10.add(jCheckBox9, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 320, -1, -1));
+        Macarons.add(jComboBox9, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, -1, -1));
 
         jLabel101.setText("Price");
-        jPanel10.add(jLabel101, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, -1, 20));
+        Macarons.add(jLabel101, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, -1, 20));
 
         jLabel18.setText("150 for a box contains 6 pcs ");
-        jPanel10.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 290, -1, -1));
+        Macarons.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 290, -1, -1));
 
-        PastriesDashBoard.add(jPanel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(1120, 400, 340, 350));
+        jButton8.setText("Add");
+        Macarons.add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 290, -1, -1));
 
-        jPanel11.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel11.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        PastriesDashBoard.add(Macarons, new org.netbeans.lib.awtextra.AbsoluteConstraints(1120, 400, 340, 350));
 
-        jLabel37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Kouign-Amann.jpg"))); // NOI18N
-        jPanel11.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
+        KouignAmann.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        KouignAmann.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Kouign-Amann.jpg"))); // NOI18N
+        KouignAmann.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
 
         jLabel38.setText("Name");
-        jPanel11.add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
+        KouignAmann.add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
         jLabel39.setText("Kouign Amann");
-        jPanel11.add(jLabel39, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, -1, -1));
+        KouignAmann.add(jLabel39, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, -1, -1));
 
         jLabel40.setText("Quantity");
-        jPanel11.add(jLabel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        KouignAmann.add(jLabel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         jComboBox10.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        jPanel11.add(jComboBox10, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, -1, -1));
-
-        jCheckBox10.setText("Purchase");
-        jCheckBox10.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox10ActionPerformed(evt);
-            }
-        });
-        jPanel11.add(jCheckBox10, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 310, -1, -1));
+        KouignAmann.add(jComboBox10, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, -1, -1));
 
         jLabel104.setText("Price");
-        jPanel11.add(jLabel104, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, -1, 20));
+        KouignAmann.add(jLabel104, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, -1, 20));
 
         jLabel73.setText("150");
-        jPanel11.add(jLabel73, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 290, -1, -1));
+        KouignAmann.add(jLabel73, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 290, -1, -1));
 
-        PastriesDashBoard.add(jPanel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 400, 340, 350));
+        jButton7.setText("Add");
+        KouignAmann.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, -1, -1));
 
-        jPanel12.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel12.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        PastriesDashBoard.add(KouignAmann, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 400, 340, 350));
 
-        jLabel41.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/churros.jpg"))); // NOI18N
-        jPanel12.add(jLabel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
+        Churros.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Churros.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel41.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/churros.jpg"))); // NOI18N
+        Churros.add(jLabel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
 
         jLabel42.setText("Name");
-        jPanel12.add(jLabel42, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
+        Churros.add(jLabel42, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
         jLabel43.setText("Churros ");
-        jPanel12.add(jLabel43, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, -1, -1));
+        Churros.add(jLabel43, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, -1, -1));
 
         jLabel44.setText("Quantity");
-        jPanel12.add(jLabel44, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        Churros.add(jLabel44, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         jComboBox11.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        jPanel12.add(jComboBox11, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, -1, -1));
-
-        jCheckBox11.setText("Purchase");
-        jCheckBox11.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox11ActionPerformed(evt);
-            }
-        });
-        jPanel12.add(jCheckBox11, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 310, -1, -1));
+        Churros.add(jComboBox11, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, -1, -1));
 
         jLabel105.setText("Price");
-        jPanel12.add(jLabel105, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, -1, 20));
+        Churros.add(jLabel105, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, -1, 20));
 
         jLabel106.setText("50");
-        jPanel12.add(jLabel106, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 290, -1, -1));
+        Churros.add(jLabel106, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 290, -1, -1));
 
-        PastriesDashBoard.add(jPanel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 400, 340, 350));
+        jButton6.setText("Add");
+        Churros.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, -1, -1));
 
-        jPanel13.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel13.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        PastriesDashBoard.add(Churros, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 400, 340, 350));
 
-        jLabel45.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/caramel-eclair.jpg"))); // NOI18N
-        jPanel13.add(jLabel45, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
+        CaramelEcliar.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        CaramelEcliar.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel45.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/caramel-eclair.jpg"))); // NOI18N
+        CaramelEcliar.add(jLabel45, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
 
         jLabel46.setText("Name");
-        jPanel13.add(jLabel46, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
+        CaramelEcliar.add(jLabel46, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
         jLabel47.setText("Caramel Ecliar ");
-        jPanel13.add(jLabel47, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, -1, -1));
+        CaramelEcliar.add(jLabel47, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, -1, -1));
 
         jLabel48.setText("Quantity");
-        jPanel13.add(jLabel48, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        CaramelEcliar.add(jLabel48, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         jComboBox12.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        jPanel13.add(jComboBox12, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, -1, -1));
-
-        jCheckBox12.setText("Purchase");
-        jCheckBox12.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox12ActionPerformed(evt);
-            }
-        });
-        jPanel13.add(jCheckBox12, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 310, -1, -1));
+        CaramelEcliar.add(jComboBox12, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, -1, -1));
 
         jLabel109.setText("Price");
-        jPanel13.add(jLabel109, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, -1, 20));
+        CaramelEcliar.add(jLabel109, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, -1, 20));
 
         jLabel110.setText("120");
-        jPanel13.add(jLabel110, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 290, -1, -1));
+        CaramelEcliar.add(jLabel110, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 290, -1, -1));
 
-        PastriesDashBoard.add(jPanel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 400, 340, 350));
+        jButton5.setText("Add");
+        CaramelEcliar.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, -1, -1));
 
-        jPanel14.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel14.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        PastriesDashBoard.add(CaramelEcliar, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 400, 340, 350));
 
-        jLabel49.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/croisant.png"))); // NOI18N
-        jPanel14.add(jLabel49, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
+        Croisant.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Croisant.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel49.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/croisant.png"))); // NOI18N
+        Croisant.add(jLabel49, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
 
         jLabel50.setText("Name");
-        jPanel14.add(jLabel50, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
+        Croisant.add(jLabel50, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
         jLabel51.setText("Croisant ");
-        jPanel14.add(jLabel51, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, -1, -1));
+        Croisant.add(jLabel51, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, -1, -1));
 
         jLabel52.setText("Quantity");
-        jPanel14.add(jLabel52, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        Croisant.add(jLabel52, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         jComboBox13.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        jPanel14.add(jComboBox13, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, -1, -1));
-
-        jCheckBox13.setText("Purchase");
-        jCheckBox13.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox13ActionPerformed(evt);
-            }
-        });
-        jPanel14.add(jCheckBox13, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 310, -1, -1));
+        Croisant.add(jComboBox13, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, -1, -1));
 
         jLabel96.setText("Price");
-        jPanel14.add(jLabel96, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, -1, 20));
+        Croisant.add(jLabel96, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, -1, 20));
 
         jLabel9.setText("80");
-        jPanel14.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 290, -1, -1));
+        Croisant.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 290, -1, -1));
 
-        PastriesDashBoard.add(jPanel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 770, 340, 350));
+        jButton9.setText("Add");
+        Croisant.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, -1, -1));
 
-        jPanel15.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel15.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        PastriesDashBoard.add(Croisant, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 770, 340, 350));
 
-        jLabel53.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Scone-Buttery.jpg"))); // NOI18N
-        jPanel15.add(jLabel53, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
+        SconeButtery.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        SconeButtery.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel53.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Scone-Buttery.jpg"))); // NOI18N
+        SconeButtery.add(jLabel53, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
 
         jLabel54.setText("Name");
-        jPanel15.add(jLabel54, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
+        SconeButtery.add(jLabel54, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
         jLabel55.setText("Scone Buttery");
-        jPanel15.add(jLabel55, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, -1, -1));
+        SconeButtery.add(jLabel55, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, -1, -1));
 
         jLabel56.setText("Quantity");
-        jPanel15.add(jLabel56, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        SconeButtery.add(jLabel56, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         jComboBox14.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        jPanel15.add(jComboBox14, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, -1, -1));
-
-        jCheckBox14.setText("Purchase");
-        jCheckBox14.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox14ActionPerformed(evt);
-            }
-        });
-        jPanel15.add(jCheckBox14, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 310, -1, -1));
+        SconeButtery.add(jComboBox14, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, -1, -1));
 
         jLabel95.setText("Price");
-        jPanel15.add(jLabel95, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, -1, 20));
+        SconeButtery.add(jLabel95, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, -1, 20));
 
         jLabel8.setText("50");
-        jPanel15.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 290, -1, -1));
+        SconeButtery.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 290, -1, -1));
 
-        PastriesDashBoard.add(jPanel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 770, 340, 350));
+        jButton10.setText("Add");
+        SconeButtery.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, -1, -1));
 
-        jPanel16.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel16.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        PastriesDashBoard.add(SconeButtery, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 770, 340, 350));
 
-        jLabel57.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Palmiers.jpg"))); // NOI18N
-        jPanel16.add(jLabel57, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
+        Palmiers.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Palmiers.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel57.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Palmiers.jpg"))); // NOI18N
+        Palmiers.add(jLabel57, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
 
         jLabel58.setText("Name");
-        jPanel16.add(jLabel58, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
+        Palmiers.add(jLabel58, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
         jLabel59.setText("Palmiers");
-        jPanel16.add(jLabel59, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, -1, -1));
+        Palmiers.add(jLabel59, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, -1, -1));
 
         jLabel60.setText("Quantity");
-        jPanel16.add(jLabel60, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        Palmiers.add(jLabel60, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         jComboBox15.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        jPanel16.add(jComboBox15, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, -1, -1));
-
-        jCheckBox15.setText("Purchase");
-        jCheckBox15.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox15ActionPerformed(evt);
-            }
-        });
-        jPanel16.add(jCheckBox15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 310, -1, -1));
+        Palmiers.add(jComboBox15, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, -1, -1));
 
         jLabel98.setText("Price");
-        jPanel16.add(jLabel98, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, -1, 20));
+        Palmiers.add(jLabel98, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, -1, 20));
 
         jLabel11.setText("80");
-        jPanel16.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 290, -1, -1));
+        Palmiers.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 290, -1, -1));
 
-        PastriesDashBoard.add(jPanel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 770, 340, 350));
+        jButton11.setText("Add");
+        Palmiers.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, -1, -1));
 
-        jPanel17.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel17.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        PastriesDashBoard.add(Palmiers, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 770, 340, 350));
 
-        jLabel61.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Madeleine.jpg"))); // NOI18N
-        jPanel17.add(jLabel61, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
+        Madeleine.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Madeleine.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel61.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Madeleine.jpg"))); // NOI18N
+        Madeleine.add(jLabel61, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
 
         jLabel62.setText("Name");
-        jPanel17.add(jLabel62, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
+        Madeleine.add(jLabel62, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
         jLabel63.setText("Madeleine");
-        jPanel17.add(jLabel63, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, -1, -1));
+        Madeleine.add(jLabel63, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, -1, -1));
 
         jLabel64.setText("Quantity");
-        jPanel17.add(jLabel64, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        Madeleine.add(jLabel64, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         jComboBox16.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        jPanel17.add(jComboBox16, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, -1, -1));
-
-        jCheckBox16.setText("Purchase");
-        jCheckBox16.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox16ActionPerformed(evt);
-            }
-        });
-        jPanel17.add(jCheckBox16, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 310, -1, -1));
+        Madeleine.add(jComboBox16, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, -1, -1));
 
         jLabel99.setText("Price");
-        jPanel17.add(jLabel99, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, -1, 20));
+        Madeleine.add(jLabel99, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, -1, 20));
 
         jLabel12.setText("50");
-        jPanel17.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 290, -1, -1));
+        Madeleine.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 290, -1, -1));
 
-        PastriesDashBoard.add(jPanel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(1120, 770, 340, 350));
+        jButton12.setText("Add");
+        Madeleine.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, -1, -1));
 
-        jPanel18.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel18.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        PastriesDashBoard.add(Madeleine, new org.netbeans.lib.awtextra.AbsoluteConstraints(1120, 770, 340, 350));
 
-        jLabel65.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Mille-Feuille.jpg"))); // NOI18N
-        jPanel18.add(jLabel65, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
+        MilleFeuille.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        MilleFeuille.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel65.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Mille-Feuille.jpg"))); // NOI18N
+        MilleFeuille.add(jLabel65, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
 
         jLabel66.setText("Name");
-        jPanel18.add(jLabel66, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
+        MilleFeuille.add(jLabel66, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
         jLabel67.setText("Mille Feuille");
-        jPanel18.add(jLabel67, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, -1, -1));
+        MilleFeuille.add(jLabel67, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, -1, -1));
 
         jLabel68.setText("Quantity");
-        jPanel18.add(jLabel68, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        MilleFeuille.add(jLabel68, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         jComboBox17.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        jPanel18.add(jComboBox17, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, -1, -1));
-
-        jCheckBox17.setText("Purchase");
-        jCheckBox17.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox17ActionPerformed(evt);
-            }
-        });
-        jPanel18.add(jCheckBox17, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 320, -1, -1));
+        MilleFeuille.add(jComboBox17, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, -1, -1));
 
         jLabel100.setText("Price");
-        jPanel18.add(jLabel100, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, -1, 20));
+        MilleFeuille.add(jLabel100, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, -1, 20));
 
         jLabel17.setText("150");
-        jPanel18.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 290, -1, -1));
+        MilleFeuille.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 290, -1, -1));
 
-        PastriesDashBoard.add(jPanel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(1120, 1150, 340, 350));
+        jButton16.setText("Add");
+        MilleFeuille.add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, -1, -1));
 
-        jPanel19.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel19.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        PastriesDashBoard.add(MilleFeuille, new org.netbeans.lib.awtextra.AbsoluteConstraints(1120, 1150, 340, 350));
 
-        jLabel69.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Pastelito.jpg"))); // NOI18N
-        jPanel19.add(jLabel69, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
+        Pestelito.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Pestelito.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel69.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Pastelito.jpg"))); // NOI18N
+        Pestelito.add(jLabel69, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
 
         jLabel70.setText("Name");
-        jPanel19.add(jLabel70, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
+        Pestelito.add(jLabel70, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
         jLabel71.setText("Pastelito ");
-        jPanel19.add(jLabel71, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, -1, -1));
+        Pestelito.add(jLabel71, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, -1, -1));
 
         jLabel72.setText("Quantity");
-        jPanel19.add(jLabel72, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        Pestelito.add(jLabel72, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         jComboBox18.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        jPanel19.add(jComboBox18, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, -1, -1));
-
-        jCheckBox18.setText("Purchase");
-        jCheckBox18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox18ActionPerformed(evt);
-            }
-        });
-        jPanel19.add(jCheckBox18, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 320, -1, -1));
+        Pestelito.add(jComboBox18, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, -1, -1));
 
         jLabel97.setText("Price");
-        jPanel19.add(jLabel97, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, -1, 20));
+        Pestelito.add(jLabel97, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, -1, 20));
 
         jLabel10.setText("70");
-        jPanel19.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 290, -1, -1));
+        Pestelito.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 290, -1, -1));
 
-        PastriesDashBoard.add(jPanel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 1150, 340, 350));
+        jButton15.setText("Add");
+        Pestelito.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, -1, -1));
 
-        jPanel20.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel20.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        PastriesDashBoard.add(Pestelito, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 1150, 340, 350));
+
+        Tart.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Tart.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel74.setText("Name");
-        jPanel20.add(jLabel74, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
+        Tart.add(jLabel74, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
         jLabel75.setText("Tart ");
-        jPanel20.add(jLabel75, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, -1, -1));
+        Tart.add(jLabel75, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, -1, -1));
 
         jLabel76.setText("Quantity");
-        jPanel20.add(jLabel76, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        Tart.add(jLabel76, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         jComboBox19.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        jPanel20.add(jComboBox19, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, -1, -1));
+        Tart.add(jComboBox19, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, -1, -1));
 
-        jCheckBox19.setText("Purchase");
-        jCheckBox19.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox19ActionPerformed(evt);
-            }
-        });
-        jPanel20.add(jCheckBox19, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 310, -1, -1));
-
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Tart.jpg"))); // NOI18N
-        jPanel20.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Tart.jpg"))); // NOI18N
+        Tart.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
 
         jLabel94.setText("Price");
-        jPanel20.add(jLabel94, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, -1, 20));
+        Tart.add(jLabel94, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, -1, 20));
 
         jLabel7.setText("120");
-        jPanel20.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 290, 30, -1));
+        Tart.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 290, 30, -1));
 
-        PastriesDashBoard.add(jPanel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 1150, 340, 350));
+        jButton14.setText("Add");
+        Tart.add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, -1, -1));
 
-        jPanel21.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel21.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        PastriesDashBoard.add(Tart, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 1150, 340, 350));
 
-        jLabel77.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Toaster-Strudel.jpg"))); // NOI18N
-        jPanel21.add(jLabel77, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
+        ToasterStrudel.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        ToasterStrudel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel77.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Toaster-Strudel.jpg"))); // NOI18N
+        ToasterStrudel.add(jLabel77, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
 
         jLabel78.setText("Name");
-        jPanel21.add(jLabel78, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
+        ToasterStrudel.add(jLabel78, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
         jLabel79.setText("Toaster Strudel");
-        jPanel21.add(jLabel79, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, -1, -1));
+        ToasterStrudel.add(jLabel79, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, -1, -1));
 
         jLabel80.setText("Price");
-        jPanel21.add(jLabel80, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, -1, -1));
+        ToasterStrudel.add(jLabel80, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, -1, -1));
 
         jComboBox20.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        jPanel21.add(jComboBox20, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, -1, -1));
-
-        jCheckBox20.setText("Purchase");
-        jCheckBox20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox20ActionPerformed(evt);
-            }
-        });
-        jPanel21.add(jCheckBox20, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 310, -1, -1));
+        ToasterStrudel.add(jComboBox20, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, -1, -1));
 
         jLabel93.setText("Quantity");
-        jPanel21.add(jLabel93, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        ToasterStrudel.add(jLabel93, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         jLabel6.setText("80");
-        jPanel21.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 290, 30, -1));
+        ToasterStrudel.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 290, 30, -1));
 
-        PastriesDashBoard.add(jPanel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 1150, 340, 350));
+        jButton13.setText("Add");
+        ToasterStrudel.add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, -1, -1));
+
+        PastriesDashBoard.add(ToasterStrudel, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 1150, 340, 350));
 
         HomePageBtn.setText("Home Page");
         HomePageBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -776,82 +696,17 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jCheckBox4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox4ActionPerformed
+    private void HomePageBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_HomePageBtnActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox4ActionPerformed
-
-    private void jCheckBox6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox6ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox6ActionPerformed
-
-    private void jCheckBox7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox7ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox7ActionPerformed
-
-    private void jCheckBox8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox8ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox8ActionPerformed
-
-    private void jCheckBox9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox9ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox9ActionPerformed
-
-    private void jCheckBox10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox10ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox10ActionPerformed
-
-    private void jCheckBox11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox11ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox11ActionPerformed
-
-    private void jCheckBox12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox12ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox12ActionPerformed
-
-    private void jCheckBox13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox13ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox13ActionPerformed
-
-    private void jCheckBox14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox14ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox14ActionPerformed
-
-    private void jCheckBox15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox15ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox15ActionPerformed
-
-    private void jCheckBox16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox16ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox16ActionPerformed
-
-    private void jCheckBox17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox17ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox17ActionPerformed
-
-    private void jCheckBox18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox18ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox18ActionPerformed
-
-    private void jCheckBox19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox19ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox19ActionPerformed
-
-    private void jCheckBox20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox20ActionPerformed
-        // TODO add your handling code here:
-        
-    }//GEN-LAST:event_jCheckBox20ActionPerformed
+    }//GEN-LAST:event_HomePageBtnActionPerformed
 
     private void PreviousBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PreviousBtnActionPerformed
         // TODO add your handling code here:
         FoodDashBoard fd = new FoodDashBoard();
         fd.setVisible(true);
         this.dispose();
-        
-    }//GEN-LAST:event_PreviousBtnActionPerformed
 
-    private void HomePageBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_HomePageBtnActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_HomePageBtnActionPerformed
+    }//GEN-LAST:event_PreviousBtnActionPerformed
 
     private void NextButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NextButtonActionPerformed
         // TODO add your handling code here:
@@ -896,28 +751,43 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JPanel Baklava;
+    private javax.swing.JPanel BerryCreamPuff;
+    private javax.swing.JPanel CaramelEcliar;
+    private javax.swing.JPanel Churros;
     private javax.swing.JPanel CoffeeCinamonRolls;
+    private javax.swing.JPanel Croisant;
+    private javax.swing.JPanel Danish;
     private javax.swing.JButton HomePageBtn;
+    private javax.swing.JPanel KouignAmann;
+    private javax.swing.JPanel Macarons;
+    private javax.swing.JPanel Madeleine;
+    private javax.swing.JPanel MilleFeuille;
     private javax.swing.JButton NextButton;
+    private javax.swing.JPanel Palmiers;
     private javax.swing.JPanel PastriesDashBoard;
+    private javax.swing.JPanel Pestelito;
     private javax.swing.JButton PreviousBtn;
+    private javax.swing.JPanel SconeButtery;
+    private javax.swing.JPanel Tart;
+    private javax.swing.JPanel ToasterStrudel;
     private javax.swing.JButton TotalButton;
-    private javax.swing.JCheckBox jCheckBox10;
-    private javax.swing.JCheckBox jCheckBox11;
-    private javax.swing.JCheckBox jCheckBox12;
-    private javax.swing.JCheckBox jCheckBox13;
-    private javax.swing.JCheckBox jCheckBox14;
-    private javax.swing.JCheckBox jCheckBox15;
-    private javax.swing.JCheckBox jCheckBox16;
-    private javax.swing.JCheckBox jCheckBox17;
-    private javax.swing.JCheckBox jCheckBox18;
-    private javax.swing.JCheckBox jCheckBox19;
-    private javax.swing.JCheckBox jCheckBox20;
-    private javax.swing.JCheckBox jCheckBox4;
-    private javax.swing.JCheckBox jCheckBox6;
-    private javax.swing.JCheckBox jCheckBox7;
-    private javax.swing.JCheckBox jCheckBox8;
-    private javax.swing.JCheckBox jCheckBox9;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton10;
+    private javax.swing.JButton jButton11;
+    private javax.swing.JButton jButton12;
+    private javax.swing.JButton jButton13;
+    private javax.swing.JButton jButton14;
+    private javax.swing.JButton jButton15;
+    private javax.swing.JButton jButton16;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton6;
+    private javax.swing.JButton jButton7;
+    private javax.swing.JButton jButton8;
+    private javax.swing.JButton jButton9;
     private javax.swing.JComboBox<String> jComboBox10;
     private javax.swing.JComboBox<String> jComboBox11;
     private javax.swing.JComboBox<String> jComboBox12;
@@ -1033,21 +903,6 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel97;
     private javax.swing.JLabel jLabel98;
     private javax.swing.JLabel jLabel99;
-    private javax.swing.JPanel jPanel10;
-    private javax.swing.JPanel jPanel11;
-    private javax.swing.JPanel jPanel12;
-    private javax.swing.JPanel jPanel13;
-    private javax.swing.JPanel jPanel14;
-    private javax.swing.JPanel jPanel15;
-    private javax.swing.JPanel jPanel16;
-    private javax.swing.JPanel jPanel17;
-    private javax.swing.JPanel jPanel18;
-    private javax.swing.JPanel jPanel19;
-    private javax.swing.JPanel jPanel20;
-    private javax.swing.JPanel jPanel21;
-    private javax.swing.JPanel jPanel7;
-    private javax.swing.JPanel jPanel8;
-    private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane1;
     // End of variables declaration//GEN-END:variables
 }
