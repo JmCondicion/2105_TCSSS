@@ -211,8 +211,12 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         L12 = new javax.swing.JCheckBox();
         jButton2 = new javax.swing.JButton();
         P12 = new javax.swing.JTextField();
-        PreviousBTn = new javax.swing.JButton();
         NextBtn = new javax.swing.JButton();
+        jButton12 = new javax.swing.JButton();
+        jButton13 = new javax.swing.JButton();
+        jButton14 = new javax.swing.JButton();
+        jButton15 = new javax.swing.JButton();
+        jButton16 = new javax.swing.JButton();
         BackGroundImage2 = new javax.swing.JLabel();
         CoffeeMenu = new javax.swing.JLabel();
         BackGroundImage = new javax.swing.JLabel();
@@ -227,7 +231,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
 
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        ToHomePage.setText("Home Page");
+        ToHomePage.setText("Home");
         ToHomePage.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ToHomePageActionPerformed(evt);
@@ -1231,14 +1235,6 @@ public class CoffeeDashboad extends javax.swing.JFrame {
 
         jPanel1.add(FlatWhite, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 740, 210, 340));
 
-        PreviousBTn.setText("Previous");
-        PreviousBTn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                PreviousBTnActionPerformed(evt);
-            }
-        });
-        jPanel1.add(PreviousBTn, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 1140, 80, 35));
-
         NextBtn.setText("Next");
         NextBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1246,6 +1242,26 @@ public class CoffeeDashboad extends javax.swing.JFrame {
             }
         });
         jPanel1.add(NextBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 1140, 80, 35));
+
+        jButton12.setText("Coffee");
+        jButton12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton12ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 1100, -1, -1));
+
+        jButton13.setText("Tea");
+        jPanel1.add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 1140, 70, -1));
+
+        jButton14.setText("Drinks");
+        jPanel1.add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 1100, -1, -1));
+
+        jButton15.setText("Pastry");
+        jPanel1.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 1140, -1, -1));
+
+        jButton16.setText("Dishes");
+        jPanel1.add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 1120, -1, -1));
 
         BackGroundImage2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
         BackGroundImage2.setText("jLabel38");
@@ -1719,14 +1735,10 @@ public class CoffeeDashboad extends javax.swing.JFrame {
 
     private void TotalBUttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TotalBUttonActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_TotalBUttonActionPerformed
-
-    private void PreviousBTnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PreviousBTnActionPerformed
-        // TODO add your handling code here:
-        HomePage hp = new HomePage();
-        hp.setVisible(true);
+        OrderList ol = new OrderList();
+        ol.setVisible(true);
         this.dispose();
-    }//GEN-LAST:event_PreviousBTnActionPerformed
+    }//GEN-LAST:event_TotalBUttonActionPerformed
 
     private void NextBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NextBtnActionPerformed
         // TODO add your handling code here:
@@ -1734,6 +1746,10 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         td.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_NextBtnActionPerformed
+
+    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton12ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -1871,7 +1887,6 @@ public class CoffeeDashboad extends javax.swing.JFrame {
     private javax.swing.JTextField P7;
     private javax.swing.JTextField P8;
     private javax.swing.JTextField P9;
-    private javax.swing.JButton PreviousBTn;
     private javax.swing.JComboBox<String> Q1;
     private javax.swing.JComboBox<String> Q10;
     private javax.swing.JComboBox<String> Q11;
@@ -1891,6 +1906,11 @@ public class CoffeeDashboad extends javax.swing.JFrame {
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
+    private javax.swing.JButton jButton12;
+    private javax.swing.JButton jButton13;
+    private javax.swing.JButton jButton14;
+    private javax.swing.JButton jButton15;
+    private javax.swing.JButton jButton16;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;

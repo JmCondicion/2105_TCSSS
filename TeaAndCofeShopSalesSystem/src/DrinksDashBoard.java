@@ -175,8 +175,12 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jButton11 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         NextBtn = new javax.swing.JButton();
-        PreviousBtn = new javax.swing.JButton();
         ToCoffeeButton3 = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
+        jButton19 = new javax.swing.JButton();
+        jButton20 = new javax.swing.JButton();
+        jButton21 = new javax.swing.JButton();
+        jButton22 = new javax.swing.JButton();
         jLabel10 = new javax.swing.JLabel();
         jLabel97 = new javax.swing.JLabel();
         jLabel98 = new javax.swing.JLabel();
@@ -807,6 +811,11 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jPanel1.add(MintJulep1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 920, 240, 420));
 
         jButton3.setText("Total");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
         jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 1820, 80, 35));
 
         NextBtn.setText("Next");
@@ -817,16 +826,33 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         });
         jPanel1.add(NextBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 1820, 80, 35));
 
-        PreviousBtn.setText("Previous");
-        PreviousBtn.addActionListener(new java.awt.event.ActionListener() {
+        ToCoffeeButton3.setText("Home");
+        ToCoffeeButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                PreviousBtnActionPerformed(evt);
+                ToCoffeeButton3ActionPerformed(evt);
             }
         });
-        jPanel1.add(PreviousBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 1820, 80, 35));
-
-        ToCoffeeButton3.setText("Coffee");
         jPanel1.add(ToCoffeeButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 1820, 80, 35));
+
+        jButton1.setText("Coffee");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 1800, -1, -1));
+
+        jButton19.setText("Tea");
+        jPanel1.add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 1830, 70, -1));
+
+        jButton20.setText("Drinks");
+        jPanel1.add(jButton20, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 1800, -1, -1));
+
+        jButton21.setText("Pastry");
+        jPanel1.add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 1830, -1, -1));
+
+        jButton22.setText("Dishes");
+        jPanel1.add(jButton22, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 1820, -1, -1));
 
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
         jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1120, 1870));
@@ -925,13 +951,6 @@ public class DrinksDashBoard extends javax.swing.JFrame {
        
     }//GEN-LAST:event_P1ActionPerformed
 
-    private void PreviousBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PreviousBtnActionPerformed
-        // TODO add your handling code here:
-        TeaDashBoard td = new TeaDashBoard();
-        td.setVisible(true);
-        this.dispose();
-    }//GEN-LAST:event_PreviousBtnActionPerformed
-
     private void NextBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NextBtnActionPerformed
         // TODO add your handling code here:
         FoodDashBoard fd = new FoodDashBoard();
@@ -999,6 +1018,24 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton18ActionPerformed
 
+    private void ToCoffeeButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ToCoffeeButton3ActionPerformed
+       this.dispose();
+       HomePage hp = new HomePage();
+       hp.setVisible(true);
+    }//GEN-LAST:event_ToCoffeeButton3ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        OrderList ol = new OrderList();
+        ol.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        this.dispose();
+        CoffeeDashboad cd = new CoffeeDashboad();
+        cd.setVisible(true);
+    }//GEN-LAST:event_jButton1ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -1052,9 +1089,9 @@ public class DrinksDashBoard extends javax.swing.JFrame {
     private javax.swing.JButton NextBtn;
     private javax.swing.JTextField P1;
     private javax.swing.JPanel PinaColada1;
-    private javax.swing.JButton PreviousBtn;
     private javax.swing.JPanel Sangrai;
     private javax.swing.JButton ToCoffeeButton3;
+    private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
     private javax.swing.JButton jButton12;
@@ -1064,7 +1101,11 @@ public class DrinksDashBoard extends javax.swing.JFrame {
     private javax.swing.JButton jButton16;
     private javax.swing.JButton jButton17;
     private javax.swing.JButton jButton18;
+    private javax.swing.JButton jButton19;
     private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton20;
+    private javax.swing.JButton jButton21;
+    private javax.swing.JButton jButton22;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;

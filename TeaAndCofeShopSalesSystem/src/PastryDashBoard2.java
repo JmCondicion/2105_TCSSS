@@ -176,6 +176,11 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jLabel6 = new javax.swing.JLabel();
         jButton13 = new javax.swing.JButton();
         HomePageBtn = new javax.swing.JButton();
+        jButton17 = new javax.swing.JButton();
+        jButton18 = new javax.swing.JButton();
+        jButton19 = new javax.swing.JButton();
+        jButton20 = new javax.swing.JButton();
+        jButton21 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         jLabel81 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -195,6 +200,11 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         PastriesDashBoard.add(NextButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(1150, 1540, 80, 35));
 
         TotalButton.setText("Total");
+        TotalButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                TotalButtonActionPerformed(evt);
+            }
+        });
         PastriesDashBoard.add(TotalButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(1350, 1540, 80, 35));
 
         PreviousBtn.setText("Previous");
@@ -669,13 +679,33 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
 
         PastriesDashBoard.add(ToasterStrudel, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 1150, 340, 350));
 
-        HomePageBtn.setText("Home Page");
+        HomePageBtn.setText("Home");
         HomePageBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 HomePageBtnActionPerformed(evt);
             }
         });
         PastriesDashBoard.add(HomePageBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 1540, 80, 35));
+
+        jButton17.setText("Coffee");
+        jButton17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton17ActionPerformed(evt);
+            }
+        });
+        PastriesDashBoard.add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 1520, -1, -1));
+
+        jButton18.setText("Tea");
+        PastriesDashBoard.add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 1560, 70, -1));
+
+        jButton19.setText("Drinks");
+        PastriesDashBoard.add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 1520, -1, -1));
+
+        jButton20.setText("Pastry");
+        PastriesDashBoard.add(jButton20, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 1560, -1, -1));
+
+        jButton21.setText("Dishes");
+        PastriesDashBoard.add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 1540, -1, -1));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
         PastriesDashBoard.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-3, -4, 1480, 1610));
@@ -697,7 +727,9 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void HomePageBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_HomePageBtnActionPerformed
-        // TODO add your handling code here:
+       this.dispose();
+       HomePage hp = new HomePage();
+       hp.setVisible(true);
     }//GEN-LAST:event_HomePageBtnActionPerformed
 
     private void PreviousBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PreviousBtnActionPerformed
@@ -714,6 +746,18 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         hp.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_NextButtonActionPerformed
+
+    private void TotalButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TotalButtonActionPerformed
+        OrderList ol = new OrderList();
+        ol.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_TotalButtonActionPerformed
+
+    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
+        this.dispose();
+        CoffeeDashboad cd = new CoffeeDashboad();
+        cd.setVisible(true);
+    }//GEN-LAST:event_jButton17ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -780,7 +824,12 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
     private javax.swing.JButton jButton14;
     private javax.swing.JButton jButton15;
     private javax.swing.JButton jButton16;
+    private javax.swing.JButton jButton17;
+    private javax.swing.JButton jButton18;
+    private javax.swing.JButton jButton19;
     private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton20;
+    private javax.swing.JButton jButton21;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;

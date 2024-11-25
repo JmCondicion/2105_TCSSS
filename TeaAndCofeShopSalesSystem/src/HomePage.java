@@ -466,7 +466,7 @@ public class HomePage extends javax.swing.JFrame {
         });
         Container.add(DrinksBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 250, -1, -1));
 
-        FoodBtn.setText("Food");
+        FoodBtn.setText("Dishes");
         FoodBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 FoodBtnActionPerformed(evt);
@@ -499,7 +499,6 @@ public class HomePage extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void FoodBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_FoodBtnActionPerformed
-        // TODO add your handling code here:
         FoodDashBoard fd = new FoodDashBoard();
         fd.setVisible(true);
         //HomePage hp = new HomePage();
@@ -509,7 +508,6 @@ public class HomePage extends javax.swing.JFrame {
     }//GEN-LAST:event_FoodBtnActionPerformed
 
     private void coffeeBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_coffeeBtnActionPerformed
-       // TODO add your handling code here:
         this.dispose();
         //HomePage hp = new HomePage();
         //hp.setVisible(false);
@@ -540,6 +538,9 @@ public class HomePage extends javax.swing.JFrame {
 
     private void AdminBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AdminBtnActionPerformed
         // TODO add your handling code here:
+        this.dispose();
+        AdminDashBoard ad = new AdminDashBoard();
+        ad.setVisible(true);
        
     }//GEN-LAST:event_AdminBtnActionPerformed
 

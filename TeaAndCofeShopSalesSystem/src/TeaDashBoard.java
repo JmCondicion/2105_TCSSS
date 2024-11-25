@@ -145,6 +145,11 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel55 = new javax.swing.JLabel();
         Add16 = new javax.swing.JButton();
         HomeButton = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
+        jButton5 = new javax.swing.JButton();
         ToDrinksButton = new javax.swing.JLabel();
         jLabel37 = new javax.swing.JLabel();
         jLabel38 = new javax.swing.JLabel();
@@ -171,7 +176,7 @@ public class TeaDashBoard extends javax.swing.JFrame {
         ChaiTea.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
         Add4.setText("Add");
-        ChaiTea.add(Add4, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        ChaiTea.add(Add4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         TeaDashBoard.add(ChaiTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 20, 280, 340));
 
@@ -193,7 +198,12 @@ public class TeaDashBoard extends javax.swing.JFrame {
         HerbalTea.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
         Add8.setText("Add");
-        HerbalTea.add(Add8, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        Add8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Add8ActionPerformed(evt);
+            }
+        });
+        HerbalTea.add(Add8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         TeaDashBoard.add(HerbalTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 380, 280, 340));
 
@@ -215,7 +225,7 @@ public class TeaDashBoard extends javax.swing.JFrame {
         Pu_erh_Tea.add(jLabel135, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
         Add15.setText("Add");
-        Pu_erh_Tea.add(Add15, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        Pu_erh_Tea.add(Add15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         TeaDashBoard.add(Pu_erh_Tea, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 1120, 280, 340));
 
@@ -237,7 +247,7 @@ public class TeaDashBoard extends javax.swing.JFrame {
         MintTea.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
         Add12.setText("Add");
-        MintTea.add(Add12, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        MintTea.add(Add12, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         TeaDashBoard.add(MintTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 750, 280, 340));
 
@@ -259,7 +269,12 @@ public class TeaDashBoard extends javax.swing.JFrame {
         GenMaichaTea.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
         Add3.setText("Add");
-        GenMaichaTea.add(Add3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        Add3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Add3ActionPerformed(evt);
+            }
+        });
+        GenMaichaTea.add(Add3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         TeaDashBoard.add(GenMaichaTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 20, 280, 340));
 
@@ -281,7 +296,7 @@ public class TeaDashBoard extends javax.swing.JFrame {
         EarlyGreyTea.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
         Add2.setText("Add");
-        EarlyGreyTea.add(Add2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        EarlyGreyTea.add(Add2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         TeaDashBoard.add(EarlyGreyTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 20, 280, 340));
 
@@ -303,7 +318,7 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jPanel7.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
         Add1.setText("Add");
-        jPanel7.add(Add1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        jPanel7.add(Add1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         TeaDashBoard.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, -1, 340));
 
@@ -325,7 +340,7 @@ public class TeaDashBoard extends javax.swing.JFrame {
         HibiscusTea.add(jLabel45, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
         Add7.setText("Add");
-        HibiscusTea.add(Add7, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        HibiscusTea.add(Add7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         TeaDashBoard.add(HibiscusTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 380, 280, 340));
 
@@ -347,7 +362,12 @@ public class TeaDashBoard extends javax.swing.JFrame {
         JasmineTea.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
         Add6.setText("Add");
-        JasmineTea.add(Add6, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        Add6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Add6ActionPerformed(evt);
+            }
+        });
+        JasmineTea.add(Add6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         TeaDashBoard.add(JasmineTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 380, 280, 340));
 
@@ -369,7 +389,7 @@ public class TeaDashBoard extends javax.swing.JFrame {
         MatchaTea.add(jLabel50, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
         Add5.setText("Add");
-        MatchaTea.add(Add5, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        MatchaTea.add(Add5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         TeaDashBoard.add(MatchaTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 380, 280, 340));
 
@@ -391,7 +411,7 @@ public class TeaDashBoard extends javax.swing.JFrame {
         CharmomoleTea.add(jLabel65, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
         Add11.setText("Add");
-        CharmomoleTea.add(Add11, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        CharmomoleTea.add(Add11, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         TeaDashBoard.add(CharmomoleTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 750, 280, 340));
 
@@ -413,7 +433,7 @@ public class TeaDashBoard extends javax.swing.JFrame {
         WhiteTea.add(jLabel60, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
         Add10.setText("Add");
-        WhiteTea.add(Add10, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        WhiteTea.add(Add10, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         TeaDashBoard.add(WhiteTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 750, 280, 340));
 
@@ -435,7 +455,7 @@ public class TeaDashBoard extends javax.swing.JFrame {
         RooibosTea.add(jLabel70, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
         Add9.setText("Add");
-        RooibosTea.add(Add9, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        RooibosTea.add(Add9, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         TeaDashBoard.add(RooibosTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 750, 280, 340));
 
@@ -457,7 +477,7 @@ public class TeaDashBoard extends javax.swing.JFrame {
         OolongTea.add(jLabel80, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
         Add14.setText("Add");
-        OolongTea.add(Add14, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        OolongTea.add(Add14, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         TeaDashBoard.add(OolongTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 1120, 280, 340));
 
@@ -479,7 +499,7 @@ public class TeaDashBoard extends javax.swing.JFrame {
         DarjeelingTea.add(jLabel75, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
         Add13.setText("Add");
-        DarjeelingTea.add(Add13, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        DarjeelingTea.add(Add13, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         TeaDashBoard.add(DarjeelingTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 1120, 280, 340));
 
@@ -525,7 +545,7 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jPanel13.add(jLabel55, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
         Add16.setText("Add");
-        jPanel13.add(Add16, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+        jPanel13.add(Add16, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         TeaDashBoard.add(jPanel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 1120, 280, 340));
 
@@ -536,6 +556,26 @@ public class TeaDashBoard extends javax.swing.JFrame {
             }
         });
         TeaDashBoard.add(HomeButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 1490, 80, 35));
+
+        jButton1.setText("Coffee");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        TeaDashBoard.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 1480, -1, -1));
+
+        jButton2.setText("Tea");
+        TeaDashBoard.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 1510, 70, -1));
+
+        jButton3.setText("Drinks");
+        TeaDashBoard.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 1480, -1, -1));
+
+        jButton4.setText("Pastry");
+        TeaDashBoard.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 1510, -1, -1));
+
+        jButton5.setText("Dishes");
+        TeaDashBoard.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 1490, -1, -1));
 
         ToDrinksButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
         ToDrinksButton.setText("jLabel36");
@@ -565,7 +605,6 @@ public class TeaDashBoard extends javax.swing.JFrame {
     }//GEN-LAST:event_PreviousBtnActionPerformed
 
     private void HomeButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_HomeButtonActionPerformed
-        // TODO add your handling code here:
         HomePage hp = new HomePage();
         hp.setVisible(true);
         this.dispose();
@@ -573,7 +612,9 @@ public class TeaDashBoard extends javax.swing.JFrame {
     }//GEN-LAST:event_HomeButtonActionPerformed
 
     private void TotalButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TotalButtonActionPerformed
-        // TODO add your handling code here:
+        OrderList ol = new OrderList();
+        ol.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_TotalButtonActionPerformed
 
     private void NextButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NextButtonActionPerformed
@@ -582,6 +623,24 @@ public class TeaDashBoard extends javax.swing.JFrame {
         dD.setVisible(true);
         this.dispose();          
     }//GEN-LAST:event_NextButtonActionPerformed
+
+    private void Add3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Add3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Add3ActionPerformed
+
+    private void Add6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Add6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Add6ActionPerformed
+
+    private void Add8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Add8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Add8ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        this.dispose();
+        CoffeeDashboad cd = new CoffeeDashboad();
+        cd.setVisible(true);
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -655,6 +714,11 @@ public class TeaDashBoard extends javax.swing.JFrame {
     private javax.swing.JLabel ToDrinksButton;
     private javax.swing.JButton TotalButton;
     private javax.swing.JPanel WhiteTea;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
