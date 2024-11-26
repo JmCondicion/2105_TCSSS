@@ -46,7 +46,19 @@ public class dbcon {
         return conn;
     }
     
-    // TAPOS NITO PUNTA KA SA USERINFO.JAVA NA FILE OKIE??
+    // TAPOS NITO PUNTA KA SA USERINFO.JAVA NA FILE OKIE??4
+    
+        public static void main(String[] args) {
+        dbcon db = dbcon.getDBConnection();
+        Connection con = db.getConnection();
+
+        if (con != null) {
+            System.out.println("Connection successful!");
+        } else {
+            System.out.println("Failed to connect.");
+        }
+    }
+
 }
   
     
