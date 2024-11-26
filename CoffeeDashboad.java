@@ -40,8 +40,6 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         FlatWhiteBTG = new javax.swing.ButtonGroup();
         jScrollPane1 = new javax.swing.JScrollPane();
         jPanel1 = new javax.swing.JPanel();
-        ToHomePage = new javax.swing.JButton();
-        TotalBUtton = new javax.swing.JButton();
         Americano = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         CoffeeName8 = new javax.swing.JLabel();
@@ -55,7 +53,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         m1 = new javax.swing.JCheckBox();
         L1 = new javax.swing.JCheckBox();
         P1 = new javax.swing.JTextField();
-        AddBtn1 = new javax.swing.JButton();
+        add1 = new javax.swing.JButton();
         Brewed = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
         CoffeeName14 = new javax.swing.JLabel();
@@ -211,10 +209,14 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         L12 = new javax.swing.JCheckBox();
         jButton2 = new javax.swing.JButton();
         P12 = new javax.swing.JTextField();
-        PreviousBTn = new javax.swing.JButton();
-        NextBtn = new javax.swing.JButton();
         BackGroundImage2 = new javax.swing.JLabel();
         CoffeeMenu = new javax.swing.JLabel();
+        jButton17 = new javax.swing.JButton();
+        jButton18 = new javax.swing.JButton();
+        jButton19 = new javax.swing.JButton();
+        jButton20 = new javax.swing.JButton();
+        jButton21 = new javax.swing.JButton();
+        jButton12 = new javax.swing.JButton();
         BackGroundImage = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
@@ -226,22 +228,6 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         jScrollPane1.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
 
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        ToHomePage.setText("Home");
-        ToHomePage.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ToHomePageActionPerformed(evt);
-            }
-        });
-        jPanel1.add(ToHomePage, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 1140, 80, 35));
-
-        TotalBUtton.setText("Total");
-        TotalBUtton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TotalBUttonActionPerformed(evt);
-            }
-        });
-        jPanel1.add(TotalBUtton, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 1140, -1, 38));
 
         Americano.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         Americano.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -316,13 +302,13 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         });
         Americano.add(P1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
-        AddBtn1.setText("Add");
-        AddBtn1.addActionListener(new java.awt.event.ActionListener() {
+        add1.setText("Add");
+        add1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AddBtn1ActionPerformed(evt);
+                add1ActionPerformed(evt);
             }
         });
-        Americano.add(AddBtn1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, 60, 20));
+        Americano.add(add1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 240, -1, -1));
 
         jPanel1.add(Americano, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 13, 211, 320));
 
@@ -413,7 +399,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         Cacao.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Cacao.jpg"))); // NOI18N
-        Cacao.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 210, 150));
+        Cacao.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         CoffeeName15.setText("Name:");
         Cacao.add(CoffeeName15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
@@ -1231,50 +1217,73 @@ public class CoffeeDashboad extends javax.swing.JFrame {
 
         jPanel1.add(FlatWhite, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 740, 210, 340));
 
-        PreviousBTn.setText("Previous");
-        PreviousBTn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                PreviousBTnActionPerformed(evt);
-            }
-        });
-        jPanel1.add(PreviousBTn, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 1140, 80, 35));
-
-        NextBtn.setText("Next");
-        NextBtn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                NextBtnActionPerformed(evt);
-            }
-        });
-        jPanel1.add(NextBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 1140, 80, 35));
-
         BackGroundImage2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
         BackGroundImage2.setText("jLabel38");
-        jPanel1.add(BackGroundImage2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1010, 1200));
+        jPanel1.add(BackGroundImage2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1010, 1120));
 
         jScrollPane1.setViewportView(jPanel1);
 
-        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 89, 1010, 570));
+        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 90, 1010, 570));
 
-        CoffeeMenu.setFont(new java.awt.Font("Segoe UI Historic", 3, 18)); // NOI18N
+        CoffeeMenu.setFont(new java.awt.Font("Segoe UI Historic", 3, 36)); // NOI18N
         CoffeeMenu.setForeground(new java.awt.Color(255, 255, 255));
         CoffeeMenu.setText("Coffee Menu");
-        getContentPane().add(CoffeeMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(428, 14, 124, 55));
+        getContentPane().add(CoffeeMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 250, 55));
+
+        jButton17.setText("Coffee");
+        jButton17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton17ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 700, -1, -1));
+
+        jButton18.setText("Tea");
+        jButton18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton18ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 740, 70, -1));
+
+        jButton19.setText("Drinks");
+        jButton19.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton19ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 700, -1, -1));
+
+        jButton20.setText("Pastry");
+        jButton20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton20ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton20, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 740, -1, -1));
+
+        jButton21.setText("Dishes");
+        jButton21.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton21ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 700, -1, -1));
+
+        jButton12.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        jButton12.setText("Total");
+        jButton12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton12ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 700, 150, 50));
 
         BackGroundImage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
-        getContentPane().add(BackGroundImage, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1100, 760));
+        getContentPane().add(BackGroundImage, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1270, 790));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void ToHomePageActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ToHomePageActionPerformed
-        // TODO add your handling code here:
-        //CoffeeDashboad cd = new CoffeeDashboad();
-        //cd.setVisible(false);
-        this.dispose();
-       HomePage hp = new HomePage();
-       hp.setVisible(true);
-        
-    }//GEN-LAST:event_ToHomePageActionPerformed
 
     private void m12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_m12ActionPerformed
         // TODO add your handling code here:
@@ -1317,7 +1326,6 @@ public class CoffeeDashboad extends javax.swing.JFrame {
     }//GEN-LAST:event_L1ActionPerformed
 
     private void Q1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q1ActionPerformed
-        // TODO add your handling code here:
         int p = Integer.parseInt(P1.getText());
         int q = Integer.parseInt((String) Q1.getSelectedItem());
         int total = p * q;
@@ -1457,14 +1465,6 @@ public class CoffeeDashboad extends javax.swing.JFrame {
     private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton11ActionPerformed
-
-    private void AddBtn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AddBtn1ActionPerformed
-        // TODO add your handling code here:
-        CoffeeDashboad cd = new CoffeeDashboad();
-        cd.setVisible(false);
-        /*ReceiptDashBoard rd = new ReceiptDashBoard();
-        rd.setVisible(true);*/
-    }//GEN-LAST:event_AddBtn1ActionPerformed
 
     private void P5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_P5ActionPerformed
         // TODO add your handling code here:
@@ -1717,26 +1717,45 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         P12.setText(t);
     }//GEN-LAST:event_Q12ActionPerformed
 
-    private void TotalBUttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TotalBUttonActionPerformed
+    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
+        this.dispose();
+        CoffeeDashboad cd = new CoffeeDashboad();
+        cd.setVisible(true);
+    }//GEN-LAST:event_jButton17ActionPerformed
+
+    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
+        this.dispose();
+        TeaDashBoard td = new TeaDashBoard();
+        td.setVisible(true);
+    }//GEN-LAST:event_jButton18ActionPerformed
+
+    private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
+        this.dispose();
+        DrinksDashBoard dD = new DrinksDashBoard();
+        dD.setVisible(true);
+    }//GEN-LAST:event_jButton19ActionPerformed
+
+    private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
+        PastryDashBoard2 pd = new PastryDashBoard2();
+        pd.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton20ActionPerformed
+
+    private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
+        FoodDashBoard fd = new FoodDashBoard();
+        fd.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton21ActionPerformed
+
+    private void add1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add1ActionPerformed
         // TODO add your handling code here:
+    }//GEN-LAST:event_add1ActionPerformed
+
+    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
         OrderList ol = new OrderList();
         ol.setVisible(true);
         this.dispose();
-    }//GEN-LAST:event_TotalBUttonActionPerformed
-
-    private void PreviousBTnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PreviousBTnActionPerformed
-        // TODO add your handling code here:
-        HomePage hp= new HomePage();
-        hp.setVisible(true);
-        this.dispose();
-    }//GEN-LAST:event_PreviousBTnActionPerformed
-
-    private void NextBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NextBtnActionPerformed
-        // TODO add your handling code here:
-        TeaDashBoard td = new TeaDashBoard();
-        td.setVisible(true);
-        this.dispose();
-    }//GEN-LAST:event_NextBtnActionPerformed
+    }//GEN-LAST:event_jButton12ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -1774,7 +1793,6 @@ public class CoffeeDashboad extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton AddBtn1;
     private javax.swing.JPanel Americano;
     private javax.swing.ButtonGroup AmericanoBTG;
     private javax.swing.JLabel BackGroundImage;
@@ -1861,7 +1879,6 @@ public class CoffeeDashboad extends javax.swing.JFrame {
     private javax.swing.JCheckBox L9;
     private javax.swing.JPanel Latte;
     private javax.swing.ButtonGroup LatteBTG;
-    private javax.swing.JButton NextBtn;
     private javax.swing.JTextField P1;
     private javax.swing.JTextField P10;
     private javax.swing.JTextField P11;
@@ -1874,7 +1891,6 @@ public class CoffeeDashboad extends javax.swing.JFrame {
     private javax.swing.JTextField P7;
     private javax.swing.JTextField P8;
     private javax.swing.JTextField P9;
-    private javax.swing.JButton PreviousBTn;
     private javax.swing.JComboBox<String> Q1;
     private javax.swing.JComboBox<String> Q10;
     private javax.swing.JComboBox<String> Q11;
@@ -1887,14 +1903,19 @@ public class CoffeeDashboad extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> Q7;
     private javax.swing.JComboBox<String> Q8;
     private javax.swing.JComboBox<String> Q9;
-    private javax.swing.JButton ToHomePage;
-    private javax.swing.JButton TotalBUtton;
     private javax.swing.JPanel WhiteMocha;
     private javax.swing.ButtonGroup WhiteMochaBTG;
+    private javax.swing.JButton add1;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
+    private javax.swing.JButton jButton12;
+    private javax.swing.JButton jButton17;
+    private javax.swing.JButton jButton18;
+    private javax.swing.JButton jButton19;
     private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton20;
+    private javax.swing.JButton jButton21;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;

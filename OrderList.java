@@ -25,48 +25,59 @@ public class OrderList extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
-        jLabel2 = new javax.swing.JLabel();
-        jButton2 = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
         LogoName1 = new javax.swing.JLabel();
+        jButton2 = new javax.swing.JButton();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        jTextArea2 = new javax.swing.JTextArea();
+        jButton3 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marianne\\Downloads\\khaki.jpg")); // NOI18N
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 750, 370));
-
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 750, 370));
-
-        jButton2.setText("Proceed");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 420, -1, -1));
-
+        jButton1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jButton1.setText("Home");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 420, -1, -1));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 550, 110, 50));
 
         LogoName1.setBackground(new java.awt.Color(255, 255, 255));
         LogoName1.setFont(new java.awt.Font("Vivaldi", 3, 36)); // NOI18N
         LogoName1.setForeground(new java.awt.Color(255, 255, 255));
         LogoName1.setText("Elysian");
         LogoName1.setToolTipText("");
-        getContentPane().add(LogoName1, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 410, 120, -1));
+        getContentPane().add(LogoName1, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 10, 120, -1));
+
+        jButton2.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jButton2.setText("Proceed");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 550, 110, 50));
+
+        jTextArea2.setColumns(20);
+        jTextArea2.setRows(5);
+        jScrollPane2.setViewportView(jTextArea2);
+
+        getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 60, 940, 460));
+
+        jButton3.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jButton3.setText("Return");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 550, 110, 50));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/brgcoffee.jpg"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 790, 470));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -10, 1020, 630));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -79,9 +90,15 @@ public class OrderList extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
        this.dispose();
-       ModeOfPayment mp = new ModeOfPayment();
-       mp.setVisible(true);
+       CashReceipt cr = new CashReceipt();
+       cr.setVisible(true);
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        this.dispose();
+        CoffeeDashboad cd = new CoffeeDashboad();
+        cd.setVisible(true);
+    }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -122,8 +139,9 @@ public class OrderList extends javax.swing.JFrame {
     private javax.swing.JLabel LogoName1;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JPanel jPanel1;
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JTextArea jTextArea2;
     // End of variables declaration//GEN-END:variables
 }

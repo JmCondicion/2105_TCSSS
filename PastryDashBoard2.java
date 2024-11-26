@@ -28,9 +28,6 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
 
         jScrollPane1 = new javax.swing.JScrollPane();
         PastriesDashBoard = new javax.swing.JPanel();
-        NextButton = new javax.swing.JButton();
-        TotalButton = new javax.swing.JButton();
-        PreviousBtn = new javax.swing.JButton();
         CoffeeCinamonRolls = new javax.swing.JPanel();
         jLabel13 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
@@ -175,9 +172,14 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jLabel93 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jButton13 = new javax.swing.JButton();
-        HomePageBtn = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         jLabel81 = new javax.swing.JLabel();
+        jButton22 = new javax.swing.JButton();
+        jButton23 = new javax.swing.JButton();
+        jButton24 = new javax.swing.JButton();
+        jButton25 = new javax.swing.JButton();
+        jButton26 = new javax.swing.JButton();
+        jButton17 = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
@@ -186,31 +188,8 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         PastriesDashBoard.setBackground(new java.awt.Color(255, 255, 255));
         PastriesDashBoard.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        NextButton.setText("Next");
-        NextButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                NextButtonActionPerformed(evt);
-            }
-        });
-        PastriesDashBoard.add(NextButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(1150, 1540, 80, 35));
-
-        TotalButton.setText("Total");
-        TotalButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TotalButtonActionPerformed(evt);
-            }
-        });
-        PastriesDashBoard.add(TotalButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(1350, 1540, 80, 35));
-
-        PreviousBtn.setText("Previous");
-        PreviousBtn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                PreviousBtnActionPerformed(evt);
-            }
-        });
-        PastriesDashBoard.add(PreviousBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 1540, 80, 35));
-
         CoffeeCinamonRolls.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        CoffeeCinamonRolls.setPreferredSize(new java.awt.Dimension(280, 283));
         CoffeeCinamonRolls.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Coffee-Cinnamon-Rolls.jpg"))); // NOI18N
@@ -237,9 +216,11 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jButton1.setText("Add");
         CoffeeCinamonRolls.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, -1, -1));
 
-        PastriesDashBoard.add(CoffeeCinamonRolls, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 340, 350));
+        PastriesDashBoard.add(CoffeeCinamonRolls, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, -1, 340));
 
         Danish.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Danish.setMinimumSize(new java.awt.Dimension(280, 283));
+        Danish.setPreferredSize(new java.awt.Dimension(280, 283));
         Danish.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Danish Pastries.jpg"))); // NOI18N
@@ -266,13 +247,16 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jButton2.setText("Add");
         Danish.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, -1, -1));
 
-        PastriesDashBoard.add(Danish, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 30, 340, 350));
+        PastriesDashBoard.add(Danish, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 30, -1, 340));
+        Danish.getAccessibleContext().setAccessibleName("");
 
         Baklava.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Baklava.setMinimumSize(new java.awt.Dimension(280, 283));
+        Baklava.setPreferredSize(new java.awt.Dimension(280, 283));
         Baklava.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Baklava.jpg"))); // NOI18N
-        Baklava.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
+        Baklava.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 280, 220));
 
         jLabel26.setText("Name");
         Baklava.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
@@ -295,9 +279,11 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jButton3.setText("Add");
         Baklava.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, -1, -1));
 
-        PastriesDashBoard.add(Baklava, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 30, 340, 350));
+        PastriesDashBoard.add(Baklava, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 30, -1, 340));
 
         BerryCreamPuff.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        BerryCreamPuff.setMinimumSize(new java.awt.Dimension(280, 283));
+        BerryCreamPuff.setPreferredSize(new java.awt.Dimension(280, 283));
         BerryCreamPuff.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Berry Cream Puff.jpg"))); // NOI18N
@@ -324,9 +310,11 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jButton4.setText("Add");
         BerryCreamPuff.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, -1, -1));
 
-        PastriesDashBoard.add(BerryCreamPuff, new org.netbeans.lib.awtextra.AbsoluteConstraints(1120, 30, 340, 350));
+        PastriesDashBoard.add(BerryCreamPuff, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 30, -1, 340));
 
         Macarons.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Macarons.setMinimumSize(new java.awt.Dimension(280, 283));
+        Macarons.setPreferredSize(new java.awt.Dimension(280, 283));
         Macarons.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Macarons.jpg"))); // NOI18N
@@ -348,18 +336,20 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         Macarons.add(jLabel101, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, -1, 20));
 
         jLabel18.setText("150 for a box contains 6 pcs ");
-        Macarons.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 290, -1, -1));
+        Macarons.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 320, -1, -1));
 
         jButton8.setText("Add");
-        Macarons.add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 290, -1, -1));
+        Macarons.add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 290, -1, -1));
 
-        PastriesDashBoard.add(Macarons, new org.netbeans.lib.awtextra.AbsoluteConstraints(1120, 400, 340, 350));
+        PastriesDashBoard.add(Macarons, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 390, -1, 340));
 
         KouignAmann.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        KouignAmann.setMinimumSize(new java.awt.Dimension(280, 283));
+        KouignAmann.setPreferredSize(new java.awt.Dimension(280, 283));
         KouignAmann.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Kouign-Amann.jpg"))); // NOI18N
-        KouignAmann.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 220));
+        KouignAmann.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 280, 220));
 
         jLabel38.setText("Name");
         KouignAmann.add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
@@ -382,9 +372,11 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jButton7.setText("Add");
         KouignAmann.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, -1, -1));
 
-        PastriesDashBoard.add(KouignAmann, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 400, 340, 350));
+        PastriesDashBoard.add(KouignAmann, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 390, -1, 340));
 
         Churros.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Churros.setMinimumSize(new java.awt.Dimension(280, 283));
+        Churros.setPreferredSize(new java.awt.Dimension(280, 283));
         Churros.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel41.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/churros.jpg"))); // NOI18N
@@ -411,9 +403,11 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jButton6.setText("Add");
         Churros.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, -1, -1));
 
-        PastriesDashBoard.add(Churros, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 400, 340, 350));
+        PastriesDashBoard.add(Churros, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 390, -1, 340));
 
         CaramelEcliar.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        CaramelEcliar.setMinimumSize(new java.awt.Dimension(280, 283));
+        CaramelEcliar.setPreferredSize(new java.awt.Dimension(280, 283));
         CaramelEcliar.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel45.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/caramel-eclair.jpg"))); // NOI18N
@@ -440,9 +434,11 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jButton5.setText("Add");
         CaramelEcliar.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, -1, -1));
 
-        PastriesDashBoard.add(CaramelEcliar, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 400, 340, 350));
+        PastriesDashBoard.add(CaramelEcliar, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 390, -1, 340));
 
         Croisant.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Croisant.setMinimumSize(new java.awt.Dimension(280, 283));
+        Croisant.setPreferredSize(new java.awt.Dimension(280, 283));
         Croisant.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel49.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/croisant.png"))); // NOI18N
@@ -469,9 +465,11 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jButton9.setText("Add");
         Croisant.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, -1, -1));
 
-        PastriesDashBoard.add(Croisant, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 770, 340, 350));
+        PastriesDashBoard.add(Croisant, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 750, -1, 340));
 
         SconeButtery.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        SconeButtery.setMinimumSize(new java.awt.Dimension(280, 283));
+        SconeButtery.setPreferredSize(new java.awt.Dimension(280, 283));
         SconeButtery.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel53.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Scone-Buttery.jpg"))); // NOI18N
@@ -498,9 +496,11 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jButton10.setText("Add");
         SconeButtery.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, -1, -1));
 
-        PastriesDashBoard.add(SconeButtery, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 770, 340, 350));
+        PastriesDashBoard.add(SconeButtery, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 750, -1, 340));
 
         Palmiers.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Palmiers.setMinimumSize(new java.awt.Dimension(280, 283));
+        Palmiers.setPreferredSize(new java.awt.Dimension(280, 283));
         Palmiers.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel57.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Palmiers.jpg"))); // NOI18N
@@ -527,9 +527,11 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jButton11.setText("Add");
         Palmiers.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, -1, -1));
 
-        PastriesDashBoard.add(Palmiers, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 770, 340, 350));
+        PastriesDashBoard.add(Palmiers, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 750, -1, 340));
 
         Madeleine.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Madeleine.setMinimumSize(new java.awt.Dimension(280, 283));
+        Madeleine.setPreferredSize(new java.awt.Dimension(280, 283));
         Madeleine.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel61.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Madeleine.jpg"))); // NOI18N
@@ -556,9 +558,11 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jButton12.setText("Add");
         Madeleine.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, -1, -1));
 
-        PastriesDashBoard.add(Madeleine, new org.netbeans.lib.awtextra.AbsoluteConstraints(1120, 770, 340, 350));
+        PastriesDashBoard.add(Madeleine, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 750, -1, 340));
 
         MilleFeuille.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        MilleFeuille.setMinimumSize(new java.awt.Dimension(280, 283));
+        MilleFeuille.setPreferredSize(new java.awt.Dimension(280, 283));
         MilleFeuille.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel65.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Mille-Feuille.jpg"))); // NOI18N
@@ -585,9 +589,11 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jButton16.setText("Add");
         MilleFeuille.add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, -1, -1));
 
-        PastriesDashBoard.add(MilleFeuille, new org.netbeans.lib.awtextra.AbsoluteConstraints(1120, 1150, 340, 350));
+        PastriesDashBoard.add(MilleFeuille, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 1110, -1, 340));
 
         Pestelito.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Pestelito.setMinimumSize(new java.awt.Dimension(280, 283));
+        Pestelito.setPreferredSize(new java.awt.Dimension(280, 283));
         Pestelito.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel69.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Pastelito.jpg"))); // NOI18N
@@ -614,9 +620,11 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jButton15.setText("Add");
         Pestelito.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, -1, -1));
 
-        PastriesDashBoard.add(Pestelito, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 1150, 340, 350));
+        PastriesDashBoard.add(Pestelito, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 1110, -1, 340));
 
         Tart.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Tart.setMinimumSize(new java.awt.Dimension(280, 283));
+        Tart.setPreferredSize(new java.awt.Dimension(280, 283));
         Tart.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel74.setText("Name");
@@ -643,9 +651,11 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jButton14.setText("Add");
         Tart.add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, -1, -1));
 
-        PastriesDashBoard.add(Tart, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 1150, 340, 350));
+        PastriesDashBoard.add(Tart, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 1110, -1, 340));
 
         ToasterStrudel.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        ToasterStrudel.setMinimumSize(new java.awt.Dimension(280, 283));
+        ToasterStrudel.setPreferredSize(new java.awt.Dimension(280, 283));
         ToasterStrudel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel77.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Toaster-Strudel.jpg"))); // NOI18N
@@ -672,61 +682,111 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jButton13.setText("Add");
         ToasterStrudel.add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, -1, -1));
 
-        PastriesDashBoard.add(ToasterStrudel, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 1150, 340, 350));
-
-        HomePageBtn.setText("Home");
-        HomePageBtn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                HomePageBtnActionPerformed(evt);
-            }
-        });
-        PastriesDashBoard.add(HomePageBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 1540, 80, 35));
+        PastriesDashBoard.add(ToasterStrudel, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 1110, -1, 340));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
-        PastriesDashBoard.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-3, -4, 1480, 1610));
+        PastriesDashBoard.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-3, -4, 1240, 1480));
 
         jScrollPane1.setViewportView(PastriesDashBoard);
 
-        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 70, 1230, 590));
+        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 70, 1240, 590));
         jScrollPane1.getAccessibleContext().setAccessibleName("");
 
-        jLabel81.setFont(new java.awt.Font("Segoe UI Historic", 3, 18)); // NOI18N
+        jLabel81.setFont(new java.awt.Font("Segoe UI Historic", 3, 36)); // NOI18N
         jLabel81.setForeground(new java.awt.Color(255, 255, 255));
         jLabel81.setText("Pastries Menu ");
-        getContentPane().add(jLabel81, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 10, 160, 50));
+        getContentPane().add(jLabel81, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 330, 50));
+
+        jButton22.setText("Coffee");
+        jButton22.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton22ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton22, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 700, -1, -1));
+
+        jButton23.setText("Tea");
+        jButton23.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton23ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton23, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 740, 70, -1));
+
+        jButton24.setText("Drinks");
+        jButton24.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton24ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton24, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 700, -1, -1));
+
+        jButton25.setText("Pastry");
+        jButton25.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton25ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton25, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 740, -1, -1));
+
+        jButton26.setText("Dishes");
+        jButton26.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton26ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton26, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 700, -1, -1));
+
+        jButton17.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        jButton17.setText("Total");
+        jButton17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton17ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 700, 150, 50));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1270, 2740));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1270, 790));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void HomePageBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_HomePageBtnActionPerformed
-       this.dispose();
-       HomePage hp = new HomePage();
-       hp.setVisible(true);
-    }//GEN-LAST:event_HomePageBtnActionPerformed
+    private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
+        this.dispose();
+        CoffeeDashboad cd = new CoffeeDashboad();
+        cd.setVisible(true);
+    }//GEN-LAST:event_jButton22ActionPerformed
 
-    private void PreviousBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PreviousBtnActionPerformed
-        // TODO add your handling code here:
+    private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton24ActionPerformed
+        this.dispose();
+        DrinksDashBoard dD = new DrinksDashBoard();
+        dD.setVisible(true);
+    }//GEN-LAST:event_jButton24ActionPerformed
+
+    private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23ActionPerformed
+        this.dispose();
+        TeaDashBoard td = new TeaDashBoard();
+        td.setVisible(true);
+    }//GEN-LAST:event_jButton23ActionPerformed
+
+    private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
+        PastryDashBoard2 pd = new PastryDashBoard2();
+        pd.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton25ActionPerformed
+
+    private void jButton26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton26ActionPerformed
         FoodDashBoard fd = new FoodDashBoard();
         fd.setVisible(true);
         this.dispose();
+    }//GEN-LAST:event_jButton26ActionPerformed
 
-    }//GEN-LAST:event_PreviousBtnActionPerformed
-
-    private void NextButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NextButtonActionPerformed
-        // TODO add your handling code here:
-        HomePage hp = new HomePage();
-        hp.setVisible(true);
-        this.dispose();
-    }//GEN-LAST:event_NextButtonActionPerformed
-
-    private void TotalButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TotalButtonActionPerformed
+    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
         OrderList ol = new OrderList();
         ol.setVisible(true);
         this.dispose();
-    }//GEN-LAST:event_TotalButtonActionPerformed
+    }//GEN-LAST:event_jButton17ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -771,20 +831,16 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
     private javax.swing.JPanel CoffeeCinamonRolls;
     private javax.swing.JPanel Croisant;
     private javax.swing.JPanel Danish;
-    private javax.swing.JButton HomePageBtn;
     private javax.swing.JPanel KouignAmann;
     private javax.swing.JPanel Macarons;
     private javax.swing.JPanel Madeleine;
     private javax.swing.JPanel MilleFeuille;
-    private javax.swing.JButton NextButton;
     private javax.swing.JPanel Palmiers;
     private javax.swing.JPanel PastriesDashBoard;
     private javax.swing.JPanel Pestelito;
-    private javax.swing.JButton PreviousBtn;
     private javax.swing.JPanel SconeButtery;
     private javax.swing.JPanel Tart;
     private javax.swing.JPanel ToasterStrudel;
-    private javax.swing.JButton TotalButton;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
@@ -793,7 +849,13 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
     private javax.swing.JButton jButton14;
     private javax.swing.JButton jButton15;
     private javax.swing.JButton jButton16;
+    private javax.swing.JButton jButton17;
     private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton22;
+    private javax.swing.JButton jButton23;
+    private javax.swing.JButton jButton24;
+    private javax.swing.JButton jButton25;
+    private javax.swing.JButton jButton26;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
