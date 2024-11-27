@@ -1235,7 +1235,7 @@ public class DrinksDashBoard extends javax.swing.JFrame {
                 } catch (Exception e){
                     System.out.println("walang koneksyon");;
                 }
-          
+            }
     }//GEN-LAST:event_Addbtn3ActionPerformed
  }
     private void Addbtn7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Addbtn7ActionPerformed
@@ -1302,6 +1302,7 @@ public class DrinksDashBoard extends javax.swing.JFrame {
             System.out.println("Error closing resources: " + e.getMessage());
         }
     }
+
     }//GEN-LAST:event_Addbtn7ActionPerformed
 
     private void Addbtn8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Addbtn8ActionPerformed
@@ -2078,77 +2079,7 @@ public class DrinksDashBoard extends javax.swing.JFrame {
                     System.out.println("walang koneksyon");;
                 }
             }    
-    }                                       
-    }
-    private void Addbtn7ActionPerformed(java.awt.event.ActionEvent evt) {                                        
-        // TODO add your handling code here:
-                String url = "jdbc:mysql://localhost:3306/oop";   
-        String user = "root";  
-        String password = ""; 
-        Dname.setText("Chai Tea Latte");
-
-        String DrinkName = Dname.getText();
-        String price = P7.getText();
-        String quantity = (String) Q7.getSelectedItem();
-
-        String size = null;
-
-        // Validate user input
-        if (DrinkName.isEmpty() || price.isEmpty() || quantity == null) {
-            JOptionPane.showMessageDialog(null, "Please fill out all the required information.", "Input Error", JOptionPane.ERROR_MESSAGE);
-            return; // Stop execution if validation fails
-        }
-
-        // Validate price is numeric
-        try {
-            Double.parseDouble(price);
-        } catch (NumberFormatException e) {
-            JOptionPane.showMessageDialog(null, "Price must be a valid number.", "Input Error", JOptionPane.ERROR_MESSAGE);
-            return; // Stop execution if validation fails
-        }
-
-        String query = "INSERT INTO `drinks` (`DrinkName`, `price`, `quantity`) VALUES (?, ?, ?)";
-        Connection connection = null;
-        PreparedStatement stmt = null;
-
-        try {
-            connection = (Connection) DriverManager.getConnection(url, user, password);
-            stmt = connection.prepareStatement(query);
-
-            // Set parameter values
-            stmt.setString(1, DrinkName);             
-            stmt.setString(2, price);  
-            stmt.setString(3, quantity);
-
-    
-            // Execute query
-            int rowsInserted = stmt.executeUpdate();
-            if (rowsInserted > 0) {
-                JOptionPane.showMessageDialog(null, "Drink  added successfully!");
-            }
-
-        }catch (Exception e){
-                    System.out.println("walang koneksyon");;
-                }
-                  finally {
-            // Proper resource cleanup
-            if (stmt != null) {
-                try {
-                    stmt.close();
-                } catch (Exception e){
-                    System.out.println("walang koneksyon");;
-                }
-            } 
-            if (connection != null) {
-                try {
-                    connection.close();
-                } catch (Exception e){
-                    System.out.println("walang koneksyon");;
-                }
-            }    
-    }
-
-        
+    }                                               
     }//GEN-LAST:event_jButton6ActionPerformed
 
     private void Addbtn5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Addbtn5ActionPerformed

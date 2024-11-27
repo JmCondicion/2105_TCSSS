@@ -1282,7 +1282,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
 
         jScrollPane1.setViewportView(jPanel1);
 
-        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 89, 1010, 570));
+        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 89, 1010, 1200));
 
         CoffeeMenu.setFont(new java.awt.Font("Segoe UI Historic", 3, 18)); // NOI18N
         CoffeeMenu.setForeground(new java.awt.Color(255, 255, 255));
@@ -1290,7 +1290,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         getContentPane().add(CoffeeMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(428, 14, 124, 55));
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/brgcoffee.jpg"))); // NOI18N
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1130, 800));
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1130, 870));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
