@@ -121,7 +121,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel1">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/CoffeeImage/Americano.jpg"/>
+                      <Image iconType="3" name="/Images/Americano.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -170,7 +170,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel2">
+                <Component class="javax.swing.JLabel" name="Cname">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Americano"/>
                   </Properties>
@@ -211,7 +211,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="EL1">
+                <Component class="javax.swing.JCheckBox" name="XL1">
                   <Properties>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                       <ComponentRef name="AmericanoBTG"/>
@@ -219,7 +219,7 @@
                     <Property name="text" type="java.lang.String" value="Extra Large"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EL1ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="XL1ActionPerformed"/>
                   </Events>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -324,7 +324,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel4">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/CoffeeImage/Brewed Coffee.jpg"/>
+                      <Image iconType="3" name="/Images/Brewed Coffee.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -373,7 +373,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel5">
+                <Component class="javax.swing.JLabel" name="Cname2">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Brewed "/>
                   </Properties>
@@ -414,7 +414,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="EL2">
+                <Component class="javax.swing.JCheckBox" name="XL2">
                   <Properties>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                       <ComponentRef name="BrewedBTG"/>
@@ -422,7 +422,7 @@
                     <Property name="text" type="java.lang.String" value="Extra Large"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EL2ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="XL2ActionPerformed"/>
                   </Events>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -491,12 +491,12 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JButton" name="jButton11">
+                <Component class="javax.swing.JButton" name="AddBtn2">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Add"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton11ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AddBtn2ActionPerformed"/>
                   </Events>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -527,7 +527,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel7">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/CoffeeImage/Cacao.jpg"/>
+                      <Image iconType="3" name="/Images/Cacao.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -576,7 +576,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel8">
+                <Component class="javax.swing.JLabel" name="Cname3">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Cacao"/>
                   </Properties>
@@ -617,7 +617,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="EL3">
+                <Component class="javax.swing.JCheckBox" name="XL3">
                   <Properties>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                       <ComponentRef name="CacaoBTG"/>
@@ -625,7 +625,7 @@
                     <Property name="text" type="java.lang.String" value="Extra Large"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EL3ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="XL3ActionPerformed"/>
                   </Events>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -694,12 +694,12 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JButton" name="jButton10">
+                <Component class="javax.swing.JButton" name="AddBtn3">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Add"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton10ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AddBtn3ActionPerformed"/>
                   </Events>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -730,7 +730,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel10">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/CoffeeImage/Con panna coffee.jpg"/>
+                      <Image iconType="3" name="/Images/Con panna coffee.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -779,7 +779,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel11">
+                <Component class="javax.swing.JLabel" name="Cname4">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Con Panna"/>
                   </Properties>
@@ -820,7 +820,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="EL4">
+                <Component class="javax.swing.JCheckBox" name="XL4">
                   <Properties>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                       <ComponentRef name="ConPannaBTG"/>
@@ -927,7 +927,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel13">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/CoffeeImage/Cortado coffee.jpg"/>
+                      <Image iconType="3" name="/Images/Cortado coffee.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -976,7 +976,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel14">
+                <Component class="javax.swing.JLabel" name="Cname8">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Cortado"/>
                   </Properties>
@@ -1017,7 +1017,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="EL8">
+                <Component class="javax.swing.JCheckBox" name="XL8">
                   <Properties>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                       <ComponentRef name="CortadoBTG"/>
@@ -1025,7 +1025,7 @@
                     <Property name="text" type="java.lang.String" value="Extra Large"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EL8ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="XL8ActionPerformed"/>
                   </Events>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -1130,7 +1130,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel16">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/CoffeeImage/Espresso coffee.jpg"/>
+                      <Image iconType="3" name="/Images/Espresso coffee.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -1179,7 +1179,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel17">
+                <Component class="javax.swing.JLabel" name="Cname7">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Espresso"/>
                   </Properties>
@@ -1220,7 +1220,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="EL7">
+                <Component class="javax.swing.JCheckBox" name="XL7">
                   <Properties>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                       <ComponentRef name="EspressoBTG"/>
@@ -1228,7 +1228,7 @@
                     <Property name="text" type="java.lang.String" value="Extra Large"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EL7ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="XL7ActionPerformed"/>
                   </Events>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -1333,7 +1333,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel19">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/CoffeeImage/Hazelnut coffee.jpg"/>
+                      <Image iconType="3" name="/Images/Hazelnut coffee.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -1382,7 +1382,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel20">
+                <Component class="javax.swing.JLabel" name="Cname6">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Hazelnut "/>
                   </Properties>
@@ -1423,7 +1423,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="EL6">
+                <Component class="javax.swing.JCheckBox" name="XL6">
                   <Properties>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                       <ComponentRef name="HazelNutBTG"/>
@@ -1431,7 +1431,7 @@
                     <Property name="text" type="java.lang.String" value="Extra Large"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EL6ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="XL6ActionPerformed"/>
                   </Events>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -1536,7 +1536,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel22">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/CoffeeImage/Latte coffee.jpg"/>
+                      <Image iconType="3" name="/Images/Latte coffee.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -1585,7 +1585,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel23">
+                <Component class="javax.swing.JLabel" name="Cname5">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Latte"/>
                   </Properties>
@@ -1626,7 +1626,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="EL5">
+                <Component class="javax.swing.JCheckBox" name="XL5">
                   <Properties>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                       <ComponentRef name="LatteBTG"/>
@@ -1634,7 +1634,7 @@
                     <Property name="text" type="java.lang.String" value="Extra Large"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EL5ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="XL5ActionPerformed"/>
                   </Events>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -1670,7 +1670,7 @@
                   </Events>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                      <AbsoluteConstraints x="100" y="270" width="-1" height="-1"/>
+                      <AbsoluteConstraints x="100" y="270" width="-1" height="20"/>
                     </Constraint>
                   </Constraints>
                 </Component>
@@ -1739,7 +1739,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel25">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/CoffeeImage/caramel.jpg"/>
+                      <Image iconType="3" name="/Images/caramel.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -1788,7 +1788,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel26">
+                <Component class="javax.swing.JLabel" name="Cname9">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Caramel"/>
                   </Properties>
@@ -1829,7 +1829,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="EL9">
+                <Component class="javax.swing.JCheckBox" name="XL9">
                   <Properties>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                       <ComponentRef name="CaramelBTG"/>
@@ -1837,7 +1837,7 @@
                     <Property name="text" type="java.lang.String" value="Extra Large"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EL9ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="XL9ActionPerformed"/>
                   </Events>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -1942,7 +1942,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel28">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/CoffeeImage/dark chocolate.jpg"/>
+                      <Image iconType="3" name="/Images/dark chocolate.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -1991,7 +1991,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel29">
+                <Component class="javax.swing.JLabel" name="Cname10">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Dark  Chocolate"/>
                   </Properties>
@@ -2032,7 +2032,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="EL10">
+                <Component class="javax.swing.JCheckBox" name="XL10">
                   <Properties>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                       <ComponentRef name="DarkChocolateBTG"/>
@@ -2040,7 +2040,7 @@
                     <Property name="text" type="java.lang.String" value="Extra Large"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EL10ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="XL10ActionPerformed"/>
                   </Events>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -2096,12 +2096,12 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JButton" name="jButton3">
+                <Component class="javax.swing.JButton" name="ADDbtn10">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Add"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ADDbtn10ActionPerformed"/>
                   </Events>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -2145,7 +2145,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel31">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/CoffeeImage/white mocha.jpg"/>
+                      <Image iconType="3" name="/Images/white mocha.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -2194,7 +2194,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel32">
+                <Component class="javax.swing.JLabel" name="Cname11">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="White Mocha"/>
                   </Properties>
@@ -2235,7 +2235,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="EL11">
+                <Component class="javax.swing.JCheckBox" name="XL11">
                   <Properties>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                       <ComponentRef name="WhiteMochaBTG"/>
@@ -2243,7 +2243,7 @@
                     <Property name="text" type="java.lang.String" value="Extra Large"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EL11ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="XL11ActionPerformed"/>
                   </Events>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -2338,6 +2338,13 @@
               </SubComponents>
             </Container>
             <Container class="javax.swing.JPanel" name="FlatWhite">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                    <BevelBorder/>
+                  </Border>
+                </Property>
+              </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
                   <AbsoluteConstraints x="750" y="740" width="210" height="340"/>
@@ -2388,7 +2395,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel34">
+                <Component class="javax.swing.JLabel" name="Cname12">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Flat White"/>
                   </Properties>
@@ -2431,7 +2438,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel35">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/CoffeeImage/Flat white coffee.jpg"/>
+                      <Image iconType="3" name="/Images/Flat white coffee.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -2440,7 +2447,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="EL12">
+                <Component class="javax.swing.JCheckBox" name="XL12">
                   <Properties>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                       <ComponentRef name="FlatWhiteBTG"/>
@@ -2448,7 +2455,7 @@
                     <Property name="text" type="java.lang.String" value="Extra Large"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EL12ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="XL12ActionPerformed"/>
                   </Events>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -2601,7 +2608,7 @@
             <Component class="javax.swing.JLabel" name="BackGroundImage2">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/CoffeeImage/brgcoffee.jpg"/>
+                  <Image iconType="3" name="/Images/brgcoffee.jpg"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="jLabel38"/>
               </Properties>
@@ -2631,15 +2638,15 @@
         </Constraint>
       </Constraints>
     </Component>
-    <Component class="javax.swing.JLabel" name="BackGroundImage">
+    <Component class="javax.swing.JLabel" name="jLabel6">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/CoffeeImage/brgcoffee.jpg"/>
+          <Image iconType="3" name="/Images/brgcoffee.jpg"/>
         </Property>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="0" y="0" width="1100" height="760"/>
+          <AbsoluteConstraints x="0" y="0" width="1130" height="800"/>
         </Constraint>
       </Constraints>
     </Component>

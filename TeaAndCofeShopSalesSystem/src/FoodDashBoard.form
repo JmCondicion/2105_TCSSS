@@ -66,7 +66,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel4">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/FoodImage/alfredo fettuccine.jpg"/>
+                      <Image iconType="3" name="/Images/alfredo fettuccine.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -186,7 +186,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel7">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/FoodImage/bolognese.jpg"/>
+                      <Image iconType="3" name="/Images/bolognese.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -306,7 +306,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel10">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/FoodImage/carbonara.jpg"/>
+                      <Image iconType="3" name="/Images/carbonara.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -426,7 +426,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel13">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/FoodImage/garlic butter shrimp pasta.jpg"/>
+                      <Image iconType="3" name="/Images/garlic butter shrimp pasta.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -546,7 +546,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel16">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/FoodImage/gnocchi with pesto.jpg"/>
+                      <Image iconType="3" name="/Images/gnocchi with pesto.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -666,7 +666,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel19">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/FoodImage/mac and cheese.jpg"/>
+                      <Image iconType="3" name="/Images/mac and cheese.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -786,7 +786,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel22">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/FoodImage/pasta primavera.jpg"/>
+                      <Image iconType="3" name="/Images/pasta primavera.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -906,7 +906,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel25">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/FoodImage/penne arrabbiata.jpg"/>
+                      <Image iconType="3" name="/Images/penne arrabbiata.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -1026,7 +1026,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel28">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/FoodImage/spaghetti.jpg"/>
+                      <Image iconType="3" name="/Images/spaghetti.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -1146,7 +1146,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel31">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/FoodImage/tuna pesto.jpg"/>
+                      <Image iconType="3" name="/Images/tuna pesto.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -1344,7 +1344,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel1">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/FoodImage/Risotto alla Milanese.jpg"/>
+                      <Image iconType="3" name="/Images/Risotto alla Milanese.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -1386,7 +1386,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel37">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/FoodImage/Osso Buco.jpg"/>
+                      <Image iconType="3" name="/Images/Osso Buco.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -1506,7 +1506,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel40">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/FoodImage/Cannoli.jpg"/>
+                      <Image iconType="3" name="/Images/Cannoli.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -1704,7 +1704,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel3">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/FoodImage/Lasagna.jpg"/>
+                      <Image iconType="3" name="/Images/Lasagna.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -1746,7 +1746,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel46">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/FoodImage/Margherita Pizza.jpg"/>
+                      <Image iconType="3" name="/Images/Margherita Pizza.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -1944,7 +1944,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel2">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/FoodImage/Minestrone.jpg"/>
+                      <Image iconType="3" name="/Images/Minestrone.jpg"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -2072,12 +2072,12 @@
             <Component class="javax.swing.JLabel" name="jLabel34">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/CoffeeImage/brgcoffee.jpg"/>
+                  <Image iconType="3" name="/Images/brgcoffee.jpg"/>
                 </Property>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="0" y="0" width="1090" height="1470"/>
+                  <AbsoluteConstraints x="0" y="-4" width="1090" height="1480"/>
                 </Constraint>
               </Constraints>
             </Component>
@@ -2104,12 +2104,12 @@
     <Component class="javax.swing.JLabel" name="jLabel49">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/CoffeeImage/brgcoffee.jpg"/>
+          <Image iconType="3" name="/Images/brgcoffee.jpg"/>
         </Property>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="0" y="0" width="1130" height="740"/>
+          <AbsoluteConstraints x="0" y="0" width="1130" height="750"/>
         </Constraint>
       </Constraints>
     </Component>

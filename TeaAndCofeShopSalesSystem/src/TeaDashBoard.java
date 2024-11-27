@@ -145,12 +145,12 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel55 = new javax.swing.JLabel();
         Add16 = new javax.swing.JButton();
         HomeButton = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
         jButton5 = new javax.swing.JButton();
-        ToDrinksButton = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        BackgroundImage = new javax.swing.JLabel();
         jLabel37 = new javax.swing.JLabel();
         jLabel38 = new javax.swing.JLabel();
 
@@ -557,14 +557,6 @@ public class TeaDashBoard extends javax.swing.JFrame {
         });
         TeaDashBoard.add(HomeButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 1490, 80, 35));
 
-        jButton1.setText("Coffee");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
-            }
-        });
-        TeaDashBoard.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 1480, -1, -1));
-
         jButton2.setText("Tea");
         TeaDashBoard.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 1510, 70, -1));
 
@@ -577,9 +569,17 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jButton5.setText("Dishes");
         TeaDashBoard.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 1490, -1, -1));
 
-        ToDrinksButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
-        ToDrinksButton.setText("jLabel36");
-        TeaDashBoard.add(ToDrinksButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1340, 1550));
+        jButton1.setText("Coffee");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        TeaDashBoard.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 1480, -1, -1));
+
+        BackgroundImage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/brgcoffee.jpg"))); // NOI18N
+        BackgroundImage.setText("jLabel36");
+        TeaDashBoard.add(BackgroundImage, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1340, 1550));
 
         jScrollPane1.setViewportView(TeaDashBoard);
 
@@ -590,7 +590,7 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel37.setText("Tea Menu");
         getContentPane().add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 20, 210, 50));
 
-        jLabel38.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
+        jLabel38.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/brgcoffee.jpg"))); // NOI18N
         getContentPane().add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1170, 740));
 
         pack();
@@ -694,6 +694,7 @@ public class TeaDashBoard extends javax.swing.JFrame {
     private javax.swing.JButton Add7;
     private javax.swing.JButton Add8;
     private javax.swing.JButton Add9;
+    private javax.swing.JLabel BackgroundImage;
     private javax.swing.JPanel ChaiTea;
     private javax.swing.JPanel CharmomoleTea;
     private javax.swing.JPanel DarjeelingTea;
@@ -711,7 +712,6 @@ public class TeaDashBoard extends javax.swing.JFrame {
     private javax.swing.JPanel Pu_erh_Tea;
     private javax.swing.JPanel RooibosTea;
     private javax.swing.JPanel TeaDashBoard;
-    private javax.swing.JLabel ToDrinksButton;
     private javax.swing.JButton TotalButton;
     private javax.swing.JPanel WhiteTea;
     private javax.swing.JButton jButton1;

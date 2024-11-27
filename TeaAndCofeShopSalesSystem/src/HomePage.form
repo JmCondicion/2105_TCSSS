@@ -52,6 +52,9 @@
           <SubComponents>
             <Container class="javax.swing.JPanel" name="ScollContainer">
               <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="56" green="78" red="a0" type="rgb"/>
+                </Property>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
                     <BevelBorder/>
@@ -74,6 +77,9 @@
                   <SubComponents>
                     <Container class="javax.swing.JPanel" name="jPanel3">
                       <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="99" green="b7" red="cb" type="rgb"/>
+                        </Property>
                         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                           <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
                             <BevelBorder/>
@@ -105,7 +111,7 @@
                             <Component class="javax.swing.JLabel" name="jLabel41">
                               <Properties>
                                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                  <Image iconType="3" name="/FoodImage/garlic butter shrimp pasta.jpg"/>
+                                  <Image iconType="3" name="/Images/garlic butter shrimp pasta.jpg"/>
                                 </Property>
                               </Properties>
                               <Constraints>
@@ -148,7 +154,7 @@
                             <Component class="javax.swing.JLabel" name="jLabel33">
                               <Properties>
                                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                  <Image iconType="3" name="/FoodImage/Lasagna.jpg"/>
+                                  <Image iconType="3" name="/Images/Lasagna.jpg"/>
                                 </Property>
                               </Properties>
                               <Constraints>
@@ -191,7 +197,7 @@
                             <Component class="javax.swing.JLabel" name="jLabel35">
                               <Properties>
                                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                  <Image iconType="3" name="/FoodImage/Osso Buco.jpg"/>
+                                  <Image iconType="3" name="/Images/Osso Buco.jpg"/>
                                 </Property>
                               </Properties>
                               <Constraints>
@@ -234,7 +240,7 @@
                             <Component class="javax.swing.JLabel" name="jLabel37">
                               <Properties>
                                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                  <Image iconType="3" name="/FoodImage/alfredo fettuccine.jpg"/>
+                                  <Image iconType="3" name="/Images/alfredo fettuccine.jpg"/>
                                 </Property>
                               </Properties>
                               <Constraints>
@@ -277,7 +283,7 @@
                             <Component class="javax.swing.JLabel" name="jLabel39">
                               <Properties>
                                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                  <Image iconType="3" name="/FoodImage/Cannoli.jpg"/>
+                                  <Image iconType="3" name="/Images/Cannoli.jpg"/>
                                 </Property>
                               </Properties>
                               <Constraints>
@@ -315,6 +321,11 @@
                   <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                   <SubComponents>
                     <Container class="javax.swing.JPanel" name="jPanel9">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="99" green="b7" red="cb" type="rgb"/>
+                        </Property>
+                      </Properties>
 
                       <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
                         <Property name="useNullLayout" type="boolean" value="false"/>
@@ -339,7 +350,7 @@
                             <Component class="javax.swing.JLabel" name="jLabel13">
                               <Properties>
                                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                  <Image iconType="3" name="/CoffeeImage/cappuccino coffee.jpg"/>
+                                  <Image iconType="3" name="/Images/cappuccino coffee.jpg"/>
                                 </Property>
                               </Properties>
                               <Constraints>
@@ -382,7 +393,7 @@
                             <Component class="javax.swing.JLabel" name="jLabel1">
                               <Properties>
                                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                  <Image iconType="3" name="/CoffeeImage/Flat white coffee.jpg"/>
+                                  <Image iconType="3" name="/Images/Flat white coffee.jpg"/>
                                 </Property>
                               </Properties>
                               <Constraints>
@@ -425,7 +436,7 @@
                             <Component class="javax.swing.JLabel" name="jLabel7">
                               <Properties>
                                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                  <Image iconType="3" name="/CoffeeImage/Cacao.jpg"/>
+                                  <Image iconType="3" name="/Images/Cacao.jpg"/>
                                 </Property>
                               </Properties>
                               <Constraints>
@@ -468,7 +479,7 @@
                             <Component class="javax.swing.JLabel" name="jLabel9">
                               <Properties>
                                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                  <Image iconType="3" name="/CoffeeImage/Con panna coffee.jpg"/>
+                                  <Image iconType="3" name="/Images/Con panna coffee.jpg"/>
                                 </Property>
                               </Properties>
                               <Constraints>
@@ -511,7 +522,7 @@
                             <Component class="javax.swing.JLabel" name="jLabel11">
                               <Properties>
                                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                  <Image iconType="3" name="/CoffeeImage/Latte coffee.jpg"/>
+                                  <Image iconType="3" name="/Images/Latte coffee.jpg"/>
                                 </Property>
                               </Properties>
                               <Constraints>
@@ -549,6 +560,11 @@
                   <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                   <SubComponents>
                     <Container class="javax.swing.JPanel" name="jPanel15">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="99" green="b7" red="cb" type="rgb"/>
+                        </Property>
+                      </Properties>
 
                       <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
                         <Property name="useNullLayout" type="boolean" value="false"/>
@@ -573,7 +589,7 @@
                             <Component class="javax.swing.JLabel" name="jLabel43">
                               <Properties>
                                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                  <Image iconType="3" name="/TeaSImage/Oolong Tea.jpg"/>
+                                  <Image iconType="3" name="/Images/Oolong Tea.jpg"/>
                                 </Property>
                               </Properties>
                               <Constraints>
@@ -616,7 +632,7 @@
                             <Component class="javax.swing.JLabel" name="jLabel15">
                               <Properties>
                                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                  <Image iconType="3" name="/TeaSImage/Earl Grey.jpg"/>
+                                  <Image iconType="3" name="/Images/Earl Grey.jpg"/>
                                 </Property>
                               </Properties>
                               <Constraints>
@@ -659,7 +675,7 @@
                             <Component class="javax.swing.JLabel" name="jLabel17">
                               <Properties>
                                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                  <Image iconType="3" name="/TeaSImage/Hibiscus Tea.jpg"/>
+                                  <Image iconType="3" name="/Images/Hibiscus Tea.jpg"/>
                                 </Property>
                               </Properties>
                               <Constraints>
@@ -702,7 +718,7 @@
                             <Component class="javax.swing.JLabel" name="jLabel19">
                               <Properties>
                                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                  <Image iconType="3" name="/TeaSImage/White Tea.jpg"/>
+                                  <Image iconType="3" name="/Images/White Tea.jpg"/>
                                 </Property>
                               </Properties>
                               <Constraints>
@@ -745,7 +761,7 @@
                             <Component class="javax.swing.JLabel" name="jLabel21">
                               <Properties>
                                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                  <Image iconType="3" name="/TeaSImage/Jasmine Tea.jpg"/>
+                                  <Image iconType="3" name="/Images/Jasmine Tea.jpg"/>
                                 </Property>
                               </Properties>
                               <Constraints>
@@ -783,6 +799,11 @@
                   <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                   <SubComponents>
                     <Container class="javax.swing.JPanel" name="jPanel21">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="99" green="b7" red="cb" type="rgb"/>
+                        </Property>
+                      </Properties>
 
                       <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
                         <Property name="useNullLayout" type="boolean" value="false"/>
@@ -807,7 +828,7 @@
                             <Component class="javax.swing.JLabel" name="jLabel31">
                               <Properties>
                                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                  <Image iconType="3" name="/DrinksImages/Bloody_Mary_Coctail.jpg"/>
+                                  <Image iconType="3" name="/Images/Bloody_Mary_Coctail.jpg"/>
                                 </Property>
                               </Properties>
                               <Constraints>
@@ -850,7 +871,7 @@
                             <Component class="javax.swing.JLabel" name="jLabel23">
                               <Properties>
                                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                  <Image iconType="3" name="/DrinksImages/Mint Julep.jpg"/>
+                                  <Image iconType="3" name="/Images/Mint Julep.jpg"/>
                                 </Property>
                               </Properties>
                               <Constraints>
@@ -893,7 +914,7 @@
                             <Component class="javax.swing.JLabel" name="jLabel25">
                               <Properties>
                                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                  <Image iconType="3" name="/DrinksImages/Hot Chocolate.jpg"/>
+                                  <Image iconType="3" name="/Images/Hot Chocolate.jpg"/>
                                 </Property>
                               </Properties>
                               <Constraints>
@@ -936,7 +957,7 @@
                             <Component class="javax.swing.JLabel" name="jLabel27">
                               <Properties>
                                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                  <Image iconType="3" name="/DrinksImages/Bubble-Tea.png"/>
+                                  <Image iconType="3" name="/Images/Bubble-Tea.png"/>
                                 </Property>
                               </Properties>
                               <Constraints>
@@ -979,7 +1000,7 @@
                             <Component class="javax.swing.JLabel" name="jLabel30">
                               <Properties>
                                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                  <Image iconType="3" name="/DrinksImages/Mango-Lassi.jpg"/>
+                                  <Image iconType="3" name="/Images/Mango-Lassi.jpg"/>
                                 </Property>
                               </Properties>
                               <Constraints>
@@ -1068,18 +1089,6 @@
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
                       <AbsoluteConstraints x="40" y="350" width="292" height="40"/>
-                    </Constraint>
-                  </Constraints>
-                </Component>
-                <Component class="javax.swing.JLabel" name="ScollContainerBRG">
-                  <Properties>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/CoffeeImage/brgcoffee.jpg"/>
-                    </Property>
-                  </Properties>
-                  <Constraints>
-                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                      <AbsoluteConstraints x="0" y="0" width="1030" height="1270"/>
                     </Constraint>
                   </Constraints>
                 </Component>
@@ -1207,7 +1216,7 @@
         <Component class="javax.swing.JLabel" name="HomepageBG">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/CoffeeImage/brgcoffee.jpg"/>
+              <Image iconType="3" name="/Images/brgcoffee.jpg"/>
             </Property>
           </Properties>
           <Constraints>

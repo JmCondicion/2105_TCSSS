@@ -1,4 +1,12 @@
 
+import java.awt.HeadlessException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import javax.swing.JOptionPane;
+
+
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -31,148 +39,148 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         BloodyMaryCoctail = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
+        Dname = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
-        jComboBox2 = new javax.swing.JComboBox<>();
+        Q1 = new javax.swing.JComboBox<>();
         jLabel6 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
-        jButton2 = new javax.swing.JButton();
+        Addbtn1 = new javax.swing.JButton();
         P1 = new javax.swing.JTextField();
         MintJulep = new javax.swing.JPanel();
         jLabel12 = new javax.swing.JLabel();
-        jLabel13 = new javax.swing.JLabel();
+        Dname14 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
-        jLabel15 = new javax.swing.JLabel();
-        jComboBox11 = new javax.swing.JComboBox<>();
+        P13 = new javax.swing.JLabel();
+        Q13 = new javax.swing.JComboBox<>();
         jLabel2 = new javax.swing.JLabel();
         jLabel26 = new javax.swing.JLabel();
-        jButton15 = new javax.swing.JButton();
+        Addbtn14 = new javax.swing.JButton();
         BlueBerrySmoothie = new javax.swing.JPanel();
         jLabel51 = new javax.swing.JLabel();
-        jLabel52 = new javax.swing.JLabel();
+        Dname2 = new javax.swing.JLabel();
         jLabel53 = new javax.swing.JLabel();
-        jLabel54 = new javax.swing.JLabel();
-        jComboBox19 = new javax.swing.JComboBox<>();
+        P2 = new javax.swing.JLabel();
+        Q2 = new javax.swing.JComboBox<>();
         jLabel3 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jButton4 = new javax.swing.JButton();
         BubbleTea = new javax.swing.JPanel();
         jLabel16 = new javax.swing.JLabel();
-        jLabel17 = new javax.swing.JLabel();
+        Dname3 = new javax.swing.JLabel();
         jLabel18 = new javax.swing.JLabel();
-        jLabel19 = new javax.swing.JLabel();
-        jComboBox20 = new javax.swing.JComboBox<>();
+        P3 = new javax.swing.JLabel();
+        Q3 = new javax.swing.JComboBox<>();
         jLabel11 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        jButton5 = new javax.swing.JButton();
+        Addbtn3 = new javax.swing.JButton();
         BukoJuice1 = new javax.swing.JPanel();
         jLabel21 = new javax.swing.JLabel();
-        jLabel22 = new javax.swing.JLabel();
+        Dname4 = new javax.swing.JLabel();
         jLabel23 = new javax.swing.JLabel();
-        jLabel24 = new javax.swing.JLabel();
-        jComboBox21 = new javax.swing.JComboBox<>();
+        P4 = new javax.swing.JLabel();
+        Q4 = new javax.swing.JComboBox<>();
         jLabel25 = new javax.swing.JLabel();
         jLabel55 = new javax.swing.JLabel();
         jButton6 = new javax.swing.JButton();
         Sangrai = new javax.swing.JPanel();
         jLabel20 = new javax.swing.JLabel();
-        jLabel27 = new javax.swing.JLabel();
+        Dname15 = new javax.swing.JLabel();
         jLabel28 = new javax.swing.JLabel();
-        jLabel29 = new javax.swing.JLabel();
-        jComboBox12 = new javax.swing.JComboBox<>();
+        P14 = new javax.swing.JLabel();
+        Q14 = new javax.swing.JComboBox<>();
         jLabel30 = new javax.swing.JLabel();
         jLabel91 = new javax.swing.JLabel();
-        jButton16 = new javax.swing.JButton();
+        Addbtn15 = new javax.swing.JButton();
         Lemonade = new javax.swing.JPanel();
         jLabel32 = new javax.swing.JLabel();
-        jLabel33 = new javax.swing.JLabel();
+        Dname12 = new javax.swing.JLabel();
         jLabel34 = new javax.swing.JLabel();
-        jLabel35 = new javax.swing.JLabel();
-        jComboBox13 = new javax.swing.JComboBox<>();
+        P11 = new javax.swing.JLabel();
+        Q11 = new javax.swing.JComboBox<>();
         jLabel36 = new javax.swing.JLabel();
         jLabel37 = new javax.swing.JLabel();
-        jButton13 = new javax.swing.JButton();
+        Addbtn12 = new javax.swing.JButton();
         MangoLassi = new javax.swing.JPanel();
         jLabel38 = new javax.swing.JLabel();
-        jLabel39 = new javax.swing.JLabel();
+        Dname11 = new javax.swing.JLabel();
         jLabel40 = new javax.swing.JLabel();
-        jLabel41 = new javax.swing.JLabel();
-        jComboBox14 = new javax.swing.JComboBox<>();
+        P10 = new javax.swing.JLabel();
+        Q10 = new javax.swing.JComboBox<>();
         jLabel42 = new javax.swing.JLabel();
         jLabel67 = new javax.swing.JLabel();
-        jButton12 = new javax.swing.JButton();
+        Addbtn11 = new javax.swing.JButton();
         CreamEspressoMartini1 = new javax.swing.JPanel();
         jLabel44 = new javax.swing.JLabel();
-        jLabel45 = new javax.swing.JLabel();
+        Dname8 = new javax.swing.JLabel();
         jLabel46 = new javax.swing.JLabel();
-        jLabel47 = new javax.swing.JLabel();
-        jComboBox15 = new javax.swing.JComboBox<>();
+        P8 = new javax.swing.JLabel();
+        Q8 = new javax.swing.JComboBox<>();
         jLabel48 = new javax.swing.JLabel();
         jLabel49 = new javax.swing.JLabel();
-        jButton10 = new javax.swing.JButton();
+        Addbtn8 = new javax.swing.JButton();
         ChaiTeaLatte1 = new javax.swing.JPanel();
         jLabel50 = new javax.swing.JLabel();
-        jLabel56 = new javax.swing.JLabel();
+        Dname7 = new javax.swing.JLabel();
         jLabel57 = new javax.swing.JLabel();
-        jLabel58 = new javax.swing.JLabel();
-        jComboBox16 = new javax.swing.JComboBox<>();
+        P7 = new javax.swing.JLabel();
+        Q7 = new javax.swing.JComboBox<>();
         jLabel59 = new javax.swing.JLabel();
         jLabel60 = new javax.swing.JLabel();
-        jButton9 = new javax.swing.JButton();
+        Addbtn7 = new javax.swing.JButton();
         HotChocolate2 = new javax.swing.JPanel();
         jLabel61 = new javax.swing.JLabel();
-        jLabel62 = new javax.swing.JLabel();
+        Dname6 = new javax.swing.JLabel();
         jLabel63 = new javax.swing.JLabel();
-        jLabel64 = new javax.swing.JLabel();
-        jComboBox17 = new javax.swing.JComboBox<>();
+        P6 = new javax.swing.JLabel();
+        Q6 = new javax.swing.JComboBox<>();
         jLabel65 = new javax.swing.JLabel();
         jLabel66 = new javax.swing.JLabel();
-        jButton8 = new javax.swing.JButton();
+        Addbtn6 = new javax.swing.JButton();
         IceCoffee1 = new javax.swing.JPanel();
         jLabel43 = new javax.swing.JLabel();
-        jLabel68 = new javax.swing.JLabel();
+        Dname5 = new javax.swing.JLabel();
         jLabel69 = new javax.swing.JLabel();
-        jLabel70 = new javax.swing.JLabel();
-        jComboBox18 = new javax.swing.JComboBox<>();
+        P5 = new javax.swing.JLabel();
+        Q5 = new javax.swing.JComboBox<>();
         jLabel71 = new javax.swing.JLabel();
         jLabel72 = new javax.swing.JLabel();
-        jButton7 = new javax.swing.JButton();
+        Addbtn5 = new javax.swing.JButton();
         IcedMatchaLatte1 = new javax.swing.JPanel();
         jLabel73 = new javax.swing.JLabel();
-        jLabel74 = new javax.swing.JLabel();
+        Dname13 = new javax.swing.JLabel();
         jLabel75 = new javax.swing.JLabel();
-        jLabel76 = new javax.swing.JLabel();
-        jComboBox22 = new javax.swing.JComboBox<>();
+        P12 = new javax.swing.JLabel();
+        Q12 = new javax.swing.JComboBox<>();
         jLabel77 = new javax.swing.JLabel();
         jLabel78 = new javax.swing.JLabel();
-        jButton14 = new javax.swing.JButton();
+        Addbtn13 = new javax.swing.JButton();
         Mojito1 = new javax.swing.JPanel();
         jLabel79 = new javax.swing.JLabel();
-        jLabel80 = new javax.swing.JLabel();
+        Dname17 = new javax.swing.JLabel();
         jLabel81 = new javax.swing.JLabel();
-        jLabel82 = new javax.swing.JLabel();
-        jComboBox23 = new javax.swing.JComboBox<>();
+        P16 = new javax.swing.JLabel();
+        Q16 = new javax.swing.JComboBox<>();
         jLabel83 = new javax.swing.JLabel();
         jLabel100 = new javax.swing.JLabel();
-        jButton18 = new javax.swing.JButton();
+        Addbtn17 = new javax.swing.JButton();
         PinaColada1 = new javax.swing.JPanel();
         jLabel85 = new javax.swing.JLabel();
-        jLabel86 = new javax.swing.JLabel();
+        Dname16 = new javax.swing.JLabel();
         jLabel87 = new javax.swing.JLabel();
-        jLabel88 = new javax.swing.JLabel();
-        jComboBox24 = new javax.swing.JComboBox<>();
+        P15 = new javax.swing.JLabel();
+        Q15 = new javax.swing.JComboBox<>();
         jLabel89 = new javax.swing.JLabel();
         jLabel90 = new javax.swing.JLabel();
-        jButton17 = new javax.swing.JButton();
+        Addbtn16 = new javax.swing.JButton();
         MintJulep1 = new javax.swing.JPanel();
         jLabel31 = new javax.swing.JLabel();
-        jLabel92 = new javax.swing.JLabel();
+        Dname10 = new javax.swing.JLabel();
         jLabel93 = new javax.swing.JLabel();
-        jLabel94 = new javax.swing.JLabel();
-        jComboBox25 = new javax.swing.JComboBox<>();
+        P9 = new javax.swing.JLabel();
+        Q9 = new javax.swing.JComboBox<>();
         jLabel95 = new javax.swing.JLabel();
         jLabel96 = new javax.swing.JLabel();
-        jButton11 = new javax.swing.JButton();
+        Addbtn10 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         NextBtn = new javax.swing.JButton();
         ToCoffeeButton3 = new javax.swing.JButton();
@@ -198,19 +206,19 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel7.setText("Name");
         BloodyMaryCoctail.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 310, -1, -1));
 
-        jLabel8.setText("Bloody Mary Coctail");
-        BloodyMaryCoctail.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 310, -1, -1));
+        Dname.setText("Bloody Mary Coctail");
+        BloodyMaryCoctail.add(Dname, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 310, -1, -1));
 
         jLabel9.setText("Price");
         BloodyMaryCoctail.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 340, -1, -1));
 
-        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        jComboBox2.addActionListener(new java.awt.event.ActionListener() {
+        Q1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox2ActionPerformed(evt);
+                Q1ActionPerformed(evt);
             }
         });
-        BloodyMaryCoctail.add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 370, -1, -1));
+        BloodyMaryCoctail.add(Q1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 370, -1, -1));
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Bloody_Mary_Coctail.jpg"))); // NOI18N
         BloodyMaryCoctail.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 240, 300));
@@ -218,13 +226,13 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel1.setText("Quantity");
         BloodyMaryCoctail.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 370, -1, -1));
 
-        jButton2.setText("Add");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        Addbtn1.setText("Add");
+        Addbtn1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                Addbtn1ActionPerformed(evt);
             }
         });
-        BloodyMaryCoctail.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
+        BloodyMaryCoctail.add(Addbtn1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
 
         P1.setText("150");
         P1.addActionListener(new java.awt.event.ActionListener() {
@@ -241,22 +249,22 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel12.setText("Name");
         MintJulep.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 310, -1, -1));
 
-        jLabel13.setText("Scrath made Arnold Palmer");
-        MintJulep.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
+        Dname14.setText("Scrath made Arnold Palmer");
+        MintJulep.add(Dname14, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
 
         jLabel14.setText("Price");
         MintJulep.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 340, -1, -1));
 
-        jLabel15.setText("100");
-        MintJulep.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 340, -1, -1));
+        P13.setText("100");
+        MintJulep.add(P13, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 340, -1, -1));
 
-        jComboBox11.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        jComboBox11.addActionListener(new java.awt.event.ActionListener() {
+        Q13.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox11ActionPerformed(evt);
+                Q13ActionPerformed(evt);
             }
         });
-        MintJulep.add(jComboBox11, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 380, -1, -1));
+        MintJulep.add(Q13, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 380, -1, -1));
 
         jLabel2.setText("Quantity");
         MintJulep.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 380, -1, -1));
@@ -264,13 +272,13 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Scratch-made-Arnold-Palmer.jpg"))); // NOI18N
         MintJulep.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(-60, 0, 300, 300));
 
-        jButton15.setText("Add");
-        jButton15.addActionListener(new java.awt.event.ActionListener() {
+        Addbtn14.setText("Add");
+        Addbtn14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton15ActionPerformed(evt);
+                Addbtn14ActionPerformed(evt);
             }
         });
-        MintJulep.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
+        MintJulep.add(Addbtn14, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
 
         jPanel1.add(MintJulep, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 1370, 240, 420));
 
@@ -279,22 +287,22 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel51.setText("Name");
         BlueBerrySmoothie.add(jLabel51, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 310, -1, -1));
 
-        jLabel52.setText("Blueberry smoothie");
-        BlueBerrySmoothie.add(jLabel52, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
+        Dname2.setText("Blueberry smoothie");
+        BlueBerrySmoothie.add(Dname2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
 
         jLabel53.setText("Price");
         BlueBerrySmoothie.add(jLabel53, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 340, -1, -1));
 
-        jLabel54.setText("100");
-        BlueBerrySmoothie.add(jLabel54, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 340, -1, -1));
+        P2.setText("100");
+        BlueBerrySmoothie.add(P2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 340, -1, -1));
 
-        jComboBox19.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        jComboBox19.addActionListener(new java.awt.event.ActionListener() {
+        Q2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox19ActionPerformed(evt);
+                Q2ActionPerformed(evt);
             }
         });
-        BlueBerrySmoothie.add(jComboBox19, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 370, -1, -1));
+        BlueBerrySmoothie.add(Q2, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 370, -1, -1));
 
         jLabel3.setText("Quantity");
         BlueBerrySmoothie.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, -1, -1));
@@ -317,22 +325,22 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel16.setText("Name");
         BubbleTea.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 310, -1, -1));
 
-        jLabel17.setText("Bubble Tea");
-        BubbleTea.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
+        Dname3.setText("Bubble Tea");
+        BubbleTea.add(Dname3, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
 
         jLabel18.setText("Price");
         BubbleTea.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 340, -1, -1));
 
-        jLabel19.setText("150");
-        BubbleTea.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 340, -1, -1));
+        P3.setText("150");
+        BubbleTea.add(P3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 340, -1, -1));
 
-        jComboBox20.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        jComboBox20.addActionListener(new java.awt.event.ActionListener() {
+        Q3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox20ActionPerformed(evt);
+                Q3ActionPerformed(evt);
             }
         });
-        BubbleTea.add(jComboBox20, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 370, -1, -1));
+        BubbleTea.add(Q3, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 370, -1, -1));
 
         jLabel11.setText("Quantity");
         BubbleTea.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, -1, -1));
@@ -340,13 +348,13 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Bubble-Tea.png"))); // NOI18N
         BubbleTea.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 240, 300));
 
-        jButton5.setText("Add");
-        jButton5.addActionListener(new java.awt.event.ActionListener() {
+        Addbtn3.setText("Add");
+        Addbtn3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton5ActionPerformed(evt);
+                Addbtn3ActionPerformed(evt);
             }
         });
-        BubbleTea.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
+        BubbleTea.add(Addbtn3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
 
         jPanel1.add(BubbleTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 20, 240, 420));
 
@@ -355,22 +363,22 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel21.setText("Name");
         BukoJuice1.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 310, -1, -1));
 
-        jLabel22.setText("Buko Juice");
-        BukoJuice1.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
+        Dname4.setText("Buko Juice");
+        BukoJuice1.add(Dname4, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
 
         jLabel23.setText("Price");
         BukoJuice1.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 340, -1, -1));
 
-        jLabel24.setText("50");
-        BukoJuice1.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 340, -1, -1));
+        P4.setText("50");
+        BukoJuice1.add(P4, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 340, -1, -1));
 
-        jComboBox21.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        jComboBox21.addActionListener(new java.awt.event.ActionListener() {
+        Q4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox21ActionPerformed(evt);
+                Q4ActionPerformed(evt);
             }
         });
-        BukoJuice1.add(jComboBox21, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 370, -1, -1));
+        BukoJuice1.add(Q4, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 370, -1, -1));
 
         jLabel25.setText("Quantity");
         BukoJuice1.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, -1, -1));
@@ -393,22 +401,22 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel20.setText("Name");
         Sangrai.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 310, -1, -1));
 
-        jLabel27.setText("Sangrai ");
-        Sangrai.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
+        Dname15.setText("Sangrai ");
+        Sangrai.add(Dname15, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
 
         jLabel28.setText("Price");
         Sangrai.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 340, -1, -1));
 
-        jLabel29.setText("200");
-        Sangrai.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 340, -1, -1));
+        P14.setText("200");
+        Sangrai.add(P14, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 340, -1, -1));
 
-        jComboBox12.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        jComboBox12.addActionListener(new java.awt.event.ActionListener() {
+        Q14.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox12ActionPerformed(evt);
+                Q14ActionPerformed(evt);
             }
         });
-        Sangrai.add(jComboBox12, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 370, -1, -1));
+        Sangrai.add(Q14, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 370, -1, -1));
 
         jLabel30.setText("Quantity");
         Sangrai.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, -1, -1));
@@ -416,13 +424,13 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel91.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Sangria.jpg"))); // NOI18N
         Sangrai.add(jLabel91, new org.netbeans.lib.awtextra.AbsoluteConstraints(-100, -170, 600, 470));
 
-        jButton16.setText("Add");
-        jButton16.addActionListener(new java.awt.event.ActionListener() {
+        Addbtn15.setText("Add");
+        Addbtn15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton16ActionPerformed(evt);
+                Addbtn15ActionPerformed(evt);
             }
         });
-        Sangrai.add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
+        Sangrai.add(Addbtn15, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
 
         jPanel1.add(Sangrai, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 1370, 240, 420));
 
@@ -431,22 +439,22 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel32.setText("Name");
         Lemonade.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 310, -1, -1));
 
-        jLabel33.setText("Lemonade");
-        Lemonade.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
+        Dname12.setText("Lemonade");
+        Lemonade.add(Dname12, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
 
         jLabel34.setText("Price");
         Lemonade.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 350, -1, -1));
 
-        jLabel35.setText("50");
-        Lemonade.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 350, -1, -1));
+        P11.setText("50");
+        Lemonade.add(P11, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 350, -1, -1));
 
-        jComboBox13.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        jComboBox13.addActionListener(new java.awt.event.ActionListener() {
+        Q11.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox13ActionPerformed(evt);
+                Q11ActionPerformed(evt);
             }
         });
-        Lemonade.add(jComboBox13, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 380, -1, -1));
+        Lemonade.add(Q11, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 380, -1, -1));
 
         jLabel36.setText("Quantity");
         Lemonade.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 380, -1, -1));
@@ -455,13 +463,13 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel37.setText("jLabel26");
         Lemonade.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(-80, 0, 390, 300));
 
-        jButton13.setText("Add");
-        jButton13.addActionListener(new java.awt.event.ActionListener() {
+        Addbtn12.setText("Add");
+        Addbtn12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton13ActionPerformed(evt);
+                Addbtn12ActionPerformed(evt);
             }
         });
-        Lemonade.add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
+        Lemonade.add(Addbtn12, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
 
         jPanel1.add(Lemonade, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 920, 240, 420));
 
@@ -470,22 +478,22 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel38.setText("Name");
         MangoLassi.add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 310, -1, -1));
 
-        jLabel39.setText("Mango Lassi");
-        MangoLassi.add(jLabel39, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
+        Dname11.setText("Mango Lassi");
+        MangoLassi.add(Dname11, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
 
         jLabel40.setText("Price");
         MangoLassi.add(jLabel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 350, -1, -1));
 
-        jLabel41.setText("100");
-        MangoLassi.add(jLabel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 350, -1, -1));
+        P10.setText("100");
+        MangoLassi.add(P10, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 350, -1, -1));
 
-        jComboBox14.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        jComboBox14.addActionListener(new java.awt.event.ActionListener() {
+        Q10.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox14ActionPerformed(evt);
+                Q10ActionPerformed(evt);
             }
         });
-        MangoLassi.add(jComboBox14, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 380, -1, -1));
+        MangoLassi.add(Q10, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 380, -1, -1));
 
         jLabel42.setText("Quantity");
         MangoLassi.add(jLabel42, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 380, -1, -1));
@@ -493,13 +501,13 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel67.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Mango-Lassi.jpg"))); // NOI18N
         MangoLassi.add(jLabel67, new org.netbeans.lib.awtextra.AbsoluteConstraints(-80, 0, 370, 300));
 
-        jButton12.setText("Add");
-        jButton12.addActionListener(new java.awt.event.ActionListener() {
+        Addbtn11.setText("Add");
+        Addbtn11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton12ActionPerformed(evt);
+                Addbtn11ActionPerformed(evt);
             }
         });
-        MangoLassi.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
+        MangoLassi.add(Addbtn11, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
 
         jPanel1.add(MangoLassi, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 920, 240, 420));
 
@@ -508,22 +516,22 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel44.setText("Name");
         CreamEspressoMartini1.add(jLabel44, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 310, -1, -1));
 
-        jLabel45.setText("Cream Espresso Martini");
-        CreamEspressoMartini1.add(jLabel45, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
+        Dname8.setText("Cream Espresso Martini");
+        CreamEspressoMartini1.add(Dname8, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
 
         jLabel46.setText("Price");
         CreamEspressoMartini1.add(jLabel46, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 340, -1, -1));
 
-        jLabel47.setText("250");
-        CreamEspressoMartini1.add(jLabel47, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 340, -1, -1));
+        P8.setText("250");
+        CreamEspressoMartini1.add(P8, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 340, -1, -1));
 
-        jComboBox15.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        jComboBox15.addActionListener(new java.awt.event.ActionListener() {
+        Q8.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox15ActionPerformed(evt);
+                Q8ActionPerformed(evt);
             }
         });
-        CreamEspressoMartini1.add(jComboBox15, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 370, -1, -1));
+        CreamEspressoMartini1.add(Q8, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 370, -1, -1));
 
         jLabel48.setText("Quantity");
         CreamEspressoMartini1.add(jLabel48, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, -1, -1));
@@ -531,13 +539,13 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel49.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/creamy-espresso-martini.jpg"))); // NOI18N
         CreamEspressoMartini1.add(jLabel49, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 240, 300));
 
-        jButton10.setText("Add");
-        jButton10.addActionListener(new java.awt.event.ActionListener() {
+        Addbtn8.setText("Add");
+        Addbtn8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton10ActionPerformed(evt);
+                Addbtn8ActionPerformed(evt);
             }
         });
-        CreamEspressoMartini1.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
+        CreamEspressoMartini1.add(Addbtn8, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
 
         jPanel1.add(CreamEspressoMartini1, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 470, 240, 420));
 
@@ -546,22 +554,22 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel50.setText("Name");
         ChaiTeaLatte1.add(jLabel50, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 310, -1, -1));
 
-        jLabel56.setText("Chai Tea Latte");
-        ChaiTeaLatte1.add(jLabel56, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
+        Dname7.setText("Chai Tea Latte");
+        ChaiTeaLatte1.add(Dname7, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
 
         jLabel57.setText("Price");
         ChaiTeaLatte1.add(jLabel57, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 340, -1, -1));
 
-        jLabel58.setText("150");
-        ChaiTeaLatte1.add(jLabel58, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 340, -1, -1));
+        P7.setText("150");
+        ChaiTeaLatte1.add(P7, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 340, -1, -1));
 
-        jComboBox16.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        jComboBox16.addActionListener(new java.awt.event.ActionListener() {
+        Q7.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox16ActionPerformed(evt);
+                Q7ActionPerformed(evt);
             }
         });
-        ChaiTeaLatte1.add(jComboBox16, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 370, -1, -1));
+        ChaiTeaLatte1.add(Q7, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 370, -1, -1));
 
         jLabel59.setText("Quantity");
         ChaiTeaLatte1.add(jLabel59, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, -1, -1));
@@ -569,13 +577,13 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel60.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/chai-tea-latte.jpg"))); // NOI18N
         ChaiTeaLatte1.add(jLabel60, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 240, 300));
 
-        jButton9.setText("Add");
-        jButton9.addActionListener(new java.awt.event.ActionListener() {
+        Addbtn7.setText("Add");
+        Addbtn7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton9ActionPerformed(evt);
+                Addbtn7ActionPerformed(evt);
             }
         });
-        ChaiTeaLatte1.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
+        ChaiTeaLatte1.add(Addbtn7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
 
         jPanel1.add(ChaiTeaLatte1, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 470, 240, 420));
 
@@ -584,22 +592,22 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel61.setText("Name");
         HotChocolate2.add(jLabel61, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 310, -1, -1));
 
-        jLabel62.setText("Hot Chocolate");
-        HotChocolate2.add(jLabel62, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
+        Dname6.setText("Hot Chocolate");
+        HotChocolate2.add(Dname6, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
 
         jLabel63.setText("Price");
         HotChocolate2.add(jLabel63, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 340, -1, -1));
 
-        jLabel64.setText("100");
-        HotChocolate2.add(jLabel64, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 340, -1, -1));
+        P6.setText("100");
+        HotChocolate2.add(P6, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 340, -1, -1));
 
-        jComboBox17.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        jComboBox17.addActionListener(new java.awt.event.ActionListener() {
+        Q6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox17ActionPerformed(evt);
+                Q6ActionPerformed(evt);
             }
         });
-        HotChocolate2.add(jComboBox17, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 370, -1, -1));
+        HotChocolate2.add(Q6, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 370, -1, -1));
 
         jLabel65.setText("Quantity");
         HotChocolate2.add(jLabel65, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, -1, -1));
@@ -607,13 +615,13 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel66.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Hot Chocolate.jpg"))); // NOI18N
         HotChocolate2.add(jLabel66, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 240, 300));
 
-        jButton8.setText("Add");
-        jButton8.addActionListener(new java.awt.event.ActionListener() {
+        Addbtn6.setText("Add");
+        Addbtn6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton8ActionPerformed(evt);
+                Addbtn6ActionPerformed(evt);
             }
         });
-        HotChocolate2.add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
+        HotChocolate2.add(Addbtn6, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
 
         jPanel1.add(HotChocolate2, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 470, 240, 420));
 
@@ -622,22 +630,22 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel43.setText("Name");
         IceCoffee1.add(jLabel43, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 310, -1, -1));
 
-        jLabel68.setText("Ice Coffee");
-        IceCoffee1.add(jLabel68, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
+        Dname5.setText("Ice Coffee");
+        IceCoffee1.add(Dname5, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
 
         jLabel69.setText("Price");
         IceCoffee1.add(jLabel69, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 340, -1, -1));
 
-        jLabel70.setText("150");
-        IceCoffee1.add(jLabel70, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 340, -1, -1));
+        P5.setText("150");
+        IceCoffee1.add(P5, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 340, -1, -1));
 
-        jComboBox18.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        jComboBox18.addActionListener(new java.awt.event.ActionListener() {
+        Q5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox18ActionPerformed(evt);
+                Q5ActionPerformed(evt);
             }
         });
-        IceCoffee1.add(jComboBox18, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 370, -1, -1));
+        IceCoffee1.add(Q5, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 370, -1, -1));
 
         jLabel71.setText("Quantity");
         IceCoffee1.add(jLabel71, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, -1, -1));
@@ -646,13 +654,13 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel72.setText("jLabel26");
         IceCoffee1.add(jLabel72, new org.netbeans.lib.awtextra.AbsoluteConstraints(-140, 0, 380, 300));
 
-        jButton7.setText("Add");
-        jButton7.addActionListener(new java.awt.event.ActionListener() {
+        Addbtn5.setText("Add");
+        Addbtn5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton7ActionPerformed(evt);
+                Addbtn5ActionPerformed(evt);
             }
         });
-        IceCoffee1.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
+        IceCoffee1.add(Addbtn5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
 
         jPanel1.add(IceCoffee1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 470, 240, 420));
 
@@ -661,22 +669,22 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel73.setText("Name");
         IcedMatchaLatte1.add(jLabel73, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 310, -1, -1));
 
-        jLabel74.setText("Iced Matcha Latte");
-        IcedMatchaLatte1.add(jLabel74, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
+        Dname13.setText("Iced Matcha Latte");
+        IcedMatchaLatte1.add(Dname13, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
 
         jLabel75.setText("Price");
         IcedMatchaLatte1.add(jLabel75, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 340, -1, -1));
 
-        jLabel76.setText("150");
-        IcedMatchaLatte1.add(jLabel76, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 340, -1, -1));
+        P12.setText("150");
+        IcedMatchaLatte1.add(P12, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 340, -1, -1));
 
-        jComboBox22.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        jComboBox22.addActionListener(new java.awt.event.ActionListener() {
+        Q12.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox22ActionPerformed(evt);
+                Q12ActionPerformed(evt);
             }
         });
-        IcedMatchaLatte1.add(jComboBox22, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 380, -1, -1));
+        IcedMatchaLatte1.add(Q12, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 380, -1, -1));
 
         jLabel77.setText("Quantity");
         IcedMatchaLatte1.add(jLabel77, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 380, -1, -1));
@@ -685,13 +693,13 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel78.setText("jLabel26");
         IcedMatchaLatte1.add(jLabel78, new org.netbeans.lib.awtextra.AbsoluteConstraints(-120, 0, 390, 300));
 
-        jButton14.setText("Add");
-        jButton14.addActionListener(new java.awt.event.ActionListener() {
+        Addbtn13.setText("Add");
+        Addbtn13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton14ActionPerformed(evt);
+                Addbtn13ActionPerformed(evt);
             }
         });
-        IcedMatchaLatte1.add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
+        IcedMatchaLatte1.add(Addbtn13, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
 
         jPanel1.add(IcedMatchaLatte1, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 920, 240, 420));
 
@@ -700,22 +708,22 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel79.setText("Name");
         Mojito1.add(jLabel79, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 310, -1, -1));
 
-        jLabel80.setText("Mojito");
-        Mojito1.add(jLabel80, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
+        Dname17.setText("Mojito");
+        Mojito1.add(Dname17, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
 
         jLabel81.setText("Price");
         Mojito1.add(jLabel81, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 340, -1, -1));
 
-        jLabel82.setText("150");
-        Mojito1.add(jLabel82, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 340, -1, -1));
+        P16.setText("150");
+        Mojito1.add(P16, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 340, -1, -1));
 
-        jComboBox23.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        jComboBox23.addActionListener(new java.awt.event.ActionListener() {
+        Q16.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox23ActionPerformed(evt);
+                Q16ActionPerformed(evt);
             }
         });
-        Mojito1.add(jComboBox23, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 370, -1, -1));
+        Mojito1.add(Q16, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 370, -1, -1));
 
         jLabel83.setText("Quantity");
         Mojito1.add(jLabel83, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, -1, -1));
@@ -723,13 +731,13 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel100.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/mojito.jpg"))); // NOI18N
         Mojito1.add(jLabel100, new org.netbeans.lib.awtextra.AbsoluteConstraints(-80, 0, 320, 290));
 
-        jButton18.setText("Add");
-        jButton18.addActionListener(new java.awt.event.ActionListener() {
+        Addbtn17.setText("Add");
+        Addbtn17.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton18ActionPerformed(evt);
+                Addbtn17ActionPerformed(evt);
             }
         });
-        Mojito1.add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
+        Mojito1.add(Addbtn17, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
 
         jPanel1.add(Mojito1, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 1370, 240, 420));
 
@@ -738,22 +746,22 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel85.setText("Name");
         PinaColada1.add(jLabel85, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 310, -1, -1));
 
-        jLabel86.setText("Pina Colada");
-        PinaColada1.add(jLabel86, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
+        Dname16.setText("Pina Colada");
+        PinaColada1.add(Dname16, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
 
         jLabel87.setText("Price");
         PinaColada1.add(jLabel87, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 340, -1, -1));
 
-        jLabel88.setText("200");
-        PinaColada1.add(jLabel88, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 340, -1, -1));
+        P15.setText("200");
+        PinaColada1.add(P15, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 340, -1, -1));
 
-        jComboBox24.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        jComboBox24.addActionListener(new java.awt.event.ActionListener() {
+        Q15.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox24ActionPerformed(evt);
+                Q15ActionPerformed(evt);
             }
         });
-        PinaColada1.add(jComboBox24, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 370, -1, -1));
+        PinaColada1.add(Q15, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 370, -1, -1));
 
         jLabel89.setText("Quantity");
         PinaColada1.add(jLabel89, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, -1, -1));
@@ -762,13 +770,13 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel90.setText("jLabel26");
         PinaColada1.add(jLabel90, new org.netbeans.lib.awtextra.AbsoluteConstraints(-130, 0, 460, 300));
 
-        jButton17.setText("Add");
-        jButton17.addActionListener(new java.awt.event.ActionListener() {
+        Addbtn16.setText("Add");
+        Addbtn16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton17ActionPerformed(evt);
+                Addbtn16ActionPerformed(evt);
             }
         });
-        PinaColada1.add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
+        PinaColada1.add(Addbtn16, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
 
         jPanel1.add(PinaColada1, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 1370, 240, 420));
 
@@ -777,22 +785,22 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel31.setText("Name");
         MintJulep1.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 310, -1, -1));
 
-        jLabel92.setText("Mint Julep");
-        MintJulep1.add(jLabel92, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
+        Dname10.setText("Mint Julep");
+        MintJulep1.add(Dname10, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
 
         jLabel93.setText("Price");
         MintJulep1.add(jLabel93, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 350, -1, -1));
 
-        jLabel94.setText("200");
-        MintJulep1.add(jLabel94, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 350, -1, -1));
+        P9.setText("200");
+        MintJulep1.add(P9, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 350, -1, -1));
 
-        jComboBox25.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        jComboBox25.addActionListener(new java.awt.event.ActionListener() {
+        Q9.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox25ActionPerformed(evt);
+                Q9ActionPerformed(evt);
             }
         });
-        MintJulep1.add(jComboBox25, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 380, -1, -1));
+        MintJulep1.add(Q9, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 380, -1, -1));
 
         jLabel95.setText("Quantity");
         MintJulep1.add(jLabel95, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 380, -1, -1));
@@ -800,13 +808,13 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel96.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Mint Julep.jpg"))); // NOI18N
         MintJulep1.add(jLabel96, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 240, 300));
 
-        jButton11.setText("Add");
-        jButton11.addActionListener(new java.awt.event.ActionListener() {
+        Addbtn10.setText("Add");
+        Addbtn10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton11ActionPerformed(evt);
+                Addbtn10ActionPerformed(evt);
             }
         });
-        MintJulep1.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
+        MintJulep1.add(Addbtn10, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
 
         jPanel1.add(MintJulep1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 920, 240, 420));
 
@@ -854,7 +862,7 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jButton22.setText("Dishes");
         jPanel1.add(jButton22, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 1820, -1, -1));
 
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/brgcoffee.jpg"))); // NOI18N
         jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1120, 1870));
 
         jScrollPane1.setViewportView(jPanel1);
@@ -866,85 +874,220 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jLabel97.setText("Drinks Menu ");
         getContentPane().add(jLabel97, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 10, 160, 50));
 
-        jLabel98.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
+        jLabel98.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/brgcoffee.jpg"))); // NOI18N
         getContentPane().add(jLabel98, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1180, 720));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jComboBox2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox2ActionPerformed
+    private void Q1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q1ActionPerformed
         // TODO add your handling code here:
           // TODO add your handling code here:
         int p = Integer.parseInt(P1.getText());
-        int q = Integer.parseInt((String) jComboBox2.getSelectedItem());
+        int q = Integer.parseInt((String) Q1.getSelectedItem());
         int total = p * q;
         String t = String.valueOf(total);
         P1.setText(t);
-    }//GEN-LAST:event_jComboBox2ActionPerformed
+    }//GEN-LAST:event_Q1ActionPerformed
 
-    private void jComboBox11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox11ActionPerformed
+    private void Q13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q13ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox11ActionPerformed
+    }//GEN-LAST:event_Q13ActionPerformed
 
-    private void jComboBox19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox19ActionPerformed
+    private void Q2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q2ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox19ActionPerformed
+        int p = Integer.parseInt(P2.getText());
+        int q = Integer.parseInt((String) Q2.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P2.setText(t);
+    }//GEN-LAST:event_Q2ActionPerformed
 
-    private void jComboBox20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox20ActionPerformed
+    private void Q3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q3ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox20ActionPerformed
+        int p = Integer.parseInt(P3.getText());
+        int q = Integer.parseInt((String) Q3.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P3.setText(t);
+    }//GEN-LAST:event_Q3ActionPerformed
 
-    private void jComboBox21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox21ActionPerformed
+    private void Q4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q4ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox21ActionPerformed
+        int p = Integer.parseInt(P4.getText());
+        int q = Integer.parseInt((String) Q4.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P4.setText(t);
+    }//GEN-LAST:event_Q4ActionPerformed
 
-    private void jComboBox12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox12ActionPerformed
+    private void Q14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q14ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox12ActionPerformed
+        int p = Integer.parseInt(P14.getText());
+        int q = Integer.parseInt((String) Q14.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P14.setText(t);
+    }//GEN-LAST:event_Q14ActionPerformed
 
-    private void jComboBox13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox13ActionPerformed
+    private void Q11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q11ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox13ActionPerformed
+        int p = Integer.parseInt(P11.getText());
+        int q = Integer.parseInt((String) Q11.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P11.setText(t);
+    }//GEN-LAST:event_Q11ActionPerformed
 
-    private void jComboBox14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox14ActionPerformed
+    private void Q10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q10ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox14ActionPerformed
+        int p = Integer.parseInt(P10.getText());
+        int q = Integer.parseInt((String) Q10.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P10.setText(t);
+    }//GEN-LAST:event_Q10ActionPerformed
 
-    private void jComboBox15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox15ActionPerformed
+    private void Q8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q8ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox15ActionPerformed
+        int p = Integer.parseInt(P10.getText());
+        int q = Integer.parseInt((String) Q10.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P10.setText(t);
+    }//GEN-LAST:event_Q8ActionPerformed
 
-    private void jComboBox16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox16ActionPerformed
+    private void Q7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q7ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox16ActionPerformed
+        int p = Integer.parseInt(P7.getText());
+        int q = Integer.parseInt((String) Q7.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P7.setText(t);
+    }//GEN-LAST:event_Q7ActionPerformed
 
-    private void jComboBox17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox17ActionPerformed
+    private void Q6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q6ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox17ActionPerformed
+        int p = Integer.parseInt(P6.getText());
+        int q = Integer.parseInt((String) Q6.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P6.setText(t);
+    }//GEN-LAST:event_Q6ActionPerformed
 
-    private void jComboBox18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox18ActionPerformed
+    private void Q5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q5ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox18ActionPerformed
+        int p = Integer.parseInt(P5.getText());
+        int q = Integer.parseInt((String) Q5.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P5.setText(t);
+    }//GEN-LAST:event_Q5ActionPerformed
 
-    private void jComboBox22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox22ActionPerformed
+    private void Q12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q12ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox22ActionPerformed
+        int p = Integer.parseInt(P12.getText());
+        int q = Integer.parseInt((String) Q12.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P12.setText(t);
+    }//GEN-LAST:event_Q12ActionPerformed
 
-    private void jComboBox23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox23ActionPerformed
+    private void Q16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q16ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox23ActionPerformed
+        int p = Integer.parseInt(P16.getText());
+        int q = Integer.parseInt((String) Q16.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P16.setText(t);
+    }//GEN-LAST:event_Q16ActionPerformed
 
-    private void jComboBox24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox24ActionPerformed
+    private void Q15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q15ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox24ActionPerformed
+        int p = Integer.parseInt(P15.getText());
+        int q = Integer.parseInt((String) Q15.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P15.setText(t);
+    }//GEN-LAST:event_Q15ActionPerformed
 
-    private void jComboBox25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox25ActionPerformed
+    private void Q9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q9ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox25ActionPerformed
+        int p = Integer.parseInt(P9.getText());
+        int q = Integer.parseInt((String) Q9.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P9.setText(t);
+    }//GEN-LAST:event_Q9ActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void Addbtn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Addbtn1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton2ActionPerformed
+        String url = "jdbc:mysql://localhost:3306/oop";   
+        String user = "root";  
+        String password = ""; 
+        Dname.setText("Bloody Marry Coctail ");
+
+        String DrinkName = Dname.getText();
+        String price = P1.getText();
+        String quantity = (String) Q1.getSelectedItem();
+
+        String size = null;
+
+        // Validate user input
+        if (DrinkName.isEmpty() || price.isEmpty() || quantity == null) {
+            JOptionPane.showMessageDialog(null, "Please fill out all the required information.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        // Validate price is numeric
+        try {
+            Double.parseDouble(price);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Price must be a valid number.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        String query = "INSERT INTO `drinks` (`DrinkName`, `price`, `quantity`) VALUES (?, ?, ?)";
+        Connection connection = null;
+        PreparedStatement stmt = null;
+
+        try {
+            connection = (Connection) DriverManager.getConnection(url, user, password);
+            stmt = connection.prepareStatement(query);
+
+            // Set parameter values
+            stmt.setString(1, DrinkName);             
+            stmt.setString(2, price);  
+            stmt.setString(3, quantity);
+
+    
+            // Execute query
+            int rowsInserted = stmt.executeUpdate();
+            if (rowsInserted > 0) {
+                JOptionPane.showMessageDialog(null, "Drink  added successfully!");
+            }
+
+        }catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+                  finally {
+            // Proper resource cleanup
+            if (stmt != null) {
+                try {
+                    stmt.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } 
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } // Log closing error
+        }
+    }//GEN-LAST:event_Addbtn1ActionPerformed
 
     private void P1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_P1ActionPerformed
         P1.setText("150");
@@ -960,63 +1103,827 @@ public class DrinksDashBoard extends javax.swing.JFrame {
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
+         String url = "jdbc:mysql://localhost:3306/oop";   
+        String user = "root";  
+        String password = ""; 
+        Dname.setText("Blueberry smoothie ");
+
+        String DrinkName = Dname.getText();
+        String price = P2.getText();
+        String quantity = (String) Q2.getSelectedItem();
+
+        String size = null;
+
+        // Validate user input
+        if (DrinkName.isEmpty() || price.isEmpty() || quantity == null) {
+            JOptionPane.showMessageDialog(null, "Please fill out all the required information.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        // Validate price is numeric
+        try {
+            Double.parseDouble(price);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Price must be a valid number.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        String query = "INSERT INTO `drinks` (`DrinkName`, `price`, `quantity`) VALUES (?, ?, ?)";
+        Connection connection = null;
+        PreparedStatement stmt = null;
+
+        try {
+            connection = (Connection) DriverManager.getConnection(url, user, password);
+            stmt = connection.prepareStatement(query);
+
+            // Set parameter values
+            stmt.setString(1, DrinkName);             
+            stmt.setString(2, price);  
+            stmt.setString(3, quantity);
+
+    
+            // Execute query
+            int rowsInserted = stmt.executeUpdate();
+            if (rowsInserted > 0) {
+                JOptionPane.showMessageDialog(null, "Drink  added successfully!");
+            }
+
+        }catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+                  finally {
+            // Proper resource cleanup
+            if (stmt != null) {
+                try {
+                    stmt.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } 
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } // Log closing error
+        }
     }//GEN-LAST:event_jButton4ActionPerformed
 
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+    private void Addbtn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Addbtn3ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton5ActionPerformed
+               String url = "jdbc:mysql://localhost:3306/oop";   
+        String user = "root";  
+        String password = ""; 
+        Dname.setText("Buble Tea");
+        
+        String DrinkName = Dname.getText();
+        String price = P3.getText();
+        String quantity = (String) Q3.getSelectedItem();
 
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton6ActionPerformed
+        String size = null;
 
-    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton7ActionPerformed
+        // Validate user input
+        if (DrinkName.isEmpty() || price.isEmpty() || quantity == null) {
+            JOptionPane.showMessageDialog(null, "Please fill out all the required information.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
 
-    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton8ActionPerformed
+        // Validate price is numeric
+        try {
+            Double.parseDouble(price);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Price must be a valid number.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
 
-    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton9ActionPerformed
+        String query = "INSERT INTO `drinks` (`DrinkName`, `price`, `quantity`) VALUES (?, ?, ?)";
+        Connection connection = null;
+        PreparedStatement stmt = null;
 
-    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton10ActionPerformed
+        try {
+            connection = (Connection) DriverManager.getConnection(url, user, password);
+            stmt = connection.prepareStatement(query);
 
-    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton11ActionPerformed
+            // Set parameter values
+            stmt.setString(1, DrinkName);             
+            stmt.setString(2, price);  
+            stmt.setString(3, quantity);
 
-    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton12ActionPerformed
+    
+            // Execute query
+            int rowsInserted = stmt.executeUpdate();
+            if (rowsInserted > 0) {
+                JOptionPane.showMessageDialog(null, "Drink  added successfully!");
+            }
 
-    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton13ActionPerformed
+        }catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+                  finally {
+            // Proper resource cleanup
+            if (stmt != null) {
+                try {
+                    stmt.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } 
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+          
+    }//GEN-LAST:event_Addbtn3ActionPerformed
+ }
+    private void Addbtn7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Addbtn7ActionPerformed
+            // TODO add your handling code here:
+    String url = "jdbc:mysql://localhost:3306/oop";   
+    String user = "root";  
+    String password = ""; 
+    
+    // Set default values
+    Dname.setText("Chai Tea Latte ");
 
-    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton14ActionPerformed
+    // Retrieve input values
+    String DrinkName = Dname.getText();
+    String price = P7.getText();
+    String quantity = (String) Q7.getSelectedItem();
 
-    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton15ActionPerformed
+    // Validate user input
+    if (DrinkName.isEmpty() || price.isEmpty() || quantity == null) {
+        JOptionPane.showMessageDialog(null, "Please fill out all the required information.", "Input Error", JOptionPane.ERROR_MESSAGE);
+        return; // Stop execution if validation fails
+    }
 
-    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton16ActionPerformed
+    // Validate price is numeric
+    try {
+        Double.parseDouble(price);
+    } catch (NumberFormatException e) {
+        JOptionPane.showMessageDialog(null, "Price must be a valid number.", "Input Error", JOptionPane.ERROR_MESSAGE);
+        return; // Stop execution if validation fails
+    }
 
-    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton17ActionPerformed
+    // Define the SQL query
+    String query = "INSERT INTO `drinks` (`DrinkName`, `price`, `quantity`) VALUES (?, ?, ?)";
+    Connection connection = null;
+    PreparedStatement stmt = null;
 
-    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
+    try {
+        // Establish the database connection
+        connection = DriverManager.getConnection(url, user, password);
+        stmt = connection.prepareStatement(query);
+
+        // Set parameter values
+        stmt.setString(1, DrinkName);             
+        stmt.setString(2, price);  
+        stmt.setString(3, quantity);
+
+        // Execute query
+        int rowsInserted = stmt.executeUpdate();
+        if (rowsInserted > 0) {
+            JOptionPane.showMessageDialog(null, "Drink added successfully!");
+        }
+
+    } catch (HeadlessException | SQLException e) {
+        System.out.println("Connection error: " + e.getMessage());
+    } finally {
+        // Proper resource cleanup
+        try {
+            if (stmt != null) {
+                stmt.close();
+            }
+            if (connection != null) {
+                connection.close();
+            }
+        } catch (SQLException e) {
+            System.out.println("Error closing resources: " + e.getMessage());
+        }
+    }
+    }//GEN-LAST:event_Addbtn7ActionPerformed
+
+    private void Addbtn8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Addbtn8ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton18ActionPerformed
+        String url = "jdbc:mysql://localhost:3306/oop";   
+        String user = "root";  
+        String password = ""; 
+        Dname.setText("Creamy Espresso Martini");
+
+        String DrinkName = Dname.getText();
+        String price = P8.getText();
+        String quantity = (String) Q8.getSelectedItem();
+
+        String size = null;
+
+        // Validate user input
+        if (DrinkName.isEmpty() || price.isEmpty() || quantity == null) {
+            JOptionPane.showMessageDialog(null, "Please fill out all the required information.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        // Validate price is numeric
+        try {
+            Double.parseDouble(price);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Price must be a valid number.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        String query = "INSERT INTO `drinks` (`DrinkName`, `price`, `quantity`) VALUES (?, ?, ?)";
+        Connection connection = null;
+        PreparedStatement stmt = null;
+
+        try {
+            connection = (Connection) DriverManager.getConnection(url, user, password);
+            stmt = connection.prepareStatement(query);
+
+            // Set parameter values
+            stmt.setString(1, DrinkName);             
+            stmt.setString(2, price);  
+            stmt.setString(3, quantity);
+
+    
+            // Execute query
+            int rowsInserted = stmt.executeUpdate();
+            if (rowsInserted > 0) {
+                JOptionPane.showMessageDialog(null, "Drink  added successfully!");
+            }
+
+        }catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+                  finally {
+            // Proper resource cleanup
+            if (stmt != null) {
+                try {
+                    stmt.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } 
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            }    
+    }
+    }//GEN-LAST:event_Addbtn8ActionPerformed
+
+    private void Addbtn10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Addbtn10ActionPerformed
+        // TODO add your handling code here:
+                String url = "jdbc:mysql://localhost:3306/oop";   
+        String user = "root";  
+        String password = ""; 
+        Dname.setText("Mint Julep");
+
+        String DrinkName = Dname.getText();
+        String price = P9.getText();
+        String quantity = (String) Q9.getSelectedItem();
+
+        String size = null;
+
+        // Validate user input
+        if (DrinkName.isEmpty() || price.isEmpty() || quantity == null) {
+            JOptionPane.showMessageDialog(null, "Please fill out all the required information.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        // Validate price is numeric
+        try {
+            Double.parseDouble(price);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Price must be a valid number.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        String query = "INSERT INTO `drinks` (`DrinkName`, `price`, `quantity`) VALUES (?, ?, ?)";
+        Connection connection = null;
+        PreparedStatement stmt = null;
+
+        try {
+            connection = (Connection) DriverManager.getConnection(url, user, password);
+            stmt = connection.prepareStatement(query);
+
+            // Set parameter values
+            stmt.setString(1, DrinkName);             
+            stmt.setString(2, price);  
+            stmt.setString(3, quantity);
+
+    
+            // Execute query
+            int rowsInserted = stmt.executeUpdate();
+            if (rowsInserted > 0) {
+                JOptionPane.showMessageDialog(null, "Drink  added successfully!");
+            }
+
+        }catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+                  finally {
+            // Proper resource cleanup
+            if (stmt != null) {
+                try {
+                    stmt.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } 
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            }    
+    }
+    }//GEN-LAST:event_Addbtn10ActionPerformed
+
+    private void Addbtn11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Addbtn11ActionPerformed
+        // TODO add your handling code here:
+                String url = "jdbc:mysql://localhost:3306/oop";   
+        String user = "root";  
+        String password = ""; 
+        Dname.setText("Mango Lassi");
+
+        String DrinkName = Dname.getText();
+        String price = P10.getText();
+        String quantity = (String) Q10.getSelectedItem();
+
+        String size = null;
+
+        // Validate user input
+        if (DrinkName.isEmpty() || price.isEmpty() || quantity == null) {
+            JOptionPane.showMessageDialog(null, "Please fill out all the required information.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        // Validate price is numeric
+        try {
+            Double.parseDouble(price);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Price must be a valid number.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        String query = "INSERT INTO `drinks` (`DrinkName`, `price`, `quantity`) VALUES (?, ?, ?)";
+        Connection connection = null;
+        PreparedStatement stmt = null;
+
+        try {
+            connection = (Connection) DriverManager.getConnection(url, user, password);
+            stmt = connection.prepareStatement(query);
+
+            // Set parameter values
+            stmt.setString(1, DrinkName);             
+            stmt.setString(2, price);  
+            stmt.setString(3, quantity);
+
+    
+            // Execute query
+            int rowsInserted = stmt.executeUpdate();
+            if (rowsInserted > 0) {
+                JOptionPane.showMessageDialog(null, "Drink  added successfully!");
+            }
+
+        }catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+                  finally {
+            // Proper resource cleanup
+            if (stmt != null) {
+                try {
+                    stmt.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } 
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            }    
+    }
+    }//GEN-LAST:event_Addbtn11ActionPerformed
+
+    private void Addbtn12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Addbtn12ActionPerformed
+        // TODO add your handling code here:
+                String url = "jdbc:mysql://localhost:3306/oop";   
+        String user = "root";  
+        String password = ""; 
+        Dname.setText("Lemonade");
+
+        String DrinkName = Dname.getText();
+        String price = P11.getText();
+        String quantity = (String) Q11.getSelectedItem();
+
+        String size = null;
+
+        // Validate user input
+        if (DrinkName.isEmpty() || price.isEmpty() || quantity == null) {
+            JOptionPane.showMessageDialog(null, "Please fill out all the required information.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        // Validate price is numeric
+        try {
+            Double.parseDouble(price);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Price must be a valid number.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        String query = "INSERT INTO `drinks` (`DrinkName`, `price`, `quantity`) VALUES (?, ?, ?)";
+        Connection connection = null;
+        PreparedStatement stmt = null;
+
+        try {
+            connection = (Connection) DriverManager.getConnection(url, user, password);
+            stmt = connection.prepareStatement(query);
+
+            // Set parameter values
+            stmt.setString(1, DrinkName);             
+            stmt.setString(2, price);  
+            stmt.setString(3, quantity);
+
+    
+            // Execute query
+            int rowsInserted = stmt.executeUpdate();
+            if (rowsInserted > 0) {
+                JOptionPane.showMessageDialog(null, "Drink  added successfully!");
+            }
+
+        }catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+                  finally {
+            // Proper resource cleanup
+            if (stmt != null) {
+                try {
+                    stmt.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } 
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            }    
+    }
+    }//GEN-LAST:event_Addbtn12ActionPerformed
+
+    private void Addbtn13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Addbtn13ActionPerformed
+        // TODO add your handling code here:
+                String url = "jdbc:mysql://localhost:3306/oop";   
+        String user = "root";  
+        String password = ""; 
+        Dname.setText("Ice Matcha Latte");
+
+        String DrinkName = Dname.getText();
+        String price = P12.getText();
+        String quantity = (String) Q12.getSelectedItem();
+
+        String size = null;
+
+        // Validate user input
+        if (DrinkName.isEmpty() || price.isEmpty() || quantity == null) {
+            JOptionPane.showMessageDialog(null, "Please fill out all the required information.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        // Validate price is numeric
+        try {
+            Double.parseDouble(price);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Price must be a valid number.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        String query = "INSERT INTO `drinks` (`DrinkName`, `price`, `quantity`) VALUES (?, ?, ?)";
+        Connection connection = null;
+        PreparedStatement stmt = null;
+
+        try {
+            connection = (Connection) DriverManager.getConnection(url, user, password);
+            stmt = connection.prepareStatement(query);
+
+            // Set parameter values
+            stmt.setString(1, DrinkName);             
+            stmt.setString(2, price);  
+            stmt.setString(3, quantity);
+
+    
+            // Execute query
+            int rowsInserted = stmt.executeUpdate();
+            if (rowsInserted > 0) {
+                JOptionPane.showMessageDialog(null, "Drink  added successfully!");
+            }
+
+        }catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+                  finally {
+            // Proper resource cleanup
+            if (stmt != null) {
+                try {
+                    stmt.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } 
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            }    
+    }
+    }//GEN-LAST:event_Addbtn13ActionPerformed
+
+    private void Addbtn14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Addbtn14ActionPerformed
+        // TODO add your handling code here:
+                String url = "jdbc:mysql://localhost:3306/oop";   
+        String user = "root";  
+        String password = ""; 
+        Dname.setText("Scrath made Arnold Palmer");
+
+        String DrinkName = Dname.getText();
+        String price = P13.getText();
+        String quantity = (String) Q13.getSelectedItem();
+
+        String size = null;
+
+        // Validate user input
+        if (DrinkName.isEmpty() || price.isEmpty() || quantity == null) {
+            JOptionPane.showMessageDialog(null, "Please fill out all the required information.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        // Validate price is numeric
+        try {
+            Double.parseDouble(price);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Price must be a valid number.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        String query = "INSERT INTO `drinks` (`DrinkName`, `price`, `quantity`) VALUES (?, ?, ?)";
+        Connection connection = null;
+        PreparedStatement stmt = null;
+
+        try {
+            connection = (Connection) DriverManager.getConnection(url, user, password);
+            stmt = connection.prepareStatement(query);
+
+            // Set parameter values
+            stmt.setString(1, DrinkName);             
+            stmt.setString(2, price);  
+            stmt.setString(3, quantity);
+
+    
+            // Execute query
+            int rowsInserted = stmt.executeUpdate();
+            if (rowsInserted > 0) {
+                JOptionPane.showMessageDialog(null, "Drink  added successfully!");
+            }
+
+        }catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+                  finally {
+            // Proper resource cleanup
+            if (stmt != null) {
+                try {
+                    stmt.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } 
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            }    
+    }
+    }//GEN-LAST:event_Addbtn14ActionPerformed
+
+    private void Addbtn15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Addbtn15ActionPerformed
+        // TODO add your handling code here:
+                String url = "jdbc:mysql://localhost:3306/oop";   
+        String user = "root";  
+        String password = ""; 
+        Dname.setText("Sangrai  ");
+
+        String DrinkName = Dname.getText();
+        String price = P14.getText();
+        String quantity = (String) Q14.getSelectedItem();
+
+        String size = null;
+
+        // Validate user input
+        if (DrinkName.isEmpty() || price.isEmpty() || quantity == null) {
+            JOptionPane.showMessageDialog(null, "Please fill out all the required information.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        // Validate price is numeric
+        try {
+            Double.parseDouble(price);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Price must be a valid number.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        String query = "INSERT INTO `drinks` (`DrinkName`, `price`, `quantity`) VALUES (?, ?, ?)";
+        Connection connection = null;
+        PreparedStatement stmt = null;
+
+        try {
+            connection = (Connection) DriverManager.getConnection(url, user, password);
+            stmt = connection.prepareStatement(query);
+
+            // Set parameter values
+            stmt.setString(1, DrinkName);             
+            stmt.setString(2, price);  
+            stmt.setString(3, quantity);
+
+    
+            // Execute query
+            int rowsInserted = stmt.executeUpdate();
+            if (rowsInserted > 0) {
+                JOptionPane.showMessageDialog(null, "Drink  added successfully!");
+            }
+
+        }catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+                  finally {
+            // Proper resource cleanup
+            if (stmt != null) {
+                try {
+                    stmt.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } 
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            }    
+    }
+    }//GEN-LAST:event_Addbtn15ActionPerformed
+
+    private void Addbtn16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Addbtn16ActionPerformed
+        // TODO add your handling code here:
+                String url = "jdbc:mysql://localhost:3306/oop";   
+        String user = "root";  
+        String password = ""; 
+        Dname.setText("Pina Colada");
+
+        String DrinkName = Dname.getText();
+        String price = P15.getText();
+        String quantity = (String) Q15.getSelectedItem();
+
+        String size = null;
+
+        // Validate user input
+        if (DrinkName.isEmpty() || price.isEmpty() || quantity == null) {
+            JOptionPane.showMessageDialog(null, "Please fill out all the required information.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        // Validate price is numeric
+        try {
+            Double.parseDouble(price);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Price must be a valid number.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        String query = "INSERT INTO `drinks` (`DrinkName`, `price`, `quantity`) VALUES (?, ?, ?)";
+        Connection connection = null;
+        PreparedStatement stmt = null;
+
+        try {
+            connection = (Connection) DriverManager.getConnection(url, user, password);
+            stmt = connection.prepareStatement(query);
+
+            // Set parameter values
+            stmt.setString(1, DrinkName);             
+            stmt.setString(2, price);  
+            stmt.setString(3, quantity);
+
+    
+            // Execute query
+            int rowsInserted = stmt.executeUpdate();
+            if (rowsInserted > 0) {
+                JOptionPane.showMessageDialog(null, "Drink  added successfully!");
+            }
+
+        }catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+                  finally {
+            // Proper resource cleanup
+            if (stmt != null) {
+                try {
+                    stmt.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } 
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            }    
+    }
+    }//GEN-LAST:event_Addbtn16ActionPerformed
+
+    private void Addbtn17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Addbtn17ActionPerformed
+        // TODO add your handling code here:
+                String url = "jdbc:mysql://localhost:3306/oop";   
+        String user = "root";  
+        String password = ""; 
+        Dname.setText("Mojito");
+
+        String DrinkName = Dname.getText();
+        String price = P16.getText();
+        String quantity = (String) Q16.getSelectedItem();
+
+        String size = null;
+
+        // Validate user input
+        if (DrinkName.isEmpty() || price.isEmpty() || quantity == null) {
+            JOptionPane.showMessageDialog(null, "Please fill out all the required information.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        // Validate price is numeric
+        try {
+            Double.parseDouble(price);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Price must be a valid number.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        String query = "INSERT INTO `drinks` (`DrinkName`, `price`, `quantity`) VALUES (?, ?, ?)";
+        Connection connection = null;
+        PreparedStatement stmt = null;
+
+        try {
+            connection = (Connection) DriverManager.getConnection(url, user, password);
+            stmt = connection.prepareStatement(query);
+
+            // Set parameter values
+            stmt.setString(1, DrinkName);             
+            stmt.setString(2, price);  
+            stmt.setString(3, quantity);
+
+    
+            // Execute query
+            int rowsInserted = stmt.executeUpdate();
+            if (rowsInserted > 0) {
+                JOptionPane.showMessageDialog(null, "Drink  added successfully!");
+            }
+
+        }catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+                  finally {
+            // Proper resource cleanup
+            if (stmt != null) {
+                try {
+                    stmt.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } 
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            }    
+    }
+    }//GEN-LAST:event_Addbtn17ActionPerformed
 
     private void ToCoffeeButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ToCoffeeButton3ActionPerformed
        this.dispose();
@@ -1035,6 +1942,280 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         CoffeeDashboad cd = new CoffeeDashboad();
         cd.setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void Addbtn6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Addbtn6ActionPerformed
+        // TODO add your handling code here:
+        String url = "jdbc:mysql://localhost:3306/oop";   
+        String user = "root";  
+        String password = ""; 
+        Dname.setText("Hot Chocolate");
+
+        String DrinkName = Dname.getText();
+        String price = P6.getText();
+        String quantity = (String) Q6.getSelectedItem();
+
+        String size = null;
+
+        // Validate user input
+        if (DrinkName.isEmpty() || price.isEmpty() || quantity == null) {
+            JOptionPane.showMessageDialog(null, "Please fill out all the required information.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        // Validate price is numeric
+        try {
+            Double.parseDouble(price);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Price must be a valid number.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        String query = "INSERT INTO `drinks` (`DrinkName`, `price`, `quantity`) VALUES (?, ?, ?)";
+        Connection connection = null;
+        PreparedStatement stmt = null;
+
+        try {
+            connection = (Connection) DriverManager.getConnection(url, user, password);
+            stmt = connection.prepareStatement(query);
+
+            // Set parameter values
+            stmt.setString(1, DrinkName);             
+            stmt.setString(2, price);  
+            stmt.setString(3, quantity);
+
+    
+            // Execute query
+            int rowsInserted = stmt.executeUpdate();
+            if (rowsInserted > 0) {
+                JOptionPane.showMessageDialog(null, "Drink  added successfully!");
+            }
+
+        }catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+                  finally {
+            // Proper resource cleanup
+            if (stmt != null) {
+                try {
+                    stmt.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } 
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            }    
+    }
+    }//GEN-LAST:event_Addbtn6ActionPerformed
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        // TODO add your handling code here:
+        String url = "jdbc:mysql://localhost:3306/oop";   
+        String user = "root";  
+        String password = ""; 
+        Dname.setText("Buko Juice ");
+
+        String DrinkName = Dname.getText();
+        String price = P4.getText();
+        String quantity = (String) Q4.getSelectedItem();
+
+        String size = null;
+
+        // Validate user input
+        if (DrinkName.isEmpty() || price.isEmpty() || quantity == null) {
+            JOptionPane.showMessageDialog(null, "Please fill out all the required information.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        // Validate price is numeric
+        try {
+            Double.parseDouble(price);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Price must be a valid number.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        String query = "INSERT INTO `drinks` (`DrinkName`, `price`, `quantity`) VALUES (?, ?, ?)";
+        Connection connection = null;
+        PreparedStatement stmt = null;
+
+        try {
+            connection = (Connection) DriverManager.getConnection(url, user, password);
+            stmt = connection.prepareStatement(query);
+
+            // Set parameter values
+            stmt.setString(1, DrinkName);             
+            stmt.setString(2, price);  
+            stmt.setString(3, quantity);
+
+    
+            // Execute query
+            int rowsInserted = stmt.executeUpdate();
+            if (rowsInserted > 0) {
+                JOptionPane.showMessageDialog(null, "Drink  added successfully!");
+            }
+
+        }catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+                  finally {
+            // Proper resource cleanup
+            if (stmt != null) {
+                try {
+                    stmt.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } 
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            }    
+    }                                       
+    }
+    private void Addbtn7ActionPerformed(java.awt.event.ActionEvent evt) {                                        
+        // TODO add your handling code here:
+                String url = "jdbc:mysql://localhost:3306/oop";   
+        String user = "root";  
+        String password = ""; 
+        Dname.setText("Chai Tea Latte");
+
+        String DrinkName = Dname.getText();
+        String price = P7.getText();
+        String quantity = (String) Q7.getSelectedItem();
+
+        String size = null;
+
+        // Validate user input
+        if (DrinkName.isEmpty() || price.isEmpty() || quantity == null) {
+            JOptionPane.showMessageDialog(null, "Please fill out all the required information.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        // Validate price is numeric
+        try {
+            Double.parseDouble(price);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Price must be a valid number.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        String query = "INSERT INTO `drinks` (`DrinkName`, `price`, `quantity`) VALUES (?, ?, ?)";
+        Connection connection = null;
+        PreparedStatement stmt = null;
+
+        try {
+            connection = (Connection) DriverManager.getConnection(url, user, password);
+            stmt = connection.prepareStatement(query);
+
+            // Set parameter values
+            stmt.setString(1, DrinkName);             
+            stmt.setString(2, price);  
+            stmt.setString(3, quantity);
+
+    
+            // Execute query
+            int rowsInserted = stmt.executeUpdate();
+            if (rowsInserted > 0) {
+                JOptionPane.showMessageDialog(null, "Drink  added successfully!");
+            }
+
+        }catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+                  finally {
+            // Proper resource cleanup
+            if (stmt != null) {
+                try {
+                    stmt.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } 
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            }    
+    }
+
+        
+    }//GEN-LAST:event_jButton6ActionPerformed
+
+    private void Addbtn5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Addbtn5ActionPerformed
+        // TODO add your handling code here:
+    String url = "jdbc:mysql://localhost:3306/oop";   
+    String user = "root";  
+    String password = ""; 
+    
+    // Set default values
+    Dname.setText("Ice Coffee ");
+
+    // Retrieve input values
+    String DrinkName = Dname.getText();
+    String price = P5.getText();
+    String quantity = (String) Q5.getSelectedItem();
+
+    // Validate user input
+    if (DrinkName.isEmpty() || price.isEmpty() || quantity == null) {
+        JOptionPane.showMessageDialog(null, "Please fill out all the required information.", "Input Error", JOptionPane.ERROR_MESSAGE);
+        return; // Stop execution if validation fails
+    }
+
+    // Validate price is numeric
+    try {
+        Double.parseDouble(price);
+    } catch (NumberFormatException e) {
+        JOptionPane.showMessageDialog(null, "Price must be a valid number.", "Input Error", JOptionPane.ERROR_MESSAGE);
+        return; // Stop execution if validation fails
+    }
+
+    // Define the SQL query
+    String query = "INSERT INTO `drinks` (`DrinkName`, `price`, `quantity`) VALUES (?, ?, ?)";
+    Connection connection = null;
+    PreparedStatement stmt = null;
+
+    try {
+        // Establish the database connection
+        connection = DriverManager.getConnection(url, user, password);
+        stmt = connection.prepareStatement(query);
+
+        // Set parameter values
+        stmt.setString(1, DrinkName);             
+        stmt.setString(2, price);  
+        stmt.setString(3, quantity);
+
+        // Execute query
+        int rowsInserted = stmt.executeUpdate();
+        if (rowsInserted > 0) {
+            JOptionPane.showMessageDialog(null, "Drink added successfully!");
+        }
+
+    } catch (Exception e) {
+        System.out.println("Connection error: " + e.getMessage());
+    } finally {
+        // Proper resource cleanup
+        try {
+            if (stmt != null) {
+                stmt.close();
+            }
+            if (connection != null) {
+                connection.close();
+            }
+        } catch (Exception e) {
+            System.out.println("Error closing resources: " + e.getMessage());
+        }
+    }
+    }//GEN-LAST:event_Addbtn5ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -1072,12 +2253,42 @@ public class DrinksDashBoard extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton Addbtn1;
+    private javax.swing.JButton Addbtn10;
+    private javax.swing.JButton Addbtn11;
+    private javax.swing.JButton Addbtn12;
+    private javax.swing.JButton Addbtn13;
+    private javax.swing.JButton Addbtn14;
+    private javax.swing.JButton Addbtn15;
+    private javax.swing.JButton Addbtn16;
+    private javax.swing.JButton Addbtn17;
+    private javax.swing.JButton Addbtn3;
+    private javax.swing.JButton Addbtn5;
+    private javax.swing.JButton Addbtn6;
+    private javax.swing.JButton Addbtn7;
+    private javax.swing.JButton Addbtn8;
     private javax.swing.JPanel BloodyMaryCoctail;
     private javax.swing.JPanel BlueBerrySmoothie;
     private javax.swing.JPanel BubbleTea;
     private javax.swing.JPanel BukoJuice1;
     private javax.swing.JPanel ChaiTeaLatte1;
     private javax.swing.JPanel CreamEspressoMartini1;
+    private javax.swing.JLabel Dname;
+    private javax.swing.JLabel Dname10;
+    private javax.swing.JLabel Dname11;
+    private javax.swing.JLabel Dname12;
+    private javax.swing.JLabel Dname13;
+    private javax.swing.JLabel Dname14;
+    private javax.swing.JLabel Dname15;
+    private javax.swing.JLabel Dname16;
+    private javax.swing.JLabel Dname17;
+    private javax.swing.JLabel Dname2;
+    private javax.swing.JLabel Dname3;
+    private javax.swing.JLabel Dname4;
+    private javax.swing.JLabel Dname5;
+    private javax.swing.JLabel Dname6;
+    private javax.swing.JLabel Dname7;
+    private javax.swing.JLabel Dname8;
     private javax.swing.JPanel HotChocolate2;
     private javax.swing.JPanel IceCoffee1;
     private javax.swing.JPanel IcedMatchaLatte1;
@@ -1088,141 +2299,111 @@ public class DrinksDashBoard extends javax.swing.JFrame {
     private javax.swing.JPanel Mojito1;
     private javax.swing.JButton NextBtn;
     private javax.swing.JTextField P1;
+    private javax.swing.JLabel P10;
+    private javax.swing.JLabel P11;
+    private javax.swing.JLabel P12;
+    private javax.swing.JLabel P13;
+    private javax.swing.JLabel P14;
+    private javax.swing.JLabel P15;
+    private javax.swing.JLabel P16;
+    private javax.swing.JLabel P2;
+    private javax.swing.JLabel P3;
+    private javax.swing.JLabel P4;
+    private javax.swing.JLabel P5;
+    private javax.swing.JLabel P6;
+    private javax.swing.JLabel P7;
+    private javax.swing.JLabel P8;
+    private javax.swing.JLabel P9;
     private javax.swing.JPanel PinaColada1;
+    private javax.swing.JComboBox<String> Q1;
+    private javax.swing.JComboBox<String> Q10;
+    private javax.swing.JComboBox<String> Q11;
+    private javax.swing.JComboBox<String> Q12;
+    private javax.swing.JComboBox<String> Q13;
+    private javax.swing.JComboBox<String> Q14;
+    private javax.swing.JComboBox<String> Q15;
+    private javax.swing.JComboBox<String> Q16;
+    private javax.swing.JComboBox<String> Q2;
+    private javax.swing.JComboBox<String> Q3;
+    private javax.swing.JComboBox<String> Q4;
+    private javax.swing.JComboBox<String> Q5;
+    private javax.swing.JComboBox<String> Q6;
+    private javax.swing.JComboBox<String> Q7;
+    private javax.swing.JComboBox<String> Q8;
+    private javax.swing.JComboBox<String> Q9;
     private javax.swing.JPanel Sangrai;
     private javax.swing.JButton ToCoffeeButton3;
     private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton10;
-    private javax.swing.JButton jButton11;
-    private javax.swing.JButton jButton12;
-    private javax.swing.JButton jButton13;
-    private javax.swing.JButton jButton14;
-    private javax.swing.JButton jButton15;
-    private javax.swing.JButton jButton16;
-    private javax.swing.JButton jButton17;
-    private javax.swing.JButton jButton18;
     private javax.swing.JButton jButton19;
-    private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton20;
     private javax.swing.JButton jButton21;
     private javax.swing.JButton jButton22;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
-    private javax.swing.JButton jButton9;
-    private javax.swing.JComboBox<String> jComboBox11;
-    private javax.swing.JComboBox<String> jComboBox12;
-    private javax.swing.JComboBox<String> jComboBox13;
-    private javax.swing.JComboBox<String> jComboBox14;
-    private javax.swing.JComboBox<String> jComboBox15;
-    private javax.swing.JComboBox<String> jComboBox16;
-    private javax.swing.JComboBox<String> jComboBox17;
-    private javax.swing.JComboBox<String> jComboBox18;
-    private javax.swing.JComboBox<String> jComboBox19;
-    private javax.swing.JComboBox<String> jComboBox2;
-    private javax.swing.JComboBox<String> jComboBox20;
-    private javax.swing.JComboBox<String> jComboBox21;
-    private javax.swing.JComboBox<String> jComboBox22;
-    private javax.swing.JComboBox<String> jComboBox23;
-    private javax.swing.JComboBox<String> jComboBox24;
-    private javax.swing.JComboBox<String> jComboBox25;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel100;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
-    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
-    private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel23;
-    private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel25;
     private javax.swing.JLabel jLabel26;
-    private javax.swing.JLabel jLabel27;
     private javax.swing.JLabel jLabel28;
-    private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel30;
     private javax.swing.JLabel jLabel31;
     private javax.swing.JLabel jLabel32;
-    private javax.swing.JLabel jLabel33;
     private javax.swing.JLabel jLabel34;
-    private javax.swing.JLabel jLabel35;
     private javax.swing.JLabel jLabel36;
     private javax.swing.JLabel jLabel37;
     private javax.swing.JLabel jLabel38;
-    private javax.swing.JLabel jLabel39;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel40;
-    private javax.swing.JLabel jLabel41;
     private javax.swing.JLabel jLabel42;
     private javax.swing.JLabel jLabel43;
     private javax.swing.JLabel jLabel44;
-    private javax.swing.JLabel jLabel45;
     private javax.swing.JLabel jLabel46;
-    private javax.swing.JLabel jLabel47;
     private javax.swing.JLabel jLabel48;
     private javax.swing.JLabel jLabel49;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel50;
     private javax.swing.JLabel jLabel51;
-    private javax.swing.JLabel jLabel52;
     private javax.swing.JLabel jLabel53;
-    private javax.swing.JLabel jLabel54;
     private javax.swing.JLabel jLabel55;
-    private javax.swing.JLabel jLabel56;
     private javax.swing.JLabel jLabel57;
-    private javax.swing.JLabel jLabel58;
     private javax.swing.JLabel jLabel59;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel60;
     private javax.swing.JLabel jLabel61;
-    private javax.swing.JLabel jLabel62;
     private javax.swing.JLabel jLabel63;
-    private javax.swing.JLabel jLabel64;
     private javax.swing.JLabel jLabel65;
     private javax.swing.JLabel jLabel66;
     private javax.swing.JLabel jLabel67;
-    private javax.swing.JLabel jLabel68;
     private javax.swing.JLabel jLabel69;
     private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel70;
     private javax.swing.JLabel jLabel71;
     private javax.swing.JLabel jLabel72;
     private javax.swing.JLabel jLabel73;
-    private javax.swing.JLabel jLabel74;
     private javax.swing.JLabel jLabel75;
-    private javax.swing.JLabel jLabel76;
     private javax.swing.JLabel jLabel77;
     private javax.swing.JLabel jLabel78;
     private javax.swing.JLabel jLabel79;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel80;
     private javax.swing.JLabel jLabel81;
-    private javax.swing.JLabel jLabel82;
     private javax.swing.JLabel jLabel83;
     private javax.swing.JLabel jLabel85;
-    private javax.swing.JLabel jLabel86;
     private javax.swing.JLabel jLabel87;
-    private javax.swing.JLabel jLabel88;
     private javax.swing.JLabel jLabel89;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JLabel jLabel90;
     private javax.swing.JLabel jLabel91;
-    private javax.swing.JLabel jLabel92;
     private javax.swing.JLabel jLabel93;
-    private javax.swing.JLabel jLabel94;
     private javax.swing.JLabel jLabel95;
     private javax.swing.JLabel jLabel96;
     private javax.swing.JLabel jLabel97;

@@ -181,9 +181,9 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jButton19 = new javax.swing.JButton();
         jButton20 = new javax.swing.JButton();
         jButton21 = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
+        bgi = new javax.swing.JLabel();
         jLabel81 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
+        bgi2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -707,8 +707,8 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jButton21.setText("Dishes");
         PastriesDashBoard.add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 1540, -1, -1));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
-        PastriesDashBoard.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-3, -4, 1480, 1610));
+        bgi.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/brgcoffee.jpg"))); // NOI18N
+        PastriesDashBoard.add(bgi, new org.netbeans.lib.awtextra.AbsoluteConstraints(-3, -4, 1480, 1610));
 
         jScrollPane1.setViewportView(PastriesDashBoard);
 
@@ -720,8 +720,8 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
         jLabel81.setText("Pastries Menu ");
         getContentPane().add(jLabel81, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 10, 160, 50));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1270, 2740));
+        bgi2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/brgcoffee.jpg"))); // NOI18N
+        getContentPane().add(bgi2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1270, 2740));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -816,6 +816,8 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
     private javax.swing.JPanel Tart;
     private javax.swing.JPanel ToasterStrudel;
     private javax.swing.JButton TotalButton;
+    private javax.swing.JLabel bgi;
+    private javax.swing.JLabel bgi2;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
@@ -853,7 +855,6 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> jComboBox7;
     private javax.swing.JComboBox<String> jComboBox8;
     private javax.swing.JComboBox<String> jComboBox9;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel100;
     private javax.swing.JLabel jLabel101;
@@ -877,7 +878,6 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;

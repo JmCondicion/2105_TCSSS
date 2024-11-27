@@ -113,7 +113,6 @@ public class HomePage extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
-        ScollContainerBRG = new javax.swing.JLabel();
         OrderID = new javax.swing.JLabel();
         LogoName1 = new javax.swing.JLabel();
         coffeeBtn = new javax.swing.JButton();
@@ -133,9 +132,11 @@ public class HomePage extends javax.swing.JFrame {
         jScrollPane1.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         jScrollPane1.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
 
+        ScollContainer.setBackground(new java.awt.Color(160, 120, 86));
         ScollContainer.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         ScollContainer.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jPanel3.setBackground(new java.awt.Color(203, 183, 153));
         jPanel3.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel3.setFocusable(false);
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -143,7 +144,7 @@ public class HomePage extends javax.swing.JFrame {
         GarlicButterShrimpPasta.setBackground(new java.awt.Color(255, 255, 255));
         GarlicButterShrimpPasta.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel41.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/garlic butter shrimp pasta.jpg"))); // NOI18N
+        jLabel41.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/garlic butter shrimp pasta.jpg"))); // NOI18N
         GarlicButterShrimpPasta.add(jLabel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 250, 140));
 
         jLabel42.setFont(new java.awt.Font("Arial", 3, 18)); // NOI18N
@@ -155,7 +156,7 @@ public class HomePage extends javax.swing.JFrame {
         Lasagna.setBackground(new java.awt.Color(255, 255, 255));
         Lasagna.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/Lasagna.jpg"))); // NOI18N
+        jLabel33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Lasagna.jpg"))); // NOI18N
         Lasagna.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 140));
 
         jLabel34.setFont(new java.awt.Font("Arial", 3, 18)); // NOI18N
@@ -167,7 +168,7 @@ public class HomePage extends javax.swing.JFrame {
         OssoBuco.setBackground(new java.awt.Color(255, 255, 255));
         OssoBuco.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/Osso Buco.jpg"))); // NOI18N
+        jLabel35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Osso Buco.jpg"))); // NOI18N
         OssoBuco.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 140));
 
         jLabel36.setFont(new java.awt.Font("Arial", 3, 18)); // NOI18N
@@ -179,7 +180,7 @@ public class HomePage extends javax.swing.JFrame {
         AlfredoFettuchini.setBackground(new java.awt.Color(255, 255, 255));
         AlfredoFettuchini.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/alfredo fettuccine.jpg"))); // NOI18N
+        jLabel37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/alfredo fettuccine.jpg"))); // NOI18N
         AlfredoFettuchini.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 140));
 
         jLabel38.setFont(new java.awt.Font("Arial", 3, 18)); // NOI18N
@@ -191,7 +192,7 @@ public class HomePage extends javax.swing.JFrame {
         Cannoli.setBackground(new java.awt.Color(255, 255, 255));
         Cannoli.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel39.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/Cannoli.jpg"))); // NOI18N
+        jLabel39.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Cannoli.jpg"))); // NOI18N
         Cannoli.add(jLabel39, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 140));
 
         jLabel40.setFont(new java.awt.Font("Arial", 3, 18)); // NOI18N
@@ -204,12 +205,13 @@ public class HomePage extends javax.swing.JFrame {
 
         ScollContainer.add(FeaturedFood, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 1010, 930, 240));
 
+        jPanel9.setBackground(new java.awt.Color(203, 183, 153));
         jPanel9.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         Cappucino.setBackground(new java.awt.Color(255, 255, 255));
         Cappucino.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/cappuccino coffee.jpg"))); // NOI18N
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/cappuccino coffee.jpg"))); // NOI18N
         Cappucino.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 130));
 
         jLabel14.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
@@ -221,7 +223,7 @@ public class HomePage extends javax.swing.JFrame {
         FlatWhite.setBackground(new java.awt.Color(255, 255, 255));
         FlatWhite.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Flat white coffee.jpg"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Flat white coffee.jpg"))); // NOI18N
         FlatWhite.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 130));
 
         jLabel6.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
@@ -233,7 +235,7 @@ public class HomePage extends javax.swing.JFrame {
         Cacao.setBackground(new java.awt.Color(255, 255, 255));
         Cacao.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Cacao.jpg"))); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Cacao.jpg"))); // NOI18N
         Cacao.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 130));
 
         jLabel8.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
@@ -245,7 +247,7 @@ public class HomePage extends javax.swing.JFrame {
         ConPanna.setBackground(new java.awt.Color(255, 255, 255));
         ConPanna.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Con panna coffee.jpg"))); // NOI18N
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Con panna coffee.jpg"))); // NOI18N
         ConPanna.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 130));
 
         jLabel10.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
@@ -257,7 +259,7 @@ public class HomePage extends javax.swing.JFrame {
         Latte.setBackground(new java.awt.Color(255, 255, 255));
         Latte.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Latte coffee.jpg"))); // NOI18N
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Latte coffee.jpg"))); // NOI18N
         Latte.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 130));
 
         jLabel12.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
@@ -270,12 +272,13 @@ public class HomePage extends javax.swing.JFrame {
 
         ScollContainer.add(FeaturedCoffee, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 80, 930, 240));
 
+        jPanel15.setBackground(new java.awt.Color(203, 183, 153));
         jPanel15.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         OolongTea.setBackground(new java.awt.Color(255, 255, 255));
         OolongTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel43.setIcon(new javax.swing.ImageIcon(getClass().getResource("/TeaSImage/Oolong Tea.jpg"))); // NOI18N
+        jLabel43.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Oolong Tea.jpg"))); // NOI18N
         OolongTea.add(jLabel43, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 130));
 
         jLabel44.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
@@ -287,7 +290,7 @@ public class HomePage extends javax.swing.JFrame {
         EarlyGreyTea.setBackground(new java.awt.Color(255, 255, 255));
         EarlyGreyTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/TeaSImage/Earl Grey.jpg"))); // NOI18N
+        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Earl Grey.jpg"))); // NOI18N
         EarlyGreyTea.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 130));
 
         jLabel16.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
@@ -299,7 +302,7 @@ public class HomePage extends javax.swing.JFrame {
         HibiscusTea.setBackground(new java.awt.Color(255, 255, 255));
         HibiscusTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/TeaSImage/Hibiscus Tea.jpg"))); // NOI18N
+        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Hibiscus Tea.jpg"))); // NOI18N
         HibiscusTea.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 130));
 
         jLabel18.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
@@ -311,7 +314,7 @@ public class HomePage extends javax.swing.JFrame {
         WhiteTea.setBackground(new java.awt.Color(255, 255, 255));
         WhiteTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/TeaSImage/White Tea.jpg"))); // NOI18N
+        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/White Tea.jpg"))); // NOI18N
         WhiteTea.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 130));
 
         jLabel20.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
@@ -323,7 +326,7 @@ public class HomePage extends javax.swing.JFrame {
         JasmineTea.setBackground(new java.awt.Color(255, 255, 255));
         JasmineTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/TeaSImage/Jasmine Tea.jpg"))); // NOI18N
+        jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Jasmine Tea.jpg"))); // NOI18N
         JasmineTea.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 130));
 
         jLabel22.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
@@ -336,12 +339,13 @@ public class HomePage extends javax.swing.JFrame {
 
         ScollContainer.add(FeaturedTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 400, 930, 230));
 
+        jPanel21.setBackground(new java.awt.Color(203, 183, 153));
         jPanel21.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         BloodyMaryCoctail.setBackground(new java.awt.Color(255, 255, 255));
         BloodyMaryCoctail.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/DrinksImages/Bloody_Mary_Coctail.jpg"))); // NOI18N
+        jLabel31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Bloody_Mary_Coctail.jpg"))); // NOI18N
         BloodyMaryCoctail.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 130));
 
         jLabel32.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
@@ -353,7 +357,7 @@ public class HomePage extends javax.swing.JFrame {
         MintJulep.setBackground(new java.awt.Color(255, 255, 255));
         MintJulep.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/DrinksImages/Mint Julep.jpg"))); // NOI18N
+        jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Mint Julep.jpg"))); // NOI18N
         MintJulep.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 130));
 
         jLabel24.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
@@ -365,7 +369,7 @@ public class HomePage extends javax.swing.JFrame {
         HotChocolate.setBackground(new java.awt.Color(255, 255, 255));
         HotChocolate.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/DrinksImages/Hot Chocolate.jpg"))); // NOI18N
+        jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Hot Chocolate.jpg"))); // NOI18N
         HotChocolate.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 130));
 
         jLabel26.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
@@ -377,7 +381,7 @@ public class HomePage extends javax.swing.JFrame {
         BubleTea.setBackground(new java.awt.Color(255, 255, 255));
         BubleTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/DrinksImages/Bubble-Tea.png"))); // NOI18N
+        jLabel27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Bubble-Tea.png"))); // NOI18N
         BubleTea.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 130));
 
         jLabel28.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
@@ -389,7 +393,7 @@ public class HomePage extends javax.swing.JFrame {
         MangoLassi.setBackground(new java.awt.Color(255, 255, 255));
         MangoLassi.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/DrinksImages/Mango-Lassi.jpg"))); // NOI18N
+        jLabel30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Mango-Lassi.jpg"))); // NOI18N
         MangoLassi.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(-100, 0, 370, 130));
 
         jLabel29.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
@@ -421,9 +425,6 @@ public class HomePage extends javax.swing.JFrame {
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Featured Tea");
         ScollContainer.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 350, 292, 40));
-
-        ScollContainerBRG.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
-        ScollContainer.add(ScollContainerBRG, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1030, 1270));
 
         jScrollPane1.setViewportView(ScollContainer);
 
@@ -490,7 +491,7 @@ public class HomePage extends javax.swing.JFrame {
         });
         Container.add(PastriesBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 340, -1, -1));
 
-        HomepageBG.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
+        HomepageBG.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/brgcoffee.jpg"))); // NOI18N
         Container.add(HomepageBG, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1280, 690));
 
         getContentPane().add(Container, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1280, 690));
@@ -539,8 +540,8 @@ public class HomePage extends javax.swing.JFrame {
     private void AdminBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AdminBtnActionPerformed
         // TODO add your handling code here:
         this.dispose();
-        AdminDashBoard ad = new AdminDashBoard();
-        ad.setVisible(true);
+       // AdminDashBoard ad = new AdminDashBoard();
+      //  ad.setVisible(true);
        
     }//GEN-LAST:event_AdminBtnActionPerformed
 
@@ -620,7 +621,6 @@ public class HomePage extends javax.swing.JFrame {
     private javax.swing.JPanel OssoBuco;
     private javax.swing.JButton PastriesBtn;
     private javax.swing.JPanel ScollContainer;
-    private javax.swing.JLabel ScollContainerBRG;
     private javax.swing.JButton TeaBtn;
     private javax.swing.JPanel WhiteTea;
     private javax.swing.JButton coffeeBtn;

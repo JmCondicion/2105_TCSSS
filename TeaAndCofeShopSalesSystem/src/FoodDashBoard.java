@@ -197,7 +197,7 @@ public class FoodDashBoard extends javax.swing.JFrame {
         AlfredoFettuccine.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         AlfredoFettuccine.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/alfredo fettuccine.jpg"))); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/alfredo fettuccine.jpg"))); // NOI18N
         AlfredoFettuccine.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         CoffeeName14.setText("Name:");
@@ -226,7 +226,7 @@ public class FoodDashBoard extends javax.swing.JFrame {
         Bolognese.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         Bolognese.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/bolognese.jpg"))); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/bolognese.jpg"))); // NOI18N
         Bolognese.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         CoffeeName15.setText("Name:");
@@ -255,7 +255,7 @@ public class FoodDashBoard extends javax.swing.JFrame {
         Carbonara.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         Carbonara.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/carbonara.jpg"))); // NOI18N
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/carbonara.jpg"))); // NOI18N
         Carbonara.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         CoffeeName16.setText("Name:");
@@ -284,7 +284,7 @@ public class FoodDashBoard extends javax.swing.JFrame {
         GarlicButterShrimpPasta.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         GarlicButterShrimpPasta.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/garlic butter shrimp pasta.jpg"))); // NOI18N
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/garlic butter shrimp pasta.jpg"))); // NOI18N
         GarlicButterShrimpPasta.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         CoffeeName17.setText("Name:");
@@ -313,7 +313,7 @@ public class FoodDashBoard extends javax.swing.JFrame {
         GnocchiWithPesto.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         GnocchiWithPesto.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/gnocchi with pesto.jpg"))); // NOI18N
+        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/gnocchi with pesto.jpg"))); // NOI18N
         GnocchiWithPesto.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         CoffeeName18.setText("Name:");
@@ -342,7 +342,7 @@ public class FoodDashBoard extends javax.swing.JFrame {
         MacAndCheese.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         MacAndCheese.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/mac and cheese.jpg"))); // NOI18N
+        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/mac and cheese.jpg"))); // NOI18N
         MacAndCheese.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         CoffeeName19.setText("Name:");
@@ -371,7 +371,7 @@ public class FoodDashBoard extends javax.swing.JFrame {
         PastaPrimavera.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         PastaPrimavera.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/pasta primavera.jpg"))); // NOI18N
+        jLabel22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/pasta primavera.jpg"))); // NOI18N
         PastaPrimavera.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         CoffeeName20.setText("Name:");
@@ -400,7 +400,7 @@ public class FoodDashBoard extends javax.swing.JFrame {
         PenneArrabbiata.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         PenneArrabbiata.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/penne arrabbiata.jpg"))); // NOI18N
+        jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/penne arrabbiata.jpg"))); // NOI18N
         PenneArrabbiata.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         CoffeeName21.setText("Name:");
@@ -429,7 +429,7 @@ public class FoodDashBoard extends javax.swing.JFrame {
         Spagheti.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         Spagheti.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/spaghetti.jpg"))); // NOI18N
+        jLabel28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/spaghetti.jpg"))); // NOI18N
         Spagheti.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         CoffeeName22.setText("Name:");
@@ -458,7 +458,7 @@ public class FoodDashBoard extends javax.swing.JFrame {
         TunaPesto.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         TunaPesto.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/tuna pesto.jpg"))); // NOI18N
+        jLabel31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/tuna pesto.jpg"))); // NOI18N
         TunaPesto.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 160));
 
         CoffeeName23.setText("Name:");
@@ -505,7 +505,7 @@ public class FoodDashBoard extends javax.swing.JFrame {
         jComboBox12.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
         RissottoAllaMilanese.add(jComboBox12, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/Risotto alla Milanese.jpg"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Risotto alla Milanese.jpg"))); // NOI18N
         RissottoAllaMilanese.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         Add6.setText("Add");
@@ -516,7 +516,7 @@ public class FoodDashBoard extends javax.swing.JFrame {
         OssoBuco.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         OssoBuco.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/Osso Buco.jpg"))); // NOI18N
+        jLabel37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Osso Buco.jpg"))); // NOI18N
         OssoBuco.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         CoffeeName25.setText("Name:");
@@ -545,7 +545,7 @@ public class FoodDashBoard extends javax.swing.JFrame {
         Cannoli.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         Cannoli.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel40.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/Cannoli.jpg"))); // NOI18N
+        jLabel40.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Cannoli.jpg"))); // NOI18N
         Cannoli.add(jLabel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         CoffeeName26.setText("Name:");
@@ -592,7 +592,7 @@ public class FoodDashBoard extends javax.swing.JFrame {
         jComboBox15.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
         Lasagna.add(jComboBox15, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/Lasagna.jpg"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Lasagna.jpg"))); // NOI18N
         Lasagna.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 160));
 
         Add3.setText("Add");
@@ -603,7 +603,7 @@ public class FoodDashBoard extends javax.swing.JFrame {
         MagheritaPizza.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         MagheritaPizza.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel46.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/Margherita Pizza.jpg"))); // NOI18N
+        jLabel46.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Margherita Pizza.jpg"))); // NOI18N
         MagheritaPizza.add(jLabel46, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         CoffeeName28.setText("Name:");
@@ -650,7 +650,7 @@ public class FoodDashBoard extends javax.swing.JFrame {
         jComboBox17.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
         Minestrone.add(jComboBox17, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodImage/Minestrone.jpg"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Minestrone.jpg"))); // NOI18N
         Minestrone.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 160));
 
         Add1.setText("Add");
@@ -722,8 +722,8 @@ public class FoodDashBoard extends javax.swing.JFrame {
         });
         jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 1410, -1, -1));
 
-        jLabel34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
-        jPanel1.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1090, 1470));
+        jLabel34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/brgcoffee.jpg"))); // NOI18N
+        jPanel1.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -4, 1090, 1480));
 
         jScrollPane2.setViewportView(jPanel1);
 
@@ -734,8 +734,8 @@ public class FoodDashBoard extends javax.swing.JFrame {
         jLabel43.setText("Food Menu ");
         getContentPane().add(jLabel43, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 30, 160, 50));
 
-        jLabel49.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
-        getContentPane().add(jLabel49, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1130, 740));
+        jLabel49.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/brgcoffee.jpg"))); // NOI18N
+        getContentPane().add(jLabel49, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1130, 750));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
