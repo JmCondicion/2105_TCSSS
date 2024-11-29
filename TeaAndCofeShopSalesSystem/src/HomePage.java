@@ -428,7 +428,7 @@ public class HomePage extends javax.swing.JFrame {
 
         jScrollPane1.setViewportView(ScollContainer);
 
-        Container.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 20, 1050, 600));
+        Container.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 50, 1050, 600));
 
         OrderID.setBackground(new java.awt.Color(255, 255, 255));
         OrderID.setFont(new java.awt.Font("Arial", 3, 18)); // NOI18N
@@ -443,54 +443,72 @@ public class HomePage extends javax.swing.JFrame {
         LogoName1.setToolTipText("");
         Container.add(LogoName1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 229, 76));
 
+        coffeeBtn.setBackground(new java.awt.Color(135, 116, 68));
+        coffeeBtn.setFont(new java.awt.Font("OCR A Extended", 1, 18)); // NOI18N
+        coffeeBtn.setForeground(new java.awt.Color(255, 255, 255));
         coffeeBtn.setText("Coffee");
         coffeeBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 coffeeBtnActionPerformed(evt);
             }
         });
-        Container.add(coffeeBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 150, -1, -1));
+        Container.add(coffeeBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 170, 130, 40));
 
+        TeaBtn.setBackground(new java.awt.Color(135, 116, 68));
+        TeaBtn.setFont(new java.awt.Font("OCR A Extended", 1, 18)); // NOI18N
+        TeaBtn.setForeground(new java.awt.Color(255, 255, 255));
         TeaBtn.setText("Tea");
         TeaBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 TeaBtnActionPerformed(evt);
             }
         });
-        Container.add(TeaBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 200, -1, -1));
+        Container.add(TeaBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 230, 130, 40));
 
+        DrinksBtn.setBackground(new java.awt.Color(135, 116, 68));
+        DrinksBtn.setFont(new java.awt.Font("OCR A Extended", 1, 18)); // NOI18N
+        DrinksBtn.setForeground(new java.awt.Color(255, 255, 255));
         DrinksBtn.setText("Drinks");
         DrinksBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 DrinksBtnActionPerformed(evt);
             }
         });
-        Container.add(DrinksBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 250, -1, -1));
+        Container.add(DrinksBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 290, 130, 40));
 
+        FoodBtn.setBackground(new java.awt.Color(135, 116, 68));
+        FoodBtn.setFont(new java.awt.Font("OCR A Extended", 1, 18)); // NOI18N
+        FoodBtn.setForeground(new java.awt.Color(255, 255, 255));
         FoodBtn.setText("Dishes");
         FoodBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 FoodBtnActionPerformed(evt);
             }
         });
-        Container.add(FoodBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+        Container.add(FoodBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 350, 130, 40));
 
+        AdminBtn.setFont(new java.awt.Font("Segoe UI Black", 0, 12)); // NOI18N
+        AdminBtn.setForeground(new java.awt.Color(137, 118, 69));
         AdminBtn.setText("Admin");
         AdminBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 AdminBtnActionPerformed(evt);
             }
         });
-        Container.add(AdminBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 610, -1, -1));
+        Container.add(AdminBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 620, -1, -1));
 
+        PastriesBtn.setBackground(new java.awt.Color(135, 116, 68));
+        PastriesBtn.setFont(new java.awt.Font("OCR A Extended", 1, 18)); // NOI18N
+        PastriesBtn.setForeground(new java.awt.Color(255, 255, 255));
         PastriesBtn.setText("Pastries");
         PastriesBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 PastriesBtnActionPerformed(evt);
             }
         });
-        Container.add(PastriesBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 340, -1, -1));
+        Container.add(PastriesBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 410, 130, 40));
 
+        HomepageBG.setForeground(new java.awt.Color(255, 255, 255));
         HomepageBG.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/brgcoffee.jpg"))); // NOI18N
         Container.add(HomepageBG, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1280, 690));
 
@@ -513,7 +531,7 @@ public class HomePage extends javax.swing.JFrame {
         //HomePage hp = new HomePage();
         //hp.setVisible(false);
         //hp.dispose();
-        CoffeeDashboad cd = new CoffeeDashboad();
+        CoffeeDashboard cd = new CoffeeDashboard();
         cd.setVisible(true);
         
     }//GEN-LAST:event_coffeeBtnActionPerformed
@@ -538,10 +556,9 @@ public class HomePage extends javax.swing.JFrame {
     }//GEN-LAST:event_DrinksBtnActionPerformed
 
     private void AdminBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AdminBtnActionPerformed
-        // TODO add your handling code here:
         this.dispose();
-       // AdminDashBoard ad = new AdminDashBoard();
-      //  ad.setVisible(true);
+        LogIn li = new LogIn();
+        li.setVisible(true);
        
     }//GEN-LAST:event_AdminBtnActionPerformed
 

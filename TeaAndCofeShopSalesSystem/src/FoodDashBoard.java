@@ -1,3 +1,9 @@
+import java.awt.HeadlessException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import javax.swing.JOptionPane;
 
 
 /*
@@ -34,98 +40,98 @@ public class FoodDashBoard extends javax.swing.JFrame {
         CoffeeName14 = new javax.swing.JLabel();
         CoffeePrice14 = new javax.swing.JLabel();
         jLabel71 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jComboBox2 = new javax.swing.JComboBox<>();
+        Fname14 = new javax.swing.JLabel();
+        P14 = new javax.swing.JLabel();
+        Q14 = new javax.swing.JComboBox<>();
         Add14 = new javax.swing.JButton();
         Bolognese = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
         CoffeeName15 = new javax.swing.JLabel();
         CoffeePrice15 = new javax.swing.JLabel();
         jLabel72 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jComboBox3 = new javax.swing.JComboBox<>();
+        Fname13 = new javax.swing.JLabel();
+        P13 = new javax.swing.JLabel();
+        Q13 = new javax.swing.JComboBox<>();
         Add13 = new javax.swing.JButton();
         Carbonara = new javax.swing.JPanel();
         jLabel10 = new javax.swing.JLabel();
         CoffeeName16 = new javax.swing.JLabel();
         CoffeePrice16 = new javax.swing.JLabel();
         jLabel73 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
-        jComboBox4 = new javax.swing.JComboBox<>();
+        Fname15 = new javax.swing.JLabel();
+        P15 = new javax.swing.JLabel();
+        Q15 = new javax.swing.JComboBox<>();
         Add15 = new javax.swing.JButton();
         GarlicButterShrimpPasta = new javax.swing.JPanel();
         jLabel13 = new javax.swing.JLabel();
         CoffeeName17 = new javax.swing.JLabel();
         CoffeePrice17 = new javax.swing.JLabel();
         jLabel74 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
-        jLabel15 = new javax.swing.JLabel();
-        jComboBox5 = new javax.swing.JComboBox<>();
+        Fname16 = new javax.swing.JLabel();
+        P16 = new javax.swing.JLabel();
+        Q16 = new javax.swing.JComboBox<>();
         Add16 = new javax.swing.JButton();
         GnocchiWithPesto = new javax.swing.JPanel();
         jLabel16 = new javax.swing.JLabel();
         CoffeeName18 = new javax.swing.JLabel();
         CoffeePrice18 = new javax.swing.JLabel();
         jLabel75 = new javax.swing.JLabel();
-        jLabel17 = new javax.swing.JLabel();
-        jLabel18 = new javax.swing.JLabel();
-        jComboBox6 = new javax.swing.JComboBox<>();
+        Fname12 = new javax.swing.JLabel();
+        P12 = new javax.swing.JLabel();
+        Q12 = new javax.swing.JComboBox<>();
         Add12 = new javax.swing.JButton();
         MacAndCheese = new javax.swing.JPanel();
         jLabel19 = new javax.swing.JLabel();
         CoffeeName19 = new javax.swing.JLabel();
         CoffeePrice19 = new javax.swing.JLabel();
         jLabel76 = new javax.swing.JLabel();
-        jLabel20 = new javax.swing.JLabel();
-        jLabel21 = new javax.swing.JLabel();
-        jComboBox7 = new javax.swing.JComboBox<>();
+        Fname11 = new javax.swing.JLabel();
+        P11 = new javax.swing.JLabel();
+        Q11 = new javax.swing.JComboBox<>();
         Add11 = new javax.swing.JButton();
         PastaPrimavera = new javax.swing.JPanel();
         jLabel22 = new javax.swing.JLabel();
         CoffeeName20 = new javax.swing.JLabel();
         CoffeePrice20 = new javax.swing.JLabel();
         jLabel77 = new javax.swing.JLabel();
-        jLabel23 = new javax.swing.JLabel();
-        jLabel24 = new javax.swing.JLabel();
-        jComboBox8 = new javax.swing.JComboBox<>();
+        Fname10 = new javax.swing.JLabel();
+        P10 = new javax.swing.JLabel();
+        Q10 = new javax.swing.JComboBox<>();
         Add10 = new javax.swing.JButton();
         PenneArrabbiata = new javax.swing.JPanel();
         jLabel25 = new javax.swing.JLabel();
         CoffeeName21 = new javax.swing.JLabel();
         CoffeePrice21 = new javax.swing.JLabel();
         jLabel78 = new javax.swing.JLabel();
-        jLabel26 = new javax.swing.JLabel();
-        jLabel27 = new javax.swing.JLabel();
-        jComboBox9 = new javax.swing.JComboBox<>();
+        Fname9 = new javax.swing.JLabel();
+        P9 = new javax.swing.JLabel();
+        Q9 = new javax.swing.JComboBox<>();
         Add9 = new javax.swing.JButton();
         Spagheti = new javax.swing.JPanel();
         jLabel28 = new javax.swing.JLabel();
         CoffeeName22 = new javax.swing.JLabel();
         CoffeePrice22 = new javax.swing.JLabel();
         jLabel79 = new javax.swing.JLabel();
-        jLabel29 = new javax.swing.JLabel();
-        jLabel30 = new javax.swing.JLabel();
-        jComboBox10 = new javax.swing.JComboBox<>();
+        Fname8 = new javax.swing.JLabel();
+        P8 = new javax.swing.JLabel();
+        Q8 = new javax.swing.JComboBox<>();
         Add8 = new javax.swing.JButton();
         TunaPesto = new javax.swing.JPanel();
         jLabel31 = new javax.swing.JLabel();
         CoffeeName23 = new javax.swing.JLabel();
         CoffeePrice23 = new javax.swing.JLabel();
         jLabel80 = new javax.swing.JLabel();
-        jLabel32 = new javax.swing.JLabel();
-        jLabel33 = new javax.swing.JLabel();
-        jComboBox11 = new javax.swing.JComboBox<>();
+        Fname7 = new javax.swing.JLabel();
+        P7 = new javax.swing.JLabel();
+        Q7 = new javax.swing.JComboBox<>();
         Add7 = new javax.swing.JButton();
         RissottoAllaMilanese = new javax.swing.JPanel();
         CoffeeName24 = new javax.swing.JLabel();
         CoffeePrice24 = new javax.swing.JLabel();
         jLabel81 = new javax.swing.JLabel();
-        jLabel35 = new javax.swing.JLabel();
-        jLabel36 = new javax.swing.JLabel();
-        jComboBox12 = new javax.swing.JComboBox<>();
+        Fname6 = new javax.swing.JLabel();
+        P6 = new javax.swing.JLabel();
+        Q6 = new javax.swing.JComboBox<>();
         jLabel1 = new javax.swing.JLabel();
         Add6 = new javax.swing.JButton();
         OssoBuco = new javax.swing.JPanel();
@@ -133,26 +139,26 @@ public class FoodDashBoard extends javax.swing.JFrame {
         CoffeeName25 = new javax.swing.JLabel();
         CoffeePrice25 = new javax.swing.JLabel();
         jLabel82 = new javax.swing.JLabel();
-        jLabel38 = new javax.swing.JLabel();
-        jLabel39 = new javax.swing.JLabel();
-        jComboBox13 = new javax.swing.JComboBox<>();
+        Fname5 = new javax.swing.JLabel();
+        P5 = new javax.swing.JLabel();
+        Q5 = new javax.swing.JComboBox<>();
         Add5 = new javax.swing.JButton();
         Cannoli = new javax.swing.JPanel();
         jLabel40 = new javax.swing.JLabel();
         CoffeeName26 = new javax.swing.JLabel();
         CoffeePrice26 = new javax.swing.JLabel();
         jLabel83 = new javax.swing.JLabel();
-        jLabel41 = new javax.swing.JLabel();
-        jLabel42 = new javax.swing.JLabel();
-        jComboBox14 = new javax.swing.JComboBox<>();
+        Fname4 = new javax.swing.JLabel();
+        P4 = new javax.swing.JLabel();
+        Q4 = new javax.swing.JComboBox<>();
         Add4 = new javax.swing.JButton();
         Lasagna = new javax.swing.JPanel();
         CoffeeName27 = new javax.swing.JLabel();
         CoffeePrice27 = new javax.swing.JLabel();
         jLabel84 = new javax.swing.JLabel();
-        jLabel44 = new javax.swing.JLabel();
-        jLabel45 = new javax.swing.JLabel();
-        jComboBox15 = new javax.swing.JComboBox<>();
+        Fname3 = new javax.swing.JLabel();
+        P3 = new javax.swing.JLabel();
+        Q3 = new javax.swing.JComboBox<>();
         jLabel3 = new javax.swing.JLabel();
         Add3 = new javax.swing.JButton();
         MagheritaPizza = new javax.swing.JPanel();
@@ -160,29 +166,27 @@ public class FoodDashBoard extends javax.swing.JFrame {
         CoffeeName28 = new javax.swing.JLabel();
         CoffeePrice28 = new javax.swing.JLabel();
         jLabel85 = new javax.swing.JLabel();
-        jLabel47 = new javax.swing.JLabel();
-        jLabel48 = new javax.swing.JLabel();
-        jComboBox16 = new javax.swing.JComboBox<>();
+        Fname2 = new javax.swing.JLabel();
+        P2 = new javax.swing.JLabel();
+        Q2 = new javax.swing.JComboBox<>();
         Add2 = new javax.swing.JButton();
         Minestrone = new javax.swing.JPanel();
         CoffeeName29 = new javax.swing.JLabel();
         CoffeePrice29 = new javax.swing.JLabel();
         jLabel86 = new javax.swing.JLabel();
-        jLabel50 = new javax.swing.JLabel();
-        jLabel51 = new javax.swing.JLabel();
-        jComboBox17 = new javax.swing.JComboBox<>();
+        Fname = new javax.swing.JLabel();
+        P1 = new javax.swing.JLabel();
+        Q1 = new javax.swing.JComboBox<>();
         jLabel2 = new javax.swing.JLabel();
         Add1 = new javax.swing.JButton();
-        HomepageBTn = new javax.swing.JButton();
-        TotalButton = new javax.swing.JButton();
-        NextBtn = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
         jLabel34 = new javax.swing.JLabel();
         jLabel43 = new javax.swing.JLabel();
+        jButton6 = new javax.swing.JButton();
+        jButton7 = new javax.swing.JButton();
+        jButton8 = new javax.swing.JButton();
+        jButton9 = new javax.swing.JButton();
+        jButton10 = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
         jLabel49 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
@@ -209,16 +213,26 @@ public class FoodDashBoard extends javax.swing.JFrame {
         jLabel71.setText("Quantity");
         AlfredoFettuccine.add(jLabel71, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
-        jLabel5.setText("Alfredo Fettuccine");
-        AlfredoFettuccine.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        Fname14.setText("Alfredo Fettuccine");
+        AlfredoFettuccine.add(Fname14, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
-        jLabel6.setText("150");
-        AlfredoFettuccine.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        P14.setText("150");
+        AlfredoFettuccine.add(P14, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
-        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        AlfredoFettuccine.add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        Q14.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Q14ActionPerformed(evt);
+            }
+        });
+        AlfredoFettuccine.add(Q14, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
         Add14.setText("Add");
+        Add14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Add14ActionPerformed(evt);
+            }
+        });
         AlfredoFettuccine.add(Add14, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
 
         jPanel1.add(AlfredoFettuccine, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 1060, 211, 320));
@@ -238,16 +252,26 @@ public class FoodDashBoard extends javax.swing.JFrame {
         jLabel72.setText("Quantity");
         Bolognese.add(jLabel72, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
-        jLabel8.setText("Bolognese");
-        Bolognese.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        Fname13.setText("Bolognese");
+        Bolognese.add(Fname13, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
-        jLabel9.setText("150");
-        Bolognese.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        P13.setText("150");
+        Bolognese.add(P13, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
-        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Bolognese.add(jComboBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        Q13.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Q13ActionPerformed(evt);
+            }
+        });
+        Bolognese.add(Q13, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
         Add13.setText("Add");
+        Add13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Add13ActionPerformed(evt);
+            }
+        });
         Bolognese.add(Add13, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
 
         jPanel1.add(Bolognese, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 1060, 211, 320));
@@ -267,16 +291,26 @@ public class FoodDashBoard extends javax.swing.JFrame {
         jLabel73.setText("Quantity");
         Carbonara.add(jLabel73, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
-        jLabel11.setText("Carbonara");
-        Carbonara.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        Fname15.setText("Carbonara");
+        Carbonara.add(Fname15, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
-        jLabel12.setText("150");
-        Carbonara.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        P15.setText("150");
+        Carbonara.add(P15, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
-        jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Carbonara.add(jComboBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        Q15.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Q15ActionPerformed(evt);
+            }
+        });
+        Carbonara.add(Q15, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
         Add15.setText("Add");
+        Add15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Add15ActionPerformed(evt);
+            }
+        });
         Carbonara.add(Add15, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
 
         jPanel1.add(Carbonara, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 1060, 211, 320));
@@ -296,16 +330,26 @@ public class FoodDashBoard extends javax.swing.JFrame {
         jLabel74.setText("Quantity");
         GarlicButterShrimpPasta.add(jLabel74, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
-        jLabel14.setText("Garlic Butter Shrimp Pasta");
-        GarlicButterShrimpPasta.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 160, -1, -1));
+        Fname16.setText("Garlic Butter Shrimp Pasta");
+        GarlicButterShrimpPasta.add(Fname16, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 160, -1, -1));
 
-        jLabel15.setText("150");
-        GarlicButterShrimpPasta.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        P16.setText("150");
+        GarlicButterShrimpPasta.add(P16, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
-        jComboBox5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        GarlicButterShrimpPasta.add(jComboBox5, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        Q16.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Q16ActionPerformed(evt);
+            }
+        });
+        GarlicButterShrimpPasta.add(Q16, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
         Add16.setText("Add");
+        Add16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Add16ActionPerformed(evt);
+            }
+        });
         GarlicButterShrimpPasta.add(Add16, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
 
         jPanel1.add(GarlicButterShrimpPasta, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 1060, 211, 320));
@@ -325,16 +369,26 @@ public class FoodDashBoard extends javax.swing.JFrame {
         jLabel75.setText("Quantity");
         GnocchiWithPesto.add(jLabel75, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
-        jLabel17.setText("Gnocchi with Pesto");
-        GnocchiWithPesto.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        Fname12.setText("Gnocchi with Pesto");
+        GnocchiWithPesto.add(Fname12, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
-        jLabel18.setText("150");
-        GnocchiWithPesto.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        P12.setText("150");
+        GnocchiWithPesto.add(P12, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
-        jComboBox6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        GnocchiWithPesto.add(jComboBox6, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        Q12.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Q12ActionPerformed(evt);
+            }
+        });
+        GnocchiWithPesto.add(Q12, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
         Add12.setText("Add");
+        Add12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Add12ActionPerformed(evt);
+            }
+        });
         GnocchiWithPesto.add(Add12, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
 
         jPanel1.add(GnocchiWithPesto, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 710, 211, 320));
@@ -354,16 +408,26 @@ public class FoodDashBoard extends javax.swing.JFrame {
         jLabel76.setText("Quantity");
         MacAndCheese.add(jLabel76, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
-        jLabel20.setText("Mac and Cheese");
-        MacAndCheese.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        Fname11.setText("Mac and Cheese");
+        MacAndCheese.add(Fname11, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
-        jLabel21.setText("150");
-        MacAndCheese.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        P11.setText("150");
+        MacAndCheese.add(P11, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
-        jComboBox7.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        MacAndCheese.add(jComboBox7, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        Q11.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Q11ActionPerformed(evt);
+            }
+        });
+        MacAndCheese.add(Q11, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
         Add11.setText("Add");
+        Add11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Add11ActionPerformed(evt);
+            }
+        });
         MacAndCheese.add(Add11, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
 
         jPanel1.add(MacAndCheese, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 710, 211, 320));
@@ -383,16 +447,26 @@ public class FoodDashBoard extends javax.swing.JFrame {
         jLabel77.setText("Quantity");
         PastaPrimavera.add(jLabel77, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
-        jLabel23.setText("Pasta Primavera");
-        PastaPrimavera.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        Fname10.setText("Pasta Primavera");
+        PastaPrimavera.add(Fname10, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
-        jLabel24.setText("150");
-        PastaPrimavera.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        P10.setText("150");
+        PastaPrimavera.add(P10, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
-        jComboBox8.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        PastaPrimavera.add(jComboBox8, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        Q10.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Q10ActionPerformed(evt);
+            }
+        });
+        PastaPrimavera.add(Q10, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
         Add10.setText("Add");
+        Add10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Add10ActionPerformed(evt);
+            }
+        });
         PastaPrimavera.add(Add10, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
 
         jPanel1.add(PastaPrimavera, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 710, 211, 320));
@@ -412,16 +486,26 @@ public class FoodDashBoard extends javax.swing.JFrame {
         jLabel78.setText("Quantity");
         PenneArrabbiata.add(jLabel78, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
-        jLabel26.setText("Penne Arrabbiata");
-        PenneArrabbiata.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        Fname9.setText("Penne Arrabbiata");
+        PenneArrabbiata.add(Fname9, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
-        jLabel27.setText("150");
-        PenneArrabbiata.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        P9.setText("150");
+        PenneArrabbiata.add(P9, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
-        jComboBox9.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        PenneArrabbiata.add(jComboBox9, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        Q9.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Q9ActionPerformed(evt);
+            }
+        });
+        PenneArrabbiata.add(Q9, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
         Add9.setText("Add");
+        Add9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Add9ActionPerformed(evt);
+            }
+        });
         PenneArrabbiata.add(Add9, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
 
         jPanel1.add(PenneArrabbiata, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 710, 211, 320));
@@ -441,16 +525,26 @@ public class FoodDashBoard extends javax.swing.JFrame {
         jLabel79.setText("Quantity");
         Spagheti.add(jLabel79, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
-        jLabel29.setText("Spaghetti");
-        Spagheti.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        Fname8.setText("Spaghetti");
+        Spagheti.add(Fname8, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
-        jLabel30.setText("150");
-        Spagheti.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        P8.setText("150");
+        Spagheti.add(P8, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
-        jComboBox10.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Spagheti.add(jComboBox10, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        Q8.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Q8ActionPerformed(evt);
+            }
+        });
+        Spagheti.add(Q8, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
         Add8.setText("Add");
+        Add8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Add8ActionPerformed(evt);
+            }
+        });
         Spagheti.add(Add8, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
 
         jPanel1.add(Spagheti, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 350, 211, 320));
@@ -470,16 +564,26 @@ public class FoodDashBoard extends javax.swing.JFrame {
         jLabel80.setText("Quantity");
         TunaPesto.add(jLabel80, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
-        jLabel32.setText("Tuna Pesto ");
-        TunaPesto.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        Fname7.setText("Tuna Pesto ");
+        TunaPesto.add(Fname7, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
-        jLabel33.setText("150");
-        TunaPesto.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        P7.setText("150");
+        TunaPesto.add(P7, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
-        jComboBox11.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        TunaPesto.add(jComboBox11, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        Q7.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Q7ActionPerformed(evt);
+            }
+        });
+        TunaPesto.add(Q7, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
         Add7.setText("Add");
+        Add7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Add7ActionPerformed(evt);
+            }
+        });
         TunaPesto.add(Add7, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
 
         jPanel1.add(TunaPesto, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 350, 211, 320));
@@ -496,19 +600,29 @@ public class FoodDashBoard extends javax.swing.JFrame {
         jLabel81.setText("Quantity");
         RissottoAllaMilanese.add(jLabel81, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
-        jLabel35.setText("Rissotto alla Milanese");
-        RissottoAllaMilanese.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        Fname6.setText("Rissotto alla Milanese");
+        RissottoAllaMilanese.add(Fname6, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
-        jLabel36.setText("150");
-        RissottoAllaMilanese.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        P6.setText("150");
+        RissottoAllaMilanese.add(P6, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
-        jComboBox12.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        RissottoAllaMilanese.add(jComboBox12, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        Q6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Q6ActionPerformed(evt);
+            }
+        });
+        RissottoAllaMilanese.add(Q6, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Risotto alla Milanese.jpg"))); // NOI18N
         RissottoAllaMilanese.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 150));
 
         Add6.setText("Add");
+        Add6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Add6ActionPerformed(evt);
+            }
+        });
         RissottoAllaMilanese.add(Add6, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
 
         jPanel1.add(RissottoAllaMilanese, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 350, 211, 320));
@@ -528,16 +642,26 @@ public class FoodDashBoard extends javax.swing.JFrame {
         jLabel82.setText("Quantity");
         OssoBuco.add(jLabel82, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
-        jLabel38.setText("Osso Buco");
-        OssoBuco.add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        Fname5.setText("Osso Buco");
+        OssoBuco.add(Fname5, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
-        jLabel39.setText("150");
-        OssoBuco.add(jLabel39, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        P5.setText("150");
+        OssoBuco.add(P5, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
-        jComboBox13.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        OssoBuco.add(jComboBox13, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        Q5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Q5ActionPerformed(evt);
+            }
+        });
+        OssoBuco.add(Q5, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
         Add5.setText("Add");
+        Add5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Add5ActionPerformed(evt);
+            }
+        });
         OssoBuco.add(Add5, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
 
         jPanel1.add(OssoBuco, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 350, 211, 320));
@@ -557,16 +681,26 @@ public class FoodDashBoard extends javax.swing.JFrame {
         jLabel83.setText("Quantity");
         Cannoli.add(jLabel83, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
-        jLabel41.setText("Cannoli");
-        Cannoli.add(jLabel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        Fname4.setText("Cannoli");
+        Cannoli.add(Fname4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
-        jLabel42.setText("150");
-        Cannoli.add(jLabel42, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        P4.setText("150");
+        Cannoli.add(P4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
-        jComboBox14.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Cannoli.add(jComboBox14, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        Q4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Q4ActionPerformed(evt);
+            }
+        });
+        Cannoli.add(Q4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
         Add4.setText("Add");
+        Add4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Add4ActionPerformed(evt);
+            }
+        });
         Cannoli.add(Add4, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
 
         jPanel1.add(Cannoli, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 0, 211, 320));
@@ -583,19 +717,29 @@ public class FoodDashBoard extends javax.swing.JFrame {
         jLabel84.setText("Quantity");
         Lasagna.add(jLabel84, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
-        jLabel44.setText("Lasagna");
-        Lasagna.add(jLabel44, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        Fname3.setText("Lasagna");
+        Lasagna.add(Fname3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
-        jLabel45.setText("150");
-        Lasagna.add(jLabel45, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        P3.setText("150");
+        Lasagna.add(P3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
-        jComboBox15.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Lasagna.add(jComboBox15, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        Q3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Q3ActionPerformed(evt);
+            }
+        });
+        Lasagna.add(Q3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Lasagna.jpg"))); // NOI18N
         Lasagna.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 160));
 
         Add3.setText("Add");
+        Add3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Add3ActionPerformed(evt);
+            }
+        });
         Lasagna.add(Add3, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
 
         jPanel1.add(Lasagna, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 10, 211, 310));
@@ -615,16 +759,26 @@ public class FoodDashBoard extends javax.swing.JFrame {
         jLabel85.setText("Quantity");
         MagheritaPizza.add(jLabel85, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
-        jLabel47.setText("Magherita Pizza");
-        MagheritaPizza.add(jLabel47, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        Fname2.setText("Magherita Pizza");
+        MagheritaPizza.add(Fname2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
-        jLabel48.setText("150");
-        MagheritaPizza.add(jLabel48, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        P2.setText("150");
+        MagheritaPizza.add(P2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
-        jComboBox16.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        MagheritaPizza.add(jComboBox16, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        Q2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Q2ActionPerformed(evt);
+            }
+        });
+        MagheritaPizza.add(Q2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
         Add2.setText("Add");
+        Add2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Add2ActionPerformed(evt);
+            }
+        });
         MagheritaPizza.add(Add2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
 
         jPanel1.add(MagheritaPizza, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 10, 211, 310));
@@ -641,158 +795,1387 @@ public class FoodDashBoard extends javax.swing.JFrame {
         jLabel86.setText("Quantity");
         Minestrone.add(jLabel86, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
-        jLabel50.setText("Minestrone");
-        Minestrone.add(jLabel50, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        Fname.setText("Minestrone");
+        Minestrone.add(Fname, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
-        jLabel51.setText("150");
-        Minestrone.add(jLabel51, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
+        P1.setText("150");
+        Minestrone.add(P1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
 
-        jComboBox17.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
-        Minestrone.add(jComboBox17, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        Q1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", " " }));
+        Q1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Q1ActionPerformed(evt);
+            }
+        });
+        Minestrone.add(Q1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Minestrone.jpg"))); // NOI18N
         Minestrone.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 160));
 
         Add1.setText("Add");
+        Add1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Add1ActionPerformed(evt);
+            }
+        });
         Minestrone.add(Add1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
 
         jPanel1.add(Minestrone, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, 211, 310));
 
-        HomepageBTn.setText("Home");
-        HomepageBTn.addActionListener(new java.awt.event.ActionListener() {
+        jLabel34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/brgcoffee.jpg"))); // NOI18N
+        jPanel1.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -4, 1090, 1410));
+
+        jScrollPane2.setViewportView(jPanel1);
+
+        getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 40, 1080, 590));
+
+        jLabel43.setFont(new java.awt.Font("Segoe UI Historic", 3, 24)); // NOI18N
+        jLabel43.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel43.setText("Food Menu ");
+        getContentPane().add(jLabel43, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 0, 160, 40));
+
+        jButton6.setText("Coffee");
+        jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                HomepageBTnActionPerformed(evt);
+                jButton6ActionPerformed(evt);
             }
         });
-        jPanel1.add(HomepageBTn, new org.netbeans.lib.awtextra.AbsoluteConstraints(613, 1418, 80, 35));
+        getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 630, -1, -1));
 
-        TotalButton.setText("Total");
-        TotalButton.addActionListener(new java.awt.event.ActionListener() {
+        jButton7.setText("Tea");
+        jButton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TotalButtonActionPerformed(evt);
+                jButton7ActionPerformed(evt);
             }
         });
-        jPanel1.add(TotalButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(903, 1418, 79, 35));
+        getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 660, 70, -1));
 
-        NextBtn.setText("Next");
-        NextBtn.addActionListener(new java.awt.event.ActionListener() {
+        jButton8.setText("Drinks");
+        jButton8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                NextBtnActionPerformed(evt);
+                jButton8ActionPerformed(evt);
             }
         });
-        jPanel1.add(NextBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(705, 1418, 79, 35));
+        getContentPane().add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 630, -1, -1));
 
-        jButton1.setText("Coffee");
+        jButton9.setText("Pastry");
+        jButton9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton9ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 660, -1, -1));
+
+        jButton10.setText("Dishes");
+        jButton10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton10ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 630, -1, -1));
+
+        jButton1.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        jButton1.setText("Total");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 1390, -1, -1));
-
-        jButton2.setText("Tea");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
-            }
-        });
-        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 1430, 70, -1));
-
-        jButton3.setText("Drinks");
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
-            }
-        });
-        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 1390, -1, -1));
-
-        jButton4.setText("Pastry");
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
-            }
-        });
-        jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 1430, -1, -1));
-
-        jButton5.setText("Dishes");
-        jButton5.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton5ActionPerformed(evt);
-            }
-        });
-        jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 1410, -1, -1));
-
-        jLabel34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/brgcoffee.jpg"))); // NOI18N
-        jPanel1.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -4, 1090, 1480));
-
-        jScrollPane2.setViewportView(jPanel1);
-
-        getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 100, 1080, 590));
-
-        jLabel43.setFont(new java.awt.Font("Segoe UI Historic", 3, 18)); // NOI18N
-        jLabel43.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel43.setText("Food Menu ");
-        getContentPane().add(jLabel43, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 30, 160, 50));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 640, 120, 40));
 
         jLabel49.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/brgcoffee.jpg"))); // NOI18N
-        getContentPane().add(jLabel49, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1130, 750));
+        getContentPane().add(jLabel49, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1130, 720));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void NextBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NextBtnActionPerformed
-         // TODO add your handling code here
-         PastryDashBoard2 pd = new PastryDashBoard2();
-         pd.setVisible(true);
-         this.dispose();
-    }//GEN-LAST:event_NextBtnActionPerformed
-
-    private void HomepageBTnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_HomepageBTnActionPerformed
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
         this.dispose();
-       HomePage hp = new HomePage();
-       hp.setVisible(true);
-    }//GEN-LAST:event_HomepageBTnActionPerformed
+        CoffeeDashboard cdb = new CoffeeDashboard();
+        cdb.setVisible(true);
+    }//GEN-LAST:event_jButton6ActionPerformed
 
-    private void TotalButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TotalButtonActionPerformed
-        OrderList ol = new OrderList();
-        ol.setVisible(true);
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
         this.dispose();
-    }//GEN-LAST:event_TotalButtonActionPerformed
+        TeaDashBoard tdb = new TeaDashBoard();
+        tdb.setVisible(true);
+    }//GEN-LAST:event_jButton7ActionPerformed
+
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+        this.dispose();
+        DrinksDashBoard ddb = new DrinksDashBoard();
+        ddb.setVisible(true);
+    }//GEN-LAST:event_jButton8ActionPerformed
+
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+        this.dispose();
+        PastryDashBoard2 pdb = new PastryDashBoard2();
+        pdb.setVisible(true);
+    }//GEN-LAST:event_jButton9ActionPerformed
+
+    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
+        this.dispose();
+        FoodDashBoard fdb = new FoodDashBoard();
+        fdb.setVisible(true);
+    }//GEN-LAST:event_jButton10ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         this.dispose();
-        //HomePage hp = new HomePage();
-        //hp.setVisible(false);
-        //hp.dispose();
-        CoffeeDashboad cd = new CoffeeDashboad();
-        cd.setVisible(true);
+        OrderList OL = new OrderList();
+        OL.setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        this.dispose();
-        TeaDashBoard td = new TeaDashBoard();
-        td.setVisible(true);
-    }//GEN-LAST:event_jButton2ActionPerformed
+    private void Add1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Add1ActionPerformed
+        // TODO add your handling code here: 
+        String url = "jdbc:mysql://localhost:3306/oop";   
+        String user = "root";  
+        String password = ""; 
+        Fname.setText("Minestrone");
 
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        FoodDashBoard fd = new FoodDashBoard();
-        fd.setVisible(true);
-        //HomePage hp = new HomePage();
-        //hp.setVisible(false);
-        this.dispose();
-    }//GEN-LAST:event_jButton5ActionPerformed
+        String FoodName = Fname.getText();
+        String price = P1.getText();
+        String quantity = (String) Q1.getSelectedItem();
 
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        PastryDashBoard2 pd = new PastryDashBoard2();
-        pd.setVisible(true);
-        this.dispose();
-    }//GEN-LAST:event_jButton4ActionPerformed
+        String size = null;
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        this.dispose();
-        DrinksDashBoard dD = new DrinksDashBoard();
-        dD.setVisible(true);
-    }//GEN-LAST:event_jButton3ActionPerformed
+        // Validate user input
+        if (FoodName.isEmpty() || price.isEmpty() || quantity == null) {
+            JOptionPane.showMessageDialog(null, "Please fill out all the required information.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        // Validate price is numeric
+        try {
+            Double.parseDouble(price);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Price must be a valid number.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        String query = "INSERT INTO `foods` (`FoodName`, `price`, `quantity`) VALUES (?, ?, ?)";
+        Connection connection = null;
+        PreparedStatement stmt = null;
+
+        try {
+            connection = (Connection) DriverManager.getConnection(url, user, password);
+            stmt = connection.prepareStatement(query);
+
+            // Set parameter values
+            stmt.setString(1, FoodName);             
+            stmt.setString(2, price);  
+            stmt.setString(3, quantity);
+
+    
+            // Execute query
+            int rowsInserted = stmt.executeUpdate();
+            if (rowsInserted > 0) {
+                JOptionPane.showMessageDialog(null, "Food  added successfully!");
+            }
+
+        }catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+                  finally {
+            // Proper resource cleanup
+            if (stmt != null) {
+                try {
+                    stmt.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } 
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } // Log closing error
+        }
+    }//GEN-LAST:event_Add1ActionPerformed
+
+    private void Q1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q1ActionPerformed
+        // TODO add your handling code here:
+        
+        int p = Integer.parseInt(P1.getText());
+        int q = Integer.parseInt((String) Q1.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P1.setText(t);
+    }//GEN-LAST:event_Q1ActionPerformed
+
+    private void Q2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q2ActionPerformed
+        // TODO add your handling code here:
+                int p = Integer.parseInt(P2.getText());
+        int q = Integer.parseInt((String) Q2.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P2.setText(t);
+    }//GEN-LAST:event_Q2ActionPerformed
+
+    private void Q6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q6ActionPerformed
+        // TODO add your handling code here:
+        
+                int p = Integer.parseInt(P6.getText());
+        int q = Integer.parseInt((String) Q6.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P6.setText(t);
+    }//GEN-LAST:event_Q6ActionPerformed
+
+    private void Add2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Add2ActionPerformed
+        // TODO add your handling code here:
+        String url = "jdbc:mysql://localhost:3306/oop";   
+        String user = "root";  
+        String password = ""; 
+        Fname2.setText("Magherita Pizza");
+
+        String FoodName = Fname2.getText();
+        String price = P2.getText();
+        String quantity = (String) Q2.getSelectedItem();
+
+        String size = null;
+
+        // Validate user input
+        if (FoodName.isEmpty() || price.isEmpty() || quantity == null) {
+            JOptionPane.showMessageDialog(null, "Please fill out all the required information.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        // Validate price is numeric
+        try {
+            Double.parseDouble(price);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Price must be a valid number.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        String query = "INSERT INTO `foods` (`FoodName`, `price`, `quantity`) VALUES (?, ?, ?)";
+        Connection connection = null;
+        PreparedStatement stmt = null;
+
+        try {
+            connection = (Connection) DriverManager.getConnection(url, user, password);
+            stmt = connection.prepareStatement(query);
+
+            // Set parameter values
+            stmt.setString(1, FoodName);             
+            stmt.setString(2, price);  
+            stmt.setString(3, quantity);
+
+    
+            // Execute query
+            int rowsInserted = stmt.executeUpdate();
+            if (rowsInserted > 0) {
+                JOptionPane.showMessageDialog(null, "Food  added successfully!");
+            }
+
+        }catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+                  finally {
+            // Proper resource cleanup
+            if (stmt != null) {
+                try {
+                    stmt.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } 
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } // Log closing error
+        }
+        
+    }//GEN-LAST:event_Add2ActionPerformed
+
+    private void Q3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q3ActionPerformed
+        // TODO add your handling code here:
+                int p = Integer.parseInt(P3.getText());
+        int q = Integer.parseInt((String) Q3.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P3.setText(t);
+    }//GEN-LAST:event_Q3ActionPerformed
+
+    private void Q4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q4ActionPerformed
+        // TODO add your handling code here:
+                int p = Integer.parseInt(P4.getText());
+        int q = Integer.parseInt((String) Q4.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P4.setText(t);
+    }//GEN-LAST:event_Q4ActionPerformed
+
+    private void Q7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q7ActionPerformed
+        // TODO add your handling code here:
+                int p = Integer.parseInt(P7.getText());
+        int q = Integer.parseInt((String) Q7.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P7.setText(t);
+    }//GEN-LAST:event_Q7ActionPerformed
+
+    private void Q5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q5ActionPerformed
+        // TODO add your handling code here:
+                int p = Integer.parseInt(P5.getText());
+        int q = Integer.parseInt((String) Q5.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P5.setText(t);
+    }//GEN-LAST:event_Q5ActionPerformed
+
+    private void Q8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q8ActionPerformed
+        // TODO add your handling code here:
+                int p = Integer.parseInt(P8.getText());
+        int q = Integer.parseInt((String) Q8.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P8.setText(t);
+    }//GEN-LAST:event_Q8ActionPerformed
+
+    private void Q15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q15ActionPerformed
+        // TODO add your handling code here:
+                int p = Integer.parseInt(P15.getText());
+        int q = Integer.parseInt((String) Q15.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P15.setText(t);
+    }//GEN-LAST:event_Q15ActionPerformed
+
+    private void Q11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q11ActionPerformed
+        // TODO add your handling code here:
+                int p = Integer.parseInt(P11.getText());
+        int q = Integer.parseInt((String) Q11.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P11.setText(t);
+    }//GEN-LAST:event_Q11ActionPerformed
+
+    private void Q10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q10ActionPerformed
+        // TODO add your handling code here:
+                int p = Integer.parseInt(P10.getText());
+        int q = Integer.parseInt((String) Q10.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P10.setText(t);
+    }//GEN-LAST:event_Q10ActionPerformed
+
+    private void Q14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q14ActionPerformed
+        // TODO add your handling code here:
+                int p = Integer.parseInt(P14.getText());
+        int q = Integer.parseInt((String) Q14.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P14.setText(t);
+    }//GEN-LAST:event_Q14ActionPerformed
+
+    private void Q9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q9ActionPerformed
+        // TODO add your handling code here:
+                int p = Integer.parseInt(P9.getText());
+        int q = Integer.parseInt((String) Q9.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P9.setText(t);
+    }//GEN-LAST:event_Q9ActionPerformed
+
+    private void Q13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q13ActionPerformed
+        // TODO add your handling code here:
+                int p = Integer.parseInt(P13.getText());
+        int q = Integer.parseInt((String) Q13.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P13.setText(t);
+    }//GEN-LAST:event_Q13ActionPerformed
+
+    private void Q12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q12ActionPerformed
+        // TODO add your handling code here:
+                int p = Integer.parseInt(P12.getText());
+        int q = Integer.parseInt((String) Q12.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P12.setText(t);
+    }//GEN-LAST:event_Q12ActionPerformed
+
+    private void Q16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q16ActionPerformed
+        // TODO add your handling code here:
+                int p = Integer.parseInt(P16.getText());
+        int q = Integer.parseInt((String) Q16.getSelectedItem());
+        int total = p * q;
+        String t = String.valueOf(total);
+        P16.setText(t);
+    }//GEN-LAST:event_Q16ActionPerformed
+
+    private void Add3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Add3ActionPerformed
+        // TODO add your handling code here:
+        String url = "jdbc:mysql://localhost:3306/oop";   
+        String user = "root";  
+        String password = ""; 
+        //Fname2.setText("Magherita Pizza");
+
+        String FoodName = Fname3.getText();
+        String price = P3.getText();
+        String quantity = (String) Q3.getSelectedItem();
+
+        String size = null;
+
+        // Validate user input
+        if (FoodName.isEmpty() || price.isEmpty() || quantity == null) {
+            JOptionPane.showMessageDialog(null, "Please fill out all the required information.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        // Validate price is numeric
+        try {
+            Double.parseDouble(price);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Price must be a valid number.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        String query = "INSERT INTO `foods` (`FoodName`, `price`, `quantity`) VALUES (?, ?, ?)";
+        Connection connection = null;
+        PreparedStatement stmt = null;
+
+        try {
+            connection = (Connection) DriverManager.getConnection(url, user, password);
+            stmt = connection.prepareStatement(query);
+
+            // Set parameter values
+            stmt.setString(1, FoodName);             
+            stmt.setString(2, price);  
+            stmt.setString(3, quantity);
+
+    
+            // Execute query
+            int rowsInserted = stmt.executeUpdate();
+            if (rowsInserted > 0) {
+                JOptionPane.showMessageDialog(null, "Food  added successfully!");
+            }
+
+        }catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+                  finally {
+            // Proper resource cleanup
+            if (stmt != null) {
+                try {
+                    stmt.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } 
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } // Log closing error
+        }
+        
+    }//GEN-LAST:event_Add3ActionPerformed
+
+    private void Add4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Add4ActionPerformed
+        // TODO add your handling code here:
+        String url = "jdbc:mysql://localhost:3306/oop";   
+        String user = "root";  
+        String password = ""; 
+       // Fname4.setText("Magherita Pizza");
+
+        String FoodName = Fname4.getText();
+        String price = P4.getText();
+        String quantity = (String) Q4.getSelectedItem();
+
+        String size = null;
+
+        // Validate user input
+        if (FoodName.isEmpty() || price.isEmpty() || quantity == null) {
+            JOptionPane.showMessageDialog(null, "Please fill out all the required information.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        // Validate price is numeric
+        try {
+            Double.parseDouble(price);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Price must be a valid number.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        String query = "INSERT INTO `foods` (`FoodName`, `price`, `quantity`) VALUES (?, ?, ?)";
+        Connection connection = null;
+        PreparedStatement stmt = null;
+
+        try {
+            connection = (Connection) DriverManager.getConnection(url, user, password);
+            stmt = connection.prepareStatement(query);
+
+            // Set parameter values
+            stmt.setString(1, FoodName);             
+            stmt.setString(2, price);  
+            stmt.setString(3, quantity);
+
+    
+            // Execute query
+            int rowsInserted = stmt.executeUpdate();
+            if (rowsInserted > 0) {
+                JOptionPane.showMessageDialog(null, "Food  added successfully!");
+            }
+
+        }catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+                  finally {
+            // Proper resource cleanup
+            if (stmt != null) {
+                try {
+                    stmt.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } 
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } // Log closing error
+        }
+    }//GEN-LAST:event_Add4ActionPerformed
+
+    private void Add5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Add5ActionPerformed
+        // TODO add your handling code here:
+         String url = "jdbc:mysql://localhost:3306/oop";   
+        String user = "root";  
+        String password = ""; 
+       // Fname4.setText("Magherita Pizza");
+
+        String FoodName = Fname5.getText();
+        String price = P5.getText();
+        String quantity = (String) Q5.getSelectedItem();
+
+        String size = null;
+
+        // Validate user input
+        if (FoodName.isEmpty() || price.isEmpty() || quantity == null) {
+            JOptionPane.showMessageDialog(null, "Please fill out all the required information.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        // Validate price is numeric
+        try {
+            Double.parseDouble(price);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Price must be a valid number.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        String query = "INSERT INTO `foods` (`FoodName`, `price`, `quantity`) VALUES (?, ?, ?)";
+        Connection connection = null;
+        PreparedStatement stmt = null;
+
+        try {
+            connection = (Connection) DriverManager.getConnection(url, user, password);
+            stmt = connection.prepareStatement(query);
+
+            // Set parameter values
+            stmt.setString(1, FoodName);             
+            stmt.setString(2, price);  
+            stmt.setString(3, quantity);
+
+    
+            // Execute query
+            int rowsInserted = stmt.executeUpdate();
+            if (rowsInserted > 0) {
+                JOptionPane.showMessageDialog(null, "Food  added successfully!");
+            }
+
+        }catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+                  finally {
+            // Proper resource cleanup
+            if (stmt != null) {
+                try {
+                    stmt.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } 
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } // Log closing error
+        }
+    }//GEN-LAST:event_Add5ActionPerformed
+
+    private void Add6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Add6ActionPerformed
+        // TODO add your handling code here:
+         String url = "jdbc:mysql://localhost:3306/oop";   
+        String user = "root";  
+        String password = ""; 
+       // Fname4.setText("Magherita Pizza");
+
+        String FoodName = Fname6.getText();
+        String price = P6.getText();
+        String quantity = (String) Q6.getSelectedItem();
+
+        String size = null;
+
+        // Validate user input
+        if (FoodName.isEmpty() || price.isEmpty() || quantity == null) {
+            JOptionPane.showMessageDialog(null, "Please fill out all the required information.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        // Validate price is numeric
+        try {
+            Double.parseDouble(price);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Price must be a valid number.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        String query = "INSERT INTO `foods` (`FoodName`, `price`, `quantity`) VALUES (?, ?, ?)";
+        Connection connection = null;
+        PreparedStatement stmt = null;
+
+        try {
+            connection = (Connection) DriverManager.getConnection(url, user, password);
+            stmt = connection.prepareStatement(query);
+
+            // Set parameter values
+            stmt.setString(1, FoodName);             
+            stmt.setString(2, price);  
+            stmt.setString(3, quantity);
+
+    
+            // Execute query
+            int rowsInserted = stmt.executeUpdate();
+            if (rowsInserted > 0) {
+                JOptionPane.showMessageDialog(null, "Food  added successfully!");
+            }
+
+        }catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+                  finally {
+            // Proper resource cleanup
+            if (stmt != null) {
+                try {
+                    stmt.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } 
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } // Log closing error
+        }
+    }//GEN-LAST:event_Add6ActionPerformed
+
+    private void Add7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Add7ActionPerformed
+        // TODO add your handling code here:
+         String url = "jdbc:mysql://localhost:3306/oop";   
+        String user = "root";  
+        String password = ""; 
+       // Fname4.setText("Magherita Pizza");
+
+        String FoodName = Fname7.getText();
+        String price = P7.getText();
+        String quantity = (String) Q7.getSelectedItem();
+
+        String size = null;
+
+        // Validate user input
+        if (FoodName.isEmpty() || price.isEmpty() || quantity == null) {
+            JOptionPane.showMessageDialog(null, "Please fill out all the required information.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        // Validate price is numeric
+        try {
+            Double.parseDouble(price);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Price must be a valid number.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        String query = "INSERT INTO `foods` (`FoodName`, `price`, `quantity`) VALUES (?, ?, ?)";
+        Connection connection = null;
+        PreparedStatement stmt = null;
+
+        try {
+            connection = (Connection) DriverManager.getConnection(url, user, password);
+            stmt = connection.prepareStatement(query);
+
+            // Set parameter values
+            stmt.setString(1, FoodName);             
+            stmt.setString(2, price);  
+            stmt.setString(3, quantity);
+
+    
+            // Execute query
+            int rowsInserted = stmt.executeUpdate();
+            if (rowsInserted > 0) {
+                JOptionPane.showMessageDialog(null, "Food  added successfully!");
+            }
+
+        }catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+                  finally {
+            // Proper resource cleanup
+            if (stmt != null) {
+                try {
+                    stmt.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } 
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } // Log closing error
+        }
+    }//GEN-LAST:event_Add7ActionPerformed
+
+    private void Add8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Add8ActionPerformed
+        // TODO add your handling code here:
+         String url = "jdbc:mysql://localhost:3306/oop";   
+        String user = "root";  
+        String password = ""; 
+       // Fname4.setText("Magherita Pizza");
+
+        String FoodName = Fname8.getText();
+        String price = P8.getText();
+        String quantity = (String) Q8.getSelectedItem();
+
+        String size = null;
+
+        // Validate user input
+        if (FoodName.isEmpty() || price.isEmpty() || quantity == null) {
+            JOptionPane.showMessageDialog(null, "Please fill out all the required information.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        // Validate price is numeric
+        try {
+            Double.parseDouble(price);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Price must be a valid number.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        String query = "INSERT INTO `foods` (`FoodName`, `price`, `quantity`) VALUES (?, ?, ?)";
+        Connection connection = null;
+        PreparedStatement stmt = null;
+
+        try {
+            connection = (Connection) DriverManager.getConnection(url, user, password);
+            stmt = connection.prepareStatement(query);
+
+            // Set parameter values
+            stmt.setString(1, FoodName);             
+            stmt.setString(2, price);  
+            stmt.setString(3, quantity);
+
+    
+            // Execute query
+            int rowsInserted = stmt.executeUpdate();
+            if (rowsInserted > 0) {
+                JOptionPane.showMessageDialog(null, "Food  added successfully!");
+            }
+
+        }catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+                  finally {
+            // Proper resource cleanup
+            if (stmt != null) {
+                try {
+                    stmt.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } 
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } // Log closing error
+        }
+    }//GEN-LAST:event_Add8ActionPerformed
+
+    private void Add9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Add9ActionPerformed
+        // TODO add your handling code here:
+         String url = "jdbc:mysql://localhost:3306/oop";   
+        String user = "root";  
+        String password = ""; 
+       // Fname4.setText("Magherita Pizza");
+
+        String FoodName = Fname9.getText();
+        String price = P9.getText();
+        String quantity = (String) Q9.getSelectedItem();
+
+        String size = null;
+
+        // Validate user input
+        if (FoodName.isEmpty() || price.isEmpty() || quantity == null) {
+            JOptionPane.showMessageDialog(null, "Please fill out all the required information.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        // Validate price is numeric
+        try {
+            Double.parseDouble(price);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Price must be a valid number.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        String query = "INSERT INTO `foods` (`FoodName`, `price`, `quantity`) VALUES (?, ?, ?)";
+        Connection connection = null;
+        PreparedStatement stmt = null;
+
+        try {
+            connection = (Connection) DriverManager.getConnection(url, user, password);
+            stmt = connection.prepareStatement(query);
+
+            // Set parameter values
+            stmt.setString(1, FoodName);             
+            stmt.setString(2, price);  
+            stmt.setString(3, quantity);
+
+    
+            // Execute query
+            int rowsInserted = stmt.executeUpdate();
+            if (rowsInserted > 0) {
+                JOptionPane.showMessageDialog(null, "Food  added successfully!");
+            }
+
+        }catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+                  finally {
+            // Proper resource cleanup
+            if (stmt != null) {
+                try {
+                    stmt.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } 
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } // Log closing error
+        }
+    }//GEN-LAST:event_Add9ActionPerformed
+
+    private void Add10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Add10ActionPerformed
+        // TODO add your handling code here:
+         String url = "jdbc:mysql://localhost:3306/oop";   
+        String user = "root";  
+        String password = ""; 
+       // Fname4.setText("Magherita Pizza");
+
+        String FoodName = Fname10.getText();
+        String price = P10.getText();
+        String quantity = (String) Q10.getSelectedItem();
+
+        String size = null;
+
+        // Validate user input
+        if (FoodName.isEmpty() || price.isEmpty() || quantity == null) {
+            JOptionPane.showMessageDialog(null, "Please fill out all the required information.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        // Validate price is numeric
+        try {
+            Double.parseDouble(price);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Price must be a valid number.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        String query = "INSERT INTO `foods` (`FoodName`, `price`, `quantity`) VALUES (?, ?, ?)";
+        Connection connection = null;
+        PreparedStatement stmt = null;
+
+        try {
+            connection = (Connection) DriverManager.getConnection(url, user, password);
+            stmt = connection.prepareStatement(query);
+
+            // Set parameter values
+            stmt.setString(1, FoodName);             
+            stmt.setString(2, price);  
+            stmt.setString(3, quantity);
+
+    
+            // Execute query
+            int rowsInserted = stmt.executeUpdate();
+            if (rowsInserted > 0) {
+                JOptionPane.showMessageDialog(null, "Food  added successfully!");
+            }
+
+        }catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+                  finally {
+            // Proper resource cleanup
+            if (stmt != null) {
+                try {
+                    stmt.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } 
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } // Log closing error
+        }
+    }//GEN-LAST:event_Add10ActionPerformed
+
+    private void Add11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Add11ActionPerformed
+        // TODO add your handling code here:
+         String url = "jdbc:mysql://localhost:3306/oop";   
+        String user = "root";  
+        String password = ""; 
+       // Fname4.setText("Magherita Pizza");
+
+        String FoodName = Fname11.getText();
+        String price = P11.getText();
+        String quantity = (String) Q11.getSelectedItem();
+
+        String size = null;
+
+        // Validate user input
+        if (FoodName.isEmpty() || price.isEmpty() || quantity == null) {
+            JOptionPane.showMessageDialog(null, "Please fill out all the required information.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        // Validate price is numeric
+        try {
+            Double.parseDouble(price);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Price must be a valid number.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        String query = "INSERT INTO `foods` (`FoodName`, `price`, `quantity`) VALUES (?, ?, ?)";
+        Connection connection = null;
+        PreparedStatement stmt = null;
+
+        try {
+            connection = (Connection) DriverManager.getConnection(url, user, password);
+            stmt = connection.prepareStatement(query);
+
+            // Set parameter values
+            stmt.setString(1, FoodName);             
+            stmt.setString(2, price);  
+            stmt.setString(3, quantity);
+
+    
+            // Execute query
+            int rowsInserted = stmt.executeUpdate();
+            if (rowsInserted > 0) {
+                JOptionPane.showMessageDialog(null, "Food  added successfully!");
+            }
+
+        }catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+                  finally {
+            // Proper resource cleanup
+            if (stmt != null) {
+                try {
+                    stmt.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } 
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } // Log closing error
+        }
+    }//GEN-LAST:event_Add11ActionPerformed
+
+    private void Add12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Add12ActionPerformed
+        // TODO add your handling code here:
+         String url = "jdbc:mysql://localhost:3306/oop";   
+        String user = "root";  
+        String password = ""; 
+       // Fname4.setText("Magherita Pizza");
+
+        String FoodName = Fname12.getText();
+        String price = P12.getText();
+        String quantity = (String) Q12.getSelectedItem();
+
+        String size = null;
+
+        // Validate user input
+        if (FoodName.isEmpty() || price.isEmpty() || quantity == null) {
+            JOptionPane.showMessageDialog(null, "Please fill out all the required information.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        // Validate price is numeric
+        try {
+            Double.parseDouble(price);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Price must be a valid number.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        String query = "INSERT INTO `foods` (`FoodName`, `price`, `quantity`) VALUES (?, ?, ?)";
+        Connection connection = null;
+        PreparedStatement stmt = null;
+
+        try {
+            connection = (Connection) DriverManager.getConnection(url, user, password);
+            stmt = connection.prepareStatement(query);
+
+            // Set parameter values
+            stmt.setString(1, FoodName);             
+            stmt.setString(2, price);  
+            stmt.setString(3, quantity);
+
+    
+            // Execute query
+            int rowsInserted = stmt.executeUpdate();
+            if (rowsInserted > 0) {
+                JOptionPane.showMessageDialog(null, "Food  added successfully!");
+            }
+
+        }catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+                  finally {
+            // Proper resource cleanup
+            if (stmt != null) {
+                try {
+                    stmt.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } 
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } // Log closing error
+        }
+    }//GEN-LAST:event_Add12ActionPerformed
+
+    private void Add13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Add13ActionPerformed
+        // TODO add your handling code here:
+         String url = "jdbc:mysql://localhost:3306/oop";   
+        String user = "root";  
+        String password = ""; 
+       // Fname4.setText("Magherita Pizza");
+
+        String FoodName = Fname13.getText();
+        String price = P13.getText();
+        String quantity = (String) Q13.getSelectedItem();
+
+        String size = null;
+
+        // Validate user input
+        if (FoodName.isEmpty() || price.isEmpty() || quantity == null) {
+            JOptionPane.showMessageDialog(null, "Please fill out all the required information.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        // Validate price is numeric
+        try {
+            Double.parseDouble(price);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Price must be a valid number.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        String query = "INSERT INTO `foods` (`FoodName`, `price`, `quantity`) VALUES (?, ?, ?)";
+        Connection connection = null;
+        PreparedStatement stmt = null;
+
+        try {
+            connection = (Connection) DriverManager.getConnection(url, user, password);
+            stmt = connection.prepareStatement(query);
+
+            // Set parameter values
+            stmt.setString(1, FoodName);             
+            stmt.setString(2, price);  
+            stmt.setString(3, quantity);
+
+    
+            // Execute query
+            int rowsInserted = stmt.executeUpdate();
+            if (rowsInserted > 0) {
+                JOptionPane.showMessageDialog(null, "Food  added successfully!");
+            }
+
+        }catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+                  finally {
+            // Proper resource cleanup
+            if (stmt != null) {
+                try {
+                    stmt.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } 
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } // Log closing error
+        }
+    }//GEN-LAST:event_Add13ActionPerformed
+
+    private void Add14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Add14ActionPerformed
+        // TODO add your handling code here:
+         String url = "jdbc:mysql://localhost:3306/oop";   
+        String user = "root";  
+        String password = ""; 
+       // Fname4.setText("Magherita Pizza");
+
+        String FoodName = Fname14.getText();
+        String price = P14.getText();
+        String quantity = (String) Q14.getSelectedItem();
+
+        String size = null;
+
+        // Validate user input
+        if (FoodName.isEmpty() || price.isEmpty() || quantity == null) {
+            JOptionPane.showMessageDialog(null, "Please fill out all the required information.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        // Validate price is numeric
+        try {
+            Double.parseDouble(price);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Price must be a valid number.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        String query = "INSERT INTO `foods` (`FoodName`, `price`, `quantity`) VALUES (?, ?, ?)";
+        Connection connection = null;
+        PreparedStatement stmt = null;
+
+        try {
+            connection = (Connection) DriverManager.getConnection(url, user, password);
+            stmt = connection.prepareStatement(query);
+
+            // Set parameter values
+            stmt.setString(1, FoodName);             
+            stmt.setString(2, price);  
+            stmt.setString(3, quantity);
+
+    
+            // Execute query
+            int rowsInserted = stmt.executeUpdate();
+            if (rowsInserted > 0) {
+                JOptionPane.showMessageDialog(null, "Food  added successfully!");
+            }
+
+        }catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+                  finally {
+            // Proper resource cleanup
+            if (stmt != null) {
+                try {
+                    stmt.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } 
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } // Log closing error
+        }
+    }//GEN-LAST:event_Add14ActionPerformed
+
+    private void Add15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Add15ActionPerformed
+        // TODO add your handling code here:
+         String url = "jdbc:mysql://localhost:3306/oop";   
+        String user = "root";  
+        String password = ""; 
+       // Fname4.setText("Magherita Pizza");
+
+        String FoodName = Fname15.getText();
+        String price = P15.getText();
+        String quantity = (String) Q15.getSelectedItem();
+
+        String size = null;
+
+        // Validate user input
+        if (FoodName.isEmpty() || price.isEmpty() || quantity == null) {
+            JOptionPane.showMessageDialog(null, "Please fill out all the required information.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        // Validate price is numeric
+        try {
+            Double.parseDouble(price);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Price must be a valid number.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        String query = "INSERT INTO `foods` (`FoodName`, `price`, `quantity`) VALUES (?, ?, ?)";
+        Connection connection = null;
+        PreparedStatement stmt = null;
+
+        try {
+            connection = (Connection) DriverManager.getConnection(url, user, password);
+            stmt = connection.prepareStatement(query);
+
+            // Set parameter values
+            stmt.setString(1, FoodName);             
+            stmt.setString(2, price);  
+            stmt.setString(3, quantity);
+
+    
+            // Execute query
+            int rowsInserted = stmt.executeUpdate();
+            if (rowsInserted > 0) {
+                JOptionPane.showMessageDialog(null, "Food  added successfully!");
+            }
+
+        }catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+                  finally {
+            // Proper resource cleanup
+            if (stmt != null) {
+                try {
+                    stmt.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } 
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } // Log closing error
+        }
+    }//GEN-LAST:event_Add15ActionPerformed
+
+    private void Add16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Add16ActionPerformed
+        // TODO add your handling code here:
+         String url = "jdbc:mysql://localhost:3306/oop";   
+        String user = "root";  
+        String password = ""; 
+       // Fname4.setText("Magherita Pizza");
+
+        String FoodName = Fname16.getText();
+        String price = P16.getText();
+        String quantity = (String) Q16.getSelectedItem();
+
+        String size = null;
+
+        // Validate user input
+        if (FoodName.isEmpty() || price.isEmpty() || quantity == null) {
+            JOptionPane.showMessageDialog(null, "Please fill out all the required information.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        // Validate price is numeric
+        try {
+            Double.parseDouble(price);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Price must be a valid number.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        String query = "INSERT INTO `foods` (`FoodName`, `price`, `quantity`) VALUES (?, ?, ?)";
+        Connection connection = null;
+        PreparedStatement stmt = null;
+
+        try {
+            connection = (Connection) DriverManager.getConnection(url, user, password);
+            stmt = connection.prepareStatement(query);
+
+            // Set parameter values
+            stmt.setString(1, FoodName);             
+            stmt.setString(2, price);  
+            stmt.setString(3, quantity);
+
+    
+            // Execute query
+            int rowsInserted = stmt.executeUpdate();
+            if (rowsInserted > 0) {
+                JOptionPane.showMessageDialog(null, "Food  added successfully!");
+            }
+
+        }catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+                  finally {
+            // Proper resource cleanup
+            if (stmt != null) {
+                try {
+                    stmt.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } 
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+            } // Log closing error
+        }
+    }//GEN-LAST:event_Add16ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -880,90 +2263,90 @@ public class FoodDashBoard extends javax.swing.JFrame {
     private javax.swing.JLabel CoffeePrice27;
     private javax.swing.JLabel CoffeePrice28;
     private javax.swing.JLabel CoffeePrice29;
+    private javax.swing.JLabel Fname;
+    private javax.swing.JLabel Fname10;
+    private javax.swing.JLabel Fname11;
+    private javax.swing.JLabel Fname12;
+    private javax.swing.JLabel Fname13;
+    private javax.swing.JLabel Fname14;
+    private javax.swing.JLabel Fname15;
+    private javax.swing.JLabel Fname16;
+    private javax.swing.JLabel Fname2;
+    private javax.swing.JLabel Fname3;
+    private javax.swing.JLabel Fname4;
+    private javax.swing.JLabel Fname5;
+    private javax.swing.JLabel Fname6;
+    private javax.swing.JLabel Fname7;
+    private javax.swing.JLabel Fname8;
+    private javax.swing.JLabel Fname9;
     private javax.swing.JPanel GarlicButterShrimpPasta;
     private javax.swing.JPanel GnocchiWithPesto;
-    private javax.swing.JButton HomepageBTn;
     private javax.swing.JPanel Lasagna;
     private javax.swing.JPanel MacAndCheese;
     private javax.swing.JPanel MagheritaPizza;
     private javax.swing.JPanel Minestrone;
-    private javax.swing.JButton NextBtn;
     private javax.swing.JPanel OssoBuco;
+    private javax.swing.JLabel P1;
+    private javax.swing.JLabel P10;
+    private javax.swing.JLabel P11;
+    private javax.swing.JLabel P12;
+    private javax.swing.JLabel P13;
+    private javax.swing.JLabel P14;
+    private javax.swing.JLabel P15;
+    private javax.swing.JLabel P16;
+    private javax.swing.JLabel P2;
+    private javax.swing.JLabel P3;
+    private javax.swing.JLabel P4;
+    private javax.swing.JLabel P5;
+    private javax.swing.JLabel P6;
+    private javax.swing.JLabel P7;
+    private javax.swing.JLabel P8;
+    private javax.swing.JLabel P9;
     private javax.swing.JPanel PastaPrimavera;
     private javax.swing.JPanel PenneArrabbiata;
+    private javax.swing.JComboBox<String> Q1;
+    private javax.swing.JComboBox<String> Q10;
+    private javax.swing.JComboBox<String> Q11;
+    private javax.swing.JComboBox<String> Q12;
+    private javax.swing.JComboBox<String> Q13;
+    private javax.swing.JComboBox<String> Q14;
+    private javax.swing.JComboBox<String> Q15;
+    private javax.swing.JComboBox<String> Q16;
+    private javax.swing.JComboBox<String> Q2;
+    private javax.swing.JComboBox<String> Q3;
+    private javax.swing.JComboBox<String> Q4;
+    private javax.swing.JComboBox<String> Q5;
+    private javax.swing.JComboBox<String> Q6;
+    private javax.swing.JComboBox<String> Q7;
+    private javax.swing.JComboBox<String> Q8;
+    private javax.swing.JComboBox<String> Q9;
     private javax.swing.JPanel RissottoAllaMilanese;
     private javax.swing.JPanel Spagheti;
-    private javax.swing.JButton TotalButton;
     private javax.swing.JPanel TunaPesto;
     private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JComboBox<String> jComboBox10;
-    private javax.swing.JComboBox<String> jComboBox11;
-    private javax.swing.JComboBox<String> jComboBox12;
-    private javax.swing.JComboBox<String> jComboBox13;
-    private javax.swing.JComboBox<String> jComboBox14;
-    private javax.swing.JComboBox<String> jComboBox15;
-    private javax.swing.JComboBox<String> jComboBox16;
-    private javax.swing.JComboBox<String> jComboBox17;
-    private javax.swing.JComboBox<String> jComboBox2;
-    private javax.swing.JComboBox<String> jComboBox3;
-    private javax.swing.JComboBox<String> jComboBox4;
-    private javax.swing.JComboBox<String> jComboBox5;
-    private javax.swing.JComboBox<String> jComboBox6;
-    private javax.swing.JComboBox<String> jComboBox7;
-    private javax.swing.JComboBox<String> jComboBox8;
-    private javax.swing.JComboBox<String> jComboBox9;
+    private javax.swing.JButton jButton10;
+    private javax.swing.JButton jButton6;
+    private javax.swing.JButton jButton7;
+    private javax.swing.JButton jButton8;
+    private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel17;
-    private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel20;
-    private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
-    private javax.swing.JLabel jLabel23;
-    private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel25;
-    private javax.swing.JLabel jLabel26;
-    private javax.swing.JLabel jLabel27;
     private javax.swing.JLabel jLabel28;
-    private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel30;
     private javax.swing.JLabel jLabel31;
-    private javax.swing.JLabel jLabel32;
-    private javax.swing.JLabel jLabel33;
     private javax.swing.JLabel jLabel34;
-    private javax.swing.JLabel jLabel35;
-    private javax.swing.JLabel jLabel36;
     private javax.swing.JLabel jLabel37;
-    private javax.swing.JLabel jLabel38;
-    private javax.swing.JLabel jLabel39;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel40;
-    private javax.swing.JLabel jLabel41;
-    private javax.swing.JLabel jLabel42;
     private javax.swing.JLabel jLabel43;
-    private javax.swing.JLabel jLabel44;
-    private javax.swing.JLabel jLabel45;
     private javax.swing.JLabel jLabel46;
-    private javax.swing.JLabel jLabel47;
-    private javax.swing.JLabel jLabel48;
     private javax.swing.JLabel jLabel49;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel50;
-    private javax.swing.JLabel jLabel51;
-    private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel71;
     private javax.swing.JLabel jLabel72;
@@ -974,7 +2357,6 @@ public class FoodDashBoard extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel77;
     private javax.swing.JLabel jLabel78;
     private javax.swing.JLabel jLabel79;
-    private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel80;
     private javax.swing.JLabel jLabel81;
     private javax.swing.JLabel jLabel82;
@@ -982,7 +2364,6 @@ public class FoodDashBoard extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel84;
     private javax.swing.JLabel jLabel85;
     private javax.swing.JLabel jLabel86;
-    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane2;
     // End of variables declaration//GEN-END:variables

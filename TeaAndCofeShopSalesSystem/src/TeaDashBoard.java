@@ -1,4 +1,11 @@
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import javax.swing.JOptionPane;
+
+
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -33,125 +40,122 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        Add4 = new javax.swing.JButton();
+        Tname4 = new javax.swing.JLabel();
+        Price4 = new javax.swing.JLabel();
+        AddBtn4 = new javax.swing.JButton();
         HerbalTea = new javax.swing.JPanel();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        Add8 = new javax.swing.JButton();
+        Price8 = new javax.swing.JLabel();
+        AddBtn8 = new javax.swing.JButton();
         Pu_erh_Tea = new javax.swing.JPanel();
         jLabel131 = new javax.swing.JLabel();
         jLabel132 = new javax.swing.JLabel();
         jLabel133 = new javax.swing.JLabel();
         jLabel134 = new javax.swing.JLabel();
-        jLabel135 = new javax.swing.JLabel();
-        Add15 = new javax.swing.JButton();
+        Price15 = new javax.swing.JLabel();
+        AddBtn15 = new javax.swing.JButton();
         MintTea = new javax.swing.JPanel();
         jLabel26 = new javax.swing.JLabel();
         jLabel27 = new javax.swing.JLabel();
         jLabel28 = new javax.swing.JLabel();
         jLabel29 = new javax.swing.JLabel();
-        jLabel30 = new javax.swing.JLabel();
-        Add12 = new javax.swing.JButton();
+        Price12 = new javax.swing.JLabel();
+        AddBtn12 = new javax.swing.JButton();
         GenMaichaTea = new javax.swing.JPanel();
         jLabel16 = new javax.swing.JLabel();
         jLabel17 = new javax.swing.JLabel();
         jLabel18 = new javax.swing.JLabel();
-        jLabel19 = new javax.swing.JLabel();
-        jLabel20 = new javax.swing.JLabel();
-        Add3 = new javax.swing.JButton();
+        Tname3 = new javax.swing.JLabel();
+        Price3 = new javax.swing.JLabel();
+        AddBtn3 = new javax.swing.JButton();
         EarlyGreyTea = new javax.swing.JPanel();
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
-        jLabel15 = new javax.swing.JLabel();
-        Add2 = new javax.swing.JButton();
+        Tname2 = new javax.swing.JLabel();
+        Price2 = new javax.swing.JLabel();
+        AddBtn2 = new javax.swing.JButton();
         jPanel7 = new javax.swing.JPanel();
         jLabel21 = new javax.swing.JLabel();
         jLabel22 = new javax.swing.JLabel();
         jLabel23 = new javax.swing.JLabel();
-        jLabel24 = new javax.swing.JLabel();
-        jLabel25 = new javax.swing.JLabel();
-        Add1 = new javax.swing.JButton();
+        Tname1 = new javax.swing.JLabel();
+        Price1 = new javax.swing.JLabel();
+        AddBtn1 = new javax.swing.JButton();
         HibiscusTea = new javax.swing.JPanel();
         jLabel41 = new javax.swing.JLabel();
         jLabel42 = new javax.swing.JLabel();
         jLabel43 = new javax.swing.JLabel();
         jLabel44 = new javax.swing.JLabel();
-        jLabel45 = new javax.swing.JLabel();
-        Add7 = new javax.swing.JButton();
+        Price7 = new javax.swing.JLabel();
+        AddBtn7 = new javax.swing.JButton();
         JasmineTea = new javax.swing.JPanel();
         jLabel31 = new javax.swing.JLabel();
         jLabel32 = new javax.swing.JLabel();
         jLabel33 = new javax.swing.JLabel();
         jLabel34 = new javax.swing.JLabel();
-        jLabel35 = new javax.swing.JLabel();
-        Add6 = new javax.swing.JButton();
+        Price6 = new javax.swing.JLabel();
+        AddBtn6 = new javax.swing.JButton();
         MatchaTea = new javax.swing.JPanel();
         jLabel46 = new javax.swing.JLabel();
         jLabel47 = new javax.swing.JLabel();
         jLabel48 = new javax.swing.JLabel();
-        jLabel49 = new javax.swing.JLabel();
-        jLabel50 = new javax.swing.JLabel();
-        Add5 = new javax.swing.JButton();
+        Tname5 = new javax.swing.JLabel();
+        Price5 = new javax.swing.JLabel();
+        AddBtn5 = new javax.swing.JButton();
         CharmomoleTea = new javax.swing.JPanel();
         jLabel61 = new javax.swing.JLabel();
         jLabel62 = new javax.swing.JLabel();
         jLabel63 = new javax.swing.JLabel();
         jLabel64 = new javax.swing.JLabel();
-        jLabel65 = new javax.swing.JLabel();
-        Add11 = new javax.swing.JButton();
+        Price11 = new javax.swing.JLabel();
+        AddBtn11 = new javax.swing.JButton();
         WhiteTea = new javax.swing.JPanel();
         jLabel56 = new javax.swing.JLabel();
         jLabel57 = new javax.swing.JLabel();
         jLabel58 = new javax.swing.JLabel();
         jLabel59 = new javax.swing.JLabel();
-        jLabel60 = new javax.swing.JLabel();
-        Add10 = new javax.swing.JButton();
+        Price10 = new javax.swing.JLabel();
+        AddBtn10 = new javax.swing.JButton();
         RooibosTea = new javax.swing.JPanel();
         jLabel66 = new javax.swing.JLabel();
         jLabel67 = new javax.swing.JLabel();
         jLabel68 = new javax.swing.JLabel();
         jLabel69 = new javax.swing.JLabel();
-        jLabel70 = new javax.swing.JLabel();
-        Add9 = new javax.swing.JButton();
+        Price9 = new javax.swing.JLabel();
+        AddBtn9 = new javax.swing.JButton();
         OolongTea = new javax.swing.JPanel();
         jLabel76 = new javax.swing.JLabel();
         jLabel77 = new javax.swing.JLabel();
         jLabel78 = new javax.swing.JLabel();
         jLabel79 = new javax.swing.JLabel();
-        jLabel80 = new javax.swing.JLabel();
-        Add14 = new javax.swing.JButton();
+        Price14 = new javax.swing.JLabel();
+        AddBtn14 = new javax.swing.JButton();
         DarjeelingTea = new javax.swing.JPanel();
         jLabel71 = new javax.swing.JLabel();
         jLabel72 = new javax.swing.JLabel();
         jLabel73 = new javax.swing.JLabel();
         jLabel74 = new javax.swing.JLabel();
-        jLabel75 = new javax.swing.JLabel();
-        Add13 = new javax.swing.JButton();
-        PreviousBtn = new javax.swing.JButton();
-        NextButton = new javax.swing.JButton();
-        TotalButton = new javax.swing.JButton();
+        Price13 = new javax.swing.JLabel();
+        AddBtn13 = new javax.swing.JButton();
         jPanel13 = new javax.swing.JPanel();
         jLabel51 = new javax.swing.JLabel();
         jLabel52 = new javax.swing.JLabel();
         jLabel53 = new javax.swing.JLabel();
         jLabel54 = new javax.swing.JLabel();
-        jLabel55 = new javax.swing.JLabel();
-        Add16 = new javax.swing.JButton();
-        HomeButton = new javax.swing.JButton();
+        Price16 = new javax.swing.JLabel();
+        AddBtn16 = new javax.swing.JButton();
+        BackgroundImage = new javax.swing.JLabel();
+        jLabel37 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
         jButton5 = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
-        BackgroundImage = new javax.swing.JLabel();
-        jLabel37 = new javax.swing.JLabel();
+        jButton6 = new javax.swing.JButton();
         jLabel38 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
@@ -169,16 +173,16 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel3.setText("Price");
         ChaiTea.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
-        jLabel4.setText("Chai Tea");
-        ChaiTea.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
+        Tname4.setText("Chai Tea");
+        ChaiTea.add(Tname4, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
 
-        jLabel5.setText("130");
-        ChaiTea.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+        Price4.setText("130");
+        ChaiTea.add(Price4, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
-        Add4.setText("Add");
-        ChaiTea.add(Add4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        AddBtn4.setText("Add");
+        ChaiTea.add(AddBtn4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
-        TeaDashBoard.add(ChaiTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 20, 280, 340));
+        TeaDashBoard.add(ChaiTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 20, 220, 310));
 
         HerbalTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -194,18 +198,18 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel9.setText("Herbal Tea");
         HerbalTea.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
 
-        jLabel10.setText("130");
-        HerbalTea.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+        Price8.setText("130");
+        HerbalTea.add(Price8, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
-        Add8.setText("Add");
-        Add8.addActionListener(new java.awt.event.ActionListener() {
+        AddBtn8.setText("Add");
+        AddBtn8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Add8ActionPerformed(evt);
+                AddBtn8ActionPerformed(evt);
             }
         });
-        HerbalTea.add(Add8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        HerbalTea.add(AddBtn8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
-        TeaDashBoard.add(HerbalTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 380, 280, 340));
+        TeaDashBoard.add(HerbalTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 350, 220, 310));
 
         Pu_erh_Tea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -221,13 +225,13 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel134.setText("Pu - erh Tea");
         Pu_erh_Tea.add(jLabel134, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
 
-        jLabel135.setText("130");
-        Pu_erh_Tea.add(jLabel135, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+        Price15.setText("130");
+        Pu_erh_Tea.add(Price15, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
-        Add15.setText("Add");
-        Pu_erh_Tea.add(Add15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        AddBtn15.setText("Add");
+        Pu_erh_Tea.add(AddBtn15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
-        TeaDashBoard.add(Pu_erh_Tea, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 1120, 280, 340));
+        TeaDashBoard.add(Pu_erh_Tea, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 1010, 220, 310));
 
         MintTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -243,13 +247,13 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel29.setText("Mint Tea");
         MintTea.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
 
-        jLabel30.setText("130");
-        MintTea.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+        Price12.setText("130");
+        MintTea.add(Price12, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
-        Add12.setText("Add");
-        MintTea.add(Add12, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        AddBtn12.setText("Add");
+        MintTea.add(AddBtn12, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
-        TeaDashBoard.add(MintTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 750, 280, 340));
+        TeaDashBoard.add(MintTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 680, 220, 310));
 
         GenMaichaTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -262,21 +266,21 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel18.setText("Price");
         GenMaichaTea.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
-        jLabel19.setText("Genmaicha tea");
-        GenMaichaTea.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
+        Tname3.setText("Genmaicha tea");
+        GenMaichaTea.add(Tname3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
 
-        jLabel20.setText("130");
-        GenMaichaTea.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+        Price3.setText("130");
+        GenMaichaTea.add(Price3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
-        Add3.setText("Add");
-        Add3.addActionListener(new java.awt.event.ActionListener() {
+        AddBtn3.setText("Add");
+        AddBtn3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Add3ActionPerformed(evt);
+                AddBtn3ActionPerformed(evt);
             }
         });
-        GenMaichaTea.add(Add3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        GenMaichaTea.add(AddBtn3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
-        TeaDashBoard.add(GenMaichaTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 20, 280, 340));
+        TeaDashBoard.add(GenMaichaTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 20, 220, 310));
 
         EarlyGreyTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -289,16 +293,16 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel13.setText("Price");
         EarlyGreyTea.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
-        jLabel14.setText("Early Grey ");
-        EarlyGreyTea.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
+        Tname2.setText("Early Grey ");
+        EarlyGreyTea.add(Tname2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
 
-        jLabel15.setText("130");
-        EarlyGreyTea.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+        Price2.setText("130");
+        EarlyGreyTea.add(Price2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
-        Add2.setText("Add");
-        EarlyGreyTea.add(Add2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        AddBtn2.setText("Add");
+        EarlyGreyTea.add(AddBtn2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
-        TeaDashBoard.add(EarlyGreyTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 20, 280, 340));
+        TeaDashBoard.add(EarlyGreyTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 20, 220, 310));
 
         jPanel7.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -311,16 +315,21 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel23.setText("Price");
         jPanel7.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
-        jLabel24.setText("Chai Tea");
-        jPanel7.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
+        Tname1.setText("Chai Tea");
+        jPanel7.add(Tname1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
 
-        jLabel25.setText("130");
-        jPanel7.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+        Price1.setText("130");
+        jPanel7.add(Price1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
-        Add1.setText("Add");
-        jPanel7.add(Add1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        AddBtn1.setText("Add");
+        AddBtn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AddBtn1ActionPerformed(evt);
+            }
+        });
+        jPanel7.add(AddBtn1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
-        TeaDashBoard.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, -1, 340));
+        TeaDashBoard.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, 220, 310));
 
         HibiscusTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -336,13 +345,13 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel44.setText("Hibiscus Tea");
         HibiscusTea.add(jLabel44, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
 
-        jLabel45.setText("130");
-        HibiscusTea.add(jLabel45, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+        Price7.setText("130");
+        HibiscusTea.add(Price7, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
-        Add7.setText("Add");
-        HibiscusTea.add(Add7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        AddBtn7.setText("Add");
+        HibiscusTea.add(AddBtn7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
-        TeaDashBoard.add(HibiscusTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 380, 280, 340));
+        TeaDashBoard.add(HibiscusTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 350, 220, 310));
 
         JasmineTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -358,18 +367,18 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel34.setText("Jasmine Tea");
         JasmineTea.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
 
-        jLabel35.setText("130");
-        JasmineTea.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+        Price6.setText("130");
+        JasmineTea.add(Price6, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
-        Add6.setText("Add");
-        Add6.addActionListener(new java.awt.event.ActionListener() {
+        AddBtn6.setText("Add");
+        AddBtn6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Add6ActionPerformed(evt);
+                AddBtn6ActionPerformed(evt);
             }
         });
-        JasmineTea.add(Add6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        JasmineTea.add(AddBtn6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
-        TeaDashBoard.add(JasmineTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 380, 280, 340));
+        TeaDashBoard.add(JasmineTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 350, 220, 310));
 
         MatchaTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -382,16 +391,16 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel48.setText("Price");
         MatchaTea.add(jLabel48, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
 
-        jLabel49.setText("Matcha Tea");
-        MatchaTea.add(jLabel49, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
+        Tname5.setText("Matcha Tea");
+        MatchaTea.add(Tname5, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
 
-        jLabel50.setText("130");
-        MatchaTea.add(jLabel50, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+        Price5.setText("130");
+        MatchaTea.add(Price5, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
-        Add5.setText("Add");
-        MatchaTea.add(Add5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        AddBtn5.setText("Add");
+        MatchaTea.add(AddBtn5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
-        TeaDashBoard.add(MatchaTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 380, 280, 340));
+        TeaDashBoard.add(MatchaTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 350, 220, 310));
 
         CharmomoleTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -407,13 +416,13 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel64.setText("Charmomile Tea ");
         CharmomoleTea.add(jLabel64, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
 
-        jLabel65.setText("130");
-        CharmomoleTea.add(jLabel65, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+        Price11.setText("130");
+        CharmomoleTea.add(Price11, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
-        Add11.setText("Add");
-        CharmomoleTea.add(Add11, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        AddBtn11.setText("Add");
+        CharmomoleTea.add(AddBtn11, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
-        TeaDashBoard.add(CharmomoleTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 750, 280, 340));
+        TeaDashBoard.add(CharmomoleTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 680, 220, 310));
 
         WhiteTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -429,13 +438,13 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel59.setText("White Tea");
         WhiteTea.add(jLabel59, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
 
-        jLabel60.setText("130");
-        WhiteTea.add(jLabel60, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+        Price10.setText("130");
+        WhiteTea.add(Price10, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
-        Add10.setText("Add");
-        WhiteTea.add(Add10, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        AddBtn10.setText("Add");
+        WhiteTea.add(AddBtn10, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
-        TeaDashBoard.add(WhiteTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 750, 280, 340));
+        TeaDashBoard.add(WhiteTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 680, 220, 310));
 
         RooibosTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -451,13 +460,13 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel69.setText("Rooibos Tea");
         RooibosTea.add(jLabel69, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
 
-        jLabel70.setText("130");
-        RooibosTea.add(jLabel70, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+        Price9.setText("130");
+        RooibosTea.add(Price9, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
-        Add9.setText("Add");
-        RooibosTea.add(Add9, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        AddBtn9.setText("Add");
+        RooibosTea.add(AddBtn9, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
-        TeaDashBoard.add(RooibosTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 750, 280, 340));
+        TeaDashBoard.add(RooibosTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 680, 220, 310));
 
         OolongTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -473,13 +482,13 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel79.setText("Oolong Tea");
         OolongTea.add(jLabel79, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
 
-        jLabel80.setText("130");
-        OolongTea.add(jLabel80, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+        Price14.setText("130");
+        OolongTea.add(Price14, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
-        Add14.setText("Add");
-        OolongTea.add(Add14, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        AddBtn14.setText("Add");
+        OolongTea.add(AddBtn14, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
-        TeaDashBoard.add(OolongTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 1120, 280, 340));
+        TeaDashBoard.add(OolongTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 1010, 220, 310));
 
         DarjeelingTea.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -495,37 +504,13 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel74.setText("Darjeeling Tea");
         DarjeelingTea.add(jLabel74, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
 
-        jLabel75.setText("130");
-        DarjeelingTea.add(jLabel75, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+        Price13.setText("130");
+        DarjeelingTea.add(Price13, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
-        Add13.setText("Add");
-        DarjeelingTea.add(Add13, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        AddBtn13.setText("Add");
+        DarjeelingTea.add(AddBtn13, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
-        TeaDashBoard.add(DarjeelingTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 1120, 280, 340));
-
-        PreviousBtn.setText("Previous");
-        PreviousBtn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                PreviousBtnActionPerformed(evt);
-            }
-        });
-        TeaDashBoard.add(PreviousBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 1490, 80, 35));
-
-        NextButton.setText("Next");
-        NextButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                NextButtonActionPerformed(evt);
-            }
-        });
-        TeaDashBoard.add(NextButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 1490, 80, 35));
-
-        TotalButton.setText("Total");
-        TotalButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TotalButtonActionPerformed(evt);
-            }
-        });
-        TeaDashBoard.add(TotalButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 1490, 80, 35));
+        TeaDashBoard.add(DarjeelingTea, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 1010, 220, 310));
 
         jPanel13.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -541,33 +526,26 @@ public class TeaDashBoard extends javax.swing.JFrame {
         jLabel54.setText("Assam Tea");
         jPanel13.add(jLabel54, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
 
-        jLabel55.setText("130");
-        jPanel13.add(jLabel55, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+        Price16.setText("130");
+        jPanel13.add(Price16, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
-        Add16.setText("Add");
-        jPanel13.add(Add16, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
+        AddBtn16.setText("Add");
+        jPanel13.add(AddBtn16, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
-        TeaDashBoard.add(jPanel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 1120, 280, 340));
+        TeaDashBoard.add(jPanel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 1010, 220, 310));
 
-        HomeButton.setText("Home");
-        HomeButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                HomeButtonActionPerformed(evt);
-            }
-        });
-        TeaDashBoard.add(HomeButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 1490, 80, 35));
+        BackgroundImage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/brgcoffee.jpg"))); // NOI18N
+        BackgroundImage.setText("jLabel36");
+        TeaDashBoard.add(BackgroundImage, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1020, 1340));
 
-        jButton2.setText("Tea");
-        TeaDashBoard.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 1510, 70, -1));
+        jScrollPane1.setViewportView(TeaDashBoard);
 
-        jButton3.setText("Drinks");
-        TeaDashBoard.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 1480, -1, -1));
+        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 40, 1040, 580));
 
-        jButton4.setText("Pastry");
-        TeaDashBoard.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 1510, -1, -1));
-
-        jButton5.setText("Dishes");
-        TeaDashBoard.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 1490, -1, -1));
+        jLabel37.setFont(new java.awt.Font("Segoe UI Historic", 3, 24)); // NOI18N
+        jLabel37.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel37.setText("Tea Menu");
+        getContentPane().add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 0, 130, 40));
 
         jButton1.setText("Coffee");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -575,20 +553,48 @@ public class TeaDashBoard extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        TeaDashBoard.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 1480, -1, -1));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 630, -1, -1));
 
-        BackgroundImage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/brgcoffee.jpg"))); // NOI18N
-        BackgroundImage.setText("jLabel36");
-        TeaDashBoard.add(BackgroundImage, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1340, 1550));
+        jButton2.setText("Tea");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 660, 70, -1));
 
-        jScrollPane1.setViewportView(TeaDashBoard);
+        jButton3.setText("Drinks");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 630, -1, -1));
 
-        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 90, 1130, 590));
+        jButton4.setText("Pastry");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 660, -1, -1));
 
-        jLabel37.setFont(new java.awt.Font("Segoe UI Historic", 3, 24)); // NOI18N
-        jLabel37.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel37.setText("Tea Menu");
-        getContentPane().add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 20, 210, 50));
+        jButton5.setText("Dishes");
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 630, -1, -1));
+
+        jButton6.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        jButton6.setText("Total");
+        jButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton6ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 630, 120, 40));
 
         jLabel38.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/brgcoffee.jpg"))); // NOI18N
         getContentPane().add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1170, 740));
@@ -597,50 +603,122 @@ public class TeaDashBoard extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
         
-    private void PreviousBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PreviousBtnActionPerformed
+    private void AddBtn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AddBtn3ActionPerformed
         // TODO add your handling code here:
-        CoffeeDashboad cd = new CoffeeDashboad();
-        cd.setVisible(true);
-        this.dispose();
-    }//GEN-LAST:event_PreviousBtnActionPerformed
+    }//GEN-LAST:event_AddBtn3ActionPerformed
 
-    private void HomeButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_HomeButtonActionPerformed
-        HomePage hp = new HomePage();
-        hp.setVisible(true);
-        this.dispose();
-      
-    }//GEN-LAST:event_HomeButtonActionPerformed
-
-    private void TotalButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TotalButtonActionPerformed
-        OrderList ol = new OrderList();
-        ol.setVisible(true);
-        this.dispose();
-    }//GEN-LAST:event_TotalButtonActionPerformed
-
-    private void NextButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NextButtonActionPerformed
+    private void AddBtn6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AddBtn6ActionPerformed
         // TODO add your handling code here:
-        DrinksDashBoard dD = new DrinksDashBoard();
-        dD.setVisible(true);
-        this.dispose();          
-    }//GEN-LAST:event_NextButtonActionPerformed
+    }//GEN-LAST:event_AddBtn6ActionPerformed
 
-    private void Add3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Add3ActionPerformed
+    private void AddBtn8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AddBtn8ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_Add3ActionPerformed
-
-    private void Add6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Add6ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Add6ActionPerformed
-
-    private void Add8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Add8ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Add8ActionPerformed
+    }//GEN-LAST:event_AddBtn8ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         this.dispose();
-        CoffeeDashboad cd = new CoffeeDashboad();
-        cd.setVisible(true);
+        CoffeeDashboard cdb = new CoffeeDashboard();
+        cdb.setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        this.dispose();
+        TeaDashBoard tdb = new TeaDashBoard();
+        tdb.setVisible(true);
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        this.dispose();
+        PastryDashBoard2 pdb = new PastryDashBoard2();
+        pdb.setVisible(true);
+    }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        this.dispose();
+        FoodDashBoard fdb = new FoodDashBoard();
+        fdb.setVisible(true);
+    }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        this.dispose();
+        DrinksDashBoard ddb = new DrinksDashBoard();
+        ddb.setVisible(true);
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        this.dispose();
+        OrderList OL = new OrderList();
+        OL.setVisible(true);
+    }//GEN-LAST:event_jButton6ActionPerformed
+
+    @SuppressWarnings("empty-statement")
+    private void AddBtn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AddBtn1ActionPerformed
+        // TODO add your handling code here:
+        String url = "jdbc:mysql://localhost:3306/oop";   
+        String user = "root";  
+        String password = ""; 
+
+        String TeaName = Tname1.getText();
+        String price = Price1.getText();
+        
+
+      
+
+        // Validate user input
+        if (TeaName.isEmpty() || price == null) {
+            JOptionPane.showMessageDialog(null, "Please fill out all the required information.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        // Validate price is numeric
+        try {
+            Double.parseDouble(price);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Price must be a valid number.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return; // Stop execution if validation fails
+        }
+
+        String query = "INSERT INTO `tea` (`TeaName`, `price`) VALUES (?, ?)";
+        Connection connection = null;
+        PreparedStatement stmt = null;
+
+        try {
+            connection = (Connection) DriverManager.getConnection(url, user, password);
+            stmt = connection.prepareStatement(query);
+
+            // Set parameter values
+            stmt.setString(1, TeaName);             
+            stmt.setString(2, price);  
+            
+
+    
+            // Execute query
+            int rowsInserted = stmt.executeUpdate();
+            if (rowsInserted > 0) {
+                JOptionPane.showMessageDialog(null, "Tea  added successfully!");
+            }
+
+        }catch (Exception e){
+                    System.out.println("walang koneksyon");;
+                }
+                  finally {
+            // Proper resource cleanup
+            if (stmt != null) {
+                try {
+                    stmt.close();
+                } catch (SQLException e){
+                    System.out.println("walang koneksyon");;
+                }
+            } 
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (SQLException e){
+                    System.out.println("walang koneksyon");;
+                }
+            } // Log closing error
+        }
+    }//GEN-LAST:event_AddBtn1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -678,22 +756,22 @@ public class TeaDashBoard extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton Add1;
-    private javax.swing.JButton Add10;
-    private javax.swing.JButton Add11;
-    private javax.swing.JButton Add12;
-    private javax.swing.JButton Add13;
-    private javax.swing.JButton Add14;
-    private javax.swing.JButton Add15;
-    private javax.swing.JButton Add16;
-    private javax.swing.JButton Add2;
-    private javax.swing.JButton Add3;
-    private javax.swing.JButton Add4;
-    private javax.swing.JButton Add5;
-    private javax.swing.JButton Add6;
-    private javax.swing.JButton Add7;
-    private javax.swing.JButton Add8;
-    private javax.swing.JButton Add9;
+    private javax.swing.JButton AddBtn1;
+    private javax.swing.JButton AddBtn10;
+    private javax.swing.JButton AddBtn11;
+    private javax.swing.JButton AddBtn12;
+    private javax.swing.JButton AddBtn13;
+    private javax.swing.JButton AddBtn14;
+    private javax.swing.JButton AddBtn15;
+    private javax.swing.JButton AddBtn16;
+    private javax.swing.JButton AddBtn2;
+    private javax.swing.JButton AddBtn3;
+    private javax.swing.JButton AddBtn4;
+    private javax.swing.JButton AddBtn5;
+    private javax.swing.JButton AddBtn6;
+    private javax.swing.JButton AddBtn7;
+    private javax.swing.JButton AddBtn8;
+    private javax.swing.JButton AddBtn9;
     private javax.swing.JLabel BackgroundImage;
     private javax.swing.JPanel ChaiTea;
     private javax.swing.JPanel CharmomoleTea;
@@ -702,25 +780,42 @@ public class TeaDashBoard extends javax.swing.JFrame {
     private javax.swing.JPanel GenMaichaTea;
     private javax.swing.JPanel HerbalTea;
     private javax.swing.JPanel HibiscusTea;
-    private javax.swing.JButton HomeButton;
     private javax.swing.JPanel JasmineTea;
     private javax.swing.JPanel MatchaTea;
     private javax.swing.JPanel MintTea;
-    private javax.swing.JButton NextButton;
     private javax.swing.JPanel OolongTea;
-    private javax.swing.JButton PreviousBtn;
+    private javax.swing.JLabel Price1;
+    private javax.swing.JLabel Price10;
+    private javax.swing.JLabel Price11;
+    private javax.swing.JLabel Price12;
+    private javax.swing.JLabel Price13;
+    private javax.swing.JLabel Price14;
+    private javax.swing.JLabel Price15;
+    private javax.swing.JLabel Price16;
+    private javax.swing.JLabel Price2;
+    private javax.swing.JLabel Price3;
+    private javax.swing.JLabel Price4;
+    private javax.swing.JLabel Price5;
+    private javax.swing.JLabel Price6;
+    private javax.swing.JLabel Price7;
+    private javax.swing.JLabel Price8;
+    private javax.swing.JLabel Price9;
     private javax.swing.JPanel Pu_erh_Tea;
     private javax.swing.JPanel RooibosTea;
     private javax.swing.JPanel TeaDashBoard;
-    private javax.swing.JButton TotalButton;
+    private javax.swing.JLabel Tname1;
+    private javax.swing.JLabel Tname2;
+    private javax.swing.JLabel Tname3;
+    private javax.swing.JLabel Tname4;
+    private javax.swing.JLabel Tname5;
     private javax.swing.JPanel WhiteTea;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton6;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
@@ -728,78 +823,58 @@ public class TeaDashBoard extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel132;
     private javax.swing.JLabel jLabel133;
     private javax.swing.JLabel jLabel134;
-    private javax.swing.JLabel jLabel135;
-    private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
-    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel23;
-    private javax.swing.JLabel jLabel24;
-    private javax.swing.JLabel jLabel25;
     private javax.swing.JLabel jLabel26;
     private javax.swing.JLabel jLabel27;
     private javax.swing.JLabel jLabel28;
     private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel30;
     private javax.swing.JLabel jLabel31;
     private javax.swing.JLabel jLabel32;
     private javax.swing.JLabel jLabel33;
     private javax.swing.JLabel jLabel34;
-    private javax.swing.JLabel jLabel35;
     private javax.swing.JLabel jLabel37;
     private javax.swing.JLabel jLabel38;
-    private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel41;
     private javax.swing.JLabel jLabel42;
     private javax.swing.JLabel jLabel43;
     private javax.swing.JLabel jLabel44;
-    private javax.swing.JLabel jLabel45;
     private javax.swing.JLabel jLabel46;
     private javax.swing.JLabel jLabel47;
     private javax.swing.JLabel jLabel48;
-    private javax.swing.JLabel jLabel49;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel50;
     private javax.swing.JLabel jLabel51;
     private javax.swing.JLabel jLabel52;
     private javax.swing.JLabel jLabel53;
     private javax.swing.JLabel jLabel54;
-    private javax.swing.JLabel jLabel55;
     private javax.swing.JLabel jLabel56;
     private javax.swing.JLabel jLabel57;
     private javax.swing.JLabel jLabel58;
     private javax.swing.JLabel jLabel59;
     private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel60;
     private javax.swing.JLabel jLabel61;
     private javax.swing.JLabel jLabel62;
     private javax.swing.JLabel jLabel63;
     private javax.swing.JLabel jLabel64;
-    private javax.swing.JLabel jLabel65;
     private javax.swing.JLabel jLabel66;
     private javax.swing.JLabel jLabel67;
     private javax.swing.JLabel jLabel68;
     private javax.swing.JLabel jLabel69;
     private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel70;
     private javax.swing.JLabel jLabel71;
     private javax.swing.JLabel jLabel72;
     private javax.swing.JLabel jLabel73;
     private javax.swing.JLabel jLabel74;
-    private javax.swing.JLabel jLabel75;
     private javax.swing.JLabel jLabel76;
     private javax.swing.JLabel jLabel77;
     private javax.swing.JLabel jLabel78;
     private javax.swing.JLabel jLabel79;
     private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel80;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel13;
     private javax.swing.JPanel jPanel7;
