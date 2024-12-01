@@ -900,7 +900,7 @@ public class PastryDashBoard2 extends javax.swing.JFrame {
 
     private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
         this.dispose();
-        OrderList OL = new OrderList();
+        OrderList2 OL = new OrderList2();
         OL.setVisible(true);
     }//GEN-LAST:event_jButton17ActionPerformed
 

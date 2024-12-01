@@ -188,7 +188,7 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         jButton7 = new javax.swing.JButton();
         jButton8 = new javax.swing.JButton();
         jButton9 = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
+        TotalBtn = new javax.swing.JButton();
         jLabel98 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
@@ -868,14 +868,14 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         });
         getContentPane().add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 610, -1, -1));
 
-        jButton1.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        jButton1.setText("Total");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        TotalBtn.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        TotalBtn.setText("Total");
+        TotalBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                TotalBtnActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1020, 610, 120, 40));
+        getContentPane().add(TotalBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(1020, 610, 120, 40));
 
         jLabel98.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/brgcoffee.jpg"))); // NOI18N
         getContentPane().add(jLabel98, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1180, 720));
@@ -1025,6 +1025,8 @@ public class DrinksDashBoard extends javax.swing.JFrame {
 
     private void Addbtn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Addbtn1ActionPerformed
         // TODO add your handling code here:
+        
+        
         String url = "jdbc:mysql://localhost:3306/oop";   
         String user = "root";  
         String password = ""; 
@@ -1050,7 +1052,7 @@ public class DrinksDashBoard extends javax.swing.JFrame {
             return; // Stop execution if validation fails
         }
 
-        String query = "INSERT INTO `drinks` (`DrinkName`, `price`, `quantity`) VALUES (?, ?, ?)";
+        String query = "INSERT INTO `allmenu` (`DrinkName`, `DrinkPrice`, `Quantity`) VALUES (?, ?, ?)";
         Connection connection = null;
         PreparedStatement stmt = null;
 
@@ -1062,6 +1064,7 @@ public class DrinksDashBoard extends javax.swing.JFrame {
             stmt.setString(1, DrinkName);             
             stmt.setString(2, price);  
             stmt.setString(3, quantity);
+             
 
     
             // Execute query
@@ -2156,11 +2159,11 @@ public class DrinksDashBoard extends javax.swing.JFrame {
         fdb.setVisible(true);
     }//GEN-LAST:event_jButton9ActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void TotalBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TotalBtnActionPerformed
         this.dispose();
-        OrderList OL = new OrderList();
-        OL.setVisible(true);
-    }//GEN-LAST:event_jButton1ActionPerformed
+        allmenu am = new allmenu();
+        am.setVisible(true);
+    }//GEN-LAST:event_TotalBtnActionPerformed
 
     /**
      * @param args the command line arguments
@@ -2276,7 +2279,7 @@ public class DrinksDashBoard extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> Q8;
     private javax.swing.JComboBox<String> Q9;
     private javax.swing.JPanel Sangrai;
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton TotalBtn;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;

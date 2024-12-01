@@ -7,6 +7,8 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import javax.swing.table.DefaultTableModel;
+
 
 
 /*
@@ -89,11 +91,11 @@ public class CoffeeDashboard extends javax.swing.JFrame {
         Cname3 = new javax.swing.JLabel();
         Q3 = new javax.swing.JComboBox<>();
         XL3 = new javax.swing.JCheckBox();
-        s3 = new javax.swing.JCheckBox();
         m3 = new javax.swing.JCheckBox();
         L3 = new javax.swing.JCheckBox();
         P3 = new javax.swing.JTextField();
         AddBtn3 = new javax.swing.JButton();
+        s3 = new javax.swing.JCheckBox();
         ConPanna = new javax.swing.JPanel();
         jLabel10 = new javax.swing.JLabel();
         CoffeeName16 = new javax.swing.JLabel();
@@ -228,7 +230,8 @@ public class CoffeeDashboard extends javax.swing.JFrame {
         jButton17 = new javax.swing.JButton();
         jButton18 = new javax.swing.JButton();
         jButton12 = new javax.swing.JButton();
-        jButton11 = new javax.swing.JButton();
+        TotalBTn = new javax.swing.JButton();
+        jButton13 = new javax.swing.JButton();
         jLabel6 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
@@ -445,15 +448,6 @@ public class CoffeeDashboard extends javax.swing.JFrame {
         });
         Cacao.add(XL3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
 
-        CacaoBTG.add(s3);
-        s3.setText("Small");
-        s3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s3ActionPerformed(evt);
-            }
-        });
-        Cacao.add(s3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
-
         CacaoBTG.add(m3);
         m3.setText("Medium");
         m3.addActionListener(new java.awt.event.ActionListener() {
@@ -487,6 +481,15 @@ public class CoffeeDashboard extends javax.swing.JFrame {
             }
         });
         Cacao.add(AddBtn3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, 60, 20));
+
+        CacaoBTG.add(s3);
+        s3.setText("Small");
+        s3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s3ActionPerformed(evt);
+            }
+        });
+        Cacao.add(s3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
 
         jPanel1.add(Cacao, new org.netbeans.lib.awtextra.AbsoluteConstraints(509, 13, 211, 320));
 
@@ -1283,14 +1286,22 @@ public class CoffeeDashboard extends javax.swing.JFrame {
         });
         getContentPane().add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 620, -1, -1));
 
-        jButton11.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        jButton11.setText("Total");
-        jButton11.addActionListener(new java.awt.event.ActionListener() {
+        TotalBTn.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        TotalBTn.setText("Total");
+        TotalBTn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton11ActionPerformed(evt);
+                TotalBTnActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 630, 120, 40));
+        getContentPane().add(TotalBTn, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 630, 120, 40));
+
+        jButton13.setText("Home");
+        jButton13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton13ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 630, -1, -1));
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/brgcoffee.jpg"))); // NOI18N
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1130, 690));
@@ -1324,10 +1335,6 @@ public class CoffeeDashboard extends javax.swing.JFrame {
         P11.setText("160");
     }//GEN-LAST:event_m11ActionPerformed
 
-    private void P1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_P1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_P1ActionPerformed
-
     private void XL1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_XL1ActionPerformed
         // TODO add your handling code here:
         P1.setText("180");
@@ -1339,12 +1346,7 @@ public class CoffeeDashboard extends javax.swing.JFrame {
     }//GEN-LAST:event_L1ActionPerformed
 
     private void Q1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Q1ActionPerformed
-        // TODO add your handling code here:
-        int p = Integer.parseInt(P1.getText());
-        int q = Integer.parseInt((String) Q1.getSelectedItem());
-        int total = p * q;
-        String t = String.valueOf(total);
-        P1.setText(t);
+       
     }//GEN-LAST:event_Q1ActionPerformed
 
     private void s2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s2ActionPerformed
@@ -2358,14 +2360,18 @@ public class CoffeeDashboard extends javax.swing.JFrame {
     }//GEN-LAST:event_AddBtn2ActionPerformed
 
     private void AddBtn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AddBtn1ActionPerformed
-  String url = "jdbc:mysql://localhost:3306/oop";  
+        String url = "jdbc:mysql://localhost:3306/oop";  
         String user = "root";  
         String password = ""; 
-        Cname.setText("Americano");
+        Cname.setText("Americano"); 
 
         String CoffeeName = Cname.getText();
         String price = P1.getText();
+        Double coffeePrice = Double.parseDouble(price); // conversion ito dinagdag ko
         String quantity = (String) Q1.getSelectedItem();
+        int Quantity = Integer.parseInt(quantity); // conversion ito dinagdag ko
+        double totalCoffePrice = coffeePrice * Quantity; // conversion ito dinagdag ko
+        
 
         String size = null;
 
@@ -2384,7 +2390,7 @@ public class CoffeeDashboard extends javax.swing.JFrame {
             return; // Stop execution if validation fails
         }
 
-        String query = "INSERT INTO `coffee` (`CoffeeName`, `price`, `quantity`, `size`) VALUES (?, ?, ?, ?)";
+        String query = "INSERT INTO `coffee` (`CoffeeName`, `price`, `quantity`, `size`, `totalcoffeeprice`) VALUES (?, ?, ?, ?, ?)"; // conversion ito dinagdag ko
         Connection connection = null;
         PreparedStatement stmt = null;
 
@@ -2396,6 +2402,8 @@ public class CoffeeDashboard extends javax.swing.JFrame {
             stmt.setString(1, CoffeeName);             
             stmt.setString(2, price);  
             stmt.setString(3, quantity);
+            stmt.setString(4, size);
+            stmt.setDouble(5, totalCoffePrice); // conversion ito dinagdag ko
 
             // Determine size
             if (s1.isSelected()) {
@@ -2409,7 +2417,7 @@ public class CoffeeDashboard extends javax.swing.JFrame {
             }else {
                 System.out.println("No coffee size  ");
             }
-            stmt.setString(4, size);
+            
 
             // Execute query
             int rowsInserted = stmt.executeUpdate();
@@ -2417,6 +2425,10 @@ public class CoffeeDashboard extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(null, "Coffee added successfully!");
             }
 
+            else
+            {
+                JOptionPane.showMessageDialog(null, "Error!");
+            }
         }catch (Exception e){
                     System.out.println("walang koneksyon");;
                 }
@@ -2437,6 +2449,12 @@ public class CoffeeDashboard extends javax.swing.JFrame {
                 }
             } // Log closing error
         }
+        
+
+
+
+
+    
     }//GEN-LAST:event_AddBtn1ActionPerformed
 
     private void P5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_P5ActionPerformed
@@ -2720,11 +2738,23 @@ public class CoffeeDashboard extends javax.swing.JFrame {
         cdb.setVisible(true);
     }//GEN-LAST:event_jButton12ActionPerformed
 
-    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
+    private void TotalBTnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TotalBTnActionPerformed
+       this.dispose();
+      
+       CoffeeDashboard2 cd = new CoffeeDashboard2();
+      cd.setVisible(true);
+        
+    }//GEN-LAST:event_TotalBTnActionPerformed
+
+    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
         this.dispose();
-        OrderList OL = new OrderList();
-        OL.setVisible(true);
-    }//GEN-LAST:event_jButton11ActionPerformed
+        HomePage hp = new HomePage();
+        hp.setVisible(true);
+    }//GEN-LAST:event_jButton13ActionPerformed
+
+    private void P1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_P1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_P1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -2875,6 +2905,7 @@ public class CoffeeDashboard extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> Q7;
     private javax.swing.JComboBox<String> Q8;
     private javax.swing.JComboBox<String> Q9;
+    private javax.swing.JButton TotalBTn;
     private javax.swing.JPanel WhiteMocha;
     private javax.swing.ButtonGroup WhiteMochaBTG;
     private javax.swing.JCheckBox XL1;
@@ -2891,8 +2922,8 @@ public class CoffeeDashboard extends javax.swing.JFrame {
     private javax.swing.JCheckBox XL9;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
-    private javax.swing.JButton jButton11;
     private javax.swing.JButton jButton12;
+    private javax.swing.JButton jButton13;
     private javax.swing.JButton jButton17;
     private javax.swing.JButton jButton18;
     private javax.swing.JButton jButton2;

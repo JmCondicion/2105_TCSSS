@@ -121,6 +121,7 @@ public class HomePage extends javax.swing.JFrame {
         FoodBtn = new javax.swing.JButton();
         AdminBtn = new javax.swing.JButton();
         PastriesBtn = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
         HomepageBG = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
@@ -495,7 +496,7 @@ public class HomePage extends javax.swing.JFrame {
                 AdminBtnActionPerformed(evt);
             }
         });
-        Container.add(AdminBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 620, -1, -1));
+        Container.add(AdminBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 600, -1, -1));
 
         PastriesBtn.setBackground(new java.awt.Color(135, 116, 68));
         PastriesBtn.setFont(new java.awt.Font("OCR A Extended", 1, 18)); // NOI18N
@@ -507,6 +508,9 @@ public class HomePage extends javax.swing.JFrame {
             }
         });
         Container.add(PastriesBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 410, 130, 40));
+
+        jButton1.setText("History");
+        Container.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 640, -1, -1));
 
         HomepageBG.setForeground(new java.awt.Color(255, 255, 255));
         HomepageBG.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/brgcoffee.jpg"))); // NOI18N
@@ -641,6 +645,7 @@ public class HomePage extends javax.swing.JFrame {
     private javax.swing.JButton TeaBtn;
     private javax.swing.JPanel WhiteTea;
     private javax.swing.JButton coffeeBtn;
+    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;

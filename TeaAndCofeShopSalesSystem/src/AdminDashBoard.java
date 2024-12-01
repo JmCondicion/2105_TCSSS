@@ -1,3 +1,6 @@
+
+
+import java.sql.Connection;
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
@@ -39,7 +42,7 @@ public class AdminDashBoard extends javax.swing.JFrame {
         getContentPane().add(LogoName1, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 10, 190, 76));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/brgcoffee.jpg"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1010, 530));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 980, 530));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

@@ -36,6 +36,8 @@ public class LogIn extends javax.swing.JFrame {
         passwordF = new javax.swing.JPasswordField();
         loginB = new javax.swing.JButton();
         jLabel4 = new javax.swing.JLabel();
+        ShowPass = new javax.swing.JCheckBox();
+        reset = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -48,13 +50,19 @@ public class LogIn extends javax.swing.JFrame {
         LogoName1.setToolTipText("");
         getContentPane().add(LogoName1, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 20, 150, 50));
 
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 0, -1, 230));
+
         jLabel3.setText("USERNAME");
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(84, 32, -1, -1));
+        jPanel1.add(usernameF, new org.netbeans.lib.awtextra.AbsoluteConstraints(84, 66, 190, -1));
 
         passwordF.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 passwordFActionPerformed(evt);
             }
         });
+        jPanel1.add(passwordF, new org.netbeans.lib.awtextra.AbsoluteConstraints(84, 135, 190, -1));
 
         loginB.setText("LOG IN");
         loginB.addActionListener(new java.awt.event.ActionListener() {
@@ -62,49 +70,26 @@ public class LogIn extends javax.swing.JFrame {
                 loginBActionPerformed(evt);
             }
         });
+        jPanel1.add(loginB, new org.netbeans.lib.awtextra.AbsoluteConstraints(218, 181, -1, -1));
 
         jLabel4.setText("PASSWORD");
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(84, 106, -1, -1));
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(77, 77, 77)
-                .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel3)
-                            .addComponent(jLabel4)))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(passwordF, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(94, 94, 94)
-                        .addComponent(loginB))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(usernameF, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(210, 210, 210))
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(32, 32, 32)
-                .addComponent(jLabel3)
-                .addGap(18, 18, 18)
-                .addComponent(usernameF, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(jLabel4)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(passwordF, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 27, Short.MAX_VALUE)
-                .addComponent(loginB)
-                .addGap(24, 24, 24))
-        );
+        ShowPass.setText("Show Password");
+        ShowPass.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ShowPassActionPerformed(evt);
+            }
+        });
+        jPanel1.add(ShowPass, new org.netbeans.lib.awtextra.AbsoluteConstraints(84, 175, -1, -1));
+
+        reset.setText("Reset");
+        reset.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                resetActionPerformed(evt);
+            }
+        });
+        jPanel1.add(reset, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 100, -1, -1));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 80, 400, 230));
 
@@ -116,6 +101,8 @@ public class LogIn extends javax.swing.JFrame {
 
     private void passwordFActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_passwordFActionPerformed
         // TODO add your handling code here:
+        
+        
     }//GEN-LAST:event_passwordFActionPerformed
 
     private void loginBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_loginBActionPerformed
@@ -152,8 +139,10 @@ public class LogIn extends javax.swing.JFrame {
             // User found, login success
             JOptionPane.showMessageDialog(null, "Login successful!", "Success", JOptionPane.INFORMATION_MESSAGE);
             // You can add code here to transition to the next window after successful login
-             HomePage homePage = new HomePage();  // Create a new HomePage instance
-            homePage.setVisible(true);  // Show the HomePage
+            HomePage hp = new HomePage();
+            hp.setVisible(true);
+             //HomePage homePage = new HomePage();  // Create a new HomePage instance
+            //homePage.setVisible(true);  // Show the HomePage
             this.dispose();  // Close the current Login window
         } else {
             // No matching user found
@@ -164,6 +153,20 @@ public class LogIn extends javax.swing.JFrame {
             Logger.getLogger(LogIn.class.getName()).log(Level.SEVERE, null, ex);
         } 
     }//GEN-LAST:event_loginBActionPerformed
+
+    private void ShowPassActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ShowPassActionPerformed
+        // TODO add your handling code here:
+        if(ShowPass.isSelected()){
+            passwordF.setEchoChar('\0');
+        }
+    }//GEN-LAST:event_ShowPassActionPerformed
+
+    private void resetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_resetActionPerformed
+        // TODO add your handling code here.
+        usernameF.setText("");
+        passwordF.setText(null);
+        
+    }//GEN-LAST:event_resetActionPerformed
 
     /**
      * @param args the command line arguments
@@ -202,6 +205,7 @@ public class LogIn extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel LogoName1;
+    private javax.swing.JCheckBox ShowPass;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -209,6 +213,7 @@ public class LogIn extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JButton loginB;
     private javax.swing.JPasswordField passwordF;
+    private javax.swing.JButton reset;
     private javax.swing.JTextField usernameF;
     // End of variables declaration//GEN-END:variables
 }
